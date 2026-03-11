@@ -1,0 +1,312 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "stress_resistance",
+    "name": {
+        "ru": "Стрессоустойчивость",
+        "en": "Stress Resistance"
+    },
+    "description": {
+        "ru": "Оценка способности справляться со стрессом",
+        "en": "Assessment of ability to cope with stress"
+    },
+    "category": "mental_health",
+    "estimatedTime": 10,
+    "maxQuestions": 25,
+    "minQuestions": 10,
+    "scales": ["stress_tolerance", "coping_strategies", "resilience", "recovery"],
+    "scaleLabels": {
+        "stress_tolerance": {
+            "ru": "Толерантность к стрессу",
+            "en": "Stress Tolerance"
+        },
+        "coping_strategies": {
+            "ru": "Стратегии совладания",
+            "en": "Coping Strategies"
+        },
+        "resilience": {
+            "ru": "Резильентность",
+            "en": "Resilience"
+        },
+        "recovery": {
+            "ru": "Восстановление",
+            "en": "Recovery"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "stress_tolerance",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я легко справляюсь с высокими нагрузками",
+                "en": "I easily cope with high workloads"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "coping_strategies",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня есть эффективные способы справляться со стрессом",
+                "en": "I have effective ways to cope with stress"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "resilience",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я быстро восстанавливаюсь после неудач",
+                "en": "I quickly recover from setbacks"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "recovery",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею полностью расслабляться после работы",
+                "en": "I know how to fully relax after work"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "stress_tolerance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Стрессовые ситуации выбивают меня из колеи",
+                "en": "Stressful situations throw me off balance"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "coping_strategies",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "В стрессе я не знаю, что делать",
+                "en": "When stressed, I don't know what to do"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "resilience",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "После неудачи мне трудно снова взяться за дело",
+                "en": "After a failure, it's hard for me to try again"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "recovery",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне долго удается восстановиться после стресса",
+                "en": "It takes me a long time to recover from stress"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "stress_tolerance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я сохраняю спокойствие в критических ситуациях",
+                "en": "I stay calm in critical situations"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "coping_strategies",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею переключаться на позитивные мысли",
+                "en": "I know how to switch to positive thoughts"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "resilience",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я воспринимаю трудности как возможность для роста",
+                "en": "I see difficulties as opportunities for growth"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "recovery",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня есть хобби, которое помогает расслабиться",
+                "en": "I have a hobby that helps me relax"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "stress_tolerance",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я быстро устаю от напряжения",
+                "en": "I get tired quickly from tension"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "coping_strategies",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я обращаюсь за поддержкой, когда мне трудно",
+                "en": "I seek support when things are difficult"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "resilience",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я не сдаюсь при первых признаках трудностей",
+                "en": "I don't give up at the first sign of difficulty"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "recovery",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я уделяю достаточно времени отдыху",
+                "en": "I dedicate enough time to rest"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "stress_tolerance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я могу работать эффективно под давлением",
+                "en": "I can work effectively under pressure"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "coping_strategies",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею планировать действия в стрессовой ситуации",
+                "en": "I know how to plan actions in stressful situations"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "resilience",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я учусь на своих ошибках",
+                "en": "I learn from my mistakes"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "recovery",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто думаю о работе в свободное время",
+                "en": "I often think about work in my free time"
+            }
+        },
+        {
+            "id": 21,
+            "scale": "stress_tolerance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Многочисленные задачи вызывают у меня панику",
+                "en": "Multiple tasks cause me to panic"
+            }
+        },
+        {
+            "id": 22,
+            "scale": "coping_strategies",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "В стрессе я часто делаю неверные выборы",
+                "en": "When stressed, I often make wrong choices"
+            }
+        },
+        {
+            "id": 23,
+            "scale": "resilience",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Трудности надолго выбивают меня из строя",
+                "en": "Difficulties throw me off track for a long time"
+            }
+        },
+        {
+            "id": 24,
+            "scale": "recovery",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я практикую техники расслабления",
+                "en": "I practice relaxation techniques"
+            }
+        },
+        {
+            "id": 25,
+            "scale": "stress_tolerance",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею сохранять позитивный настрой в трудные моменты",
+                "en": "I can maintain a positive attitude during difficult times"
+            }
+        }
+    ]
+}

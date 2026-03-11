@@ -1,0 +1,426 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "big_five",
+    "name": {
+        "ru": "Большая пятерка",
+        "en": "Big Five"
+    },
+    "description": {
+        "ru": "Комплексная оценка личности по пяти основным факторам",
+        "en": "Comprehensive personality assessment across five major factors"
+    },
+    "category": "personality",
+    "estimatedTime": 15,
+    "maxQuestions": 35,
+    "minQuestions": 15,
+    "scales": ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"],
+    "scaleLabels": {
+        "openness": {
+            "ru": "Открытость опыту",
+            "en": "Openness to Experience"
+        },
+        "conscientiousness": {
+            "ru": "Добросовестность",
+            "en": "Conscientiousness"
+        },
+        "extraversion": {
+            "ru": "Экстраверсия",
+            "en": "Extraversion"
+        },
+        "agreeableness": {
+            "ru": "Доброжелательность",
+            "en": "Agreeableness"
+        },
+        "neuroticism": {
+            "ru": "Нейротизм",
+            "en": "Neuroticism"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "openness",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне нравится изучать новые идеи и концепции",
+                "en": "I enjoy exploring new ideas and concepts"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "conscientiousness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я всегда довожу начатое дело до конца",
+                "en": "I always complete tasks I have started"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "extraversion",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я чувствую прилив энергии в компании людей",
+                "en": "I feel energized when around other people"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "agreeableness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я стараюсь помогать другим, даже если это неудобно для меня",
+                "en": "I try to help others even when it's inconvenient for me"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "neuroticism",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто беспокоюсь о вещах, которые могут пойти не так",
+                "en": "I often worry about things that might go wrong"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "openness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я предпочитаю привычные вещи новым",
+                "en": "I prefer familiar things over new ones"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "conscientiousness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Иногда я бываю неорганизованным",
+                "en": "Sometimes I can be disorganized"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "extraversion",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я предпочитаю проводить время в одиночестве",
+                "en": "I prefer spending time alone"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "agreeableness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто спорю с людьми, когда не согласен с ними",
+                "en": "I often argue with people when I disagree with them"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "neuroticism",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я обычно спокоен и уравновешен",
+                "en": "I am usually calm and composed"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "openness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Меня привлекает искусство и творчество",
+                "en": "I am drawn to art and creativity"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "conscientiousness",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я планирую свои действия заранее",
+                "en": "I plan my actions in advance"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "extraversion",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне нравится быть в центре внимания",
+                "en": "I like being the center of attention"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "agreeableness",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я легко прощаю людей",
+                "en": "I easily forgive people"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "neuroticism",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мое настроение часто меняется",
+                "en": "My mood often changes"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "openness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне интересно узнать о разных культурах и образах жизни",
+                "en": "I am interested in learning about different cultures and lifestyles"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "conscientiousness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я уделяю внимание деталям в своей работе",
+                "en": "I pay attention to details in my work"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "extraversion",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я легко знакомлюсь с новыми людьми",
+                "en": "I easily meet new people"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "agreeableness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я верю, что люди в основном хорошие",
+                "en": "I believe people are generally good"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "neuroticism",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Иногда я чувствую себя подавленным без видимой причины",
+                "en": "Sometimes I feel down without any apparent reason"
+            }
+        },
+        {
+            "id": 21,
+            "scale": "openness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я избегаю абстрактных идей",
+                "en": "I avoid abstract ideas"
+            }
+        },
+        {
+            "id": 22,
+            "scale": "conscientiousness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто откладываю важные дела",
+                "en": "I often procrastinate on important tasks"
+            }
+        },
+        {
+            "id": 23,
+            "scale": "extraversion",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я не люблю шумные компании",
+                "en": "I dislike noisy gatherings"
+            }
+        },
+        {
+            "id": 24,
+            "scale": "agreeableness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я бываю критичен к другим",
+                "en": "I can be critical of others"
+            }
+        },
+        {
+            "id": 25,
+            "scale": "neuroticism",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я редко чувствую тревогу",
+                "en": "I rarely feel anxious"
+            }
+        },
+        {
+            "id": 26,
+            "scale": "openness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я люблю размышлять о смысле жизни",
+                "en": "I enjoy pondering the meaning of life"
+            }
+        },
+        {
+            "id": 27,
+            "scale": "conscientiousness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я всегда выполняю свои обязательства",
+                "en": "I always fulfill my commitments"
+            }
+        },
+        {
+            "id": 28,
+            "scale": "extraversion",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я люблю брать инициативу на себя",
+                "en": "I like to take initiative"
+            }
+        },
+        {
+            "id": 29,
+            "scale": "agreeableness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я готов пойти на компромисс ради мира",
+                "en": "I am willing to compromise for peace"
+            }
+        },
+        {
+            "id": 30,
+            "scale": "neuroticism",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто чувствую напряжение",
+                "en": "I often feel tense"
+            }
+        },
+        {
+            "id": 31,
+            "scale": "openness",
+            "difficulty": 0.7,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я открыт для нетрадиционных идей",
+                "en": "I am open to unconventional ideas"
+            }
+        },
+        {
+            "id": 32,
+            "scale": "conscientiousness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Иногда я действую импульсивно",
+                "en": "Sometimes I act impulsively"
+            }
+        },
+        {
+            "id": 33,
+            "scale": "extraversion",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я предпочитаю работать в одиночестве",
+                "en": "I prefer working alone"
+            }
+        },
+        {
+            "id": 34,
+            "scale": "agreeableness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я склонен ставить свои интересы выше чужих",
+                "en": "I tend to put my interests above others"
+            }
+        },
+        {
+            "id": 35,
+            "scale": "neuroticism",
+            "difficulty": 0.7,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я справляюсь со стрессом эффективно",
+                "en": "I handle stress effectively"
+            }
+        }
+    ]
+}

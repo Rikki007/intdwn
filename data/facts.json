@@ -1,0 +1,214 @@
+{
+    "facts": [
+        {
+            "id": 1,
+            "text": {
+                "en": "The human brain can process images in as little as 13 milliseconds.",
+                "ru": "Человеческий мозг может обрабатывать изображения всего за 13 миллисекунд."
+            }
+        },
+        {
+            "id": 2,
+            "text": {
+                "en": "People who speak two languages may unconsciously shift their personalities when they switch languages.",
+                "ru": "Люди, говорящие на двух языках, могут неосознанно менять личности при переключении языков."
+            }
+        },
+        {
+            "id": 3,
+            "text": {
+                "en": "The average person has about 70,000 thoughts per day.",
+                "ru": "Средний человек имеет около 70 000 мыслей в день."
+            }
+        },
+        {
+            "id": 4,
+            "text": {
+                "en": "Your brain uses 20% of the total oxygen in your body.",
+                "ru": "Мозг использует 20% всего кислорода в вашем теле."
+            }
+        },
+        {
+            "id": 5,
+            "text": {
+                "en": "Memory is not a perfect recording; it's a reconstruction that can be influenced by current beliefs and emotions.",
+                "ru": "Память — не идеальная запись; это реконструкция, на которую влияют текущие убеждения и эмоции."
+            }
+        },
+        {
+            "id": 6,
+            "text": {
+                "en": "People are more likely to remember the first and last items in a series (serial position effect).",
+                "ru": "Люди чаще запоминают первый и последний элементы в серии (эффект позиции)."
+            }
+        },
+        {
+            "id": 7,
+            "text": {
+                "en": "The placebo effect can produce real physiological changes in the body.",
+                "ru": "Эффект плацебо может вызывать реальные физиологические изменения в организме."
+            }
+        },
+        {
+            "id": 8,
+            "text": {
+                "en": "Humans are the only species known to experience emotional tears.",
+                "ru": "Люди — единственный вид, у которого наблюдаются эмоциональные слезы."
+            }
+        },
+        {
+            "id": 9,
+            "text": {
+                "en": "Your personality can change significantly throughout your lifetime, not just during childhood.",
+                "ru": "Личность может значительно меняться на протяжении всей жизни, не только в детстве."
+            }
+        },
+        {
+            "id": 10,
+            "text": {
+                "en": "The brain cannot feel pain because it has no pain receptors.",
+                "ru": "Мозг не может чувствовать боль, потому что у него нет болевых рецепторов."
+            }
+        },
+        {
+            "id": 11,
+            "text": {
+                "en": "People form first impressions within 7 seconds of meeting someone.",
+                "ru": "Люди формируют первое впечатление в течение 7 секунд после встречи."
+            }
+        },
+        {
+            "id": 12,
+            "text": {
+                "en": "Sleep deprivation can impair judgment as much as alcohol intoxication.",
+                "ru": "Лишение сна может ухудшить суждение так же, как и алкогольное опьянение."
+            }
+        },
+        {
+            "id": 13,
+            "text": {
+                "en": "The 'spotlight effect' causes people to overestimate how much others notice about them.",
+                "ru": "'Эффект прожектора' заставляет людей переоценивать, насколько другие их замечают."
+            }
+        },
+        {
+            "id": 14,
+            "text": {
+                "en": "Writing down your thoughts can reduce stress and improve mental clarity.",
+                "ru": "Записывание мыслей может снизить стресс и улучшить ясность ума."
+            }
+        },
+        {
+            "id": 15,
+            "text": {
+                "en": "Your heart rate synchronizes with the rhythm of the music you're listening to.",
+                "ru": "Ритм сердца синхронизируется с ритмом музыки, которую вы слушаете."
+            }
+        },
+        {
+            "id": 16,
+            "text": {
+                "en": "People are more creative when they're tired.",
+                "ru": "Люди более креативны, когда они устали."
+            }
+        },
+        {
+            "id": 17,
+            "text": {
+                "en": "The brain's storage capacity is virtually unlimited.",
+                "ru": "Емкость памяти мозга практически неограниченна."
+            }
+        },
+        {
+            "id": 18,
+            "text": {
+                "en": "Hugging for 20 seconds releases oxytocin, the 'bonding hormone'.",
+                "ru": "Объятие в течение 20 секунд высвобождает окситоцин — 'гормон привязанности'."
+            }
+        },
+        {
+            "id": 19,
+            "text": {
+                "en": "Your pupils dilate when you look at someone you love.",
+                "ru": "Зрачки расширяются, когда вы смотрите на любимого человека."
+            }
+        },
+        {
+            "id": 20,
+            "text": {
+                "en": "People who take naps are 37% less likely to die from heart disease.",
+                "ru": "Люди, которые дремлют, на 37% реже умирают от сердечных заболеваний."
+            }
+        },
+        {
+            "id": 21,
+            "text": {
+                "en": "The brain generates about 20 watts of power when awake.",
+                "ru": "Мозг генерирует около 20 ватт энергии в бодрствующем состоянии."
+            }
+        },
+        {
+            "id": 22,
+            "text": {
+                "en": "Emotional pain activates the same brain regions as physical pain.",
+                "ru": "Эмоциональная боль активирует те же области мозга, что и физическая боль."
+            }
+        },
+        {
+            "id": 23,
+            "text": {
+                "en": "People are more honest when they're tired.",
+                "ru": "Люди более честны, когда они устали."
+            }
+        },
+        {
+            "id": 24,
+            "text": {
+                "en": "Your brain is more active when you're sleeping than when you're watching TV.",
+                "ru": "Мозг более активен во сне, чем при просмотре телевизора."
+            }
+        },
+        {
+            "id": 25,
+            "text": {
+                "en": "Cognitive flexibility peaks in your 30s and 40s.",
+                "ru": "Когнитивная гибкость достигает пика в 30-40 лет."
+            }
+        },
+        {
+            "id": 26,
+            "text": {
+                "en": "People tend to value items more highly if they own them (endowment effect).",
+                "ru": "Люди склонны выше ценить вещи, которыми владеют (эффект владения)."
+            }
+        },
+        {
+            "id": 27,
+            "text": {
+                "en": "The brain can survive for 4-6 minutes without oxygen.",
+                "ru": "Мозг может выжить без кислорода 4-6 минут."
+            }
+        },
+        {
+            "id": 28,
+            "text": {
+                "en": "Smiling actually makes you feel happier (facial feedback hypothesis).",
+                "ru": "Улыбка действительно делает вас счастливее (гипотеза лицевой обратной связи)."
+            }
+        },
+        {
+            "id": 29,
+            "text": {
+                "en": "People remember information better when it's presented in story form.",
+                "ru": "Люди лучше запоминают информацию, представленную в форме истории."
+            }
+        },
+        {
+            "id": 30,
+            "text": {
+                "en": "Your sense of smell is the sense most strongly linked to memory.",
+                "ru": "Обоняние — чувство, наиболее сильно связанное с памятью."
+            }
+        }
+    ]
+}

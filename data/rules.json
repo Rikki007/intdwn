@@ -1,0 +1,306 @@
+{
+    "rules": [
+        {
+            "id": "rule_001",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "openness", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Creative Thinker",
+                "ru": "Креативный мыслитель"
+            },
+            "message": {
+                "en": "You show high openness to new experiences, indicating strong creative potential.",
+                "ru": "Вы демонстрируете высокую открытость новому опыту, что указывает на сильный творческий потенциал."
+            },
+            "recommendation": {
+                "en": "Consider creative hobbies or careers that allow you to explore new ideas.",
+                "ru": "Рассмотрите творческие хобби или карьеру, позволяющую исследовать новые идеи."
+            }
+        },
+        {
+            "id": "rule_002",
+            "type": "awareness",
+            "priority": "medium",
+            "conditions": [
+                { "scale": "neuroticism", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Emotional Sensitivity",
+                "ru": "Эмоциональная чувствительность"
+            },
+            "message": {
+                "en": "You may experience emotions more intensely than average.",
+                "ru": "Вы можете испытывать эмоции более интенсивно, чем в среднем."
+            },
+            "recommendation": {
+                "en": "Practice stress management techniques and mindfulness.",
+                "ru": "Практикуйте техники управления стрессом и осознанность."
+            }
+        },
+        {
+            "id": "rule_003",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "conscientiousness", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "High Achiever",
+                "ru": "Высоко мотивированный"
+            },
+            "message": {
+                "en": "Your high conscientiousness suggests excellent organizational skills and reliability.",
+                "ru": "Ваша высокая добросовестность указывает на отличные организационные навыки и надежность."
+            },
+            "recommendation": {
+                "en": "Set ambitious goals — you have the discipline to achieve them.",
+                "ru": "Ставьте амбициозные цели — у вас есть дисциплина для их достижения."
+            }
+        },
+        {
+            "id": "rule_004",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "extraversion", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Social Leader",
+                "ru": "Социальный лидер"
+            },
+            "message": {
+                "en": "Your high extraversion indicates natural leadership and social skills.",
+                "ru": "Ваша высокая экстраверсия указывает на естественные лидерские и социальные навыки."
+            },
+            "recommendation": {
+                "en": "Consider roles that involve teamwork and communication.",
+                "ru": "Рассмотрите роли, связанные с командной работой и общением."
+            }
+        },
+        {
+            "id": "rule_005",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "agreeableness", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Team Player",
+                "ru": "Командный игрок"
+            },
+            "message": {
+                "en": "Your high agreeableness suggests strong cooperative abilities.",
+                "ru": "Ваша высокая доброжелательность указывает на сильные способности к сотрудничеству."
+            },
+            "recommendation": {
+                "en": "You excel in collaborative environments and helping others.",
+                "ru": "Вы преуспеваете в коллективных средах и помогаете другим."
+            }
+        },
+        {
+            "id": "rule_006",
+            "type": "awareness",
+            "priority": "medium",
+            "conditions": [
+                { "scale": "anxiety", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Anxiety Awareness",
+                "ru": "Осознанность тревоги"
+            },
+            "message": {
+                "en": "Your anxiety levels are elevated. This may affect daily functioning.",
+                "ru": "Ваш уровень тревожности повышен. Это может влиять на повседневную жизнь."
+            },
+            "recommendation": {
+                "en": "Consider relaxation techniques and consult a professional if symptoms persist.",
+                "ru": "Рассмотрите техники релаксации и проконсультируйтесь со специалистом при сохранении симптомов."
+            }
+        },
+        {
+            "id": "rule_007",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "empathy", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Natural Empath",
+                "ru": "Природный эмпат"
+            },
+            "message": {
+                "en": "You have exceptional ability to understand others' emotions.",
+                "ru": "У вас исключительная способность понимать эмоции других."
+            },
+            "recommendation": {
+                "en": "Consider roles in counseling, teaching, or healthcare.",
+                "ru": "Рассмотрите роли в консультировании, преподавании или здравоохранении."
+            }
+        },
+        {
+            "id": "rule_008",
+            "type": "awareness",
+            "priority": "medium",
+            "conditions": [
+                { "scale": "procrastination_tendency", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Task Avoidance Pattern",
+                "ru": "Паттерн избегания задач"
+            },
+            "message": {
+                "en": "You tend to postpone tasks more than average.",
+                "ru": "Вы склонны откладывать задачи чаще среднего."
+            },
+            "recommendation": {
+                "en": "Try breaking tasks into smaller steps and using time-blocking techniques.",
+                "ru": "Попробуйте разбивать задачи на мелкие шаги и использовать техники временного блока."
+            }
+        },
+        {
+            "id": "rule_009",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "resilience", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Highly Resilient",
+                "ru": "Высокая резильентность"
+            },
+            "message": {
+                "en": "You show strong ability to bounce back from setbacks.",
+                "ru": "Вы демонстрируете сильную способность восстанавливаться после неудач."
+            },
+            "recommendation": {
+                "en": "Your resilience is a valuable asset in challenging situations.",
+                "ru": "Ваша резильентность — ценный актив в сложных ситуациях."
+            }
+        },
+        {
+            "id": "rule_010",
+            "type": "awareness",
+            "priority": "medium",
+            "conditions": [
+                { "scale": "internal_locus", "operator": "lte", "value": 30 }
+            ],
+            "title": {
+                "en": "External Control Belief",
+                "ru": "Вера во внешний контроль"
+            },
+            "message": {
+                "en": "You tend to believe external factors control your life outcomes.",
+                "ru": "Вы склонны верить, что внешние факторы контролируют результаты вашей жизни."
+            },
+            "recommendation": {
+                "en": "Focus on aspects you can control to increase sense of agency.",
+                "ru": "Сосредоточьтесь на аспектах, которые можете контролировать, чтобы увеличить чувство агентности."
+            }
+        },
+        {
+            "id": "rule_011",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "internal_locus", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Self-Directed",
+                "ru": "Самонаправленность"
+            },
+            "message": {
+                "en": "You have a strong sense of personal control over your life.",
+                "ru": "У вас сильное чувство личного контроля над своей жизнью."
+            },
+            "recommendation": {
+                "en": "This mindset supports goal achievement and personal growth.",
+                "ru": "Этот образ мыслей поддерживает достижение целей и личностный рост."
+            }
+        },
+        {
+            "id": "rule_012",
+            "type": "risk",
+            "priority": "high",
+            "conditions": [
+                { "scale": "stress_tolerance", "operator": "lte", "value": 30 },
+                { "scale": "anxiety", "operator": "gte", "value": 60 }
+            ],
+            "title": {
+                "en": "High Stress Sensitivity",
+                "ru": "Высокая чувствительность к стрессу"
+            },
+            "message": {
+                "en": "Your stress tolerance is low combined with elevated anxiety.",
+                "ru": "Ваша толерантность к стрессу низкая в сочетании с повышенной тревожностью."
+            },
+            "recommendation": {
+                "en": "Consider professional support to develop coping strategies.",
+                "ru": "Рассмотрите профессиональную поддержку для развития стратегий совладания."
+            }
+        },
+        {
+            "id": "rule_013",
+            "type": "strength",
+            "priority": "normal",
+            "conditions": [
+                { "scale": "self_awareness", "operator": "gte", "value": 60 },
+                { "scale": "self_regulation", "operator": "gte", "value": 60 }
+            ],
+            "title": {
+                "en": "Emotionally Intelligent",
+                "ru": "Эмоционально интеллектуальный"
+            },
+            "message": {
+                "en": "You show strong emotional intelligence with good self-awareness and regulation.",
+                "ru": "Вы демонстрируете сильный эмоциональный интеллект с хорошим самосознанием и саморегуляцией."
+            },
+            "recommendation": {
+                "en": "Your EI skills are valuable in both personal and professional contexts.",
+                "ru": "Ваши навыки эмоционального интеллекта ценны в личном и профессиональном контексте."
+            }
+        },
+        {
+            "id": "rule_014",
+            "type": "awareness",
+            "priority": "medium",
+            "conditions": [
+                { "scale": "extraversion", "operator": "lte", "value": 30 }
+            ],
+            "title": {
+                "en": "Introverted Tendencies",
+                "ru": "Интровертные тенденции"
+            },
+            "message": {
+                "en": "You prefer solitary activities and smaller social groups.",
+                "ru": "Вы предпочитаете одиночную деятельность и небольшие социальные группы."
+            },
+            "recommendation": {
+                "en": "Honor your need for alone time while maintaining meaningful connections.",
+                "ru": "Уважайте потребность в уединении, сохраняя значимые связи."
+            }
+        },
+        {
+            "id": "rule_015",
+            "type": "strength",
+            "priority": "high",
+            "conditions": [
+                { "scale": "coping_strategies", "operator": "gte", "value": 70 }
+            ],
+            "title": {
+                "en": "Effective Coper",
+                "ru": "Эффективное совладание"
+            },
+            "message": {
+                "en": "You have developed effective strategies for dealing with stress.",
+                "ru": "Вы развили эффективные стратегии борьбы со стрессом."
+            },
+            "recommendation": {
+                "en": "Continue using and refining your coping techniques.",
+                "ru": "Продолжайте использовать и совершенствовать свои техники совладания."
+            }
+        }
+    ]
+}

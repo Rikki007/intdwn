@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "INTDWN Test Schema",
+    "description": "Schema for psychological test definitions in INTDWN",
+    "type": "object",
+    "required": ["id", "name", "scales", "questions"],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "description": "Reference to this schema"
+        },
+        "id": {
+            "type": "string",
+            "description": "Unique identifier for the test",
+            "pattern": "^[a-z_]+$"
+        },
+        "name": {
+            "type": "object",
+            "description": "Test name in different languages",
+            "required": ["en"],
+            "properties": {
+                "en": { "type": "string" },
+                "ru": { "type": "string" }
+            }
+        },
+        "description": {
+            "type": "object",
+            "description": "Test description in different languages",
+            "properties": {
+                "en": { "type": "string" },
+                "ru": { "type": "string" }
+            }
+        },
+        "category": {
+            "type": "string",
+            "description": "Test category",
+            "enum": ["personality", "mental_health", "cognitive", "productivity", "relationships"]
+        },
+        "estimatedTime": {
+            "type": "integer",
+            "description": "Estimated completion time in minutes",
+            "minimum": 1,
+            "maximum": 60
+        },
+        "maxQuestions": {
+            "type": "integer",
+            "description": "Maximum number of questions in adaptive test",
+            "minimum": 5,
+            "maximum": 100,
+            "default": 35
+        },
+        "minQuestions": {
+            "type": "integer",
+            "description": "Minimum number of questions before stopping",
+            "minimum": 5,
+            "maximum": 50,
+            "default": 15
+        },
+        "scales": {
+            "type": "array",
+            "description": "List of scales/traits measured by this test",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "scaleLabels": {
+            "type": "object",
+            "description": "Human-readable labels for scales",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "en": { "type": "string" },
+                    "ru": { "type": "string" }
+                }
+            }
+        },
+        "questions": {
+            "type": "array",
+            "description": "List of test questions",
+            "items": {
+                "type": "object",
+                "required": ["id", "scale", "text"],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "description": "Unique question identifier"
+                    },
+                    "scale": {
+                        "type": "string",
+                        "description": "The scale this question measures"
+                    },
+                    "difficulty": {
+                        "type": "number",
+                        "description": "Question difficulty (0-1) for adaptive selection",
+                        "minimum": 0,
+                        "maximum": 1,
+                        "default": 0.5
+                    },
+                    "weight": {
+                        "type": "number",
+                        "description": "Question weight in scoring",
+                        "minimum": 0.1,
+                        "maximum": 3,
+                        "default": 1
+                    },
+                    "reverse": {
+                        "type": "boolean",
+                        "description": "Whether this is a reverse-scored question",
+                        "default": false
+                    },
+                    "text": {
+                        "type": "object",
+                        "description": "Question text in different languages",
+                        "required": ["en"],
+                        "properties": {
+                            "en": { "type": "string" },
+                            "ru": { "type": "string" }
+                        }
+                    }
+                }
+            },
+            "minItems": 5
+        }
+    }
+}

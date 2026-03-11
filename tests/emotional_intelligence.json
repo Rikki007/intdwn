@@ -1,0 +1,371 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "emotional_intelligence",
+    "name": {
+        "ru": "Эмоциональный интеллект",
+        "en": "Emotional Intelligence"
+    },
+    "description": {
+        "ru": "Оценка способности понимать и управлять эмоциями",
+        "en": "Assessment of ability to understand and manage emotions"
+    },
+    "category": "personality",
+    "estimatedTime": 12,
+    "maxQuestions": 30,
+    "minQuestions": 12,
+    "scales": ["self_awareness", "self_regulation", "motivation", "empathy", "social_skills"],
+    "scaleLabels": {
+        "self_awareness": {
+            "ru": "Самосознание",
+            "en": "Self-Awareness"
+        },
+        "self_regulation": {
+            "ru": "Саморегуляция",
+            "en": "Self-Regulation"
+        },
+        "motivation": {
+            "ru": "Мотивация",
+            "en": "Motivation"
+        },
+        "empathy": {
+            "ru": "Эмпатия",
+            "en": "Empathy"
+        },
+        "social_skills": {
+            "ru": "Социальные навыки",
+            "en": "Social Skills"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "self_awareness",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я хорошо понимаю причины своих эмоций",
+                "en": "I understand the reasons behind my emotions well"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "self_regulation",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею контролировать свои импульсы",
+                "en": "I can control my impulses"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "motivation",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я мотивирован достигать своих целей",
+                "en": "I am motivated to achieve my goals"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "empathy",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я легко понимаю чувства других людей",
+                "en": "I easily understand other people's feelings"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "social_skills",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею налаживать контакты с людьми",
+                "en": "I am good at building relationships with people"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "self_awareness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Иногда я не понимаю, почему я так реагирую",
+                "en": "Sometimes I don't understand why I react the way I do"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "self_regulation",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто говорю или делаю вещи, о которых потом жалею",
+                "en": "I often say or do things I later regret"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "motivation",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне трудно сохранять мотивацию при трудностях",
+                "en": "I find it hard to stay motivated when facing difficulties"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "empathy",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне сложно понять точку зрения других людей",
+                "en": "I find it difficult to understand other people's perspectives"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "social_skills",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто чувствую себя неловко в обществе",
+                "en": "I often feel awkward in social situations"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "self_awareness",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я знаю свои сильные и слабые стороны",
+                "en": "I know my strengths and weaknesses"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "self_regulation",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею успокаивать себя в стрессовых ситуациях",
+                "en": "I can calm myself in stressful situations"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "motivation",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я оптимистично смотрю на жизнь",
+                "en": "I have an optimistic outlook on life"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "empathy",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я чувствителен к настроению других людей",
+                "en": "I am sensitive to other people's moods"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "social_skills",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею разрешать конфликты",
+                "en": "I am good at resolving conflicts"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "self_awareness",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я осознаю, как мое поведение влияет на других",
+                "en": "I am aware of how my behavior affects others"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "self_regulation",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею адаптироваться к изменениям",
+                "en": "I can adapt to changes"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "motivation",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я ставлю перед собой высокие стандарты",
+                "en": "I set high standards for myself"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "empathy",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею слушать других внимательно",
+                "en": "I listen to others attentively"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "social_skills",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею работать в команде",
+                "en": "I work well in a team"
+            }
+        },
+        {
+            "id": 21,
+            "scale": "self_awareness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мои эмоции часто застают меня врасплох",
+                "en": "My emotions often catch me by surprise"
+            }
+        },
+        {
+            "id": 22,
+            "scale": "self_regulation",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я часто действую под влиянием эмоций",
+                "en": "I often act under the influence of emotions"
+            }
+        },
+        {
+            "id": 23,
+            "scale": "motivation",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне не хватает внутренней мотивации",
+                "en": "I lack internal motivation"
+            }
+        },
+        {
+            "id": 24,
+            "scale": "empathy",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне сложно сопереживать чужим проблемам",
+                "en": "I find it difficult to empathize with others' problems"
+            }
+        },
+        {
+            "id": 25,
+            "scale": "social_skills",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мне трудно выражать свои мысли ясно",
+                "en": "I find it difficult to express my thoughts clearly"
+            }
+        },
+        {
+            "id": 26,
+            "scale": "self_awareness",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею распознавать свои эмоции в момент их появления",
+                "en": "I can recognize my emotions as they arise"
+            }
+        },
+        {
+            "id": 27,
+            "scale": "self_regulation",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею сохранять спокойствие под давлением",
+                "en": "I can stay calm under pressure"
+            }
+        },
+        {
+            "id": 28,
+            "scale": "motivation",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я нахожу возможности даже в трудностях",
+                "en": "I find opportunities even in difficulties"
+            }
+        },
+        {
+            "id": 29,
+            "scale": "empathy",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею поддержать человека в трудную минуту",
+                "en": "I know how to support someone in difficult times"
+            }
+        },
+        {
+            "id": 30,
+            "scale": "social_skills",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею вдохновлять и мотивировать других",
+                "en": "I can inspire and motivate others"
+            }
+        }
+    ]
+}

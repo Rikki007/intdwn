@@ -1,0 +1,304 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "locus_of_control",
+    "name": {
+        "ru": "Локус контроля",
+        "en": "Locus of Control"
+    },
+    "description": {
+        "ru": "Оценка восприятия контроля над событиями в жизни",
+        "en": "Assessment of perception of control over life events"
+    },
+    "category": "personality",
+    "estimatedTime": 10,
+    "maxQuestions": 25,
+    "minQuestions": 10,
+    "scales": ["internal_locus", "external_locus"],
+    "scaleLabels": {
+        "internal_locus": {
+            "ru": "Внутренний локус контроля",
+            "en": "Internal Locus of Control"
+        },
+        "external_locus": {
+            "ru": "Внешний локус контроля",
+            "en": "External Locus of Control"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "internal_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я верю, что могу влиять на события в своей жизни",
+                "en": "I believe I can influence events in my life"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "external_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Многие вещи в жизни зависят от удачи",
+                "en": "Many things in life depend on luck"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мой успех зависит от моих усилий",
+                "en": "My success depends on my efforts"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто чувствую, что не контролирую свою жизнь",
+                "en": "I often feel I don't control my life"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "internal_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Бесполезно планировать будущее, слишком много случайностей",
+                "en": "It's useless to plan the future, too many random factors"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "external_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я сам создаю возможности для своего успеха",
+                "en": "I create opportunities for my own success"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я несу ответственность за свои решения",
+                "en": "I take responsibility for my decisions"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Обстоятельства часто мешают мне достичь целей",
+                "en": "Circumstances often prevent me from reaching my goals"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "internal_locus",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Если я прилагаю усилия, я могу изменить ситуацию",
+                "en": "If I make an effort, I can change the situation"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Судьба играет большую роль в моей жизни",
+                "en": "Fate plays a major role in my life"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "internal_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Люди мало влияют на то, что с ними происходит",
+                "en": "People have little influence on what happens to them"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я могу достичь почти любой цели, если захочу",
+                "en": "I can achieve almost any goal if I want to"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я контролирую направление своей жизни",
+                "en": "I control the direction of my life"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "external_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Успех зависит от правильного места и времени",
+                "en": "Success depends on being in the right place at the right time"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "internal_locus",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я верю в свою способность решать проблемы",
+                "en": "I believe in my ability to solve problems"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Другие люди часто решают, что со мной произойдет",
+                "en": "Other people often decide what will happen to me"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я мало что могу изменить в сложившейся ситуации",
+                "en": "There's little I can change about my situation"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "external_locus",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мир слишком сложен, чтобы я мог его контролировать",
+                "en": "The world is too complex for me to control"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "internal_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мои действия определяют мое будущее",
+                "en": "My actions determine my future"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "external_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я сам отвечаю за свои неудачи",
+                "en": "I am responsible for my own failures"
+            }
+        },
+        {
+            "id": 21,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я умею использовать возможности, которые появляются",
+                "en": "I know how to use opportunities that arise"
+            }
+        },
+        {
+            "id": 22,
+            "scale": "external_locus",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Часто мои планы рушатся из-за внешних обстоятельств",
+                "en": "My plans often fall apart due to external circumstances"
+            }
+        },
+        {
+            "id": 23,
+            "scale": "internal_locus",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Нет смысла стараться, если обстоятельства против тебя",
+                "en": "There's no point in trying if circumstances are against you"
+            }
+        },
+        {
+            "id": 24,
+            "scale": "external_locus",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Сила, большая чем я, управляет моей жизнью",
+                "en": "A power greater than me controls my life"
+            }
+        },
+        {
+            "id": 25,
+            "scale": "internal_locus",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я способен преодолеть препятствия на своем пути",
+                "en": "I am capable of overcoming obstacles in my path"
+            }
+        }
+    ]
+}

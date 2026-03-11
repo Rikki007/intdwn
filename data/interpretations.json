@@ -1,0 +1,508 @@
+{
+    "traits": {
+        "openness": {
+            "low": {
+                "title": {
+                    "en": "Practical and Traditional",
+                    "ru": "Практичный и традиционный"
+                },
+                "description": {
+                    "en": "You prefer familiar routines and concrete approaches. You value tradition and practical solutions over abstract theories.",
+                    "ru": "Вы предпочитаете знакомые рутины и конкретные подходы. Вы цените традиции и практические решения абстрактным теориям."
+                },
+                "strengths": {
+                    "en": ["Consistency", "Practicality", "Reliability", "Focus"],
+                    "ru": ["Последовательность", "Практичность", "Надежность", "Фокус"]
+                },
+                "challenges": {
+                    "en": ["May resist change", "Less interested in abstract ideas"],
+                    "ru": ["Может сопротивляться переменам", "Меньше интересуется абстрактными идеями"]
+                },
+                "advice": {
+                    "en": "Your practical nature is valuable. Consider occasionally exploring new perspectives to expand your horizons.",
+                    "ru": "Ваша практичная натура ценна. Иногда рассматривайте новые перспективы, чтобы расширить горизонты."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Explorer",
+                    "ru": "Сбалансированный исследователь"
+                },
+                "description": {
+                    "en": "You balance curiosity with practicality. You're open to new experiences while maintaining grounded perspective.",
+                    "ru": "Вы балансируете любопытство с практичностью. Вы открыты новому опыту, сохраняя приземленную перспективу."
+                },
+                "strengths": {
+                    "en": ["Adaptability", "Balanced perspective", "Moderate curiosity"],
+                    "ru": ["Адаптивность", "Сбалансированная перспектива", "Умеренное любопытство"]
+                },
+                "challenges": {
+                    "en": ["May sometimes hesitate between options"],
+                    "ru": ["Иногда может колебаться между вариантами"]
+                },
+                "advice": {
+                    "en": "Your balanced approach serves you well. Continue nurturing both your practical and creative sides.",
+                    "ru": "Ваш сбалансированный подход служит вам хорошо. Продолжайте развивать практическую и творческую стороны."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Creative Visionary",
+                    "ru": "Креативный визионер"
+                },
+                "description": {
+                    "en": "You have a strong imagination and intellectual curiosity. You embrace new ideas and unconventional approaches.",
+                    "ru": "У вас сильное воображение и интеллектуальное любопытство. Вы принимаете новые идеи и нестандартные подходы."
+                },
+                "strengths": {
+                    "en": ["Creativity", "Innovation", "Intellectual curiosity", "Artistic sensitivity"],
+                    "ru": ["Креативность", "Инновационность", "Интеллектуальное любопытство", "Художественная чувствительность"]
+                },
+                "challenges": {
+                    "en": ["May overlook practical details", "Could become bored with routine"],
+                    "ru": ["Может упускать практические детали", "Может скучать по рутине"]
+                },
+                "advice": {
+                    "en": "Channel your creativity into meaningful projects. Ground your ideas with practical action steps.",
+                    "ru": "Направьте креативность на значимые проекты. Заземляйте идеи практическими шагами."
+                }
+            }
+        },
+        "conscientiousness": {
+            "low": {
+                "title": {
+                    "en": "Spontaneous and Flexible",
+                    "ru": "Спонтанный и гибкий"
+                },
+                "description": {
+                    "en": "You prefer a flexible, spontaneous approach to life. You adapt easily to changing circumstances.",
+                    "ru": "Вы предпочитаете гибкий, спонтанный подход к жизни. Легко адаптируетесь к меняющимся обстоятельствам."
+                },
+                "strengths": {
+                    "en": ["Flexibility", "Spontaneity", "Adaptability"],
+                    "ru": ["Гибкость", "Спонтанность", "Адаптивность"]
+                },
+                "challenges": {
+                    "en": ["May struggle with deadlines", "Less structured approach"],
+                    "ru": ["Может испытывать трудности с дедлайнами", "Менее структурированный подход"]
+                },
+                "advice": {
+                    "en": "Consider using simple planning tools to stay on track while maintaining your natural flexibility.",
+                    "ru": "Рассмотрите простые инструменты планирования, чтобы оставаться на курсе, сохраняя естественную гибкость."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Achiever",
+                    "ru": "Сбалансированный достигатор"
+                },
+                "description": {
+                    "en": "You have a moderate level of organization and dependability. You balance structure with flexibility.",
+                    "ru": "У вас умеренный уровень организации и надежности. Вы балансируете структуру с гибкостью."
+                },
+                "strengths": {
+                    "en": ["Balance", "Reasonable discipline", "Adaptability"],
+                    "ru": ["Баланс", "Разумная дисциплина", "Адаптивность"]
+                },
+                "challenges": {
+                    "en": ["May sometimes struggle with consistency"],
+                    "ru": ["Иногда может испытывать трудности с последовательностью"]
+                },
+                "advice": {
+                    "en": "Your balanced approach is healthy. Continue developing systems that work for you.",
+                    "ru": "Ваш сбалансированный подход здоровый. Продолжайте развивать системы, которые работают для вас."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Diligent Achiever",
+                    "ru": "Усердный достигатор"
+                },
+                "description": {
+                    "en": "You are highly organized, disciplined, and goal-oriented. You approach tasks with dedication and thoroughness.",
+                    "ru": "Вы высокоорганизованны, дисциплинированы и нацелены на результат. Подходите к задачам с самоотдачей и тщательностью."
+                },
+                "strengths": {
+                    "en": ["Organization", "Reliability", "Goal achievement", "Self-discipline"],
+                    "ru": ["Организация", "Надежность", "Достижение целей", "Самодисциплина"]
+                },
+                "challenges": {
+                    "en": ["May be perfectionistic", "Could struggle with flexibility"],
+                    "ru": ["Может быть перфекционистом", "Может испытывать трудности с гибкостью"]
+                },
+                "advice": {
+                    "en": "Your dedication is admirable. Remember to allow space for rest and flexibility.",
+                    "ru": "Ваша самоотдача восхищает. Не забывайте оставлять место для отдыха и гибкости."
+                }
+            }
+        },
+        "extraversion": {
+            "low": {
+                "title": {
+                    "en": "Thoughtful Introvert",
+                    "ru": "Мыслящий интроверт"
+                },
+                "description": {
+                    "en": "You prefer solitary activities and smaller social gatherings. You recharge through alone time and reflection.",
+                    "ru": "Вы предпочитаете одиночную деятельность и небольшие социальные встречи. Восстанавливаетесь через уединение и размышления."
+                },
+                "strengths": {
+                    "en": ["Deep thinking", "Independence", "Focused work", "Listening skills"],
+                    "ru": ["Глубокое мышление", "Независимость", "Сфокусированная работа", "Навыки слушания"]
+                },
+                "challenges": {
+                    "en": ["May feel drained by large groups", "Networking can be challenging"],
+                    "ru": ["Может истощаться в больших группах", "Нетворкинг может быть сложным"]
+                },
+                "advice": {
+                    "en": "Honor your need for solitude. Build meaningful connections in smaller, more intimate settings.",
+                    "ru": "Уважайте потребность в уединении. Стройте значимые связи в более интимных обстановках."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Social Style",
+                    "ru": "Сбалансированный социальный стиль"
+                },
+                "description": {
+                    "en": "You enjoy both social interaction and solitude. You adapt your social style to the situation.",
+                    "ru": "Вы наслаждаетесь как социальным взаимодействием, так и уединением. Адаптируете социальный стиль к ситуации."
+                },
+                "strengths": {
+                    "en": ["Social adaptability", "Balance of interaction and reflection"],
+                    "ru": ["Социальная адаптивность", "Баланс взаимодействия и размышления"]
+                },
+                "challenges": {
+                    "en": ["May sometimes feel pulled in different directions"],
+                    "ru": ["Иногда может чувствовать разрыв между направлениями"]
+                },
+                "advice": {
+                    "en": "Your flexibility is an asset. Listen to your energy levels to guide your social choices.",
+                    "ru": "Ваша гибкость — актив. Слушайте уровень энергии, чтобы направлять социальный выбор."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Energetic Extrovert",
+                    "ru": "Энергичный экстраверт"
+                },
+                "description": {
+                    "en": "You thrive on social interaction and external stimulation. You gain energy from being around others.",
+                    "ru": "Вы процветаете на социальном взаимодействии и внешней стимуляции. Получаете энергию от пребывания с другими."
+                },
+                "strengths": {
+                    "en": ["Social confidence", "Enthusiasm", "Networking ability", "Leadership"],
+                    "ru": ["Социальная уверенность", "Энтузиазм", "Способность к нетворкингу", "Лидерство"]
+                },
+                "challenges": {
+                    "en": ["May struggle with solitude", "Could overlook need for reflection"],
+                    "ru": ["Может испытывать трудности с уединением", "Может упускать потребность в размышлении"]
+                },
+                "advice": {
+                    "en": "Your energy is contagious. Remember to balance social time with moments of reflection.",
+                    "ru": "Ваша энергия заразительна. Не забывайте балансировать социальное время с моментами размышления."
+                }
+            }
+        },
+        "agreeableness": {
+            "low": {
+                "title": {
+                    "en": "Independent Thinker",
+                    "ru": "Независимый мыслитель"
+                },
+                "description": {
+                    "en": "You prioritize honesty and directness. You're comfortable with disagreement and competition.",
+                    "ru": "Вы приоритизируете честность и прямоту. Вам комфортно с несогласием и конкуренцией."
+                },
+                "strengths": {
+                    "en": ["Honesty", "Independence", "Critical thinking", "Negotiation skills"],
+                    "ru": ["Честность", "Независимость", "Критическое мышление", "Навыки переговоров"]
+                },
+                "challenges": {
+                    "en": ["May come across as less cooperative", "Could prioritize winning over harmony"],
+                    "ru": ["Может казаться менее кооперативным", "Может приоритизировать победу над гармонией"]
+                },
+                "advice": {
+                    "en": "Your directness is valuable. Consider how to deliver feedback with empathy.",
+                    "ru": "Ваша прямота ценна. Рассмотрите, как давать обратную связь с эмпатией."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Diplomat",
+                    "ru": "Сбалансированный дипломат"
+                },
+                "description": {
+                    "en": "You balance cooperation with self-advocacy. You can be both agreeable and assertive as needed.",
+                    "ru": "Вы балансируете сотрудничество с самоотстаиванием. Можете быть как дружелюбным, так и уверенным по необходимости."
+                },
+                "strengths": {
+                    "en": ["Diplomacy", "Balance of cooperation and assertiveness"],
+                    "ru": ["Дипломатия", "Баланс сотрудничества и уверенности"]
+                },
+                "challenges": {
+                    "en": ["May sometimes struggle to choose between harmony and honesty"],
+                    "ru": ["Иногда может колебаться между гармонией и честностью"]
+                },
+                "advice": {
+                    "en": "Your balanced approach helps navigate complex social situations effectively.",
+                    "ru": "Ваш сбалансированный подход помогает эффективно ориентироваться в сложных социальных ситуациях."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Compassionate Helper",
+                    "ru": "Сострадательный помощник"
+                },
+                "description": {
+                    "en": "You value harmony and are highly considerate of others. You're naturally cooperative and helpful.",
+                    "ru": "Вы цените гармонию и очень внимательны к другим. Вы естественно кооперативны и готовы помочь."
+                },
+                "strengths": {
+                    "en": ["Empathy", "Cooperation", "Trust", "Helping others"],
+                    "ru": ["Эмпатия", "Сотрудничество", "Доверие", "Помощь другим"]
+                },
+                "challenges": {
+                    "en": ["May avoid necessary conflict", "Could neglect own needs"],
+                    "ru": ["Может избегать необходимого конфликта", "Может пренебрегать собственными потребностями"]
+                },
+                "advice": {
+                    "en": "Your kindness is a gift. Remember that self-care enables you to better help others.",
+                    "ru": "Ваша доброта — дар. Помните, что забота о себе позволяет лучше помогать другим."
+                }
+            }
+        },
+        "neuroticism": {
+            "low": {
+                "title": {
+                    "en": "Emotionally Stable",
+                    "ru": "Эмоционально стабильный"
+                },
+                "description": {
+                    "en": "You experience emotional calm and resilience. You handle stress well and recover quickly from setbacks.",
+                    "ru": "Вы испытываете эмоциональное спокойствие и резильентность. Хорошо справляетесь со стрессом и быстро восстанавливаетесь после неудач."
+                },
+                "strengths": {
+                    "en": ["Emotional stability", "Stress resilience", "Calm under pressure"],
+                    "ru": ["Эмоциональная стабильность", "Стрессоустойчивость", "Спокойствие под давлением"]
+                },
+                "challenges": {
+                    "en": ["May underestimate emotional signals", "Could appear detached"],
+                    "ru": ["Может недооценивать эмоциональные сигналы", "Может казаться отстраненным"]
+                },
+                "advice": {
+                    "en": "Your stability is a great asset. Continue nurturing your emotional well-being.",
+                    "ru": "Ваша стабильность — отличный актив. Продолжайте заботиться об эмоциональном благополучии."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Emotionality",
+                    "ru": "Сбалансированная эмоциональность"
+                },
+                "description": {
+                    "en": "You experience a normal range of emotions. You have moderate stress responses and coping abilities.",
+                    "ru": "Вы испытываете нормальный диапазон эмоций. У вас умеренные стрессовые реакции и способности к совладанию."
+                },
+                "strengths": {
+                    "en": ["Emotional awareness", "Balanced responses", "Adaptability"],
+                    "ru": ["Эмоциональная осознанность", "Сбалансированные реакции", "Адаптивность"]
+                },
+                "challenges": {
+                    "en": ["May sometimes feel overwhelmed by stress"],
+                    "ru": ["Иногда может чувствовать перегруженность стрессом"]
+                },
+                "advice": {
+                    "en": "Continue developing healthy coping strategies for when stress increases.",
+                    "ru": "Продолжайте развивать здоровые стратегии совладания для случаев повышенного стресса."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Emotionally Sensitive",
+                    "ru": "Эмоционально чувствительный"
+                },
+                "description": {
+                    "en": "You experience emotions intensely. You may be more reactive to stress and have stronger emotional responses.",
+                    "ru": "Вы испытываете эмоции интенсивно. Можете быть более реактивны к стрессу и иметь более сильные эмоциональные реакции."
+                },
+                "strengths": {
+                    "en": ["Emotional depth", "Sensitivity to others", "Rich inner life"],
+                    "ru": ["Эмоциональная глубина", "Чувствительность к другим", "Богатый внутренний мир"]
+                },
+                "challenges": {
+                    "en": ["May experience anxiety more frequently", "Could struggle with stress management"],
+                    "ru": ["Может чаще испытывать тревогу", "Может испытывать трудности с управлением стрессом"]
+                },
+                "advice": {
+                    "en": "Develop a toolkit of stress management techniques. Consider mindfulness or therapy to help manage intense emotions.",
+                    "ru": "Разработайте набор техник управления стрессом. Рассмотрите осознанность или терапию для управления интенсивными эмоциями."
+                }
+            }
+        },
+        "anxiety": {
+            "low": {
+                "title": {
+                    "en": "Calm and Composed",
+                    "ru": "Спокойный и уравновешенный"
+                },
+                "description": {
+                    "en": "You experience low levels of anxiety and worry. You approach situations with calm confidence.",
+                    "ru": "Вы испытываете низкий уровень тревоги и беспокойства. Подходите к ситуациям со спокойной уверенностью."
+                },
+                "strengths": {
+                    "en": ["Calm demeanor", "Confidence", "Stress resilience"],
+                    "ru": ["Спокойствие", "Уверенность", "Стрессоустойчивость"]
+                },
+                "challenges": {
+                    "en": ["May underestimate real risks"],
+                    "ru": ["Может недооценивать реальные риски"]
+                },
+                "advice": {
+                    "en": "Your calm nature serves you well. Stay aware of genuine concerns that need attention.",
+                    "ru": "Ваша спокойная натура служит вам хорошо. Оставайтесь внимательным к подлинным проблемам."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Anxiety Levels",
+                    "ru": "Умеренный уровень тревоги"
+                },
+                "description": {
+                    "en": "You experience average levels of anxiety. Some situations may cause worry, but you generally cope well.",
+                    "ru": "Вы испытываете средний уровень тревоги. Некоторые ситуации могут вызывать беспокойство, но в целом справляетесь хорошо."
+                },
+                "strengths": {
+                    "en": ["Healthy caution", "Preparedness", "Balance"],
+                    "ru": ["Здоровая осторожность", "Подготовленность", "Баланс"]
+                },
+                "challenges": {
+                    "en": ["May worry more in stressful situations"],
+                    "ru": ["Может больше беспокоиться в стрессовых ситуациях"]
+                },
+                "advice": {
+                    "en": "Your moderate anxiety can be motivating. Use it to prepare while avoiding overthinking.",
+                    "ru": "Умеренная тревога может быть мотивирующей. Используйте её для подготовки, избегая чрезмерного обдумывания."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Heightened Anxiety",
+                    "ru": "Повышенная тревожность"
+                },
+                "description": {
+                    "en": "You experience higher levels of anxiety. Worries may affect your daily life more significantly.",
+                    "ru": "Вы испытываете повышенный уровень тревоги. Беспокойства могут больше влиять на повседневную жизнь."
+                },
+                "strengths": {
+                    "en": ["Vigilance", "Thoroughness", "Sensitivity"],
+                    "ru": ["Бдительность", "Тщательность", "Чувствительность"]
+                },
+                "challenges": {
+                    "en": ["May experience excessive worry", "Physical symptoms of anxiety"],
+                    "ru": ["Может испытывать чрезмерное беспокойство", "Физические симптомы тревоги"]
+                },
+                "advice": {
+                    "en": "Consider learning relaxation techniques. If anxiety significantly impacts your life, consulting a professional may help.",
+                    "ru": "Рассмотрите изучение техник релаксации. Если тревога значительно влияет на жизнь, консультация специалиста может помочь."
+                }
+            }
+        },
+        "stress_tolerance": {
+            "low": {
+                "title": {
+                    "en": "Stress Sensitive",
+                    "ru": "Чувствительный к стрессу"
+                },
+                "description": {
+                    "en": "You may feel overwhelmed by stress more easily. High-pressure situations can significantly affect your well-being.",
+                    "ru": "Вы можете легче чувствовать перегруженность от стресса. Ситуации высокого давления могут существенно влиять на благополучие."
+                },
+                "advice": {
+                    "en": "Develop stress management strategies and consider reducing unnecessary stressors in your life.",
+                    "ru": "Разработайте стратегии управления стрессом и рассмотрите сокращение ненужных стрессоров в жизни."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Stress Tolerance",
+                    "ru": "Умеренная стрессоустойчивость"
+                },
+                "description": {
+                    "en": "You handle moderate stress levels adequately. You have some coping mechanisms but may struggle with extreme pressure.",
+                    "ru": "Вы справляетесь с умеренными уровнями стресса адекватно. Есть некоторые механизмы совладания, но можете испытывать трудности при экстремальном давлении."
+                },
+                "advice": {
+                    "en": "Continue building your stress management toolkit for more challenging times.",
+                    "ru": "Продолжайте строить набор инструментов управления стрессом для более сложных времен."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "High Stress Resilience",
+                    "ru": "Высокая стрессоустойчивость"
+                },
+                "description": {
+                    "en": "You handle stress exceptionally well. You remain calm and effective even under significant pressure.",
+                    "ru": "Вы справляетесь со стрессом исключительно хорошо. Сохраняете спокойствие и эффективность даже при значительном давлении."
+                },
+                "advice": {
+                    "en": "Your stress resilience is a valuable asset. Help others develop similar skills through your example.",
+                    "ru": "Ваша стрессоустойчивость — ценный актив. Помогайте другим развивать похожие навыки своим примером."
+                }
+            }
+        },
+        "resilience": {
+            "low": {
+                "title": {
+                    "en": "Building Resilience",
+                    "ru": "Развитие резильентности"
+                },
+                "description": {
+                    "en": "Setbacks may affect you more deeply and recovery may take longer.",
+                    "ru": "Неудачи могут влиять на вас глубже, и восстановление может занимать больше времени."
+                },
+                "advice": {
+                    "en": "Focus on developing a growth mindset. Each challenge is an opportunity to build resilience.",
+                    "ru": "Сосредоточьтесь на развитии мышления роста. Каждая проблема — возможность построить резильентность."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Resilience",
+                    "ru": "Умеренная резильентность"
+                },
+                "description": {
+                    "en": "You bounce back from setbacks at a typical pace. You have developed some resilience strategies.",
+                    "ru": "Вы восстанавливаетесь после неудач в типичном темпе. Вы развили некоторые стратегии резильентности."
+                },
+                "advice": {
+                    "en": "Continue strengthening your resilience through positive self-talk and learning from challenges.",
+                    "ru": "Продолжайте укреплять резильентность через позитивный внутренний диалог и обучение на проблемах."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Highly Resilient",
+                    "ru": "Высокая резильентность"
+                },
+                "description": {
+                    "en": "You recover quickly from setbacks and view challenges as opportunities for growth.",
+                    "ru": "Вы быстро восстанавливаетесь после неудач и рассматриваете проблемы как возможности для роста."
+                },
+                "advice": {
+                    "en": "Your resilience is exceptional. Share your strategies with others who may benefit.",
+                    "ru": "Ваша резильентность исключительна. Делитесь стратегиями с другими, кто может извлечь пользу."
+                }
+            }
+        }
+    },
+    "summaryTemplates": {
+        "en": {
+            "personalized": "Based on your results, your {{trait1}} is particularly notable at {{score1}}%. Your {{trait2}} score of {{score2}}% also stands out. This combination creates a unique psychological profile."
+        },
+        "ru": {
+            "personalized": "На основе ваших результатов, ваша {{trait1}} особенно заметна — {{score1}}%. Ваш показатель {{trait2}} — {{score2}}% — также выделяется. Это сочетание создает уникальный психологический профиль."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#0a0a1a" stroke="url(#grad1)" stroke-width="2"/>
+  
+  <!-- Neural network nodes -->
+  <g filter="url(#glow)">
+    <!-- Central node -->
+    <circle cx="100" cy="100" r="20" fill="url(#grad1)" opacity="0.9"/>
+    
+    <!-- Outer nodes -->
+    <circle cx="100" cy="45" r="12" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="155" cy="75" r="12" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="155" cy="130" r="12" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="100" cy="160" r="12" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="45" cy="130" r="12" fill="url(#grad2)" opacity="0.8"/>
+    <circle cx="45" cy="75" r="12" fill="url(#grad2)" opacity="0.8"/>
+    
+    <!-- Connections -->
+    <line x1="100" y1="80" x2="100" y2="57" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+    <line x1="118" y1="88" x2="145" y2="80" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+    <line x1="118" y1="112" x2="145" y2="125" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+    <line x1="100" y1="120" x2="100" y2="148" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+    <line x1="82" y1="112" x2="55" y2="125" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+    <line x1="82" y1="88" x2="55" y2="80" stroke="url(#grad1)" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Brain-like pattern -->
+  <path d="M70 90 Q80 70 100 70 Q120 70 130 90" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5"/>
+  <path d="M70 110 Q80 130 100 130 Q120 130 130 110" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5"/>
+</svg>

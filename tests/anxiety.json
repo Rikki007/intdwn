@@ -1,0 +1,312 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "anxiety",
+    "name": {
+        "ru": "Тест на тревожность",
+        "en": "Anxiety Assessment"
+    },
+    "description": {
+        "ru": "Оценка уровня тревожности и беспокойства",
+        "en": "Assessment of anxiety and worry levels"
+    },
+    "category": "mental_health",
+    "estimatedTime": 10,
+    "maxQuestions": 25,
+    "minQuestions": 10,
+    "scales": ["anxiety", "worry", "tension", "physiological_symptoms"],
+    "scaleLabels": {
+        "anxiety": {
+            "ru": "Общая тревожность",
+            "en": "General Anxiety"
+        },
+        "worry": {
+            "ru": "Беспокойство",
+            "en": "Worry"
+        },
+        "tension": {
+            "ru": "Напряжение",
+            "en": "Tension"
+        },
+        "physiological_symptoms": {
+            "ru": "Физиологические симптомы",
+            "en": "Physiological Symptoms"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "anxiety",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто чувствую беспокойство без видимой причины",
+                "en": "I often feel anxious without any apparent reason"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "worry",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я постоянно думаю о возможных проблемах",
+                "en": "I constantly think about potential problems"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "tension",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто чувствую мышечное напряжение",
+                "en": "I often feel muscle tension"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня бывает учащенное сердцебиение в спокойном состоянии",
+                "en": "I experience rapid heartbeat while at rest"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "anxiety",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я обычно спокоен в стрессовых ситуациях",
+                "en": "I usually remain calm in stressful situations"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "worry",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я легко могу отвлечься от тревожных мыслей",
+                "en": "I can easily distract myself from anxious thoughts"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "tension",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне трудно расслабиться после рабочего дня",
+                "en": "I find it difficult to relax after work"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня бывает потливость рук или тела без физической нагрузки",
+                "en": "I experience sweating without physical exertion"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "anxiety",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто думаю о худшем развитии событий",
+                "en": "I often anticipate the worst outcome"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "worry",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я беспокоюсь о вещах, которые могут никогда не случиться",
+                "en": "I worry about things that may never happen"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "tension",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто сжимаю зубы или кулаки",
+                "en": "I often clench my teeth or fists"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня бывает головокружение или головные боли от напряжения",
+                "en": "I experience dizziness or tension headaches"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "anxiety",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я чувствую себя уверенно в большинстве ситуаций",
+                "en": "I feel confident in most situations"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "worry",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мои тревожные мысли мешают мне заснуть",
+                "en": "My anxious thoughts prevent me from falling asleep"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "tension",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я умею эффективно справляться со стрессом",
+                "en": "I know how to effectively cope with stress"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня бывает дискомфорт в желудке при волнении",
+                "en": "I experience stomach discomfort when nervous"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "anxiety",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я избегаю ситуаций, которые могут вызвать тревогу",
+                "en": "I avoid situations that might cause anxiety"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "worry",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я могу контролировать свои тревожные мысли",
+                "en": "I can control my anxious thoughts"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "tension",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я чувствую себя постоянно настороже",
+                "en": "I feel constantly on guard"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Мое тело обычно расслаблено",
+                "en": "My body is usually relaxed"
+            }
+        },
+        {
+            "id": 21,
+            "scale": "anxiety",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне трудно справляться с неопределенностью",
+                "en": "I find it difficult to deal with uncertainty"
+            }
+        },
+        {
+            "id": 22,
+            "scale": "worry",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто проверяю, все ли в порядке",
+                "en": "I often check if everything is okay"
+            }
+        },
+        {
+            "id": 23,
+            "scale": "tension",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне трудно сидеть на месте, когда я волнуюсь",
+                "en": "I find it hard to sit still when I'm nervous"
+            }
+        },
+        {
+            "id": 24,
+            "scale": "physiological_symptoms",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "У меня бывает одышка без физической нагрузки",
+                "en": "I experience shortness of breath without exertion"
+            }
+        },
+        {
+            "id": 25,
+            "scale": "anxiety",
+            "difficulty": 0.7,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я умею успокаивать себя в тревожных ситуациях",
+                "en": "I know how to calm myself in anxious situations"
+            }
+        }
+    ]
+}

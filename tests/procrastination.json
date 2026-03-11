@@ -1,0 +1,253 @@
+{
+    "$schema": "./testSchema.json",
+    "id": "procrastination",
+    "name": {
+        "ru": "Прокрастинация",
+        "en": "Procrastination"
+    },
+    "description": {
+        "ru": "Оценка склонности откладывать дела на потом",
+        "en": "Assessment of tendency to postpone tasks"
+    },
+    "category": "productivity",
+    "estimatedTime": 8,
+    "maxQuestions": 20,
+    "minQuestions": 8,
+    "scales": ["procrastination_tendency", "decision_procrastination", "task_avoidance"],
+    "scaleLabels": {
+        "procrastination_tendency": {
+            "ru": "Общая прокрастинация",
+            "en": "General Procrastination"
+        },
+        "decision_procrastination": {
+            "ru": "Прокрастинация решений",
+            "en": "Decision Procrastination"
+        },
+        "task_avoidance": {
+            "ru": "Избегание задач",
+            "en": "Task Avoidance"
+        }
+    },
+    "questions": [
+        {
+            "id": 1,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.3,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто откладываю дела на потом",
+                "en": "I often put things off until later"
+            }
+        },
+        {
+            "id": 2,
+            "scale": "decision_procrastination",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Мне трудно принимать решения быстро",
+                "en": "I find it difficult to make decisions quickly"
+            }
+        },
+        {
+            "id": 3,
+            "scale": "task_avoidance",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я избегаю сложных или неприятных задач",
+                "en": "I avoid complex or unpleasant tasks"
+            }
+        },
+        {
+            "id": 4,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я обычно делаю дела вовремя",
+                "en": "I usually get things done on time"
+            }
+        },
+        {
+            "id": 5,
+            "scale": "decision_procrastination",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я откладываю важные решения до последнего момента",
+                "en": "I postpone important decisions until the last moment"
+            }
+        },
+        {
+            "id": 6,
+            "scale": "task_avoidance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто нахожу отвлекающие занятия вместо работы",
+                "en": "I often find distracting activities instead of working"
+            }
+        },
+        {
+            "id": 7,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я начинаю работать над заданиями в последний момент",
+                "en": "I start working on assignments at the last moment"
+            }
+        },
+        {
+            "id": 8,
+            "scale": "decision_procrastination",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я принимаю решения без лишних задержек",
+                "en": "I make decisions without unnecessary delays"
+            }
+        },
+        {
+            "id": 9,
+            "scale": "task_avoidance",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я берусь за задачи сразу, как они появляются",
+                "en": "I tackle tasks as soon as they arise"
+            }
+        },
+        {
+            "id": 10,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто жалею, что не начал раньше",
+                "en": "I often regret not starting earlier"
+            }
+        },
+        {
+            "id": 11,
+            "scale": "decision_procrastination",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я жду, пока проблема решится сама собой",
+                "en": "I wait for problems to resolve themselves"
+            }
+        },
+        {
+            "id": 12,
+            "scale": "task_avoidance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я делаю мелкие дела вместо важных",
+                "en": "I do minor tasks instead of important ones"
+            }
+        },
+        {
+            "id": 13,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.4,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я умею планировать свое время эффективно",
+                "en": "I know how to plan my time effectively"
+            }
+        },
+        {
+            "id": 14,
+            "scale": "decision_procrastination",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я откладываю принятие решений из-за страха ошибки",
+                "en": "I postpone decisions due to fear of making a mistake"
+            }
+        },
+        {
+            "id": 15,
+            "scale": "task_avoidance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я часто проверяю соцсети вместо работы",
+                "en": "I often check social media instead of working"
+            }
+        },
+        {
+            "id": 16,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я работаю лучше под давлением дедлайна",
+                "en": "I work better under deadline pressure"
+            }
+        },
+        {
+            "id": 17,
+            "scale": "decision_procrastination",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я уверен в своих решениях",
+                "en": "I am confident in my decisions"
+            }
+        },
+        {
+            "id": 18,
+            "scale": "task_avoidance",
+            "difficulty": 0.6,
+            "weight": 1,
+            "reverse": false,
+            "text": {
+                "ru": "Я откладываю дела, даже когда знаю, что нужно сделать",
+                "en": "I postpone tasks even when I know what needs to be done"
+            }
+        },
+        {
+            "id": 19,
+            "scale": "procrastination_tendency",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я доволен тем, как управляю своим временем",
+                "en": "I am satisfied with how I manage my time"
+            }
+        },
+        {
+            "id": 20,
+            "scale": "task_avoidance",
+            "difficulty": 0.5,
+            "weight": 1,
+            "reverse": true,
+            "text": {
+                "ru": "Я легко сосредотачиваюсь на задаче",
+                "en": "I can easily focus on a task"
+            }
+        }
+    ]
+}
