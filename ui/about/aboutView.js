@@ -10,7 +10,7 @@ export async function render() {
 
     return `
         <div class="about-view">
-            <img src="assets/icons/logo.svg" alt="INTDWN" class="about-logo">
+            <img src="assets/icons/logo.png" alt="INTDWN" class="about-logo">
             <h1 class="about-title">INTDWN</h1>
             <p class="about-version">${i18n.t('about.version')} ${APP_VERSION}</p>
 
@@ -58,7 +58,7 @@ export async function render() {
             </div>
 
             <div class="about-footer">
-                <p>© 2024 INTDWN. All rights reserved.</p>
+                <p>© 2026 INTDWN. All rights reserved.</p>
             </div>
         </div>
     `;

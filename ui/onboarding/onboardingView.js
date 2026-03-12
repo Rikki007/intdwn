@@ -34,7 +34,7 @@ export async function render() {
     return `
         <div class="onboarding-screen">
             <div class="onboarding-content">
-                <img src="assets/icons/logo.svg" alt="INTDWN" class="onboarding-logo">
+                <img src="assets/icons/logo.png" alt="INTDWN" class="onboarding-logo">
                 <h1 class="onboarding-title">${i18n.t('onboarding.welcome')}</h1>
                 <p class="onboarding-subtitle">${i18n.t('onboarding.subtitle')}</p>
 
