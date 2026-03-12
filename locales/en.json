@@ -74,7 +74,6 @@
         "version": "Version",
         "description": "INTDWN is a privacy-focused psychological testing platform that works entirely offline. All your data stays on your device.",
         "features": "Features",
-        "feature1": "Offline-first architecture",
         "feature2": "Adaptive testing algorithms",
         "feature3": "AI-style interpretations",
         "feature4": "Progress tracking over time",
