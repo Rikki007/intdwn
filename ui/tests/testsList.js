@@ -24,7 +24,7 @@ export async function loadTests() {
     
     for (const file of testFiles) {
         try {
-            const test = await loadJSON(`/tests/${file}`);
+            const test = await loadJSON(`./tests/${file}`);
             if (test) {
                 tests.push(test);
             }

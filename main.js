@@ -43,10 +43,6 @@ class App {
             await ruleEngine.init();
             await aiInterpreter.init();
 
-            // Load tests
-            // const { loadTests } = await import('./ui/tests/testsList.js');
-            // await loadTests();
-
             // Register routes
             this.registerRoutes();
 
