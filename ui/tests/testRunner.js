@@ -138,7 +138,7 @@ export async function afterRender(params) {
         // Submit answer
         const result = testEngine.submitAnswer(currentQuestion.id, selectedAnswer);
 
-        if (result.isComplete) {
+        if (result.isComplete || !result.nextQuestion) {
             // Test complete
             const testResult = await testEngine.completeTest();
             router.navigate(VIEWS.RESULTS, { resultId: testResult.id });
