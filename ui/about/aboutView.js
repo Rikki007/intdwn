@@ -18,6 +18,11 @@ export async function render() {
                 <p class="about-description">${i18n.t('about.description')}</p>
             </div>
 
+            <div class="about-section card disclaimer-card">
+                <h3 class="about-section-title">${i18n.t('about.disclaimer')}</h3>
+                <p class="about-section-text">${i18n.t('about.disclaimerText')}</p>
+            </div>
+
             <div class="about-section card">
                 <h3 class="about-section-title">${i18n.t('about.features')}</h3>
                 <ul class="features-list">
@@ -26,23 +31,10 @@ export async function render() {
                         <span>${i18n.t('about.feature2')}</span>
                     </li>
                     <li class="feature-item">
-                        <span class="feature-icon">🤖</span>
-                        <span>${i18n.t('about.feature3')}</span>
-                    </li>
-                    <li class="feature-item">
                         <span class="feature-icon">📊</span>
                         <span>${i18n.t('about.feature4')}</span>
                     </li>
-                    <li class="feature-item">
-                        <span class="feature-icon">🔒</span>
-                        <span>${i18n.t('about.feature5')}</span>
-                    </li>
                 </ul>
-            </div>
-
-            <div class="about-section card disclaimer-card">
-                <h3 class="about-section-title">${i18n.t('about.disclaimer')}</h3>
-                <p class="about-section-text">${i18n.t('about.disclaimerText')}</p>
             </div>
 
             <div class="about-section card">
@@ -50,9 +42,6 @@ export async function render() {
                 <p class="about-section-text">${i18n.t('about.developedBy')}</p>
                 <p class="about-section-text">K. Oreshkevich</p>
                 <p class="about-section-text">A. Medvedev</p>
-                <p class="tech-stack">
-                    Built with Vanilla JavaScript, Chart.js, and IndexedDB
-                </p>
             </div>
 
             <div class="about-footer">
