@@ -7,6 +7,14 @@
     gap: var(--spacing-sm);
 }
 
+@media screen and (max-width: 550px) {
+
+    .achievements-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
 .achievement-item,
 .achievement-badge {
     display: flex;
