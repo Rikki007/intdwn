@@ -102,6 +102,36 @@ export function getTestById(testId) {
     return availableTests.find(t => t.id === testId);
 }
 
+// === НОВОЕ: глобальная карта лейблов для всех тестов ===
+export function getScaleLabel(scale, language = 'en', useShort = true) {
+    // Собираем все scaleLabels из загруженных тестов
+    const allLabels = {};
+    availableTests.forEach(test => {
+        if (test.scaleLabels) {
+            Object.assign(allLabels, test.scaleLabels);
+        }
+    });
+
+    const labelObj = allLabels[scale];
+    if (!labelObj) return scale; // fallback
+
+    if (useShort) {
+        const shortKey = `short_${language}`;
+        return labelObj[shortKey] || labelObj[language] || scale;
+    }
+
+    return labelObj[language] || scale;
+}
+
+// Для удобства — экспортируем всю карту
+export function getAllScaleLabels() {
+    const all = {};
+    availableTests.forEach(test => {
+        if (test.scaleLabels) Object.assign(all, test.scaleLabels);
+    });
+    return all;
+}
+
 export { availableTests };
 
 export default { render, afterRender };

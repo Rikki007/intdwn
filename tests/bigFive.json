@@ -17,23 +17,33 @@
     "scaleLabels": {
         "openness": {
             "ru": "Открытость опыту",
-            "en": "Openness to Experience"
+            "en": "Openness to Experience",
+            "short_ru": "Открыт.",
+            "short_en": "Open"
         },
         "conscientiousness": {
             "ru": "Добросовестность",
-            "en": "Conscientiousness"
+            "en": "Conscientiousness",
+            "short_ru": "Доброс.",
+            "short_en": "Consc"
         },
         "extraversion": {
             "ru": "Экстраверсия",
-            "en": "Extraversion"
+            "en": "Extraversion",
+            "short_ru": "Экстра.",
+            "short_en": "Extra"
         },
         "agreeableness": {
             "ru": "Доброжелательность",
-            "en": "Agreeableness"
+            "en": "Agreeableness",
+            "short_ru": "Добр.",
+            "short_en": "Agree"
         },
         "neuroticism": {
-            "ru": "Нейротизм",
-            "en": "Neuroticism"
+            "ru": "Невротизм",
+            "en": "Neuroticism",
+            "short_ru": "Невро.",
+            "short_en": "Neuro"
         }
     },
     "questions": [

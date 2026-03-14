@@ -17,6 +17,7 @@ class ProfileEngine {
      */
     async buildProfile() {
         const results = await storage.getTestResults();
+        console.log(results)
         
         if (results.length === 0) {
             return null;

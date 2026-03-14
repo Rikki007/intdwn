@@ -12,6 +12,7 @@ import { downloadJSON, readFileAsJSON } from '../../core/utils.js';
 import { createRadarChart } from '../components/radarChart.js';
 import { createTraitTimelineChart, prepareTimelineData } from '../components/traitTimelineChart.js';
 import { VIEWS } from '../../core/constants.js';
+import { getScaleLabel, getAllScaleLabels } from '../tests/testsList.js';
 
 let profileChart = null;
 let timelineChart = null;
@@ -57,7 +58,7 @@ export async function render() {
                 </div>
                 <div class="stat-item">
                     <div class="stat-value">${progress.streak}</div>
-                    <div class="stat-label">🔥 Streak</div>
+                    <div class="stat-label">${i18n.t('profile.streak')}</div>
                 </div>
             </div>
 
@@ -74,7 +75,7 @@ export async function render() {
             </div>
 
             <div class="profile-section card">
-                <h3 class="section-title">Dominant Traits</h3>
+                <h3 class="section-title">${i18n.t('profile.dominantTraits')}</h3>
                 <div class="chart-container">
                     <canvas id="profile-radar-chart"></canvas>
                 </div>
@@ -90,7 +91,7 @@ export async function render() {
             ` : ''}
 
             <div class="profile-section card">
-                <h3 class="section-title">Trait Summary</h3>
+                <h3 class="section-title">${i18n.t('profile.traitSummary')}</h3>
                 <div class="trait-summary">
                     ${renderTraitSummary(profile.dominantTraits.slice(0, 5), language)}
                 </div>

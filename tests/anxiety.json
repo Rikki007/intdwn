@@ -17,19 +17,27 @@
     "scaleLabels": {
         "anxiety": {
             "ru": "Общая тревожность",
-            "en": "General Anxiety"
+            "en": "General Anxiety",
+            "short_ru": "Тревога",
+            "short_en": "Anxiety"
         },
         "worry": {
             "ru": "Беспокойство",
-            "en": "Worry"
+            "en": "Worry",
+            "short_ru": "Беспок.",
+            "short_en": "Worry"
         },
         "tension": {
             "ru": "Напряжение",
-            "en": "Tension"
+            "en": "Tension",
+            "short_ru": "Напряж.",
+            "short_en": "Tension"
         },
         "physiological_symptoms": {
             "ru": "Физиологические симптомы",
-            "en": "Physiological Symptoms"
+            "en": "Physiological Symptoms",
+            "short_ru": "Симптомы",
+            "short_en": "Symptoms"
         }
     },
     "questions": [

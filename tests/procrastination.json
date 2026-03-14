@@ -17,15 +17,21 @@
     "scaleLabels": {
         "procrastination_tendency": {
             "ru": "Общая прокрастинация",
-            "en": "General Procrastination"
+            "en": "General Procrastination",
+            "short_ru": "Общ. прокр.",
+            "short_en": "Gen. Proc"
         },
         "decision_procrastination": {
             "ru": "Прокрастинация решений",
-            "en": "Decision Procrastination"
+            "en": "Decision Procrastination",
+            "short_ru": "Прокр. реш.",
+            "short_en": "Dec. Proc"
         },
         "task_avoidance": {
             "ru": "Избегание задач",
-            "en": "Task Avoidance"
+            "en": "Task Avoidance",
+            "short_ru": "Избег. задач",
+            "short_en": "Task Av."
         }
     },
     "questions": [

@@ -17,23 +17,33 @@
     "scaleLabels": {
         "self_awareness": {
             "ru": "Самосознание",
-            "en": "Self-Awareness"
+            "en": "Self-Awareness",
+            "short_ru": "Самосозн.",
+            "short_en": "SelfAw"
         },
         "self_regulation": {
             "ru": "Саморегуляция",
-            "en": "Self-Regulation"
+            "en": "Self-Regulation",
+            "short_ru": "Саморег.",
+            "short_en": "SelfReg"
         },
         "motivation": {
             "ru": "Мотивация",
-            "en": "Motivation"
+            "en": "Motivation",
+            "short_ru": "Мотив.",
+            "short_en": "Motiv"
         },
         "empathy": {
             "ru": "Эмпатия",
-            "en": "Empathy"
+            "en": "Empathy",
+            "short_ru": "Эмпатия",
+            "short_en": "Empathy"
         },
         "social_skills": {
             "ru": "Социальные навыки",
-            "en": "Social Skills"
+            "en": "Social Skills",
+            "short_ru": "Соц. навыки",
+            "short_en": "SocSkills"
         }
     },
     "questions": [

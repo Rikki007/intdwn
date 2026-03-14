@@ -61,12 +61,15 @@
         "importData": "Импорт данных",
         "clearData": "Очистить данные",
         "testsTaken": "Пройдено тестов",
-        "traitsAnalyzed": "Черт проанализировано",
+        "traitsAnalyzed": "Черт изученно",
         "profileAge": "Возраст профиля",
         "achievements": "Достижения",
         "timeline": "История",
         "noData": "Пока нет данных",
-        "startTesting": "Пройдите тесты для создания профиля"
+        "startTesting": "Пройдите тесты для создания профиля",
+        "dominantTraits": "Доминирующие черты",
+        "traitSummary": "Описание черт",
+        "streak": "🔥 Стрик"
     },
     "about": {
         "title": "О приложении",

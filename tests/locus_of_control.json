@@ -17,11 +17,15 @@
     "scaleLabels": {
         "internal_locus": {
             "ru": "Внутренний локус контроля",
-            "en": "Internal Locus of Control"
+            "en": "Internal Locus of Control",
+            "short_ru": "Внутр. локус",
+            "short_en": "Internal"
         },
         "external_locus": {
             "ru": "Внешний локус контроля",
-            "en": "External Locus of Control"
+            "en": "External Locus of Control",
+            "short_ru": "Внеш. локус",
+            "short_en": "External"
         }
     },
     "questions": [

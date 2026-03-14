@@ -17,19 +17,27 @@
     "scaleLabels": {
         "stress_tolerance": {
             "ru": "Толерантность к стрессу",
-            "en": "Stress Tolerance"
+            "en": "Stress Tolerance",
+            "short_ru": "Стресс-тол.",
+            "short_en": "Stress Tol"
         },
         "coping_strategies": {
             "ru": "Стратегии совладания",
-            "en": "Coping Strategies"
+            "en": "Coping Strategies",
+            "short_ru": "Копинг",
+            "short_en": "Coping"
         },
         "resilience": {
             "ru": "Резильентность",
-            "en": "Resilience"
+            "en": "Resilience",
+            "short_ru": "Резил.",
+            "short_en": "Resil"
         },
         "recovery": {
             "ru": "Восстановление",
-            "en": "Recovery"
+            "en": "Recovery",
+            "short_ru": "Восст.",
+            "short_en": "Recov"
         }
     },
     "questions": [
