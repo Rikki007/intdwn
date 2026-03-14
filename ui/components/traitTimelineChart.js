@@ -107,7 +107,10 @@ export function prepareTimelineData(testHistory, scaleLabels, language) {
         const values = sorted.map(result => result.scores[scale] || null);
         return {
             scale,
-            label: scaleLabels[scale]?.[language] || scaleLabels[scale]?.en || scale,
+            label: scaleLabels[scale]?.[`short_${language}`] || 
+                   scaleLabels[scale]?.[language] || 
+                   scaleLabels[scale]?.en || 
+                   scale,
             values
         };
     }).filter(trait => trait.values.some(v => v !== null));

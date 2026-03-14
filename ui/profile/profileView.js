@@ -12,7 +12,7 @@ import { downloadJSON, readFileAsJSON } from '../../core/utils.js';
 import { createRadarChart } from '../components/radarChart.js';
 import { createTraitTimelineChart, prepareTimelineData } from '../components/traitTimelineChart.js';
 import { VIEWS } from '../../core/constants.js';
-import { getScaleLabel, getAllScaleLabels } from '../tests/testsList.js';
+import { getScaleLabel, getAllScaleLabels, loadTests, availableTests } from '../tests/testsList.js';
 
 let profileChart = null;
 let timelineChart = null;
@@ -147,34 +147,44 @@ export async function afterRender() {
     const profile = await profileEngine.getProfile();
 
     if (!profile) {
-        // Bind start testing button
         const startBtn = document.getElementById('start-testing-btn');
-        if (startBtn) {
-            startBtn.addEventListener('click', () => {
-                router.navigate(VIEWS.TESTS);
-            });
-        }
+        if (startBtn) startBtn.addEventListener('click', () => router.navigate(VIEWS.TESTS));
         return;
     }
 
     const language = i18n.getLanguage();
 
-    // Create radar chart
-    const scores = profile.dominantTraits.slice(0, 5);
-    const labels = scores.map(t => t.scale);
-    const data = scores.map(t => t.score);
+    // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+    // 1. Принудительно загружаем все тесты, если ещё не загружены
+    if (availableTests.length === 0) {
+        await loadTests();
+    }
 
-    profileChart = createRadarChart('profile-radar-chart', data, labels);
+    // 2. Получаем все scaleLabels
+    const scaleLabels = getAllScaleLabels();
 
-    // Create timeline chart if enough data
+    // Radar Chart — короткие названия
+    const dominant = profile.dominantTraits.slice(0, 5);
+    const radarLabels = dominant.map(t => 
+        getScaleLabel(t.scale, language, true)   // true = short_ru / short_en
+    );
+    const radarData = dominant.map(t => t.score);
+
+    profileChart = createRadarChart('profile-radar-chart', radarData, radarLabels);
+
+    // Timeline Chart (только один раз!)
     if (profile.testHistory.length >= 2) {
-        const timelineData = prepareTimelineData(profile.testHistory, {}, language);
+        const timelineData = prepareTimelineData(
+            profile.testHistory, 
+            scaleLabels,           // ← правильные лейблы
+            language
+        );
         if (timelineData) {
             timelineChart = await createTraitTimelineChart('profile-timeline-chart', timelineData);
         }
     }
 
-    // Export data
+    // Экспорт/импорт/очистка (оставляем без изменений)
     const exportBtn = document.getElementById('export-data');
     if (exportBtn) {
         exportBtn.addEventListener('click', async () => {
@@ -183,7 +193,6 @@ export async function afterRender() {
         });
     }
 
-    // Import data
     const importBtn = document.getElementById('import-data');
     const importFile = document.getElementById('import-file');
     if (importBtn && importFile) {
@@ -191,18 +200,16 @@ export async function afterRender() {
         importFile.addEventListener('change', async (e) => {
             const file = e.target.files[0];
             if (!file) return;
-
             try {
                 const data = await readFileAsJSON(file);
                 await storage.importData(data);
                 window.location.reload();
-            } catch (error) {
+            } catch {
                 alert(i18n.t('errors.importFailed'));
             }
         });
     }
 
-    // Clear data
     const clearBtn = document.getElementById('clear-data');
     if (clearBtn) {
         clearBtn.addEventListener('click', async () => {
@@ -213,5 +220,4 @@ export async function afterRender() {
         });
     }
 }
-
 export default { render, afterRender };

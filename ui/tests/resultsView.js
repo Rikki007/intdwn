@@ -12,6 +12,7 @@ import { aiInterpreter } from '../../analytics/aiInterpreter.js';
 import { ruleEngine } from '../../analytics/ruleEngine.js';
 import { createRadarChart } from '../components/radarChart.js';
 import { createProgressBar, animateProgressBars } from '../components/progressBar.js';
+import { getScaleLabel, getAllScaleLabels, loadTests, availableTests } from '../tests/testsList.js';
 
 let resultChart = null;
 
@@ -158,29 +159,30 @@ export async function afterRender(params) {
 
     if (!result) return;
 
+    const language = i18n.getLanguage();
+
+    // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+    // 1. Загружаем тесты и лейблы (как в профиле)
+    if (availableTests.length === 0) {
+        await loadTests();
+    }
+    const scaleLabels = getAllScaleLabels();
+
     // Animate progress bars
     animateProgressBars();
 
-    // Get scale labels
-    const testModule = await import('./testsList.js');
-    const testData = testModule.getTestById(result.testId);
-    const scaleLabels = testData?.scaleLabels || {};
-    const language = i18n.getLanguage();
-
-    // Create radar chart
+    // Radar Chart — ТОЛЬКО КОРОТКИЕ НАЗВАНИЯ
     const labels = Object.keys(result.scores).map(scale => 
-        scaleLabels[scale]?.[language] || scaleLabels[scale]?.en || scale
+        getScaleLabel(scale, language, true)   // ← true = short_ru / short_en
     );
     const data = Object.values(result.scores);
 
     resultChart = createRadarChart('results-radar-chart', data, labels);
 
-    // Bind buttons
+    // Остальное (кнопки, экспорт и т.д.) оставляем как было
     const backBtn = document.getElementById('back-btn');
     if (backBtn) {
-        backBtn.addEventListener('click', () => {
-            router.back();
-        });
+        backBtn.addEventListener('click', () => router.back());
     }
 
     const retakeBtn = document.getElementById('retake-btn');
