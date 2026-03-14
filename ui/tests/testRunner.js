@@ -12,20 +12,21 @@ let currentQuestion = null;
 let selectedAnswer = null;
 
 export async function render(params) {
+
+    if (!params?.testId) {
+        router.navigate(VIEWS.TESTS);
+        return '';
+    }
+
     const language = i18n.getLanguage();
     const testId = params.testId;
     
     const testData = getTestById(testId);
     
     if (!testData) {
-        return `
-            <div class="error-view">
-                <h2>${i18n.t('errors.loadTest')}</h2>
-                <button class="btn btn-primary" onclick="history.back()">
-                    ${i18n.t('common.close')}
-                </button>
-            </div>
-        `;
+        console.warn("Test not found:", testId);
+        router.navigate(VIEWS.TESTS);
+        return '';
     }
 
     // Start the test
@@ -113,6 +114,7 @@ export async function afterRender(params) {
     // Answer selection
     const options = document.querySelectorAll('.answer-option');
     const nextBtn = document.getElementById('next-question');
+    if (!nextBtn) return;
 
     options.forEach(option => {
         option.addEventListener('click', () => {

@@ -82,7 +82,7 @@ class Router {
             const content = await viewModule.render(params);
             this.viewContainer.innerHTML = content;
             
-            if (viewModule.afterRender) {
+            if (viewModule.afterRender && typeof viewModule.afterRender === 'function') {
                 await viewModule.afterRender(params);
             }
 
