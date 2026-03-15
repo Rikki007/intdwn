@@ -57,6 +57,7 @@
         "title": "Your Profile",
         "subtitle": "Psychological insights about you",
         "editProfile": "Edit Profile",
+        "profileComplete": "Profile complete",
         "exportData": "Export Data",
         "importData": "Import Data",
         "clearData": "Clear All Data",

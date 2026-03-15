@@ -44,7 +44,7 @@ export async function render() {
                 </div>
                 <h2 class="profile-name">${user?.name || 'User'}</h2>
                 <div class="profile-completeness">
-                    <span>Profile ${completeness}% complete</span>
+                    <span>${i18n.t('profile.profileComplete')} ${completeness}%</span>
                     <div class="progress-bar" style="height: 4px;">
                         <div class="progress-bar-fill" style="width: ${completeness}%"></div>
                     </div>
