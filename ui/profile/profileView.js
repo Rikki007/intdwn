@@ -182,6 +182,41 @@ export async function afterRender() {
         if (timelineData) {
             timelineChart = await createTraitTimelineChart('profile-timeline-chart', timelineData);
         }
+        // === НОВАЯ СКРОЛЛ-ЛЕГЕНДА ДЛЯ ИСТОРИИ ===
+        if (timelineChart) {
+            const legendContainer = document.createElement('div');
+            legendContainer.className = 'timeline-legend';
+            legendContainer.style.cssText = `
+                display: flex; 
+                flex-wrap: nowrap; 
+                gap: 12px; 
+                overflow-x: auto; 
+                padding: 20px 0;
+                scrollbar-width: thin;
+            `;
+
+            timelineChart.data.datasets.forEach((dataset, i) => {
+                const item = document.createElement('div');
+                item.style.cssText = 'display: flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0;';
+                item.innerHTML = `
+                    <span style="
+                        display: inline-block; 
+                        width: 10px; 
+                        height: 10px; 
+                        background: ${dataset.borderColor}; 
+                        border-radius: 50%;
+                    "></span>
+                    <span style="font-size: 12px; color: rgba(255,255,255,0.7);">${dataset.label}</span>
+                `;
+                legendContainer.appendChild(item);
+            });
+
+            // Вставляем под canvas
+            const chartWrapper = document.querySelector('.timeline-chart');
+            if (chartWrapper) {
+                chartWrapper.appendChild(legendContainer);
+            }
+        }
     }
 
     // Экспорт/импорт/очистка (оставляем без изменений)

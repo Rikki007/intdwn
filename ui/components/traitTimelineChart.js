@@ -44,14 +44,14 @@ export async function createTraitTimelineChart(containerId, data, options = {}) 
                 }
             }
         },
+        layout: {
+            padding: {
+                bottom: 40
+            }
+        },
         plugins: {
             legend: {
-                position: 'bottom',
-                labels: {
-                    color: 'rgba(255, 255, 255, 0.7)',
-                    usePointStyle: true,
-                    padding: 20
-                }
+                display: false
             }
         }
     };
