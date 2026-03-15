@@ -18,6 +18,10 @@ let resultChart = null;
 
 export async function render(params) {
     const language = i18n.getLanguage();
+
+    if (availableTests.length === 0) {
+        await loadTests();
+    }
     
     // Get result from storage
     const results = await storage.getTestResults();
@@ -38,6 +42,11 @@ export async function render(params) {
 
     // Generate report
     const report = await reportGenerator.generateTestReport(result);
+
+    report.summary = report.summary.replace(
+        /\b(openness|conscientiousness|extraversion|agreeableness|neuroticism|anxiety|worry|tension|physiological_symptoms|self_awareness|self_regulation|motivation|empathy|social_skills|internal_locus|external_locus|procrastination_tendency|decision_procrastination|task_avoidance|stress_tolerance|coping_strategies|resilience|recovery)\b/g,
+        (match) => getScaleLabel(match, language, false)
+    );
 
     // Get scale labels
     const testModule = await import('./testsList.js');
@@ -94,7 +103,7 @@ export async function render(params) {
                 <ul class="recommendations-list">
                     ${report.recommendations.map(rec => `
                         <li class="recommendation-item">
-                            <strong>${rec.trait}:</strong> ${rec.advice}
+                            <strong>${getScaleLabel(rec.trait, language, false)}:</strong> ${rec.advice}
                         </li>
                     `).join('')}
                 </ul>
@@ -112,11 +121,21 @@ export async function render(params) {
     `;
 }
 
-function renderTraitBreakdown(scores, scaleLabels, language) {
+function renderTraitBreakdown(scores, language) {
+    // Принудительно перестраиваем карту лейблов каждый раз
+    const allLabels = getAllScaleLabels();
+
     return Object.entries(scores).map(([scale, score]) => {
-        const label = scaleLabels[scale]?.[language] || scaleLabels[scale]?.en || scale;
+        const labelObj = allLabels[scale];
+        const currentLang = i18n.getLanguage();
+        const label = labelObj 
+            ? (labelObj[currentLang] || labelObj.ru || labelObj.en || scale)
+            : scale;
+
         const level = getLevel(score);
         
+        console.log(`Scale: ${scale} → Label: ${label} (lang: ${currentLang})`);
+
         return `
             <div class="result-card">
                 <div class="trait-header">
@@ -131,18 +150,22 @@ function renderTraitBreakdown(scores, scaleLabels, language) {
 }
 
 function renderInterpretations(interpretations, language) {
-    return interpretations.map(interp => `
-        <div class="interpretation-item">
-            <h4 class="interpretation-title">${interp.title}</h4>
-            <p class="interpretation-desc">${interp.description}</p>
-            ${interp.strengths?.length > 0 ? `
-                <div class="strengths">
-                    <strong>Strengths:</strong>
-                    <ul>${interp.strengths.map(s => `<li>${s}</li>`).join('')}</ul>
-                </div>
-            ` : ''}
-        </div>
-    `).join('');
+    return interpretations.map(interp => {
+        const traitName = getScaleLabel(interp.trait, language, false);  // ← вот он!
+        
+        return `
+            <div class="interpretation-item">
+                <h4 class="interpretation-title">${traitName}</h4>
+                <p class="interpretation-desc">${interp.description}</p>
+                ${interp.strengths?.length > 0 ? `
+                    <div class="strengths">
+                        <strong>${i18n.t('results.strengths')}</strong>
+                        <ul>${interp.strengths.map(s => `<li>${s}</li>`).join('')}</ul>
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    }).join('');
 }
 
 function getLevel(score) {

@@ -51,7 +51,8 @@
         "low": "Low",
         "medium": "Medium",
         "high": "High",
-        "percentile": "Percentile"
+        "percentile": "Percentile",
+        "strengths": "Strengths:"
     },
     "profile": {
         "title": "Your Profile",

@@ -36,7 +36,7 @@
         "agreeableness": {
             "ru": "Доброжелательность",
             "en": "Agreeableness",
-            "short_ru": "Добр.",
+            "short_ru": "Доброж.",
             "short_en": "Agree"
         },
         "neuroticism": {
