@@ -13,6 +13,7 @@ import { createRadarChart } from '../components/radarChart.js';
 import { createTraitTimelineChart, prepareTimelineData } from '../components/traitTimelineChart.js';
 import { VIEWS } from '../../core/constants.js';
 import { getScaleLabel, getAllScaleLabels, loadTests, availableTests } from '../tests/testsList.js';
+import { createAvatarUploader, initAvatarUploader } from '../components/avatarUploader.js';
 
 let profileChart = null;
 let timelineChart = null;
@@ -167,13 +168,79 @@ export async function afterRender() {
 
     const editBtn = document.getElementById('edit-profile-btn');
     if (editBtn) {
-        editBtn.addEventListener('click', () => {
-            // Пока просто алерт, потом можно сделать модалку с именем и аватаром
-            const newName = prompt(i18n.t('profile.enterName') || 'Введите ваше имя:', user?.name || '');
-            if (newName !== null) {
-                storage.saveUser({ name: newName.trim() });
-                window.location.reload();
-            }
+        editBtn.addEventListener('click', async () => {
+            const user = await storage.getUser();
+            const currentAvatar = user?.avatar || null;
+
+            const modalHTML = `
+                <div class="modal-header">
+                    <h2 class="modal-title">${i18n.t('profile.editProfile')}</h2>
+                    <button class="modal-close" id="close-edit-modal">✕</button>
+                </div>
+                <div style="padding: 24px 0;">
+                    <label class="form-label">Ваше имя</label>
+                    <input type="text" id="edit-name" class="form-input" 
+                        value="${user?.name || ''}" placeholder="Введите имя">
+
+                    <div style="margin-top: 24px;">
+                        <label class="form-label">Аватар</label>
+                        ${createAvatarUploader(currentAvatar)}
+                    </div>
+                </div>
+                <div style="display:flex; gap:12px; margin-top:24px;">
+                    <button class="btn btn-secondary" id="cancel-edit">Отмена</button>
+                    <button class="btn btn-primary" id="save-edit">Сохранить изменения</button>
+                </div>
+            `;
+
+            const modalOverlay = document.getElementById('modal-overlay');
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = modalHTML;
+            modalOverlay.classList.remove('hidden');
+
+            let avatarDataUrl = currentAvatar;   // по умолчанию — старый аватар
+
+            // Инициализация uploader
+            requestAnimationFrame(() => {
+                initAvatarUploader((dataUrl) => {
+                    avatarDataUrl = dataUrl;
+                });
+            });
+
+            // Сохранение
+            document.getElementById('save-edit').onclick = async () => {
+                const newName = document.getElementById('edit-name').value.trim();
+
+                // Сохраняем в базу
+                await storage.saveUser({
+                    name: newName || user?.name || '',
+                    avatar: avatarDataUrl || currentAvatar
+                });
+
+                // ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
+                // Обновляем только нужные элементы на странице (без перезагрузки!)
+                const avatarDiv = document.getElementById('profile-avatar');
+                if (avatarDiv && avatarDataUrl) {
+                    avatarDiv.innerHTML = `<img src="${avatarDataUrl}" alt="Avatar">`;
+                }
+
+                const nameEl = document.querySelector('.profile-name');
+                if (nameEl) {
+                    nameEl.textContent = newName || user?.name || 'User';
+                }
+
+                // Небольшая задержка, чтобы IndexedDB точно записал
+                await new Promise(resolve => setTimeout(resolve, 80));
+
+                modalOverlay.classList.add('hidden');
+                // reload УБРАН полностью!
+            };
+
+            // Закрытие модалки
+            const closeModal = () => modalOverlay.classList.add('hidden');
+            document.getElementById('cancel-edit').onclick = closeModal;
+            document.getElementById('close-edit-modal').onclick = closeModal;
+            modalOverlay.onclick = (e) => { if (e.target === modalOverlay) closeModal(); };
         });
     }
 
