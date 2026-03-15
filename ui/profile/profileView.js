@@ -23,6 +23,10 @@ export async function render() {
     const profile = await profileEngine.buildProfile();
     const progress = await progressTracker.getProgress();
 
+    if (availableTests.length === 0) {
+        await loadTests();
+    }
+
     if (!profile) {
         return renderEmptyProfile(language);
     }
@@ -135,7 +139,9 @@ function renderTraitSummary(traits, language) {
     return traits.map(trait => `
         <div class="trait-summary-item">
             <div class="trait-info">
-                <span class="trait-name">${trait.scale}</span>
+                <span class="trait-name">
+                    ${getScaleLabel(trait.scale, language, false)}
+                </span>
                 <span class="trait-level ${trait.level}">${trait.level}</span>
             </div>
             <div class="trait-score">${trait.score}%</div>

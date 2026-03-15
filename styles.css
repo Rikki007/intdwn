@@ -849,7 +849,7 @@ body {
 }
 
 .trait-name {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .trait-score {
@@ -894,6 +894,18 @@ body {
 .trait-level.high {
     background: rgba(16, 185, 129, 0.1);
     color: var(--success);
+}
+
+@media screen and (max-width: 395px) {
+    .trait-name {
+        font-size: 0.8rem;
+    }
+    .trait-level {
+       font-size: 0.8rem; 
+    }
+    .trait-score {
+        font-size: 0.8rem;
+    }
 }
 
 /* Chart Container */
