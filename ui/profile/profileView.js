@@ -43,6 +43,9 @@ export async function render() {
                     }
                 </div>
                 <h2 class="profile-name">${user?.name || 'User'}</h2>
+
+                <p class="profile-subtitle">${i18n.t('profile.subtitle')}</p>
+
                 <div class="profile-completeness">
                     <span>${i18n.t('profile.profileComplete')} ${completeness}%</span>
                     <div class="progress-bar" style="height: 4px;">
@@ -50,6 +53,10 @@ export async function render() {
                     </div>
                 </div>
             </div>
+
+            <button class="btn btn-secondary" id="edit-profile-btn">
+                ${i18n.t('profile.editProfile')}
+            </button>
 
             <div class="profile-stats">
                 <div class="stat-item">
@@ -156,6 +163,18 @@ export async function afterRender() {
         const startBtn = document.getElementById('start-testing-btn');
         if (startBtn) startBtn.addEventListener('click', () => router.navigate(VIEWS.TESTS));
         return;
+    }
+
+    const editBtn = document.getElementById('edit-profile-btn');
+    if (editBtn) {
+        editBtn.addEventListener('click', () => {
+            // Пока просто алерт, потом можно сделать модалку с именем и аватаром
+            const newName = prompt(i18n.t('profile.enterName') || 'Введите ваше имя:', user?.name || '');
+            if (newName !== null) {
+                storage.saveUser({ name: newName.trim() });
+                window.location.reload();
+            }
+        });
     }
 
     const language = i18n.getLanguage();
