@@ -168,12 +168,37 @@ class App {
         }
 
         // Handle PWA install prompt
-        let deferredPrompt;
+        let deferredPrompt = null;
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault();
             deferredPrompt = e;
             // Show install button if needed
+            showInstallButton();
         });
+
+        function showInstallButton() {
+            const header = document.querySelector('.app-header');
+            if (!header || document.getElementById('install-btn')) return;
+
+            const btn = document.createElement('button');
+            btn.id = 'install-btn';
+            btn.className = 'icon-btn';
+            btn.innerHTML = `📲`;
+            btn.title = 'Install app';
+            
+            btn.addEventListener('click', async () => {
+                if (!deferredPrompt) return;
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                if (outcome === 'accepted') {
+                    console.log('User installed the app');
+                }
+                deferredPrompt = null;
+                btn.remove();
+            });
+
+            header.appendChild(btn);
+        }
     }
 
     showSettings() {
