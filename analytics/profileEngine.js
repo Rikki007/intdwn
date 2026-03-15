@@ -233,16 +233,22 @@ class ProfileEngine {
     getProfileCompleteness() {
         if (!this.profile) return 0;
 
-        // Define expected scales from major tests
-        const expectedScales = [
-            'openness', 'conscientiousness', 'extraversion', 'agreeableness', 'neuroticism',
-            'anxiety', 'emotional_intelligence', 'locus_of_control', 'procrastination', 'stress_resistance'
+        const allTests = [
+            'big_five',
+            'anxiety',
+            'emotional_intelligence',
+            'locus_of_control',
+            'procrastination',
+            'stress_resistance'
         ];
 
-        const foundScales = Object.keys(this.profile.aggregatedScores);
-        const completeness = foundScales.filter(s => expectedScales.includes(s)).length / expectedScales.length;
+        const completedTestIds = new Set(
+            this.profile.testHistory.map(result => result.testId)
+        );
 
-        return Math.round(completeness * 100);
+        const completedCount = allTests.filter(testId => completedTestIds.has(testId)).length;
+
+        return Math.round((completedCount / allTests.length) * 100);
     }
 }
 
