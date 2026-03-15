@@ -178,18 +178,25 @@ export async function afterRender() {
                     <button class="modal-close" id="close-edit-modal">✕</button>
                 </div>
                 <div style="padding: 24px 0;">
-                    <label class="form-label">Ваше имя</label>
+                    <label class="form-label">${i18n.t('profile.editName')}</label>
                     <input type="text" id="edit-name" class="form-input" 
-                        value="${user?.name || ''}" placeholder="Введите имя">
+                        value="${user?.name || ''}"
+                        placeholder="${i18n.t('profile.enterName')}">
 
                     <div style="margin-top: 24px;">
-                        <label class="form-label">Аватар</label>
+                        <label class="form-label">
+                            ${i18n.t('profile.editAvatar')}
+                        </label>
                         ${createAvatarUploader(currentAvatar)}
                     </div>
                 </div>
                 <div style="display:flex; gap:12px; margin-top:24px;">
-                    <button class="btn btn-secondary" id="cancel-edit">Отмена</button>
-                    <button class="btn btn-primary" id="save-edit">Сохранить изменения</button>
+                    <button class="btn btn-secondary" id="cancel-edit">
+                        ${i18n.t('profile.cancel')}
+                    </button>
+                    <button class="btn btn-primary" id="save-edit">
+                        ${i18n.t('profile.saveChanges')}
+                    </button>
                 </div>
             `;
 

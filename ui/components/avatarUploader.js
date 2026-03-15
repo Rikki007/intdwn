@@ -2,6 +2,7 @@
  * INTDWN - Avatar Uploader Component
  */
 
+import i18n from '../../core/i18n.js';
 import { storage } from '../../core/storage.js';
 
 export function createAvatarUploader(currentAvatar = null) {
@@ -20,7 +21,8 @@ export function createAvatarUploader(currentAvatar = null) {
             </div>
             <input type="file" id="avatar-input" accept="image/*" class="visually-hidden">
             <label for="avatar-input" class="btn btn-secondary btn-sm">
-                ${currentAvatar ? 'Change' : 'Upload'}
+                ${currentAvatar ? i18n.t('profile.change') :
+                    i18n.t('profile.upload')}
             </label>
         </div>
     `;
