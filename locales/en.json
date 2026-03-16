@@ -10,6 +10,7 @@
         "subtitle": "Discover your psychological profile",
         "factTitle": "Psychological Fact",
         "progressTitle": "Your Progress",
+        "toNextMilestone": "to next milestone",
         "quickStart": "Quick Start",
         "viewResults": "View Results",
         "testsCompleted": "tests completed",
@@ -17,7 +18,7 @@
     },
     "tests": {
         "title": "Psychological Tests",
-        "subtitle": "Explore different aspects of your personality",
+        "subtitle": "Explore different aspects of your personality.",
         "adaptiveWarning": "These tests are adaptive — the number of questions may vary based on your answers.",
         "questions": "questions",
         "minutes": "min",

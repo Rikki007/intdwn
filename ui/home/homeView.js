@@ -53,7 +53,7 @@ export async function render() {
                 </div>
                 <div class="progress-milestone">
                     ${progress.nextMilestone.remaining > 0 
-                        ? `${progress.nextMilestone.remaining} ${i18n.t('tests.questions')} to next milestone`
+                        ? `${progress.nextMilestone.remaining} ${i18n.t('tests.questions')} ${i18n.t('home.toNextMilestone')}`
                         : 'Milestone reached!'}
                 </div>
             </div>
