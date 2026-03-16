@@ -44,6 +44,32 @@ export async function render() {
                 <p class="about-section-text">A. Medvedev</p>
             </div>
 
+            <div class="about-section card">
+
+                <h3 class="about-section-title">
+                    ${i18n.t('about.community')}
+                </h3>
+
+                <div class="contacts">
+                    <a 
+                        href="https://t.me/intdwn"
+                        target="_blank"
+                        class="btn btn-primary"
+                    >
+                        Telegram
+                    </a>
+
+                    <a 
+                        href="https://www.instagram.com/in_t_dwn"
+                        target="_blank"
+                        class="btn btn-primary"
+                    >
+                        Instagram
+                    </a>
+                </div>
+
+            </div>
+
             <div class="about-footer">
                 <p>© 2026 INTDWN. All rights reserved.</p>
             </div>

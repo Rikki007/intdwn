@@ -94,7 +94,8 @@
         "disclaimer": "Disclaimer",
         "disclaimerText": "This application provides psychological insights but is not a medical diagnostic tool. For professional assessment, please consult a qualified psychologist or mental health professional.",
         "credits": "Credits",
-        "developedBy": "Developed with ❤️"
+        "developedBy": "Developed with ❤️",
+        "community": "Community"
     },
     "onboarding": {
         "welcome": "Welcome to INTDWN",

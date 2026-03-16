@@ -1120,6 +1120,12 @@ body {
     line-height: 1.7;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* Neural Network Canvas */
 #neural-canvas {
     position: fixed;
@@ -1325,7 +1331,7 @@ body {
     }
 
     .answer-option:hover {
-        
+
         transform: none !important;
         box-shadow: none !important;
         background: var(--bg-card) !important;
@@ -1333,5 +1339,11 @@ body {
         color: inherit !important;
         filter: none !important;
         opacity: 1 !important;
+    }
+
+    .btn-primary:hover {
+        background: var(--gradient-primary);
+        color: var(--text-primary);
+        box-shadow: var(--shadow-md);
     }
 }
