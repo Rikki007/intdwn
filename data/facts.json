@@ -209,6 +209,216 @@
                 "en": "Your sense of smell is the sense most strongly linked to memory.",
                 "ru": "Обоняние — чувство, наиболее сильно связанное с памятью."
             }
+        },
+        {
+            "id": 31,
+            "text": {
+                "en": "The brain filters out most sensory information before it reaches conscious awareness.",
+                "ru": "Мозг отфильтровывает большую часть сенсорной информации до того, как она достигает сознания."
+            }
+        },
+        {
+            "id": 32,
+            "text": {
+                "en": "People often remember unfinished tasks better than completed ones (Zeigarnik effect).",
+                "ru": "Люди часто лучше помнят незавершенные задачи, чем завершенные (эффект Зейгарник)."
+            }
+        },
+        {
+            "id": 33,
+            "text": {
+                "en": "Multitasking significantly reduces performance on most cognitive tasks.",
+                "ru": "Многозадачность значительно снижает эффективность выполнения большинства когнитивных задач."
+            }
+        },
+        {
+            "id": 34,
+            "text": {
+                "en": "Stress hormones can strengthen memory formation for emotional events.",
+                "ru": "Гормоны стресса могут усиливать формирование памяти о эмоциональных событиях."
+            }
+        },
+        {
+            "id": 35,
+            "text": {
+                "en": "People tend to overestimate how well others understand their thoughts (illusion of transparency).",
+                "ru": "Люди склонны переоценивать, насколько хорошо другие понимают их мысли (иллюзия прозрачности)."
+            }
+        },
+        {
+            "id": 36,
+            "text": {
+                "en": "Confidence in a memory does not necessarily mean the memory is accurate.",
+                "ru": "Уверенность в воспоминании не обязательно означает его точность."
+            }
+        },
+        {
+            "id": 37,
+            "text": {
+                "en": "The brain consumes more energy when learning something new.",
+                "ru": "Мозг потребляет больше энергии, когда изучает что-то новое."
+            }
+        },
+        {
+            "id": 38,
+            "text": {
+                "en": "People are more likely to agree with statements they have heard repeatedly (illusory truth effect).",
+                "ru": "Люди чаще соглашаются с утверждениями, которые слышали многократно (эффект иллюзорной правды)."
+            }
+        },
+        {
+            "id": 39,
+            "text": {
+                "en": "Eye contact can increase feelings of connection between strangers.",
+                "ru": "Зрительный контакт может усиливать чувство связи между незнакомыми людьми."
+            }
+        },
+        {
+            "id": 40,
+            "text": {
+                "en": "People remember emotionally intense events more vividly than neutral ones.",
+                "ru": "Люди ярче запоминают эмоционально насыщенные события, чем нейтральные."
+            }
+        },
+        {
+            "id": 41,
+            "text": {
+                "en": "The brain constantly predicts incoming sensory information to process it faster.",
+                "ru": "Мозг постоянно предсказывает поступающую сенсорную информацию, чтобы обрабатывать её быстрее."
+            }
+        },
+        {
+            "id": 42,
+            "text": {
+                "en": "Negative experiences often have a stronger psychological impact than positive ones (negativity bias).",
+                "ru": "Негативный опыт часто оказывает более сильное психологическое воздействие, чем позитивный (негативный уклон)."
+            }
+        },
+        {
+            "id": 43,
+            "text": {
+                "en": "People tend to attribute their successes to themselves and failures to external factors.",
+                "ru": "Люди склонны приписывать успехи себе, а неудачи внешним обстоятельствам."
+            }
+        },
+        {
+            "id": 44,
+            "text": {
+                "en": "Music can activate brain regions involved in memory and emotion simultaneously.",
+                "ru": "Музыка может одновременно активировать области мозга, связанные с памятью и эмоциями."
+            }
+        },
+        {
+            "id": 45,
+            "text": {
+                "en": "The brain can reorganize itself by forming new neural connections throughout life (neuroplasticity).",
+                "ru": "Мозг может реорганизовываться, формируя новые нейронные связи на протяжении всей жизни (нейропластичность)."
+            }
+        },
+        {
+            "id": 46,
+            "text": {
+                "en": "People tend to like others more if they believe they share similarities.",
+                "ru": "Люди чаще испытывают симпатию к тем, кого считают похожими на себя."
+            }
+        },
+        {
+            "id": 47,
+            "text": {
+                "en": "Decision fatigue can reduce the quality of choices after making many decisions.",
+                "ru": "Усталость от принятия решений может снижать качество последующих выборов."
+            }
+        },
+        {
+            "id": 48,
+            "text": {
+                "en": "The brain processes emotionally charged words faster than neutral words.",
+                "ru": "Мозг обрабатывает эмоционально окрашенные слова быстрее, чем нейтральные."
+            }
+        },
+        {
+            "id": 49,
+            "text": {
+                "en": "People often underestimate how long tasks will take to complete (planning fallacy).",
+                "ru": "Люди часто недооценивают время, необходимое для выполнения задач (ошибка планирования)."
+            }
+        },
+        {
+            "id": 50,
+            "text": {
+                "en": "Curiosity activates reward circuits in the brain that improve learning.",
+                "ru": "Любопытство активирует системы вознаграждения мозга и улучшает обучение."
+            }
+        },
+        {
+            "id": 51,
+            "text": {
+                "en": "Faces are processed by specialized regions of the brain dedicated to facial recognition.",
+                "ru": "Лица обрабатываются специализированными областями мозга, отвечающими за распознавание лиц."
+            }
+        },
+        {
+            "id": 52,
+            "text": {
+                "en": "People often conform to group opinions even when they privately disagree.",
+                "ru": "Люди часто соглашаются с мнением группы, даже если внутренне не согласны."
+            }
+        },
+        {
+            "id": 53,
+            "text": {
+                "en": "Unexpected rewards produce stronger dopamine responses than predictable ones.",
+                "ru": "Неожиданные награды вызывают более сильный выброс дофамина, чем предсказуемые."
+            }
+        },
+        {
+            "id": 54,
+            "text": {
+                "en": "The brain can fill in missing visual information without conscious awareness.",
+                "ru": "Мозг может заполнять недостающую визуальную информацию без осознанного участия."
+            }
+        },
+        {
+            "id": 55,
+            "text": {
+                "en": "People tend to remember negative feedback more clearly than positive feedback.",
+                "ru": "Люди склонны лучше запоминать негативную обратную связь, чем позитивную."
+            }
+        },
+        {
+            "id": 56,
+            "text": {
+                "en": "Laughing in groups is more common than laughing alone.",
+                "ru": "Смех чаще возникает в группах, чем в одиночестве."
+            }
+        },
+        {
+            "id": 57,
+            "text": {
+                "en": "The brain uses past experiences to rapidly interpret ambiguous situations.",
+                "ru": "Мозг использует прошлый опыт, чтобы быстро интерпретировать неоднозначные ситуации."
+            }
+        },
+        {
+            "id": 58,
+            "text": {
+                "en": "People are more likely to take risks when they feel anonymous.",
+                "ru": "Люди чаще идут на риск, когда чувствуют анонимность."
+            }
+        },
+        {
+            "id": 59,
+            "text": {
+                "en": "Memories become temporarily unstable each time they are recalled.",
+                "ru": "Воспоминания становятся временно нестабильными каждый раз, когда их вспоминают."
+            }
+        },
+        {
+            "id": 60,
+            "text": {
+                "en": "Gratitude practices can measurably increase reported life satisfaction.",
+                "ru": "Практика благодарности может заметно повышать субъективную удовлетворенность жизнью."
+            }
         }
     ]
 }
