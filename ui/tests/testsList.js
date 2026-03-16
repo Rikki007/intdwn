@@ -64,7 +64,7 @@ export async function render() {
                 <h3 class="test-card-title">${testName}</h3>
                 <p class="test-card-desc">${testDesc}</p>
                 <div class="test-card-meta">
-                    <span>${test.maxQuestions} ${i18n.t('tests.questions')}</span>
+                    <span>${test.minQuestions} - ${test.maxQuestions} ${i18n.t('tests.questions')}</span>
                     <span>${test.estimatedTime || 10} ${i18n.t('tests.minutes')}</span>
                 </div>
                 ${status.completed 
@@ -79,6 +79,7 @@ export async function render() {
             <div class="page-header">
                 <h1 class="page-title">${i18n.t('tests.title')}</h1>
                 <p class="page-subtitle">${i18n.t('tests.subtitle')}</p>
+                <p class="page-subtitle">${i18n.t('tests.adaptiveWarning')}</p>
             </div>
 
             <div class="tests-grid">

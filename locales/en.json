@@ -18,6 +18,7 @@
     "tests": {
         "title": "Psychological Tests",
         "subtitle": "Explore different aspects of your personality",
+        "adaptiveWarning": "These tests are adaptive — the number of questions may vary based on your answers.",
         "questions": "questions",
         "minutes": "min",
         "startTest": "Start Test",

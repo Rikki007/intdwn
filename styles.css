@@ -744,6 +744,7 @@ body {
     gap: var(--spacing-md);
     font-size: 0.75rem;
     color: var(--text-muted);
+    margin-bottom: 0.25rem;
 }
 
 /* Question Card */

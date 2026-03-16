@@ -69,7 +69,7 @@ function renderQuestion(question, session, language) {
 
             <div class="question-card">
                 <div class="question-number">
-                    ${i18n.t('test.question')} ${progress.questionsAnswered + 1} ${i18n.t('test.of')} ${progress.maxQuestions}
+                    ${i18n.t('test.question')} ${progress.questionsAnswered + 1}
                 </div>
                 <p class="question-text">${questionText}</p>
                 
