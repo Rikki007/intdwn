@@ -1185,6 +1185,11 @@ body {
 
 .progress-section {
     margin-bottom: var(--spacing-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    transition: all var(--transition-normal);
 }
 
 .progress-header {
@@ -1276,5 +1281,57 @@ body {
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
     .bottom-nav {
         padding-bottom: calc(var(--spacing-sm) + env(safe-area-inset-bottom));
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    
+    /* Сбрасываем всё, что обычно делается при наведении */
+    .btn:hover,
+    .card:hover,
+    .test-card:hover,
+    .quick-action-btn:hover,
+    .profile-section:hover,
+    .result-card:hover,
+    .interpretation-item:hover,
+    .insight-item:hover,
+    .icon-btn:hover,
+    .language-btn:hover,
+    .test-card:hover::before {
+        
+        transform: none !important;
+        box-shadow: none !important;
+        background: var(--bg-card) !important;
+        border-color: var(--border-color) !important;
+        color: inherit !important;
+        filter: none !important;
+        opacity: 1 !important;
+    }
+
+    /* Дополнительно убираем hover у скроллбара */
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-blue) !important;
+    }
+
+    .nav-item:hover {
+        
+        transform: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        border-color: inherit !important;
+        color: var(--primary-cyan) !important;
+        filter: none !important;
+        opacity: 1 !important;
+    }
+
+    .answer-option:hover {
+        
+        transform: none !important;
+        box-shadow: none !important;
+        background: var(--bg-card) !important;
+        border-color: var(--primary-cyan) !important;
+        color: inherit !important;
+        filter: none !important;
+        opacity: 1 !important;
     }
 }

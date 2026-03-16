@@ -9,6 +9,7 @@
         "greeting": "Welcome back",
         "subtitle": "Discover your psychological profile",
         "factTitle": "Psychological Fact",
+        "factBtn": "Refresh",
         "progressTitle": "Your Progress",
         "toNextMilestone": "to next milestone",
         "quickStart": "Quick Start",

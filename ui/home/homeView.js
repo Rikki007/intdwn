@@ -19,6 +19,21 @@ async function loadFacts() {
     currentFact = getRandomItem(facts);
 }
 
+function showNextFact() {
+    if (facts.length === 0) return;
+    
+    currentFact = getRandomItem(facts);
+    
+    const factTextEl = document.querySelector('.fact-text');
+    if (factTextEl) {
+        const language = i18n.getLanguage();
+        factTextEl.textContent = 
+            currentFact?.text?.[language] || 
+            currentFact?.text?.en || 
+            'No fact available';
+    }
+}
+
 export async function render() {
     const language = i18n.getLanguage();
     const user = await storage.getUser();
@@ -41,9 +56,13 @@ export async function render() {
             <div class="fact-card">
                 <div class="fact-label">${i18n.t('home.factTitle')}</div>
                 <p class="fact-text">${currentFact?.text?.[language] || currentFact?.text?.en || ''}</p>
+
+                <button id="next-fact-btn" class="btn btn-secondary btn-sm" style="margin-top: 12px;">
+                    ${i18n.t('home.factBtn')}
+                </button>
             </div>
 
-            <div class="progress-section card">
+            <div class="progress-section">
                 <div class="progress-header">
                     <span class="progress-title">${i18n.t('home.progressTitle')}</span>
                     <span class="progress-value">${progress.totalTests} ${i18n.t('home.testsCompleted')}</span>
@@ -86,6 +105,11 @@ export async function render() {
 export async function afterRender() {
     // Initialize neural network background
     initNeuralBackground('neural-canvas');
+
+    const nextFactBtn = document.getElementById('next-fact-btn');
+    if (nextFactBtn) {
+        nextFactBtn.addEventListener('click', showNextFact);
+    }
 
     // Bind action buttons
     document.querySelectorAll('.quick-action-btn').forEach(btn => {
