@@ -3,7 +3,7 @@
  * Enables offline functionality for PWA
  */
 
-const CACHE_NAME = 'intdwn-v1';
+const CACHE_NAME = 'intdwn-v2';
 const STATIC_ASSETS = [
     './',
     './index.html',

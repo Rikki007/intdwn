@@ -171,5 +171,11 @@
         "coping_strategies": "Coping Strategies",
         "resilience": "Resilience",
         "recovery": "Recovery"
+    },
+        "insights": {
+        "title": "Insights",
+        "awareness": "Awareness",
+        "strength": "Strength",
+        "risk": "Risk"
     }
 }

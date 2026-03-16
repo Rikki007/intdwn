@@ -87,10 +87,12 @@ export async function render(params) {
 
             ${report.insights.length > 0 ? `
                 <div class="insights-section card">
-                    <h3 class="section-title">Insights</h3>
+                    <h3 class="section-title">${i18n.t('insights.title')}</h3>
                     ${report.insights.map(insight => `
                         <div class="insight-item">
-                            <span class="insight-badge ${insight.type}">${insight.type}</span>
+                            <span class="insight-badge ${insight.type}">
+                                ${i18n.t(`insights.${insight.type}`) || insight.type}
+                            </span>
                             <p class="insight-title">${insight.title}</p>
                             <p class="insight-message">${insight.message}</p>
                         </div>
@@ -133,8 +135,6 @@ function renderTraitBreakdown(scores, language) {
             : scale;
 
         const level = getLevel(score);
-        
-        console.log(`Scale: ${scale} → Label: ${label} (lang: ${currentLang})`);
 
         return `
             <div class="result-card">
@@ -151,7 +151,7 @@ function renderTraitBreakdown(scores, language) {
 
 function renderInterpretations(interpretations, language) {
     return interpretations.map(interp => {
-        const traitName = getScaleLabel(interp.trait, language, false);  // ← вот он!
+        const traitName = getScaleLabel(interp.trait, language, false);
         
         return `
             <div class="interpretation-item">

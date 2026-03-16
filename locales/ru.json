@@ -171,5 +171,11 @@
         "coping_strategies": "Стратегии совладания",
         "resilience": "Резильентность",
         "recovery": "Восстановление"
+    },
+        "insights": {
+        "title": "Инсайты",
+        "awareness": "Осознанность",
+        "strength": "Сильная сторона",
+        "risk": "Риск"
     }
 }

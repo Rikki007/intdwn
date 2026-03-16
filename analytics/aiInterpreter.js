@@ -178,34 +178,34 @@ class AIInterpreter {
             en: {
                 low: {
                     title: `Low ${traitName}`,
-                    description: `Your score indicates a lower level of ${traitName}.`,
+                    description: `Your score indicates a lower level.`,
                     advice: 'Consider exploring activities that may help develop this trait.'
                 },
                 medium: {
                     title: `Moderate ${traitName}`,
-                    description: `Your score shows a balanced level of ${traitName}.`,
+                    description: `Your score shows a balanced level.`,
                     advice: 'Continue developing self-awareness in this area.'
                 },
                 high: {
                     title: `High ${traitName}`,
-                    description: `Your score indicates a strong presence of ${traitName}.`,
+                    description: `Your score indicates a strong presence.`,
                     advice: 'Leverage this strength while being mindful of balance.'
                 }
             },
             ru: {
                 low: {
                     title: `Низкий уровень: ${traitName}`,
-                    description: `Ваш результат указывает на низкий уровень ${traitName}.`,
+                    description: `Ваш результат указывает на низкий уровень.`,
                     advice: 'Рассмотрите возможности для развития этой черты.'
                 },
                 medium: {
                     title: `Средний уровень: ${traitName}`,
-                    description: `Ваш результат показывает сбалансированный уровень ${traitName}.`,
+                    description: `Ваш результат показывает сбалансированный уровень.`,
                     advice: 'Продолжайте развивать самосознание в этой области.'
                 },
                 high: {
                     title: `Высокий уровень: ${traitName}`,
-                    description: `Ваш результат указывает на высокий уровень ${traitName}.`,
+                    description: `Ваш результат указывает на высокий уровень.`,
                     advice: 'Используйте эту силу, сохраняя баланс.'
                 }
             }
