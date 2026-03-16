@@ -80,7 +80,7 @@ function renderQuestion(question, session, language) {
 
             <div class="test-actions">
                 <button class="btn btn-primary btn-lg btn-block" id="next-question" disabled>
-                    ${progress.canFinish ? i18n.t('test.finish') : i18n.t('test.next')}
+                    ${i18n.t('test.next')}
                 </button>
             </div>
         </div>
