@@ -296,7 +296,7 @@ body {
 .view-container {
     flex: 1;
     padding: var(--spacing-md);
-    padding-bottom: calc(70px + var(--spacing-md) + env(safe-area-inset-bottom));
+    padding-bottom: calc(80px + var(--spacing-md) + env(safe-area-inset-bottom));
     overflow-y: auto;
 }
 

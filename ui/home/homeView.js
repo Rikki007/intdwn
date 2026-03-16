@@ -86,6 +86,14 @@ export async function render() {
                     <div class="quick-action-icon">📊</div>
                     <div class="quick-action-label">${i18n.t('home.viewResults')}</div>
                 </div>
+                <div class="quick-action-btn" data-action="start-telegram">
+                    <img src="assets/icons/tel.png" alt="INTDWN" class="quick-action-icon">
+                    <div class="quick-action-label">${i18n.t('home.telegram')}</div>
+                </div>
+                <div class="quick-action-btn" data-action="start-instagram">
+                    <img src="assets/icons/inst.png" alt="INTDWN" class="quick-action-icon">
+                    <div class="quick-action-label">${i18n.t('home.instagram')}</div>
+                </div>
             </div>
 
             <div class="achievements-preview">
@@ -119,6 +127,11 @@ export async function afterRender() {
                 router.navigate(VIEWS.TESTS);
             } else if (action === 'view-results') {
                 router.navigate(VIEWS.PROFILE);
+            } else if (action === 'start-telegram') {
+                window.open('https://t.me/intdwn', '_blank', 'noopener');
+
+            } else if (action === 'start-instagram') {
+                window.open('https://instagram.com/in_t_dwn', '_blank', 'noopener');
             }
         });
     });
