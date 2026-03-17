@@ -7,8 +7,8 @@
                     "ru": "Практичный и традиционный"
                 },
                 "description": {
-                    "en": "You prefer familiar routines and concrete approaches. You value tradition and practical solutions over abstract theories.",
-                    "ru": "Вы предпочитаете знакомые рутины и конкретные подходы. Вы цените традиции и практические решения абстрактным теориям."
+                    "en": "You tend to rely on what is familiar, proven, and practical. New or abstract ideas may not immediately resonate with you, especially if they lack clear real-world application. You likely feel more comfortable when things are predictable and structured, and you may prefer routines that give you a sense of stability and control.\n\nIn everyday life, this often shows up as a preference for tried-and-true methods rather than experimentation. You may value traditions, clear rules, and concrete results over exploration or imagination. This does not mean a lack of intelligence or curiosity — rather, your thinking is grounded in reality and usefulness.\n\nAt times, you might notice resistance to change, especially if it feels unnecessary or risky. However, this same quality helps you stay focused, reliable, and consistent in situations where others might get distracted by novelty.",
+                    "ru": "Вы склонны опираться на проверенные, понятные и практичные вещи. Новые или абстрактные идеи могут не вызывать у вас отклика, особенно если в них не видно явной пользы в реальной жизни. Вам, как правило, комфортнее в предсказуемой и структурированной среде, где есть ощущение стабильности и контроля.\n\nВ повседневной жизни это часто проявляется как предпочтение проверенных подходов вместо экспериментов. Вы можете ценить традиции, ясные правила и конкретный результат больше, чем исследование нового или игру воображения. Это не означает отсутствие любопытства — скорее, ваше мышление ориентировано на практическую пользу.\n\nИногда вы можете замечать за собой осторожность или даже сопротивление изменениям, особенно если они кажутся лишними или рискованными. При этом именно это качество делает вас надёжным, последовательным и устойчивым человеком в ситуациях, где другим сложно сохранять фокус."
                 },
                 "strengths": {
                     "en": ["Consistency", "Practicality", "Reliability", "Focus"],
@@ -19,8 +19,8 @@
                     "ru": ["Может сопротивляться переменам", "Меньше интересуется абстрактными идеями"]
                 },
                 "advice": {
-                    "en": "Your practical nature is valuable. Consider occasionally exploring new perspectives to expand your horizons.",
-                    "ru": "Ваша практичная натура ценна. Иногда рассматривайте новые перспективы, чтобы расширить горизонты."
+                    "en": "Your grounded and practical mindset is a strong advantage, especially in situations that require stability and clear results. At the same time, you might benefit from occasionally allowing yourself to explore something new without the pressure of immediate usefulness. Small, low-risk experiments can gradually expand your perspective without disrupting your sense of stability.",
+                    "ru": "Ваша приземлённость и практичность — сильная сторона, особенно там, где важны стабильность и конкретный результат. В то же время, вам может быть полезно иногда позволять себе пробовать что-то новое без требования немедленной пользы. Небольшие и безопасные эксперименты помогут расширить взгляд на мир, не нарушая чувство устойчивости."
                 }
             },
             "medium": {
@@ -29,8 +29,8 @@
                     "ru": "Сбалансированный исследователь"
                 },
                 "description": {
-                    "en": "You balance curiosity with practicality. You're open to new experiences while maintaining grounded perspective.",
-                    "ru": "Вы балансируете любопытство с практичностью. Вы открыты новому опыту, сохраняя приземленную перспективу."
+                    "en": "You tend to balance curiosity with practicality. You are open to new ideas and experiences, but you usually evaluate them through a realistic lens before fully engaging. This allows you to explore without losing your sense of direction.\n\nIn daily life, you may enjoy learning new things, trying different approaches, or considering alternative perspectives — but not at the cost of stability. You are capable of switching between creative thinking and practical execution depending on the situation.\n\nAt times, this balance can lead to internal hesitation: part of you may want to explore something new, while another part prefers to stay with what is known and safe. This is a natural tension, and it often reflects a thoughtful decision-making process rather than indecisiveness.",
+                    "ru": "Вы склонны сочетать любопытство с практичностью. Вы открыты новым идеям и опыту, но обычно пропускаете их через реалистичную оценку, прежде чем полностью вовлечься. Это позволяет вам исследовать новое, не теряя опоры.\n\nВ повседневной жизни это может проявляться как интерес к обучению, новым подходам и альтернативным точкам зрения — но без ухода в крайности. Вы умеете переключаться между креативным мышлением и практическими действиями в зависимости от ситуации.\n\nИногда такой баланс может создавать внутреннее колебание: одна часть вас хочет попробовать что-то новое, а другая — остаться в зоне знакомого. Это нормальное состояние, которое чаще говорит о вдумчивости, чем о нерешительности."
                 },
                 "strengths": {
                     "en": ["Adaptability", "Balanced perspective", "Moderate curiosity"],
@@ -41,8 +41,8 @@
                     "ru": ["Иногда может колебаться между вариантами"]
                 },
                 "advice": {
-                    "en": "Your balanced approach serves you well. Continue nurturing both your practical and creative sides.",
-                    "ru": "Ваш сбалансированный подход служит вам хорошо. Продолжайте развивать практическую и творческую стороны."
+                    "en": "Your ability to balance exploration and practicality is a valuable skill. To make the most of it, try to notice situations where overthinking slows you down, and give yourself permission to act. At the same time, continue nurturing your curiosity — it is a key driver of growth.",
+                    "ru": "Ваша способность балансировать между исследованием и практичностью — ценное качество. Чтобы использовать его максимально, обращайте внимание на моменты, где размышления начинают тормозить действия, и разрешайте себе двигаться вперёд. При этом продолжайте развивать любопытство — это важный источник роста."
                 }
             },
             "high": {
@@ -51,8 +51,8 @@
                     "ru": "Креативный визионер"
                 },
                 "description": {
-                    "en": "You have a strong imagination and intellectual curiosity. You embrace new ideas and unconventional approaches.",
-                    "ru": "У вас сильное воображение и интеллектуальное любопытство. Вы принимаете новые идеи и нестандартные подходы."
+                    "en": "You have a naturally strong curiosity and imagination. New ideas, abstract concepts, and unconventional perspectives tend to energize you rather than confuse you. You are likely drawn to creativity, exploration, and intellectual discovery.\n\nIn everyday life, this may проявляться as a desire to question norms, искать новые способы решения задач и видеть возможности там, где другие их не замечают. Вам может быть интересно всё необычное — от искусства и философии до новых технологий или нестандартных жизненных путей.\n\nОднако иногда такой стиль мышления может уводить вас от практической реализации. Идеи могут опережать действия, а рутина — казаться скучной или ограничивающей. Это не слабость, а особенность, которую важно сбалансировать.",
+                    "ru": "У вас от природы выраженное любопытство и развитое воображение. Новые идеи, абстрактные концепции и нестандартные точки зрения скорее заряжают вас энергией, чем вызывают растерянность. Вас может тянуть к креативности, исследованию и интеллектуальному поиску.\n\nВ повседневной жизни это часто проявляется как стремление ставить под вопрос привычные вещи, искать новые решения и замечать возможности там, где другие их не видят. Вас могут привлекать необычные темы — от искусства и философии до технологий и альтернативных жизненных путей.\n\nИногда такой стиль мышления может приводить к тому, что идеи опережают действия, а рутина начинает казаться скучной или ограничивающей. Это не недостаток, а особенность, которую важно уравновешивать."
                 },
                 "strengths": {
                     "en": ["Creativity", "Innovation", "Intellectual curiosity", "Artistic sensitivity"],
@@ -63,8 +63,8 @@
                     "ru": ["Может упускать практические детали", "Может скучать по рутине"]
                 },
                 "advice": {
-                    "en": "Channel your creativity into meaningful projects. Ground your ideas with practical action steps.",
-                    "ru": "Направьте креативность на значимые проекты. Заземляйте идеи практическими шагами."
+                    "en": "Your imagination and openness are powerful tools. To fully realize their potential, focus on translating ideas into action. Even small, structured steps can help bring your vision into reality without limiting your creativity.",
+                    "ru": "Ваше воображение и открытость — мощные ресурсы. Чтобы реализовать их потенциал, важно учиться переводить идеи в действия. Даже небольшие, структурированные шаги помогут воплощать ваши замыслы, не ограничивая креативность."
                 }
             }
         },
@@ -75,8 +75,8 @@
                     "ru": "Спонтанный и гибкий"
                 },
                 "description": {
-                    "en": "You prefer a flexible, spontaneous approach to life. You adapt easily to changing circumstances.",
-                    "ru": "Вы предпочитаете гибкий, спонтанный подход к жизни. Легко адаптируетесь к меняющимся обстоятельствам."
+                    "en": "You tend to approach life in a flexible and spontaneous way, rather than following strict plans or rigid structures. You may prefer to act based on how you feel in the moment, adapting to circumstances as they unfold instead of заранее всё контролируя.\n\nIn everyday life, this can make you feel more свободным и менее ограниченным рамками. Вы легче переключаетесь между задачами, быстрее отпускаете неудачи и можете находить нестандартные решения в ситуациях, где слишком жёсткий подход только мешает.\n\nAt the same time, you might sometimes notice difficulties with consistency — for example, starting things with enthusiasm but not always finishing them, or откладывая задачи, которые требуют длительного и системного усилия. Это не про «лень», а скорее про то, как вам сложнее удерживать долгосрочную структуру без внешних опор.",
+                    "ru": "Вы склонны подходить к жизни гибко и спонтанно, а не через строгие планы и жёсткие структуры. Часто вы действуете, опираясь на текущее состояние и обстоятельства, а не на заранее выстроенный порядок.\n\nВ повседневной жизни это может давать ощущение свободы и лёгкости. Вам проще адаптироваться к изменениям, переключаться между задачами и отпускать неудачи. В ситуациях, где излишняя строгость мешает, вы можете находить более живые и нестандартные решения.\n\nВ то же время, вы можете замечать сложности с последовательностью — например, начинать что-то с энтузиазмом, но не всегда доводить до конца, или откладывать задачи, требующие длительного и системного усилия. Это не столько про «лень», сколько про особенности саморегуляции и потребность во внешней структуре."
                 },
                 "strengths": {
                     "en": ["Flexibility", "Spontaneity", "Adaptability"],
@@ -87,8 +87,8 @@
                     "ru": ["Может испытывать трудности с дедлайнами", "Менее структурированный подход"]
                 },
                 "advice": {
-                    "en": "Consider using simple planning tools to stay on track while maintaining your natural flexibility.",
-                    "ru": "Рассмотрите простые инструменты планирования, чтобы оставаться на курсе, сохраняя естественную гибкость."
+                    "en": "Your flexibility is a real strength, especially in changing environments. At the same time, you may benefit from introducing light structure into your life — not rigid systems, but simple supports like short task lists or time blocks. The goal is not to limit your freedom, but to help you follow through on what truly matters to you.",
+                    "ru": "Ваша гибкость — это сильная сторона, особенно в меняющихся условиях. При этом вам может помочь добавление лёгкой структуры — не жёсткой системы, а простых опор, таких как короткие списки задач или временные блоки. Это не про ограничение свободы, а про помощь в доведении до результата того, что для вас действительно важно."
                 }
             },
             "medium": {
@@ -97,8 +97,8 @@
                     "ru": "Сбалансированный достигатор"
                 },
                 "description": {
-                    "en": "You have a moderate level of organization and dependability. You balance structure with flexibility.",
-                    "ru": "У вас умеренный уровень организации и надежности. Вы балансируете структуру с гибкостью."
+                    "en": "You tend to maintain a balance between structure and flexibility. You are capable of being organized and responsible when needed, but you are not overly rigid or perfectionistic.\n\nIn everyday situations, this often means you can plan, set goals, and follow through — especially when something is important to you. At the same time, you can adapt when plans change and are less likely to feel overwhelmed by the need for perfect control.\n\nOccasionally, you may notice fluctuations in consistency. Some periods may feel productive and structured, while others — less focused. This variability is natural and often depends on your level of interest, energy, or external pressure.",
+                    "ru": "Вы склонны сохранять баланс между структурой и гибкостью. При необходимости вы можете быть организованным и ответственным, но при этом не становитесь излишне жёстким или перфекционистичным.\n\nВ повседневной жизни это означает, что вы способны планировать, ставить цели и доводить дела до конца — особенно если они для вас значимы. При этом вы умеете адаптироваться, если что-то идёт не по плану, и не застреваете в стремлении всё контролировать идеально.\n\nИногда вы можете замечать колебания в уровне дисциплины: в одни периоды вы более собраны и продуктивны, в другие — менее. Это естественно и часто связано с уровнем интереса, энергии или внешнего давления."
                 },
                 "strengths": {
                     "en": ["Balance", "Reasonable discipline", "Adaptability"],
@@ -109,8 +109,8 @@
                     "ru": ["Иногда может испытывать трудности с последовательностью"]
                 },
                 "advice": {
-                    "en": "Your balanced approach is healthy. Continue developing systems that work for you.",
-                    "ru": "Ваш сбалансированный подход здоровый. Продолжайте развивать системы, которые работают для вас."
+                    "en": "Your balanced approach is psychologically healthy and sustainable. To strengthen it further, you might focus on building small, consistent habits that do not depend on motivation. This can help smooth out fluctuations and support long-term goals.",
+                    "ru": "Ваш сбалансированный подход является психологически устойчивым. Чтобы усилить его, можно развивать небольшие регулярные привычки, не зависящие от мотивации. Это поможет сгладить колебания и поддерживать движение к долгосрочным целям."
                 }
             },
             "high": {
@@ -119,8 +119,8 @@
                     "ru": "Усердный достигатор"
                 },
                 "description": {
-                    "en": "You are highly organized, disciplined, and goal-oriented. You approach tasks with dedication and thoroughness.",
-                    "ru": "Вы высокоорганизованны, дисциплинированы и нацелены на результат. Подходите к задачам с самоотдачей и тщательностью."
+                    "en": "You are naturally organized, disciplined, and goal-oriented. You tend to take responsibilities seriously and approach tasks with a high level of dedication and attention to detail.\n\nIn everyday life, this often shows up as reliability: people can count on you to follow through, meet deadlines, and maintain high standards. You may prefer planning ahead, structuring your time, and keeping things under control.\n\nAt a deeper level, this trait is often connected to a strong internal drive — a desire to do things well, avoid mistakes, and achieve meaningful results. However, this can sometimes turn into pressure: you may find it hard to relax, delegate, or accept “good enough” instead of perfect.\n\nOver time, this can increase the risk of fatigue or burnout if there is not enough space for rest and flexibility.",
+                    "ru": "Вы склонны быть организованным, дисциплинированным и ориентированным на результат человеком. Обычно вы серьёзно относитесь к обязанностям и подходите к задачам с вниманием к деталям и высокой степенью ответственности.\n\nВ повседневной жизни это часто проявляется как надёжность: на вас можно положиться, вы соблюдаете сроки и стремитесь поддерживать высокий стандарт качества. Вам может быть комфортно планировать заранее, структурировать время и держать процессы под контролем.\n\nНа более глубоком уровне это качество часто связано с внутренним стремлением делать всё хорошо, избегать ошибок и достигать значимых результатов. Однако иногда это может превращаться во внутреннее давление: может быть сложно расслабиться, делегировать или принять «достаточно хороший» результат вместо идеального.\n\nСо временем это может приводить к усталости или выгоранию, если не хватает пространства для отдыха и гибкости."
                 },
                 "strengths": {
                     "en": ["Organization", "Reliability", "Goal achievement", "Self-discipline"],
@@ -131,8 +131,8 @@
                     "ru": ["Может быть перфекционистом", "Может испытывать трудности с гибкостью"]
                 },
                 "advice": {
-                    "en": "Your dedication is admirable. Remember to allow space for rest and flexibility.",
-                    "ru": "Ваша самоотдача восхищает. Не забывайте оставлять место для отдыха и гибкости."
+                    "en": "Your discipline and responsibility are powerful assets. To sustain them long-term, it is important to balance achievement with recovery. Try to intentionally include rest, flexibility, and moments where “good enough” is truly enough. This will help you maintain both performance and well-being.",
+                    "ru": "Ваша дисциплина и ответственность — сильные стороны. Чтобы они работали в долгосрочной перспективе, важно балансировать достижения с восстановлением. Старайтесь осознанно добавлять отдых, гибкость и моменты, где «достаточно хорошо» действительно достаточно. Это поможет сохранить и эффективность, и психологическое благополучие."
                 }
             }
         },
@@ -143,8 +143,8 @@
                     "ru": "Мыслящий интроверт"
                 },
                 "description": {
-                    "en": "You prefer solitary activities and smaller social gatherings. You recharge through alone time and reflection.",
-                    "ru": "Вы предпочитаете одиночную деятельность и небольшие социальные встречи. Восстанавливаетесь через уединение и размышления."
+                    "en": "You tend to feel more comfortable in quieter, less stimulating environments. Social interactions, especially in large groups or for extended periods, may feel draining rather than energizing. Instead, you likely recharge through time alone, reflection, or engaging in activities that allow you to focus deeply.\n\nIn everyday life, this often shows up as a preference for meaningful one-on-one conversations over group discussions, and for depth rather than breadth in relationships. You may take time before speaking, carefully considering your thoughts, and you might avoid situations that feel overwhelming or chaotic.\n\nThis does not mean you lack social skills or interest in others — rather, your social energy is more selective. You tend to invest it where it feels genuine and worthwhile.\n\nAt times, however, you may notice that certain opportunities — such as networking, self-presentation, or spontaneous interaction — require more effort and can feel uncomfortable.",
+                    "ru": "Вы склонны чувствовать себя комфортнее в более спокойной и менее насыщенной среде. Социальные взаимодействия, особенно в больших группах или на протяжении длительного времени, могут скорее утомлять, чем наполнять энергией. Восстановление чаще происходит через уединение, размышления или занятия, где можно глубоко сосредоточиться.\n\nВ повседневной жизни это часто проявляется как предпочтение глубоких разговоров один на один вместо общения в группе, а также стремление к качеству, а не количеству в отношениях. Вы можете сначала обдумывать мысли, прежде чем их озвучить, и избегать ситуаций, которые кажутся перегружающими.\n\nЭто не означает отсутствия интереса к людям — скорее, ваша социальная энергия более избирательна. Вы вкладываетесь туда, где чувствуете смысл и искренность.\n\nИногда вы можете замечать, что такие вещи, как нетворкинг, самопрезентация или спонтанное общение, требуют дополнительных усилий и вызывают дискомфорт."
                 },
                 "strengths": {
                     "en": ["Deep thinking", "Independence", "Focused work", "Listening skills"],
@@ -155,8 +155,8 @@
                     "ru": ["Может истощаться в больших группах", "Нетворкинг может быть сложным"]
                 },
                 "advice": {
-                    "en": "Honor your need for solitude. Build meaningful connections in smaller, more intimate settings.",
-                    "ru": "Уважайте потребность в уединении. Стройте значимые связи в более интимных обстановках."
+                    "en": "Your ability to reflect and engage deeply is a significant strength. Rather than forcing yourself into highly stimulating environments, it may be more helpful to find formats of interaction that suit you — such as smaller groups or structured conversations. At the same time, gently expanding your comfort zone in social situations can help you access opportunities without overwhelming yourself.",
+                    "ru": "Ваша способность к глубокому размышлению и внимательному взаимодействию — сильная сторона. Вместо того чтобы заставлять себя находиться в перегружающих социальных условиях, полезно искать более подходящие форматы — например, небольшие группы или структурированное общение. При этом мягкое расширение зоны комфорта поможет получать новые возможности без перегрузки."
                 }
             },
             "medium": {
@@ -165,8 +165,8 @@
                     "ru": "Сбалансированный социальный стиль"
                 },
                 "description": {
-                    "en": "You enjoy both social interaction and solitude. You adapt your social style to the situation.",
-                    "ru": "Вы наслаждаетесь как социальным взаимодействием, так и уединением. Адаптируете социальный стиль к ситуации."
+                    "en": "You tend to feel comfortable both in social situations and in solitude. You are capable of engaging with others, participating in conversations, and enjoying social activity, while also recognizing your need for personal space and time to recharge.\n\nIn everyday life, this flexibility allows you to adapt your behavior depending on the situation. In some contexts, you may be more outgoing and engaged, while in others you may prefer to step back and observe.\n\nThis balance can be a strength, as it allows you to connect with a wide range of people without losing touch with your own needs. However, it can also sometimes create internal tension — for example, when you feel pulled between social expectations and your current energy level.",
+                    "ru": "Вы склонны чувствовать себя комфортно как в общении, так и в уединении. Вы способны активно взаимодействовать с другими людьми, участвовать в разговорах и получать удовольствие от социальной активности, при этом осознавая потребность в личном пространстве и восстановлении.\n\nВ повседневной жизни такая гибкость позволяет вам адаптироваться к ситуации: в одних условиях вы более открыты и вовлечены, в других — предпочитаете наблюдать и сохранять дистанцию.\n\nЭтот баланс является сильной стороной, так как даёт возможность взаимодействовать с разными людьми, не теряя контакта с собой. Однако иногда он может создавать внутреннее напряжение — например, когда внешние ожидания не совпадают с вашим уровнем энергии."
                 },
                 "strengths": {
                     "en": ["Social adaptability", "Balance of interaction and reflection"],
@@ -177,8 +177,8 @@
                     "ru": ["Иногда может чувствовать разрыв между направлениями"]
                 },
                 "advice": {
-                    "en": "Your flexibility is an asset. Listen to your energy levels to guide your social choices.",
-                    "ru": "Ваша гибкость — актив. Слушайте уровень энергии, чтобы направлять социальный выбор."
+                    "en": "Your flexibility is a valuable resource. To use it effectively, try to stay aware of your energy levels and give yourself permission to adjust your level of social engagement accordingly. This will help you avoid both overstimulation and unnecessary withdrawal.",
+                    "ru": "Ваша гибкость — ценный ресурс. Чтобы использовать её максимально эффективно, важно отслеживать уровень своей энергии и позволять себе регулировать степень вовлечённости в общение. Это поможет избежать как перегрузки, так и излишнего ухода в изоляцию."
                 }
             },
             "high": {
@@ -187,8 +187,8 @@
                     "ru": "Энергичный экстраверт"
                 },
                 "description": {
-                    "en": "You thrive on social interaction and external stimulation. You gain energy from being around others.",
-                    "ru": "Вы процветаете на социальном взаимодействии и внешней стимуляции. Получаете энергию от пребывания с другими."
+                    "en": "You tend to gain energy from interaction with the outside world — especially from engaging with people, activity, and dynamic environments. Social situations often feel stimulating and rewarding rather than draining.\n\nIn everyday life, this may show up as a natural tendency to initiate conversations, seek out social opportunities, and feel comfortable expressing yourself openly. You may enjoy being around others, working in teams, or being in environments where there is movement and обмен энергией.\n\nThis outward orientation often supports confidence, enthusiasm, and the ability to quickly build connections. At the same time, there can be moments where constant activity makes it harder to slow down, reflect, or spend time alone.\n\nIn some cases, you may also underestimate your need for rest, especially if you are used to staying active and engaged most of the time.",
+                    "ru": "Вы склонны получать энергию из взаимодействия с внешним миром — особенно через общение с людьми, активность и динамичную среду. Социальные ситуации чаще заряжают вас, чем утомляют.\n\nВ повседневной жизни это может проявляться как стремление инициировать общение, искать социальные возможности и открыто выражать себя. Вам может нравиться быть среди людей, работать в команде и находиться в среде, где есть движение и обмен энергией.\n\nТакая направленность вовне часто поддерживает уверенность, энтузиазм и способность быстро устанавливать контакты. Однако иногда постоянная активность может мешать замедлиться, побыть наедине с собой или глубже осмыслить происходящее.\n\nВ некоторых случаях вы можете недооценивать потребность в отдыхе, особенно если привыкли всё время быть вовлечённым и активным."
                 },
                 "strengths": {
                     "en": ["Social confidence", "Enthusiasm", "Networking ability", "Leadership"],
@@ -199,8 +199,8 @@
                     "ru": ["Может испытывать трудности с уединением", "Может упускать потребность в размышлении"]
                 },
                 "advice": {
-                    "en": "Your energy is contagious. Remember to balance social time with moments of reflection.",
-                    "ru": "Ваша энергия заразительна. Не забывайте балансировать социальное время с моментами размышления."
+                    "en": "Your energy and openness are powerful strengths. To maintain long-term balance, it is important to intentionally include moments of pause, reflection, and rest. This will not reduce your energy — it will help sustain it.",
+                    "ru": "Ваша энергия и открытость — сильные стороны. Чтобы сохранять баланс в долгосрочной перспективе, важно осознанно добавлять в жизнь паузы, время для размышлений и восстановления. Это не снизит вашу энергию, а поможет её поддерживать."
                 }
             }
         },
@@ -211,8 +211,8 @@
                     "ru": "Независимый мыслитель"
                 },
                 "description": {
-                    "en": "You prioritize honesty and directness. You're comfortable with disagreement and competition.",
-                    "ru": "Вы приоритизируете честность и прямоту. Вам комфортно с несогласием и конкуренцией."
+                    "en": "You tend to prioritize honesty, logic, and your own perspective over maintaining harmony at all costs. You are comfortable expressing disagreement and may naturally question ideas rather than immediately accepting them.\n\nIn everyday interactions, this can show up as direct communication, a preference for clear and unfiltered discussions, and a willingness to stand your ground. You may be less influenced by social pressure and more focused on what you believe is accurate or fair.\n\nThis style can be especially valuable in situations that require critical thinking, decision-making, or negotiation. You are less likely to agree just to avoid conflict.\n\nAt the same time, others may sometimes perceive your directness as harsh or uncooperative, even when your intention is simply to be honest. This can occasionally create tension in relationships, especially with people who are more sensitive to tone or emotional nuance.",
+                    "ru": "Вы склонны ставить честность, логику и собственную точку зрения выше стремления любой ценой сохранить гармонию. Вам комфортно выражать несогласие, и вы скорее будете задавать вопросы и анализировать, чем сразу соглашаться.\n\nВ повседневном общении это может проявляться как прямота, стремление к ясности и готовность отстаивать свою позицию. Вы меньше подвержены социальному давлению и больше ориентированы на то, что считаете правильным или справедливым.\n\nТакой стиль особенно ценен в ситуациях, где требуется критическое мышление, принятие решений или переговоры. Вы не склонны соглашаться просто ради избежания конфликта.\n\nВ то же время окружающие иногда могут воспринимать вашу прямоту как резкость или недостаток гибкости, даже если ваша цель — честность. Это может создавать напряжение в отношениях, особенно с более чувствительными людьми."
                 },
                 "strengths": {
                     "en": ["Honesty", "Independence", "Critical thinking", "Negotiation skills"],
@@ -220,11 +220,11 @@
                 },
                 "challenges": {
                     "en": ["May come across as less cooperative", "Could prioritize winning over harmony"],
-                    "ru": ["Может казаться менее кооперативным", "Может приоритизировать победу над гармонией"]
+                    "ru": ["Может казаться менее кооперативным", "Может ставить победу выше гармонии"]
                 },
                 "advice": {
-                    "en": "Your directness is valuable. Consider how to deliver feedback with empathy.",
-                    "ru": "Ваша прямота ценна. Рассмотрите, как давать обратную связь с эмпатией."
+                    "en": "Your directness and independence are valuable strengths. To make them even more effective, it may help to pay attention not only to what you say, but how you say it. Small adjustments in tone and empathy can significantly improve how your message is received without compromising your honesty.",
+                    "ru": "Ваша прямота и независимость — сильные стороны. Чтобы они работали ещё эффективнее, полезно обращать внимание не только на содержание, но и на форму подачи. Небольшие изменения в тоне и добавление эмпатии могут значительно улучшить восприятие ваших слов, не снижая их честности."
                 }
             },
             "medium": {
@@ -233,8 +233,8 @@
                     "ru": "Сбалансированный дипломат"
                 },
                 "description": {
-                    "en": "You balance cooperation with self-advocacy. You can be both agreeable and assertive as needed.",
-                    "ru": "Вы балансируете сотрудничество с самоотстаиванием. Можете быть как дружелюбным, так и уверенным по необходимости."
+                    "en": "You tend to balance cooperation with self-assertion. You are able to be supportive and understanding toward others, while also expressing your own needs and opinions when necessary.\n\nIn everyday life, this often means you can adapt your communication style depending on the situation. In some contexts, you may prioritize harmony and collaboration, while in others you are comfortable being more direct and assertive.\n\nThis flexibility allows you to navigate social situations effectively, build relationships, and handle conflicts without escalating them unnecessarily.\n\nAt times, however, you may experience internal tension — for example, when trying to decide whether to prioritize honesty or harmony. This can lead to hesitation or overthinking in interpersonal situations.",
+                    "ru": "Вы склонны балансировать между сотрудничеством и умением отстаивать себя. Вы способны проявлять понимание и поддержку по отношению к другим, при этом не теряя собственные границы и мнение.\n\nВ повседневной жизни это проявляется в умении адаптировать стиль общения под ситуацию: где-то вы выбираете мягкость и сотрудничество, а где-то — прямоту и уверенность.\n\nТакая гибкость помогает эффективно выстраивать отношения, избегать лишних конфликтов и находить компромиссы.\n\nИногда, однако, это может вызывать внутреннее напряжение — например, когда нужно выбрать между честностью и сохранением гармонии. В такие моменты может появляться колебание или избыточное обдумывание."
                 },
                 "strengths": {
                     "en": ["Diplomacy", "Balance of cooperation and assertiveness"],
@@ -245,8 +245,8 @@
                     "ru": ["Иногда может колебаться между гармонией и честностью"]
                 },
                 "advice": {
-                    "en": "Your balanced approach helps navigate complex social situations effectively.",
-                    "ru": "Ваш сбалансированный подход помогает эффективно ориентироваться в сложных социальных ситуациях."
+                    "en": "Your balanced approach is a strong interpersonal skill. To strengthen it further, it can be helpful to clarify your priorities in difficult situations — what matters more right now: the relationship, the outcome, or your personal boundaries. This can make decisions feel clearer and reduce internal conflict.",
+                    "ru": "Ваш сбалансированный подход — сильный навык в общении. Чтобы усилить его, полезно в сложных ситуациях осознанно определять приоритет: что сейчас важнее — отношения, результат или ваши границы. Это помогает принимать решения более уверенно и снижает внутренний конфликт."
                 }
             },
             "high": {
@@ -255,8 +255,8 @@
                     "ru": "Сострадательный помощник"
                 },
                 "description": {
-                    "en": "You value harmony and are highly considerate of others. You're naturally cooperative and helpful.",
-                    "ru": "Вы цените гармонию и очень внимательны к другим. Вы естественно кооперативны и готовы помочь."
+                    "en": "You tend to place a high value on harmony, understanding, and the well-being of others. You are naturally inclined toward empathy, cooperation, and offering support when someone needs it.\n\nIn everyday life, this often shows up as warmth, kindness, and a willingness to listen. People may feel comfortable around you and see you as someone they can trust and rely on. You may also be sensitive to emotional dynamics and умеете улавливать настроение других людей.\n\nThis orientation toward others can help you build strong, meaningful relationships. At the same time, it can sometimes lead to putting others’ needs ahead of your own, avoiding conflict even when it is necessary, or finding it difficult to say “no.”\n\nOver time, this may result in emotional fatigue or a sense of being undervalued if your own needs are not equally acknowledged.",
+                    "ru": "Вы склонны придавать большое значение гармонии, пониманию и благополучию других людей. Для вас естественны эмпатия, сотрудничество и готовность поддержать, когда это нужно.\n\nВ повседневной жизни это часто проявляется как доброжелательность, внимательность и умение слушать. Люди могут чувствовать себя рядом с вами комфортно и воспринимать вас как надёжного и поддерживающего человека. Вы также можете тонко улавливать эмоциональное состояние окружающих.\n\nТакая направленность на других помогает выстраивать глубокие и значимые отношения. Однако иногда это может приводить к тому, что вы ставите чужие потребности выше своих, избегаете необходимых конфликтов или испытываете трудности с отказом.\n\nСо временем это может вызывать эмоциональную усталость или ощущение, что ваши собственные потребности остаются без внимания."
                 },
                 "strengths": {
                     "en": ["Empathy", "Cooperation", "Trust", "Helping others"],
@@ -267,11 +267,12 @@
                     "ru": ["Может избегать необходимого конфликта", "Может пренебрегать собственными потребностями"]
                 },
                 "advice": {
-                    "en": "Your kindness is a gift. Remember that self-care enables you to better help others.",
-                    "ru": "Ваша доброта — дар. Помните, что забота о себе позволяет лучше помогать другим."
+                    "en": "Your empathy and care for others are powerful qualities. To sustain them, it is important to include yourself in that same circle of care. Practicing boundaries — such as saying “no” when needed — does not reduce your kindness; it helps protect it.",
+                    "ru": "Ваша эмпатия и забота о других — сильные качества. Чтобы они оставались ресурсом, важно включать в этот круг заботы и себя. Умение выстраивать границы, например говорить «нет» при необходимости, не уменьшает вашу доброту — оно помогает её сохранить."
                 }
             }
         },
+        
         "neuroticism": {
             "low": {
                 "title": {
