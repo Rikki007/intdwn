@@ -2,7 +2,9 @@
   "name": "INTDWN",
   "short_name": "INTDWN",
   "description": "Offline Psychological Analytics Platform",
-  "start_url": "/",
+  "start_url": "/intdwn/",
+  "scope": "/intdwn/",
+  "id": "/intdwn/",
   "display": "standalone",
   "background_color": "#0a0a1a",
   "theme_color": "#0a0a1a",
@@ -22,7 +24,6 @@
     }
   ],
   "categories": ["health", "lifestyle"],
-  "lang": "en",
-  "scope": "/",
+  "lang": "ru",
   "prefer_related_applications": false
 }
