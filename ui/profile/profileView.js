@@ -45,8 +45,6 @@ export async function render() {
                 </div>
                 <h2 class="profile-name">${user?.name || 'User'}</h2>
 
-                <p class="profile-subtitle">${i18n.t('profile.subtitle')}</p>
-
                 <div class="profile-completeness">
                     <span>${i18n.t('profile.profileComplete')} ${completeness}%</span>
                     <div class="progress-bar" style="height: 4px;">

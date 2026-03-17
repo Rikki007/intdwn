@@ -408,6 +408,210 @@
                 }
             }
         },
+        "worry": {
+            "low": {
+                "title": {
+                    "en": "Carefree Thinker",
+                    "ru": "Беззаботный мыслитель"
+                },
+                "description": {
+                    "en": "You rarely dwell on potential problems. You tend to stay relaxed and not overthink possible негативные исходы.",
+                    "ru": "Вы редко зацикливаетесь на возможных проблемах. Склонны сохранять спокойствие и не переосмысливать негативные исходы."
+                },
+                "strengths": {
+                    "en": ["Calm mindset", "Optimism", "Low overthinking"],
+                    "ru": ["Спокойное мышление", "Оптимизм", "Отсутствие чрезмерного анализа"]
+                },
+                "challenges": {
+                    "en": ["May overlook risks", "Could be underprepared"],
+                    "ru": ["Может игнорировать риски", "Может быть недостаточно подготовлен"]
+                },
+                "advice": {
+                    "en": "Your calm thinking is a strength. Try to occasionally evaluate risks to stay prepared.",
+                    "ru": "Ваше спокойное мышление — сильная сторона. Иногда оценивайте риски, чтобы быть готовым."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Worrier",
+                    "ru": "Сбалансированное беспокойство"
+                },
+                "description": {
+                    "en": "You sometimes worry about potential outcomes, but it usually helps you stay prepared rather than overwhelmed.",
+                    "ru": "Вы иногда беспокоитесь о возможных исходах, но это скорее помогает вам подготовиться, чем перегружает."
+                },
+                "strengths": {
+                    "en": ["Preparedness", "Realistic thinking", "Awareness"],
+                    "ru": ["Подготовленность", "Реалистичное мышление", "Осознанность"]
+                },
+                "challenges": {
+                    "en": ["May overthink in stressful situations"],
+                    "ru": ["Может переосмысливать в стрессовых ситуациях"]
+                },
+                "advice": {
+                    "en": "Use your awareness to plan ahead, but avoid getting stuck in repetitive thoughts.",
+                    "ru": "Используйте осознанность для планирования, но избегайте зацикливания на мыслях."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Chronic Worrier",
+                    "ru": "Склонный к постоянному беспокойству"
+                },
+                "description": {
+                    "en": "You frequently think about potential problems and negative outcomes, which can increase stress levels.",
+                    "ru": "Вы часто думаете о возможных проблемах и негативных исходах, что может повышать уровень стресса."
+                },
+                "strengths": {
+                    "en": ["Risk awareness", "Attention to detail", "Preparedness"],
+                    "ru": ["Осознание рисков", "Внимание к деталям", "Подготовленность"]
+                },
+                "challenges": {
+                    "en": ["Excessive worrying", "Mental fatigue", "Difficulty relaxing"],
+                    "ru": ["Чрезмерное беспокойство", "Ментальная усталость", "Трудности с расслаблением"]
+                },
+                "advice": {
+                    "en": "Practice techniques to manage overthinking, such as mindfulness or structured problem-solving.",
+                    "ru": "Практикуйте техники управления мыслями, такие как осознанность или структурированное решение проблем."
+                }
+            }
+        },
+        "tension": {
+            "low": {
+                "title": {
+                    "en": "Relaxed and Loose",
+                    "ru": "Расслабленный и спокойный"
+                },
+                "description": {
+                    "en": "You rarely feel physical or emotional tension. You stay at ease even in challenging situations.",
+                    "ru": "Вы редко испытываете физическое или эмоциональное напряжение. Сохраняете спокойствие даже в сложных ситуациях."
+                },
+                "strengths": {
+                    "en": ["Relaxation", "Calmness", "Emotional ease"],
+                    "ru": ["Расслабленность", "Спокойствие", "Эмоциональная легкость"]
+                },
+                "challenges": {
+                    "en": ["May lack urgency", "Could appear disengaged"],
+                    "ru": ["Может не хватать срочности", "Может казаться вовлечённым меньше"]
+                },
+                "advice": {
+                    "en": "Your relaxed nature is beneficial. Ensure you stay engaged when focus is required.",
+                    "ru": "Ваша расслабленность полезна. Следите за вовлечённостью, когда это необходимо."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderately Tense",
+                    "ru": "Умеренное напряжение"
+                },
+                "description": {
+                    "en": "You experience some tension in demanding situations, but generally manage it well.",
+                    "ru": "Вы испытываете некоторое напряжение в требовательных ситуациях, но в целом хорошо справляетесь."
+                },
+                "strengths": {
+                    "en": ["Alertness", "Responsiveness", "Energy"],
+                    "ru": ["Бдительность", "Реактивность", "Энергия"]
+                },
+                "challenges": {
+                    "en": ["Occasional stress buildup"],
+                    "ru": ["Периодическое накопление стресса"]
+                },
+                "advice": {
+                    "en": "Maintain balance by combining activity with regular relaxation.",
+                    "ru": "Поддерживайте баланс, сочетая активность с регулярным расслаблением."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Highly Tense",
+                    "ru": "Сильно напряжённый"
+                },
+                "description": {
+                    "en": "You often feel tense or on edge. This can manifest both physically and emotionally.",
+                    "ru": "Вы часто чувствуете напряжение или внутреннее напряжение. Это может проявляться физически и эмоционально."
+                },
+                "strengths": {
+                    "en": ["High alertness", "Drive", "Responsibility"],
+                    "ru": ["Высокая бдительность", "Мотивация", "Ответственность"]
+                },
+                "challenges": {
+                    "en": ["Chronic tension", "Difficulty relaxing", "Fatigue"],
+                    "ru": ["Хроническое напряжение", "Трудности с расслаблением", "Усталость"]
+                },
+                "advice": {
+                    "en": "Incorporate relaxation techniques like breathing exercises or physical activity into your routine.",
+                    "ru": "Добавьте техники расслабления, такие как дыхательные упражнения или физическую активность."
+                }
+            }
+        },
+        "physiological_symptoms": {
+            "low": {
+                "title": {
+                    "en": "Physically Calm",
+                    "ru": "Физически спокойный"
+                },
+                "description": {
+                    "en": "You rarely experience physical symptoms related to stress or anxiety.",
+                    "ru": "Вы редко испытываете физические симптомы, связанные со стрессом или тревогой."
+                },
+                "strengths": {
+                    "en": ["Stable body responses", "Calm physiology"],
+                    "ru": ["Стабильные реакции тела", "Физическое спокойствие"]
+                },
+                "challenges": {
+                    "en": ["May overlook subtle stress signals"],
+                    "ru": ["Может игнорировать слабые сигналы стресса"]
+                },
+                "advice": {
+                    "en": "Stay mindful of your body and maintain healthy habits.",
+                    "ru": "Оставайтесь внимательны к телу и поддерживайте здоровые привычки."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Physical Response",
+                    "ru": "Умеренные физические реакции"
+                },
+                "description": {
+                    "en": "You occasionally experience physical signs of stress, such as tension or fatigue.",
+                    "ru": "Вы иногда испытываете физические признаки стресса, такие как напряжение или усталость."
+                },
+                "strengths": {
+                    "en": ["Body awareness", "Responsive system"],
+                    "ru": ["Осознание тела", "Чувствительная система"]
+                },
+                "challenges": {
+                    "en": ["Periodic discomfort"],
+                    "ru": ["Периодический дискомфорт"]
+                },
+                "advice": {
+                    "en": "Listen to your body and take breaks when needed.",
+                    "ru": "Слушайте своё тело и делайте перерывы при необходимости."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Strong Physical Symptoms",
+                    "ru": "Выраженные физические симптомы"
+                },
+                "description": {
+                    "en": "You frequently experience physical symptoms of stress, such as headaches, muscle tension, or rapid heartbeat.",
+                    "ru": "Вы часто испытываете физические симптомы стресса, такие как головные боли, мышечное напряжение или учащённое сердцебиение."
+                },
+                "strengths": {
+                    "en": ["High sensitivity", "Early stress detection"],
+                    "ru": ["Высокая чувствительность", "Раннее обнаружение стресса"]
+                },
+                "challenges": {
+                    "en": ["Physical discomfort", "Chronic stress symptoms"],
+                    "ru": ["Физический дискомфорт", "Хронические симптомы стресса"]
+                },
+                "advice": {
+                    "en": "Consider stress-reduction strategies and consult a professional if symptoms persist.",
+                    "ru": "Рассмотрите методы снижения стресса и при необходимости обратитесь к специалисту."
+                }
+            }
+        },
         "stress_tolerance": {
             "low": {
                 "title": {
@@ -495,14 +699,830 @@
                     "ru": "Ваша резильентность исключительна. Делитесь стратегиями с другими, кто может извлечь пользу."
                 }
             }
-        }
+        },
+        "coping_strategies": {
+            "low": {
+                "title": {
+                    "en": "Limited Coping Skills",
+                    "ru": "Ограниченные стратегии совладания"
+                },
+                "description": {
+                    "en": "You may struggle to effectively manage stress. In difficult situations, you might feel overwhelmed and unsure how to respond.",
+                    "ru": "Вы можете испытывать трудности с управлением стрессом. В сложных ситуациях вы можете чувствовать перегруженность и неуверенность в том, как действовать."
+                },
+                "strengths": {
+                    "en": ["Emotional honesty", "Sensitivity"],
+                    "ru": ["Эмоциональная честность", "Чувствительность"]
+                },
+                "challenges": {
+                    "en": ["Lack of coping tools", "Easily overwhelmed", "Avoidance"],
+                    "ru": ["Недостаток стратегий совладания", "Легкая перегруженность", "Избегание"]
+                },
+                "advice": {
+                    "en": "Start building simple coping strategies such as breathing techniques, journaling, or talking to others.",
+                    "ru": "Начните развивать простые стратегии совладания, такие как дыхательные техники, ведение дневника или разговор с другими."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Developing Coping Skills",
+                    "ru": "Развивающиеся стратегии совладания"
+                },
+                "description": {
+                    "en": "You have some effective ways of dealing with stress, though they may not always work in more intense situations.",
+                    "ru": "У вас есть некоторые эффективные способы справляться со стрессом, хотя они не всегда работают в более интенсивных ситуациях."
+                },
+                "strengths": {
+                    "en": ["Adaptability", "Basic coping tools", "Learning ability"],
+                    "ru": ["Адаптивность", "Базовые стратегии", "Способность к обучению"]
+                },
+                "challenges": {
+                    "en": ["Inconsistent coping", "May revert to less effective habits"],
+                    "ru": ["Непоследовательность стратегий", "Может возвращаться к менее эффективным привычкам"]
+                },
+                "advice": {
+                    "en": "Expand your coping toolkit and identify which strategies work best in different situations.",
+                    "ru": "Расширяйте набор стратегий и определяйте, какие из них лучше работают в разных ситуациях."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Effective Coping Mastery",
+                    "ru": "Эффективные стратегии совладания"
+                },
+                "description": {
+                    "en": "You have a strong set of coping strategies and can manage stress effectively across different situations.",
+                    "ru": "У вас есть сильный набор стратегий совладания, и вы эффективно управляете стрессом в разных ситуациях."
+                },
+                "strengths": {
+                    "en": ["Emotional regulation", "Problem-solving", "Resilience"],
+                    "ru": ["Эмоциональная регуляция", "Решение проблем", "Резильентность"]
+                },
+                "challenges": {
+                    "en": ["May rely heavily on self-sufficiency"],
+                    "ru": ["Может чрезмерно полагаться только на себя"]
+                },
+                "advice": {
+                    "en": "Continue refining your strategies and share your experience with others who may benefit.",
+                    "ru": "Продолжайте развивать свои стратегии и делитесь опытом с другими."
+                }
+            }
+        },
+        "recovery": {
+            "low": {
+                "title": {
+                    "en": "Slow Recovery",
+                    "ru": "Медленное восстановление"
+                },
+                "description": {
+                    "en": "It may take you longer to recover after stress or difficult experiences. Emotional or physical fatigue can linger.",
+                    "ru": "Вам может требоваться больше времени для восстановления после стресса или сложных ситуаций. Усталость может сохраняться дольше."
+                },
+                "strengths": {
+                    "en": ["Depth of processing", "Emotional awareness"],
+                    "ru": ["Глубина переживания", "Эмоциональная осознанность"]
+                },
+                "challenges": {
+                    "en": ["Prolonged fatigue", "Difficulty bouncing back"],
+                    "ru": ["Длительная усталость", "Трудности с восстановлением"]
+                },
+                "advice": {
+                    "en": "Prioritize rest and recovery routines. Small регулярные паузы могут значительно улучшить ваше состояние.",
+                    "ru": "Ставьте в приоритет отдых и восстановление. Небольшие регулярные паузы могут значительно улучшить состояние."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Recovery",
+                    "ru": "Умеренное восстановление"
+                },
+                "description": {
+                    "en": "You recover from stress at an average pace. Given time and rest, you return to baseline functioning.",
+                    "ru": "Вы восстанавливаетесь после стресса в среднем темпе. Со временем и отдыхом возвращаетесь к норме."
+                },
+                "strengths": {
+                    "en": ["Balanced recovery", "Stability"],
+                    "ru": ["Сбалансированное восстановление", "Стабильность"]
+                },
+                "challenges": {
+                    "en": ["May underestimate need for recovery"],
+                    "ru": ["Может недооценивать необходимость восстановления"]
+                },
+                "advice": {
+                    "en": "Maintain consistent recovery habits, even when you feel fine.",
+                    "ru": "Поддерживайте регулярные привычки восстановления, даже когда чувствуете себя нормально."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Fast Recovery",
+                    "ru": "Быстрое восстановление"
+                },
+                "description": {
+                    "en": "You recover quickly from stress and setbacks. You regain energy and emotional balance efficiently.",
+                    "ru": "Вы быстро восстанавливаетесь после стресса и неудач. Энергия и эмоциональный баланс возвращаются быстро."
+                },
+                "strengths": {
+                    "en": ["Rapid восстановления", "Resilience", "Energy renewal"],
+                    "ru": ["Быстрое восстановление", "Резильентность", "Восстановление энергии"]
+                },
+                "challenges": {
+                    "en": ["May overlook deeper issues"],
+                    "ru": ["Может игнорировать более глубокие проблемы"]
+                },
+                "advice": {
+                    "en": "Use your fast recovery as a strength, but take time to reflect on deeper experiences when needed.",
+                    "ru": "Используйте быстрое восстановление как силу, но находите время для осмысления глубоких переживаний."
+                }
+            }
+        },
+        "self_awareness": {
+            "low": {
+                "title": {
+                    "en": "Limited Self-Awareness",
+                    "ru": "Низкая самоосознанность"
+                },
+                "description": {
+                    "en": "You may find it difficult to recognize and understand your own emotions and internal states.",
+                    "ru": "Вам может быть сложно распознавать и понимать свои эмоции и внутренние состояния."
+                },
+                "strengths": {
+                    "en": ["Spontaneity", "Less self-criticism"],
+                    "ru": ["Спонтанность", "Меньше самокритики"]
+                },
+                "challenges": {
+                    "en": ["Difficulty identifying emotions", "Limited insight into behavior"],
+                    "ru": ["Трудности в распознавании эмоций", "Ограниченное понимание своего поведения"]
+                },
+                "advice": {
+                    "en": "Practice reflecting on your emotions. Journaling or mindfulness can help build awareness.",
+                    "ru": "Практикуйте осмысление своих эмоций. Дневник или осознанность помогут развить самоосознанность."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Developing Self-Awareness",
+                    "ru": "Развивающаяся самоосознанность"
+                },
+                "description": {
+                    "en": "You have a general understanding of your emotions, though some reactions may still surprise you.",
+                    "ru": "Вы в целом понимаете свои эмоции, хотя некоторые реакции всё ещё могут вас удивлять."
+                },
+                "strengths": {
+                    "en": ["Emotional insight", "Growing awareness"],
+                    "ru": ["Понимание эмоций", "Развивающаяся осознанность"]
+                },
+                "challenges": {
+                    "en": ["Inconsistent self-reflection"],
+                    "ru": ["Непоследовательная рефлексия"]
+                },
+                "advice": {
+                    "en": "Continue exploring your emotional patterns to deepen your self-understanding.",
+                    "ru": "Продолжайте исследовать свои эмоциональные паттерны, чтобы углубить понимание себя."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Highly Self-Aware",
+                    "ru": "Высокая самоосознанность"
+                },
+                "description": {
+                    "en": "You have a strong understanding of your emotions, triggers, and internal processes.",
+                    "ru": "Вы хорошо понимаете свои эмоции, триггеры и внутренние процессы."
+                },
+                "strengths": {
+                    "en": ["Deep insight", "Emotional clarity", "Self-reflection"],
+                    "ru": ["Глубокое понимание", "Эмоциональная ясность", "Рефлексия"]
+                },
+                "challenges": {
+                    "en": ["May overanalyze emotions"],
+                    "ru": ["Может чрезмерно анализировать эмоции"]
+                },
+                "advice": {
+                    "en": "Use your awareness to guide decisions, but avoid getting stuck in overanalysis.",
+                    "ru": "Используйте осознанность для принятия решений, но избегайте чрезмерного анализа."
+                }
+            }
+        },
+        "self_regulation": {
+            "low": {
+                "title": {
+                    "en": "Impulsive Reactor",
+                    "ru": "Импульсивная реактивность"
+                },
+                "description": {
+                    "en": "You may find it difficult to manage your emotional reactions, especially in stressful situations.",
+                    "ru": "Вам может быть сложно управлять своими эмоциональными реакциями, особенно в стрессовых ситуациях."
+                },
+                "strengths": {
+                    "en": ["Emotional expressiveness", "Authenticity"],
+                    "ru": ["Эмоциональная выразительность", "Искренность"]
+                },
+                "challenges": {
+                    "en": ["Impulsivity", "Difficulty controlling reactions"],
+                    "ru": ["Импульсивность", "Сложности с контролем реакций"]
+                },
+                "advice": {
+                    "en": "Practice pausing before reacting. Techniques like breathing can help regulate responses.",
+                    "ru": "Практикуйте паузу перед реакцией. Дыхательные техники помогут управлять эмоциями."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Moderate Self-Control",
+                    "ru": "Умеренный самоконтроль"
+                },
+                "description": {
+                    "en": "You can manage your emotions in many situations, though strong stress may challenge your control.",
+                    "ru": "Вы можете управлять эмоциями во многих ситуациях, но сильный стресс может снижать контроль."
+                },
+                "strengths": {
+                    "en": ["Emotional balance", "Situational control"],
+                    "ru": ["Эмоциональный баланс", "Контроль в большинстве ситуаций"]
+                },
+                "challenges": {
+                    "en": ["Occasional emotional реактивность"],
+                    "ru": ["Периодическая эмоциональная реактивность"]
+                },
+                "advice": {
+                    "en": "Strengthen your regulation skills by identifying triggers and preparing responses.",
+                    "ru": "Укрепляйте навыки регуляции, выявляя триггеры и заранее продумывая реакции."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Strong Self-Regulation",
+                    "ru": "Сильная саморегуляция"
+                },
+                "description": {
+                    "en": "You effectively manage your emotions and maintain control even in challenging situations.",
+                    "ru": "Вы эффективно управляете своими эмоциями и сохраняете контроль даже в сложных ситуациях."
+                },
+                "strengths": {
+                    "en": ["Emotional control", "Composure", "Stability"],
+                    "ru": ["Контроль эмоций", "Самообладание", "Стабильность"]
+                },
+                "challenges": {
+                    "en": ["May suppress emotions"],
+                    "ru": ["Может подавлять эмоции"]
+                },
+                "advice": {
+                    "en": "Balance control with healthy emotional expression.",
+                    "ru": "Сочетайте контроль с здоровым выражением эмоций."
+                }
+            }
+        },
+        "motivation": {
+            "low": {
+                "title": {
+                    "en": "Low Drive",
+                    "ru": "Низкая мотивация"
+                },
+                "description": {
+                    "en": "You may struggle to maintain motivation and pursue long-term goals consistently.",
+                    "ru": "Вам может быть сложно поддерживать мотивацию и последовательно двигаться к целям."
+                },
+                "strengths": {
+                    "en": ["Laid-back attitude", "Low pressure"],
+                    "ru": ["Расслабленность", "Отсутствие избыточного давления"]
+                },
+                "challenges": {
+                    "en": ["Lack of persistence", "Low goal orientation"],
+                    "ru": ["Недостаток настойчивости", "Слабая ориентированность на цели"]
+                },
+                "advice": {
+                    "en": "Set small, achievable goals to gradually build momentum.",
+                    "ru": "Ставьте небольшие достижимые цели, чтобы постепенно наращивать импульс."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Motivation",
+                    "ru": "Сбалансированная мотивация"
+                },
+                "description": {
+                    "en": "You are motivated in areas that matter to you, though consistency may vary.",
+                    "ru": "Вы мотивированы в важных для вас областях, хотя стабильность может варьироваться."
+                },
+                "strengths": {
+                    "en": ["Goal focus", "Flexibility"],
+                    "ru": ["Ориентация на цели", "Гибкость"]
+                },
+                "challenges": {
+                    "en": ["Fluctuating motivation"],
+                    "ru": ["Колебания мотивации"]
+                },
+                "advice": {
+                    "en": "Clarify your priorities to maintain consistent motivation.",
+                    "ru": "Определите приоритеты, чтобы поддерживать стабильную мотивацию."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Highly Driven",
+                    "ru": "Высокая внутренняя мотивация"
+                },
+                "description": {
+                    "en": "You are strongly motivated and persistently pursue your goals.",
+                    "ru": "Вы обладаете сильной мотивацией и настойчиво движетесь к целям."
+                },
+                "strengths": {
+                    "en": ["Persistence", "Ambition", "Focus"],
+                    "ru": ["Настойчивость", "Амбициозность", "Фокус"]
+                },
+                "challenges": {
+                    "en": ["Risk of burnout"],
+                    "ru": ["Риск выгорания"]
+                },
+                "advice": {
+                    "en": "Balance ambition with rest to sustain long-term performance.",
+                    "ru": "Сочетайте амбиции с отдыхом для устойчивой эффективности."
+                }
+            }
+        },
+        "empathy": {
+            "low": {
+                "title": {
+                    "en": "Detached Perspective",
+                    "ru": "Отстранённая позиция"
+                },
+                "description": {
+                    "en": "You may find it challenging to fully understand or share the emotions of others.",
+                    "ru": "Вам может быть сложно глубоко понимать или разделять эмоции других людей."
+                },
+                "strengths": {
+                    "en": ["Objectivity", "Rational thinking"],
+                    "ru": ["Объективность", "Рациональность"]
+                },
+                "challenges": {
+                    "en": ["Difficulty connecting emotionally"],
+                    "ru": ["Трудности в эмоциональной связи"]
+                },
+                "advice": {
+                    "en": "Practice active listening and try to see situations from others’ perspectives.",
+                    "ru": "Практикуйте активное слушание и старайтесь смотреть на ситуации с точки зрения других."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Empathy",
+                    "ru": "Сбалансированная эмпатия"
+                },
+                "description": {
+                    "en": "You can understand others’ emotions while maintaining your own boundaries.",
+                    "ru": "Вы способны понимать эмоции других, сохраняя собственные границы."
+                },
+                "strengths": {
+                    "en": ["Understanding", "Emotional balance"],
+                    "ru": ["Понимание", "Эмоциональный баланс"]
+                },
+                "challenges": {
+                    "en": ["May occasionally misread emotions"],
+                    "ru": ["Иногда может неверно интерпретировать эмоции"]
+                },
+                "advice": {
+                    "en": "Continue refining your ability to read emotional cues.",
+                    "ru": "Продолжайте развивать способность распознавать эмоциональные сигналы."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Highly Empathetic",
+                    "ru": "Высокая эмпатия"
+                },
+                "description": {
+                    "en": "You deeply understand and resonate with the emotions of others.",
+                    "ru": "Вы глубоко понимаете и чувствуете эмоции других людей."
+                },
+                "strengths": {
+                    "en": ["Compassion", "Connection", "Supportiveness"],
+                    "ru": ["Сострадание", "Связь с людьми", "Поддержка"]
+                },
+                "challenges": {
+                    "en": ["Emotional overload"],
+                    "ru": ["Эмоциональная перегруженность"]
+                },
+                "advice": {
+                    "en": "Maintain boundaries to protect your own emotional well-being.",
+                    "ru": "Сохраняйте границы, чтобы защитить своё эмоциональное состояние."
+                }
+            }
+        },
+        "social_skills": {
+            "low": {
+                "title": {
+                    "en": "Limited Social Skills",
+                    "ru": "Ограниченные социальные навыки"
+                },
+                "description": {
+                    "en": "You may find social interactions challenging and feel less confident in communication.",
+                    "ru": "Социальные взаимодействия могут даваться вам сложно, и вы можете чувствовать неуверенность в общении."
+                },
+                "strengths": {
+                    "en": ["Independence", "Self-reliance"],
+                    "ru": ["Независимость", "Самостоятельность"]
+                },
+                "challenges": {
+                    "en": ["Communication difficulties", "Social anxiety"],
+                    "ru": ["Трудности в коммуникации", "Социальная тревожность"]
+                },
+                "advice": {
+                    "en": "Practice social interactions gradually and focus on building confidence.",
+                    "ru": "Постепенно практикуйте социальные взаимодействия и развивайте уверенность."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Competent Communicator",
+                    "ru": "Уверенный коммуникатор"
+                },
+                "description": {
+                    "en": "You handle most social situations well and communicate effectively in familiar contexts.",
+                    "ru": "Вы хорошо справляетесь с большинством социальных ситуаций и эффективно общаетесь в знакомых условиях."
+                },
+                "strengths": {
+                    "en": ["Communication", "Adaptability"],
+                    "ru": ["Коммуникация", "Адаптивность"]
+                },
+                "challenges": {
+                    "en": ["May struggle in unfamiliar settings"],
+                    "ru": ["Может испытывать трудности в новых ситуациях"]
+                },
+                "advice": {
+                    "en": "Expand your comfort zone by engaging in new social environments.",
+                    "ru": "Расширяйте зону комфорта, вовлекаясь в новые социальные ситуации."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Socially Skilled",
+                    "ru": "Развитые социальные навыки"
+                },
+                "description": {
+                    "en": "You communicate effectively, build relationships easily, and navigate social situations with confidence.",
+                    "ru": "Вы эффективно общаетесь, легко выстраиваете отношения и уверенно ведёте себя в социальных ситуациях."
+                },
+                "strengths": {
+                    "en": ["Charisma", "Communication", "Relationship building"],
+                    "ru": ["Харизма", "Коммуникация", "Построение отношений"]
+                },
+                "challenges": {
+                    "en": ["May overextend socially"],
+                    "ru": ["Может перегружать себя социальными контактами"]
+                },
+                "advice": {
+                    "en": "Use your social strengths wisely while maintaining personal boundaries.",
+                    "ru": "Используйте свои социальные навыки разумно, сохраняя личные границы."
+                }
+            }
+        },
+        "internal_locus": {
+            "low": {
+                "title": {
+                    "en": "Low Internal Control",
+                    "ru": "Низкий внутренний локус контроля"
+                },
+                "description": {
+                    "en": "You may feel that your life outcomes are not strongly influenced by your own actions.",
+                    "ru": "Вы можете ощущать, что результаты вашей жизни слабо зависят от ваших собственных действий."
+                },
+                "strengths": {
+                    "en": ["Acceptance", "Flexibility"],
+                    "ru": ["Принятие", "Гибкость"]
+                },
+                "challenges": {
+                    "en": ["Low sense of agency", "Passive approach"],
+                    "ru": ["Слабое чувство контроля", "Пассивная позиция"]
+                },
+                "advice": {
+                    "en": "Focus on small actions within your control to gradually build a stronger sense of agency.",
+                    "ru": "Сосредоточьтесь на небольших действиях, которые вы можете контролировать, чтобы развить чувство влияния."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced Internal Control",
+                    "ru": "Сбалансированный внутренний локус контроля"
+                },
+                "description": {
+                    "en": "You recognize your influence over outcomes while understanding that not everything depends on you.",
+                    "ru": "Вы осознаёте своё влияние на события, понимая, что не всё зависит от вас."
+                },
+                "strengths": {
+                    "en": ["Realistic control", "Responsibility"],
+                    "ru": ["Реалистичное восприятие контроля", "Ответственность"]
+                },
+                "challenges": {
+                    "en": ["May occasionally doubt your influence"],
+                    "ru": ["Иногда может сомневаться в своём влиянии"]
+                },
+                "advice": {
+                    "en": "Continue taking responsibility where it matters while accepting external factors.",
+                    "ru": "Продолжайте брать ответственность там, где это важно, принимая внешние обстоятельства."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Strong Internal Control",
+                    "ru": "Сильный внутренний локус контроля"
+                },
+                "description": {
+                    "en": "You strongly believe that your actions shape your life outcomes and take responsibility for them.",
+                    "ru": "Вы уверены, что ваши действия определяют результаты жизни, и берёте за них ответственность."
+                },
+                "strengths": {
+                    "en": ["Responsibility", "Proactivity", "Self-efficacy"],
+                    "ru": ["Ответственность", "Проактивность", "Уверенность в себе"]
+                },
+                "challenges": {
+                    "en": ["May over-blame yourself", "Difficulty accepting uncontrollable events"],
+                    "ru": ["Может чрезмерно винить себя", "Сложности с принятием неконтролируемого"]
+                },
+                "advice": {
+                    "en": "Balance responsibility with acceptance. Not everything is within your control.",
+                    "ru": "Сочетайте ответственность с принятием. Не всё находится под вашим контролем."
+                }
+            }
+        },
+        "external_locus": {
+            "low": {
+                "title": {
+                    "en": "Low External Influence",
+                    "ru": "Низкое влияние внешних факторов"
+                },
+                "description": {
+                    "en": "You rarely attribute outcomes to luck, fate, or external circumstances.",
+                    "ru": "Вы редко связываете результаты с удачей, судьбой или внешними обстоятельствами."
+                },
+                "strengths": {
+                    "en": ["Independence", "Self-reliance"],
+                    "ru": ["Независимость", "Самостоятельность"]
+                },
+                "challenges": {
+                    "en": ["May ignore real external constraints"],
+                    "ru": ["Может игнорировать реальные внешние ограничения"]
+                },
+                "advice": {
+                    "en": "Stay aware of external factors that may influence outcomes beyond your control.",
+                    "ru": "Учитывайте внешние факторы, которые могут влиять на результаты вне вашего контроля."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Balanced External Awareness",
+                    "ru": "Сбалансированное восприятие внешних факторов"
+                },
+                "description": {
+                    "en": "You recognize that external factors play a role, while still maintaining personal responsibility.",
+                    "ru": "Вы понимаете роль внешних факторов, сохраняя личную ответственность."
+                },
+                "strengths": {
+                    "en": ["Realism", "Context awareness"],
+                    "ru": ["Реализм", "Понимание контекста"]
+                },
+                "challenges": {
+                    "en": ["May occasionally shift responsibility outward"],
+                    "ru": ["Иногда может перекладывать ответственность вовне"]
+                },
+                "advice": {
+                    "en": "Maintain balance between acknowledging external factors and your own influence.",
+                    "ru": "Сохраняйте баланс между внешними факторами и личным влиянием."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Strong External Orientation",
+                    "ru": "Выраженный внешний локус контроля"
+                },
+                "description": {
+                    "en": "You often believe that outcomes are determined by luck, fate, or external circumstances.",
+                    "ru": "Вы часто считаете, что результаты определяются удачей, судьбой или внешними обстоятельствами."
+                },
+                "strengths": {
+                    "en": ["Acceptance", "Adaptability"],
+                    "ru": ["Принятие", "Адаптивность"]
+                },
+                "challenges": {
+                    "en": ["Reduced sense of control", "Passivity"],
+                    "ru": ["Сниженное чувство контроля", "Пассивность"]
+                },
+                "advice": {
+                    "en": "Focus on identifying areas where your actions can still make a difference.",
+                    "ru": "Сосредоточьтесь на областях, где ваши действия всё же могут повлиять на результат."
+                }
+            }
+        },
+        "procrastination_tendency": {
+            "low": {
+                "title": {
+                    "en": "Action-Oriented",
+                    "ru": "Ориентирован на действия"
+                },
+                "description": {
+                    "en": "You tend to start and complete tasks without unnecessary delay. You prefer taking action over postponing.",
+                    "ru": "Вы склонны начинать и завершать задачи без лишних задержек. Предпочитаете действовать, а не откладывать."
+                },
+                "strengths": {
+                    "en": ["Productivity", "Initiative", "Efficiency"],
+                    "ru": ["Продуктивность", "Инициативность", "Эффективность"]
+                },
+                "challenges": {
+                    "en": ["May rush decisions", "Risk of overworking"],
+                    "ru": ["Может спешить с решениями", "Риск перегрузки"]
+                },
+                "advice": {
+                    "en": "Maintain your momentum, but ensure you allow time for reflection when needed.",
+                    "ru": "Сохраняйте темп, но оставляйте время на обдумывание, когда это необходимо."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Occasional Procrastinator",
+                    "ru": "Иногда прокрастинирует"
+                },
+                "description": {
+                    "en": "You sometimes delay tasks, especially when they are complex or uninteresting, but usually get them done.",
+                    "ru": "Вы иногда откладываете задачи, особенно если они сложные или неинтересные, но в итоге выполняете их."
+                },
+                "strengths": {
+                    "en": ["Flexibility", "Selective focus"],
+                    "ru": ["Гибкость", "Избирательный фокус"]
+                },
+                "challenges": {
+                    "en": ["Inconsistent productivity"],
+                    "ru": ["Нестабильная продуктивность"]
+                },
+                "advice": {
+                    "en": "Identify what triggers delays and create simple structures to stay consistent.",
+                    "ru": "Определите, что вызывает откладывание, и создайте простые структуры для стабильности."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Chronic Procrastinator",
+                    "ru": "Хроническая прокрастинация"
+                },
+                "description": {
+                    "en": "You frequently delay tasks, even when they are important, which may lead to stress or missed opportunities.",
+                    "ru": "Вы часто откладываете задачи, даже важные, что может приводить к стрессу и упущенным возможностям."
+                },
+                "strengths": {
+                    "en": ["Creativity under pressure", "Flexible thinking"],
+                    "ru": ["Креативность под давлением", "Гибкость мышления"]
+                },
+                "challenges": {
+                    "en": ["Missed deadlines", "Increased stress", "Avoidance patterns"],
+                    "ru": ["Срывы сроков", "Повышенный стресс", "Паттерны избегания"]
+                },
+                "advice": {
+                    "en": "Break tasks into small steps and start with minimal effort to overcome inertia.",
+                    "ru": "Делите задачи на маленькие шаги и начинайте с минимального усилия, чтобы преодолеть инерцию."
+                }
+            }
+        },
+        "decision_procrastination": {
+            "low": {
+                "title": {
+                    "en": "Decisive Thinker",
+                    "ru": "Решительный"
+                },
+                "description": {
+                    "en": "You make decisions relatively quickly and are comfortable committing to choices.",
+                    "ru": "Вы принимаете решения достаточно быстро и готовы брать на себя обязательства."
+                },
+                "strengths": {
+                    "en": ["Decisiveness", "Clarity", "Confidence"],
+                    "ru": ["Решительность", "Ясность", "Уверенность"]
+                },
+                "challenges": {
+                    "en": ["May overlook details"],
+                    "ru": ["Может упускать детали"]
+                },
+                "advice": {
+                    "en": "Balance speed with careful evaluation in more complex situations.",
+                    "ru": "Сочетайте скорость с внимательным анализом в сложных ситуациях."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Thoughtful Decision-Maker",
+                    "ru": "Взвешенные решения"
+                },
+                "description": {
+                    "en": "You take time to consider options, though sometimes this can lead to delays.",
+                    "ru": "Вы обдумываете варианты, но иногда это может приводить к задержкам."
+                },
+                "strengths": {
+                    "en": ["Thoughtfulness", "Balanced judgment"],
+                    "ru": ["Взвешенность", "Сбалансированное суждение"]
+                },
+                "challenges": {
+                    "en": ["Occasional indecision"],
+                    "ru": ["Периодическая нерешительность"]
+                },
+                "advice": {
+                    "en": "Set time limits for decisions to avoid unnecessary delays.",
+                    "ru": "Устанавливайте временные рамки для решений, чтобы избежать затягивания."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Indecisive and Delaying",
+                    "ru": "Склонность откладывать решения"
+                },
+                "description": {
+                    "en": "You often postpone decisions, especially when outcomes are uncertain or stressful.",
+                    "ru": "Вы часто откладываете решения, особенно когда исход неопределён или стрессовый."
+                },
+                "strengths": {
+                    "en": ["Caution", "Desire for accuracy"],
+                    "ru": ["Осторожность", "Стремление к точности"]
+                },
+                "challenges": {
+                    "en": ["Decision paralysis", "Missed opportunities"],
+                    "ru": ["Паралич решений", "Упущенные возможности"]
+                },
+                "advice": {
+                    "en": "Focus on making 'good enough' decisions rather than perfect ones.",
+                    "ru": "Старайтесь принимать «достаточно хорошие» решения вместо идеальных."
+                }
+            }
+        },
+        "task_avoidance": {
+            "low": {
+                "title": {
+                    "en": "Task Engaged",
+                    "ru": "Вовлечён в задачи"
+                },
+                "description": {
+                    "en": "You generally face tasks directly, even when they are difficult or unpleasant.",
+                    "ru": "Вы обычно сталкиваетесь с задачами напрямую, даже если они сложные или неприятные."
+                },
+                "strengths": {
+                    "en": ["Responsibility", "Persistence"],
+                    "ru": ["Ответственность", "Настойчивость"]
+                },
+                "challenges": {
+                    "en": ["May take on too much"],
+                    "ru": ["Может брать на себя слишком много"]
+                },
+                "advice": {
+                    "en": "Continue facing challenges, but remember to prioritize and delegate when possible.",
+                    "ru": "Продолжайте справляться с задачами, но не забывайте расставлять приоритеты и делегировать."
+                }
+            },
+            "medium": {
+                "title": {
+                    "en": "Selective Avoidance",
+                    "ru": "Избирательное избегание"
+                },
+                "description": {
+                    "en": "You may avoid certain tasks, especially those that are boring or stressful, but handle others well.",
+                    "ru": "Вы можете избегать некоторых задач, особенно скучных или стрессовых, но с другими справляетесь хорошо."
+                },
+                "strengths": {
+                    "en": ["Energy management", "Selective focus"],
+                    "ru": ["Управление энергией", "Избирательный фокус"]
+                },
+                "challenges": {
+                    "en": ["Delays on difficult tasks"],
+                    "ru": ["Задержки в сложных задачах"]
+                },
+                "advice": {
+                    "en": "Tackle avoided tasks in small steps to reduce resistance.",
+                    "ru": "Подходите к избегаемым задачам через маленькие шаги, чтобы снизить сопротивление."
+                }
+            },
+            "high": {
+                "title": {
+                    "en": "Avoidance Pattern",
+                    "ru": "Паттерн избегания"
+                },
+                "description": {
+                    "en": "You frequently avoid tasks that feel difficult, stressful, or uncomfortable.",
+                    "ru": "Вы часто избегаете задач, которые кажутся сложными, стрессовыми или неприятными."
+                },
+                "strengths": {
+                    "en": ["Sensitivity to overload", "Self-protection"],
+                    "ru": ["Чувствительность к перегрузке", "Самозащита"]
+                },
+                "challenges": {
+                    "en": ["Chronic delays", "Accumulating tasks", "Stress buildup"],
+                    "ru": ["Хронические задержки", "Накопление задач", "Рост стресса"]
+                },
+                "advice": {
+                    "en": "Reduce task resistance by starting extremely small and creating low-pressure routines.",
+                    "ru": "Снижайте сопротивление задачам, начиная с минимальных действий и создавая простые ритуалы."
+                }
+            }
+        }  
     },
     "summaryTemplates": {
         "en": {
-            "personalized": "Based on your results, your {{trait1}} is particularly notable at {{score1}}%. Your {{trait2}} score of {{score2}}% also stands out. This combination creates a unique psychological profile."
+            "personalized": "Based on your results, your {{trait1}} is particularly notable at {{score1}}%. Your {{trait2}} score of {{score2}}% also stands out."
         },
         "ru": {
-            "personalized": "На основе ваших результатов, ваша {{trait1}} особенно заметна — {{score1}}%. Ваш показатель {{trait2}} — {{score2}}% — также выделяется. Это сочетание создает уникальный психологический профиль."
+            "personalized": "На основе ваших результатов, ваша {{trait1}} особенно заметна — {{score1}}%. Ваш показатель {{trait2}} — {{score2}}% — также выделяется."
         }
     }
 }

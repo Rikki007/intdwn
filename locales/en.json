@@ -61,7 +61,6 @@
     },
     "profile": {
         "title": "Your Profile",
-        "subtitle": "Psychological insights about you",
         "editProfile": "Edit Profile",
         "editName": "Your name",
         "enterName": "Enter name",
