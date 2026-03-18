@@ -271,8 +271,7 @@
                     "ru": "Ваша эмпатия и забота о других — сильные качества. Чтобы они оставались ресурсом, важно включать в этот круг заботы и себя. Умение выстраивать границы, например говорить «нет» при необходимости, не уменьшает вашу доброту — оно помогает её сохранить."
                 }
             }
-        },
-        
+        },    
         "neuroticism": {
             "low": {
                 "title": {
@@ -280,8 +279,8 @@
                     "ru": "Эмоционально стабильный"
                 },
                 "description": {
-                    "en": "You experience emotional calm and resilience. You handle stress well and recover quickly from setbacks.",
-                    "ru": "Вы испытываете эмоциональное спокойствие и резильентность. Хорошо справляетесь со стрессом и быстро восстанавливаетесь после неудач."
+                    "en": "You tend to experience a relatively stable emotional background. Stressful situations may still affect you, but you usually recover quickly and do not stay overwhelmed for long periods of time.\n\nIn everyday life, this often shows up as a sense of calmness and внутренней устойчивости. You may not react strongly to minor stressors, and you are likely able to keep a clear head even when things become challenging.\n\nThis stability can make you a reliable presence for others, especially in difficult or high-pressure situations. People may perceive you as composed, grounded, and emotionally balanced.\n\nAt the same time, there may be moments when you underestimate the emotional weight of certain experiences — either your own or others’. This can sometimes create a sense of distance or make it harder to fully engage with more subtle emotional signals.",
+                    "ru": "Вы склонны испытывать относительно стабильный эмоциональный фон. Стрессовые ситуации, конечно, могут вас затрагивать, но обычно вы достаточно быстро восстанавливаетесь и не остаетесь в состоянии перегруженности надолго.\n\nВ повседневной жизни это часто проявляется как внутреннее спокойствие и устойчивость. Вы можете не реагировать слишком остро на мелкие стрессоры и сохранять ясность мышления даже в сложных обстоятельствах.\n\nТакая стабильность делает вас надёжной опорой для других, особенно в напряжённых ситуациях. Со стороны вы можете восприниматься как собранный, уравновешенный и эмоционально устойчивый человек.\n\nПри этом иногда может возникать склонность недооценивать эмоциональную значимость некоторых событий — как своих, так и чужих. Это может создавать ощущение дистанции или затруднять более тонкое понимание чувств."
                 },
                 "strengths": {
                     "en": ["Emotional stability", "Stress resilience", "Calm under pressure"],
@@ -289,11 +288,11 @@
                 },
                 "challenges": {
                     "en": ["May underestimate emotional signals", "Could appear detached"],
-                    "ru": ["Может недооценивать эмоциональные сигналы", "Может казаться отстраненным"]
+                    "ru": ["Может недооценивать эмоциональные сигналы", "Может казаться отстранённым"]
                 },
                 "advice": {
-                    "en": "Your stability is a great asset. Continue nurturing your emotional well-being.",
-                    "ru": "Ваша стабильность — отличный актив. Продолжайте заботиться об эмоциональном благополучии."
+                    "en": "Your emotional stability is a strong resource. To make the most of it, it may be helpful to occasionally check in with your own emotional state and stay attentive to more subtle feelings — both yours and those of others.",
+                    "ru": "Ваша эмоциональная устойчивость — важный ресурс. Чтобы использовать его максимально, полезно иногда осознанно обращать внимание на свои эмоции и более тонкие переживания — как свои, так и окружающих."
                 }
             },
             "medium": {
@@ -302,8 +301,8 @@
                     "ru": "Сбалансированная эмоциональность"
                 },
                 "description": {
-                    "en": "You experience a normal range of emotions. You have moderate stress responses and coping abilities.",
-                    "ru": "Вы испытываете нормальный диапазон эмоций. У вас умеренные стрессовые реакции и способности к совладанию."
+                    "en": "You tend to experience a natural and balanced range of emotions. You are capable of feeling stress, worry, or frustration, but these reactions are usually proportionate to the situation and manageable.\n\nIn everyday life, this means you can respond emotionally when something matters, while still maintaining a sense of control and perspective. You may sometimes feel overwhelmed, but you are generally able to recover and return to your baseline.\n\nThis balance allows you to stay connected to your emotional world without being dominated by it. It also supports your ability to adapt to different situations and cope with challenges.\n\nAt times, however, periods of increased stress can temporarily intensify your emotional reactions, making things feel heavier than usual.",
+                    "ru": "Вы склонны испытывать естественный и сбалансированный спектр эмоций. Вы можете чувствовать стресс, тревогу или раздражение, но обычно эти реакции соразмерны ситуации и остаются управляемыми.\n\nВ повседневной жизни это означает, что вы способны эмоционально откликаться на происходящее, не теряя при этом контроля и перспективы. Иногда вы можете чувствовать перегруженность, но в целом умеете восстанавливаться и возвращаться в устойчивое состояние.\n\nТакой баланс позволяет вам оставаться в контакте со своими чувствами, не оказываясь полностью ими захваченным. Это также помогает адаптироваться к разным ситуациям и справляться с трудностями.\n\nИногда в периоды повышенного стресса ваши реакции могут усиливаться, и тогда переживания могут ощущаться более интенсивно, чем обычно."
                 },
                 "strengths": {
                     "en": ["Emotional awareness", "Balanced responses", "Adaptability"],
@@ -314,8 +313,8 @@
                     "ru": ["Иногда может чувствовать перегруженность стрессом"]
                 },
                 "advice": {
-                    "en": "Continue developing healthy coping strategies for when stress increases.",
-                    "ru": "Продолжайте развивать здоровые стратегии совладания для случаев повышенного стресса."
+                    "en": "Your emotional balance is a healthy foundation. Continuing to develop coping strategies — such as reflection, rest, or structured problem-solving — can help you stay stable even during more demanding periods.",
+                    "ru": "Ваш эмоциональный баланс — это здоровая основа. Развитие стратегий совладания — таких как рефлексия, отдых или структурированное решение задач — поможет сохранять устойчивость даже в более напряжённые периоды."
                 }
             },
             "high": {
@@ -324,8 +323,8 @@
                     "ru": "Эмоционально чувствительный"
                 },
                 "description": {
-                    "en": "You experience emotions intensely. You may be more reactive to stress and have stronger emotional responses.",
-                    "ru": "Вы испытываете эмоции интенсивно. Можете быть более реактивны к стрессу и иметь более сильные эмоциональные реакции."
+                    "en": "You tend to experience emotions more intensely and react more strongly to stress compared to many others. Situations that others might perceive as neutral can sometimes feel more significant or impactful for you.\n\nIn everyday life, this may show up as heightened sensitivity to pressure, uncertainty, or interpersonal dynamics. You may notice that your thoughts and feelings become more active during stressful moments, and it can take longer to return to a calm state.\n\nAt the same time, this sensitivity is not only a vulnerability — it is also a source of depth. You may have a rich inner world, strong emotional awareness, and an ability to deeply understand both your own experiences and the experiences of others.\n\nHowever, without supportive coping strategies, this intensity can lead to increased anxiety, emotional fatigue, or a sense of being overwhelmed.",
+                    "ru": "Вы склонны переживать эмоции более интенсивно и сильнее реагировать на стресс по сравнению со многими другими людьми. Ситуации, которые для других могут быть нейтральными, для вас иногда ощущаются более значимыми и нагруженными.\n\nВ повседневной жизни это может проявляться как повышенная чувствительность к давлению, неопределённости или межличностным ситуациям. В стрессовые моменты мысли и чувства могут становиться более активными, и возвращение к спокойному состоянию может занимать больше времени.\n\nПри этом такая чувствительность — не только уязвимость, но и ресурс. У вас может быть глубокий внутренний мир, развитое эмоциональное понимание и способность тонко чувствовать себя и других.\n\nОднако без поддерживающих стратегий это может приводить к усиленной тревоге, эмоциональной усталости или ощущению перегруженности."
                 },
                 "strengths": {
                     "en": ["Emotional depth", "Sensitivity to others", "Rich inner life"],
@@ -336,310 +335,326 @@
                     "ru": ["Может чаще испытывать тревогу", "Может испытывать трудности с управлением стрессом"]
                 },
                 "advice": {
-                    "en": "Develop a toolkit of stress management techniques. Consider mindfulness or therapy to help manage intense emotions.",
-                    "ru": "Разработайте набор техник управления стрессом. Рассмотрите осознанность или терапию для управления интенсивными эмоциями."
+                    "en": "Your sensitivity can become a strength when supported properly. Developing reliable coping strategies — such as grounding techniques, emotional regulation skills, or professional support — can help you manage intensity and feel more stable.",
+                    "ru": "Ваша чувствительность может стать сильной стороной при правильной поддержке. Развитие устойчивых стратегий совладания — например, техник заземления, навыков эмоциональной регуляции или работа со специалистом — поможет справляться с интенсивностью и чувствовать себя более устойчиво."
                 }
             }
         },
         "anxiety": {
             "low": {
                 "title": {
-                    "en": "Calm and Composed",
-                    "ru": "Спокойный и уравновешенный"
+                    "en": "Calm and Untroubled",
+                    "ru": "Спокойный и невозмутимый"
                 },
                 "description": {
-                    "en": "You experience low levels of anxiety and worry. You approach situations with calm confidence.",
-                    "ru": "Вы испытываете низкий уровень тревоги и беспокойства. Подходите к ситуациям со спокойной уверенностью."
+                    "en": "You tend to experience low levels of anxiety in everyday life. Situations that might cause worry or tension in others are less likely to significantly affect your internal state. You generally feel calm, grounded, and able to approach challenges without excessive concern.\n\nIn daily life, this can show up as confidence in uncertain situations, a steady pace of thinking, and an ability to make decisions without being overwhelmed by doubt. You may not dwell on potential негативные сценарии и легче сохраняете внутреннее равновесие.\n\nThis calmness can be a strong resource, especially in stressful environments, as it allows you to think clearly and act without panic. Others may perceive you as emotionally stable and reliable.\n\nAt the same time, there may be moments when you underestimate potential risks or overlook subtle signs of stress — either in yourself or in a situation — simply because your baseline level of тревоги достаточно низкий.",
+                    "ru": "Вы склонны испытывать низкий уровень тревоги в повседневной жизни. Ситуации, которые у других могут вызывать беспокойство или напряжение, с меньшей вероятностью существенно влияют на ваше внутреннее состояние. В целом вы чувствуете себя спокойно, устойчиво и способны подходить к задачам без избыточных переживаний.\n\nВ повседневной жизни это может проявляться как уверенность в условиях неопределённости, ровный ход мыслей и способность принимать решения без чрезмерных сомнений. Вы реже зацикливаетесь на возможных негативных сценариях и легче сохраняете внутреннее равновесие.\n\nЭто качество является сильным ресурсом, особенно в стрессовых ситуациях: оно помогает сохранять ясность и действовать без паники. Окружающие могут воспринимать вас как спокойного и надёжного человека.\n\nВ то же время иногда может возникать склонность недооценивать риски или не замечать тонкие сигналы напряжения — как в себе, так и в ситуации — просто потому, что базовый уровень тревоги у вас невысокий."
                 },
                 "strengths": {
-                    "en": ["Calm demeanor", "Confidence", "Stress resilience"],
-                    "ru": ["Спокойствие", "Уверенность", "Стрессоустойчивость"]
+                    "en": ["Calmness", "Confidence under uncertainty", "Emotional stability"],
+                    "ru": ["Спокойствие", "Уверенность в неопределённости", "Эмоциональная устойчивость"]
                 },
                 "challenges": {
-                    "en": ["May underestimate real risks"],
-                    "ru": ["Может недооценивать реальные риски"]
+                    "en": ["May underestimate risks", "Less sensitive to warning signals"],
+                    "ru": ["Может недооценивать риски", "Меньшая чувствительность к сигналам опасности"]
                 },
                 "advice": {
-                    "en": "Your calm nature serves you well. Stay aware of genuine concerns that need attention.",
-                    "ru": "Ваша спокойная натура служит вам хорошо. Оставайтесь внимательным к подлинным проблемам."
+                    "en": "Your calmness is a valuable strength. To complement it, it may be helpful to occasionally pause and consciously assess risks and potential outcomes. This allows you to combine confidence with awareness.",
+                    "ru": "Ваше спокойствие — важная сильная сторона. Чтобы дополнить его, полезно иногда осознанно останавливаться и оценивать возможные риски и последствия. Это помогает сочетать уверенность с внимательностью."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Anxiety Levels",
-                    "ru": "Умеренный уровень тревоги"
+                    "en": "Moderately Anxious",
+                    "ru": "Умеренно тревожный"
                 },
                 "description": {
-                    "en": "You experience average levels of anxiety. Some situations may cause worry, but you generally cope well.",
-                    "ru": "Вы испытываете средний уровень тревоги. Некоторые ситуации могут вызывать беспокойство, но в целом справляетесь хорошо."
+                    "en": "You tend to experience a moderate level of anxiety, which is a natural part of psychological functioning. In many cases, this level of concern can actually be helpful — it allows you to anticipate challenges, prepare in advance, and stay attentive to important details.\n\nIn everyday life, this may show up as occasional worry before significant events, sensitivity to uncertainty, or a tendency to mentally rehearse possible outcomes. At times, you may feel tension, but it usually remains manageable.\n\nThis level of anxiety often acts as a motivator, helping you stay responsible and engaged. However, during more stressful periods, it can intensify and lead to overthinking or difficulty relaxing.\n\nThe key characteristic here is variability: your experience of anxiety may shift depending on context, workload, and emotional state.",
+                    "ru": "Вы склонны испытывать умеренный уровень тревоги, который является естественной частью психики. Во многих случаях такая тревожность даже полезна — она помогает предвидеть сложности, готовиться заранее и быть внимательным к деталям.\n\nВ повседневной жизни это может проявляться как волнение перед важными событиями, чувствительность к неопределённости или склонность прокручивать в голове возможные сценарии. Иногда вы можете чувствовать напряжение, но обычно оно остаётся управляемым.\n\nТакой уровень тревоги часто работает как мотиватор, помогая сохранять ответственность и вовлечённость. Однако в периоды повышенного стресса он может усиливаться и приводить к избыточным размышлениям или трудностям с расслаблением.\n\nКлючевая особенность — изменчивость: уровень тревоги может заметно меняться в зависимости от ситуации, нагрузки и внутреннего состояния."
                 },
                 "strengths": {
-                    "en": ["Healthy caution", "Preparedness", "Balance"],
-                    "ru": ["Здоровая осторожность", "Подготовленность", "Баланс"]
+                    "en": ["Preparedness", "Awareness", "Motivation"],
+                    "ru": ["Подготовленность", "Внимательность", "Мотивация"]
                 },
                 "challenges": {
-                    "en": ["May worry more in stressful situations"],
-                    "ru": ["Может больше беспокоиться в стрессовых ситуациях"]
+                    "en": ["May overthink", "Stress can amplify anxiety"],
+                    "ru": ["Склонность к избыточным размышлениям", "Стресс может усиливать тревогу"]
                 },
                 "advice": {
-                    "en": "Your moderate anxiety can be motivating. Use it to prepare while avoiding overthinking.",
-                    "ru": "Умеренная тревога может быть мотивирующей. Используйте её для подготовки, избегая чрезмерного обдумывания."
+                    "en": "Your level of anxiety can be useful when it stays within a manageable range. To поддерживать баланс, важно развивать навыки переключения внимания и расслабления, чтобы не застревать в мыслях дольше, чем это необходимо.",
+                    "ru": "Ваш уровень тревоги может быть полезным, если он остаётся в управляемых пределах. Чтобы сохранять баланс, важно развивать навыки переключения внимания и расслабления, чтобы не застревать в переживаниях дольше, чем это необходимо."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Heightened Anxiety",
-                    "ru": "Повышенная тревожность"
+                    "en": "Highly Sensitive to Anxiety",
+                    "ru": "Высокая тревожная чувствительность"
                 },
                 "description": {
-                    "en": "You experience higher levels of anxiety. Worries may affect your daily life more significantly.",
-                    "ru": "Вы испытываете повышенный уровень тревоги. Беспокойства могут больше влиять на повседневную жизнь."
+                    "en": "You tend to experience anxiety more frequently and more intensely than many others. Your mind may quickly identify potential risks or negative outcomes, sometimes even in situations that are objectively safe.\n\nIn everyday life, this can show up as persistent worry, difficulty relaxing, or a feeling of internal tension that is hard to fully switch off. You may find yourself repeatedly thinking through possible scenarios, trying to anticipate and control what might happen.\n\nThis heightened sensitivity often reflects a nervous system that is highly responsive to uncertainty and perceived threats. While this can be exhausting, it also means you are very attentive and aware of your environment.\n\nAt the same time, without effective coping strategies, this level of anxiety can interfere with decision-making, rest, and overall well-being, creating a sense of constant pressure.",
+                    "ru": "Вы склонны испытывать тревогу чаще и интенсивнее, чем многие другие. Ваше мышление может быстро замечать потенциальные риски или негативные исходы, иногда даже в ситуациях, которые объективно безопасны.\n\nВ повседневной жизни это может проявляться как постоянное беспокойство, трудности с расслаблением или ощущение внутреннего напряжения, которое сложно полностью «выключить». Вы можете снова и снова прокручивать возможные сценарии, пытаясь предугадать и контролировать происходящее.\n\nТакая чувствительность часто связана с высокой реактивностью нервной системы к неопределённости и возможной угрозе. Это может быть утомительно, но одновременно говорит о высокой внимательности и восприимчивости к окружающей среде.\n\nБез поддерживающих стратегий такой уровень тревоги может мешать принятию решений, отдыху и общему самочувствию, создавая ощущение постоянного внутреннего давления."
                 },
                 "strengths": {
-                    "en": ["Vigilance", "Thoroughness", "Sensitivity"],
-                    "ru": ["Бдительность", "Тщательность", "Чувствительность"]
+                    "en": ["High awareness", "Sensitivity to risks", "Attention to detail"],
+                    "ru": ["Высокая внимательность", "Чувствительность к рискам", "Внимание к деталям"]
                 },
                 "challenges": {
-                    "en": ["May experience excessive worry", "Physical symptoms of anxiety"],
-                    "ru": ["Может испытывать чрезмерное беспокойство", "Физические симптомы тревоги"]
+                    "en": ["Frequent worry", "Difficulty relaxing", "Overthinking"],
+                    "ru": ["Частые переживания", "Трудности с расслаблением", "Избыточные размышления"]
                 },
                 "advice": {
-                    "en": "Consider learning relaxation techniques. If anxiety significantly impacts your life, consulting a professional may help.",
-                    "ru": "Рассмотрите изучение техник релаксации. Если тревога значительно влияет на жизнь, консультация специалиста может помочь."
+                    "en": "Your sensitivity to potential risks can become more manageable with the right support. Techniques such as grounding, structured routines, and working with anxious thoughts can significantly reduce intensity. The goal is not to eliminate anxiety completely, but to make it feel more controllable and less overwhelming.",
+                    "ru": "Ваша чувствительность к возможным рискам может стать более управляемой при правильной поддержке. Техники заземления, структурирование дня и работа с тревожными мыслями способны заметно снизить интенсивность переживаний. Задача не в том, чтобы полностью убрать тревогу, а в том, чтобы сделать её более контролируемой и менее перегружающей."
                 }
             }
         },
         "worry": {
             "low": {
                 "title": {
-                    "en": "Carefree Thinker",
-                    "ru": "Беззаботный мыслитель"
+                    "en": "Untroubled Thinking",
+                    "ru": "Спокойное мышление"
                 },
                 "description": {
-                    "en": "You rarely dwell on potential problems. You tend to stay relaxed and not overthink possible негативные исходы.",
-                    "ru": "Вы редко зацикливаетесь на возможных проблемах. Склонны сохранять спокойствие и не переосмысливать негативные исходы."
+                    "en": "You tend not to dwell on potential problems or negative outcomes for long. Even when difficulties arise, your thinking is less likely to get stuck in cycles of worry or repetitive concern.\n\nIn everyday life, this often shows up as an ability to let go of intrusive thoughts and move on without overanalyzing every possible scenario. You may prefer focusing on what is happening right now rather than what could go wrong in the future.\n\nThis style of thinking can make you feel more relaxed and mentally свободным, allowing you to act without being slowed down by excessive doubt or anticipation.\n\nAt the same time, there may be moments when you overlook potential complications or do not fully think through future consequences, simply because your mind does not naturally stay in a “what if” mode for long.",
+                    "ru": "Вы склонны не зацикливаться на возможных проблемах или негативных сценариях. Даже если возникают сложности, ваши мысли реже уходят в повторяющиеся циклы беспокойства.\n\nВ повседневной жизни это проявляется как способность отпускать навязчивые мысли и не прокручивать бесконечно возможные варианты развития событий. Вы чаще сосредотачиваетесь на том, что происходит сейчас, а не на том, что может пойти не так в будущем.\n\nТакой стиль мышления даёт ощущение лёгкости и внутренней свободы, позволяя действовать без избыточных сомнений и напряжения.\n\nИногда, однако, это может приводить к тому, что вы недооцениваете возможные сложности или не всегда заранее продумываете последствия, так как ваш ум не склонен долго удерживаться в режиме «а что если»."
                 },
                 "strengths": {
-                    "en": ["Calm mindset", "Optimism", "Low overthinking"],
-                    "ru": ["Спокойное мышление", "Оптимизм", "Отсутствие чрезмерного анализа"]
+                    "en": ["Mental calmness", "Ability to let go", "Focus on the present"],
+                    "ru": ["Психическое спокойствие", "Способность отпускать мысли", "Фокус на настоящем"]
                 },
                 "challenges": {
-                    "en": ["May overlook risks", "Could be underprepared"],
-                    "ru": ["Может игнорировать риски", "Может быть недостаточно подготовлен"]
+                    "en": ["May overlook potential risks", "Less future-oriented thinking"],
+                    "ru": ["Может недооценивать риски", "Меньше ориентирован на прогнозирование"]
                 },
                 "advice": {
-                    "en": "Your calm thinking is a strength. Try to occasionally evaluate risks to stay prepared.",
-                    "ru": "Ваше спокойное мышление — сильная сторона. Иногда оценивайте риски, чтобы быть готовым."
+                    "en": "Your ability to stay mentally calm is a strong advantage. To balance it, it may be helpful to occasionally take a moment to think ahead and plan for possible challenges — not excessively, but just enough to stay prepared.",
+                    "ru": "Ваша способность сохранять спокойствие в мыслях — сильная сторона. Чтобы дополнить её, полезно иногда сознательно уделять время продумыванию будущих шагов и возможных сложностей — не уходя в избыточные переживания, а лишь для подготовки."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Balanced Worrier",
+                    "en": "Balanced Concern",
                     "ru": "Сбалансированное беспокойство"
                 },
                 "description": {
-                    "en": "You sometimes worry about potential outcomes, but it usually helps you stay prepared rather than overwhelmed.",
-                    "ru": "Вы иногда беспокоитесь о возможных исходах, но это скорее помогает вам подготовиться, чем перегружает."
+                    "en": "You tend to experience worry in a balanced and situational way. When something important is at stake, your mind may start exploring possible outcomes, risks, and solutions — but this usually remains within manageable limits.\n\nIn everyday life, this may appear as thinking ahead, mentally preparing for important events, or occasionally revisiting certain concerns. You may notice that your thoughts become more active in uncertain situations, but you are generally able to redirect them.\n\nThis level of worry can be useful, as it helps you stay aware and prepared without overwhelming your mental space.\n\nAt times, however, especially during periods of stress or fatigue, this tendency can intensify and lead to more persistent or repetitive thinking.",
+                    "ru": "Вы склонны испытывать беспокойство в умеренной и ситуационной форме. Когда что-то действительно важно, ваш ум может начинать прокручивать возможные варианты развития событий, риски и решения — но обычно это остаётся в управляемых пределах.\n\nВ повседневной жизни это может проявляться как способность заранее продумывать важные события, возвращаться к значимым вопросам или мысленно готовиться к будущему. В условиях неопределённости мысли могут становиться более активными, но вы, как правило, способны их перенаправить.\n\nТакой уровень беспокойства может быть полезным, так как помогает оставаться внимательным и подготовленным, не перегружая психику.\n\nИногда, особенно в периоды стресса или усталости, эта склонность может усиливаться и переходить в более навязчивое или повторяющееся мышление."
                 },
                 "strengths": {
-                    "en": ["Preparedness", "Realistic thinking", "Awareness"],
-                    "ru": ["Подготовленность", "Реалистичное мышление", "Осознанность"]
+                    "en": ["Preparedness", "Thoughtfulness", "Situational awareness"],
+                    "ru": ["Подготовленность", "Продуманность", "Осознанность ситуации"]
                 },
                 "challenges": {
-                    "en": ["May overthink in stressful situations"],
-                    "ru": ["Может переосмысливать в стрессовых ситуациях"]
+                    "en": ["May overthink under stress"],
+                    "ru": ["Может уходить в избыточные размышления при стрессе"]
                 },
                 "advice": {
-                    "en": "Use your awareness to plan ahead, but avoid getting stuck in repetitive thoughts.",
-                    "ru": "Используйте осознанность для планирования, но избегайте зацикливания на мыслях."
+                    "en": "Your ability to think ahead is valuable. To keep it from turning into overthinking, it can help to set boundaries for your thoughts — for example, deciding when it is useful to reflect and when it is time to let go.",
+                    "ru": "Ваша способность продумывать наперёд — ценный навык. Чтобы он не переходил в избыточные размышления, полезно устанавливать границы для мыслей — например, определять, когда размышление полезно, а когда стоит отпустить ситуацию."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Chronic Worrier",
-                    "ru": "Склонный к постоянному беспокойству"
+                    "en": "Persistent Worrier",
+                    "ru": "Склонность к постоянному беспокойству"
                 },
                 "description": {
-                    "en": "You frequently think about potential problems and negative outcomes, which can increase stress levels.",
-                    "ru": "Вы часто думаете о возможных проблемах и негативных исходах, что может повышать уровень стресса."
+                    "en": "You tend to spend a significant amount of time thinking about potential problems, risks, or negative outcomes. Your mind may repeatedly return to the same concerns, even when there is no immediate solution.\n\nIn everyday life, this often feels like difficulty “switching off” thoughts. You may find yourself replaying conversations, imagining different scenarios, or trying to mentally prepare for everything that could go wrong.\n\nThis pattern is often driven by a desire to gain control over uncertainty. In a way, your mind is trying to protect you by staying alert and prepared.\n\nHowever, when this process becomes constant, it can lead to mental fatigue, increased anxiety, and a feeling of being stuck in your own thoughts, without reaching resolution.",
+                    "ru": "Вы склонны проводить значительное количество времени, обдумывая возможные проблемы, риски или негативные исходы. Ваши мысли могут снова и снова возвращаться к одним и тем же переживаниям, даже если в данный момент нет конкретного решения.\n\nВ повседневной жизни это часто ощущается как невозможность «выключить» поток мыслей. Вы можете прокручивать разговоры, представлять различные сценарии или пытаться мысленно подготовиться ко всем возможным вариантам развития событий.\n\nТакой процесс часто связан со стремлением получить контроль над неопределённостью. В некотором смысле ваш ум пытается защитить вас, оставаясь настороже и готовым ко всему.\n\nОднако если это становится постоянным состоянием, это может приводить к умственной усталости, усилению тревоги и ощущению, что вы застряли в собственных мыслях без ощущения завершённости."
                 },
                 "strengths": {
-                    "en": ["Risk awareness", "Attention to detail", "Preparedness"],
-                    "ru": ["Осознание рисков", "Внимание к деталям", "Подготовленность"]
+                    "en": ["High awareness of risks", "Mental preparedness"],
+                    "ru": ["Высокая чувствительность к рискам", "Ментальная подготовка"]
                 },
                 "challenges": {
-                    "en": ["Excessive worrying", "Mental fatigue", "Difficulty relaxing"],
-                    "ru": ["Чрезмерное беспокойство", "Ментальная усталость", "Трудности с расслаблением"]
+                    "en": ["Repetitive thinking", "Difficulty letting go", "Mental fatigue"],
+                    "ru": ["Повторяющееся мышление", "Сложность отпускания мыслей", "Ментальная усталость"]
                 },
                 "advice": {
-                    "en": "Practice techniques to manage overthinking, such as mindfulness or structured problem-solving.",
-                    "ru": "Практикуйте техники управления мыслями, такие как осознанность или структурированное решение проблем."
+                    "en": "Your mind is trying to protect you by staying alert. The goal is not to eliminate worry, but to make it more contained. Techniques such as writing down thoughts, setting “worry time,” or shifting attention to the present moment can help reduce the intensity and repetition of thinking.",
+                    "ru": "Ваше мышление пытается защитить вас, оставаясь настороже. Задача не в том, чтобы полностью убрать беспокойство, а в том, чтобы сделать его более управляемым. Техники вроде выписывания мыслей, выделенного «времени для переживаний» или переключения внимания на настоящий момент могут помочь снизить интенсивность и повторяемость мыслей."
                 }
             }
         },
         "tension": {
             "low": {
                 "title": {
-                    "en": "Relaxed and Loose",
+                    "en": "Relaxed and At Ease",
                     "ru": "Расслабленный и спокойный"
                 },
                 "description": {
-                    "en": "You rarely feel physical or emotional tension. You stay at ease even in challenging situations.",
-                    "ru": "Вы редко испытываете физическое или эмоциональное напряжение. Сохраняете спокойствие даже в сложных ситуациях."
+                    "en": "You tend to experience a low level of inner tension in your daily life. Your body and mind are generally in a more relaxed state, even when facing challenges or pressure.\n\nIn everyday situations, this may show up as a sense of physical ease, отсутствие постоянного внутреннего напряжения, and the ability to stay calm without feeling tightly wound. You are less likely to carry stress in your body or feel chronically on edge.\n\nThis relaxed baseline can support clear thinking, устойчивость к стрессу, and an overall sense of comfort in your own state. Others may perceive you as calm, easygoing, and grounded.\n\nAt the same time, there may be moments when you do not immediately notice subtle signs of stress or activation in your body, simply because your default state is relatively calm.",
+                    "ru": "Вы склонны испытывать низкий уровень внутреннего напряжения в повседневной жизни. Ваше тело и психика чаще находятся в более расслабленном состоянии, даже при столкновении с задачами или давлением.\n\nВ повседневных ситуациях это может проявляться как телесная лёгкость, отсутствие постоянного внутреннего зажима и способность сохранять спокойствие без ощущения «на взводе». Вы реже удерживаете стресс в теле и не склонны находиться в состоянии хронического напряжения.\n\nТакое состояние помогает сохранять ясность мышления, устойчивость к нагрузке и общее ощущение комфорта в себе. Со стороны вы можете восприниматься как спокойный и уравновешенный человек.\n\nИногда, однако, вы можете не сразу замечать более тонкие сигналы напряжения в теле, так как ваше базовое состояние достаточно расслабленное."
                 },
                 "strengths": {
-                    "en": ["Relaxation", "Calmness", "Emotional ease"],
-                    "ru": ["Расслабленность", "Спокойствие", "Эмоциональная легкость"]
+                    "en": ["Relaxation", "Physical ease", "Calm presence"],
+                    "ru": ["Расслабленность", "Телесная лёгкость", "Спокойствие"]
                 },
                 "challenges": {
-                    "en": ["May lack urgency", "Could appear disengaged"],
-                    "ru": ["Может не хватать срочности", "Может казаться вовлечённым меньше"]
+                    "en": ["May overlook early signs of stress"],
+                    "ru": ["Может не замечать ранние признаки стресса"]
                 },
                 "advice": {
-                    "en": "Your relaxed nature is beneficial. Ensure you stay engaged when focus is required.",
-                    "ru": "Ваша расслабленность полезна. Следите за вовлечённостью, когда это необходимо."
+                    "en": "Your relaxed state is a valuable resource. To complement it, it may be helpful to occasionally check in with your body — noticing even small changes in tension can help you respond to stress earlier.",
+                    "ru": "Ваше расслабленное состояние — важный ресурс. Чтобы дополнить его, полезно иногда обращать внимание на тело — замечая даже небольшие изменения в напряжении, вы сможете раньше реагировать на стресс."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderately Tense",
+                    "en": "Moderate Tension",
                     "ru": "Умеренное напряжение"
                 },
                 "description": {
-                    "en": "You experience some tension in demanding situations, but generally manage it well.",
-                    "ru": "Вы испытываете некоторое напряжение в требовательных ситуациях, но в целом хорошо справляетесь."
+                    "en": "You tend to experience a moderate level of tension that varies depending on the situation. In demanding or uncertain contexts, your body and mind may become more activated, while in calmer periods you are able to relax.\n\nIn everyday life, this may feel like occasional внутреннее напряжение, ощущение собранности или лёгкого стресса перед важными задачами. Your body may respond to pressure, but it usually returns to a more comfortable state afterward.\n\nThis level of tension can actually be functional — it helps you stay alert, focused, and prepared when something matters.\n\nHowever, during prolonged stress or fatigue, this activation can accumulate, making it harder to fully relax or disconnect.",
+                    "ru": "Вы склонны испытывать умеренный уровень напряжения, который меняется в зависимости от ситуации. В условиях нагрузки или неопределённости ваше тело и психика могут активироваться, а в более спокойные периоды вы способны расслабляться.\n\nВ повседневной жизни это может ощущаться как периодическое внутреннее напряжение, состояние собранности или лёгкого стресса перед важными задачами. Тело реагирует на давление, но затем обычно возвращается к более комфортному состоянию.\n\nТакой уровень напряжения может быть полезным — он помогает сохранять внимательность, концентрацию и готовность к действиям.\n\nОднако при длительном стрессе или усталости это напряжение может накапливаться, из-за чего становится сложнее полностью расслабиться и «отпустить» ситуацию."
                 },
                 "strengths": {
-                    "en": ["Alertness", "Responsiveness", "Energy"],
-                    "ru": ["Бдительность", "Реактивность", "Энергия"]
+                    "en": ["Alertness", "Focus under pressure", "Readiness"],
+                    "ru": ["Собранность", "Фокус под нагрузкой", "Готовность"]
                 },
                 "challenges": {
-                    "en": ["Occasional stress buildup"],
-                    "ru": ["Периодическое накопление стресса"]
+                    "en": ["Tension can build up over time"],
+                    "ru": ["Напряжение может накапливаться"]
                 },
                 "advice": {
-                    "en": "Maintain balance by combining activity with regular relaxation.",
-                    "ru": "Поддерживайте баланс, сочетая активность с регулярным расслаблением."
+                    "en": "Your level of activation can be helpful when balanced with recovery. It may be useful to intentionally include short moments of relaxation throughout the day, allowing your body to release accumulated tension before it becomes overwhelming.",
+                    "ru": "Ваш уровень активации может быть полезным при условии баланса с восстановлением. Полезно сознательно добавлять в день короткие моменты расслабления, чтобы тело успевало сбрасывать накопившееся напряжение."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Highly Tense",
-                    "ru": "Сильно напряжённый"
+                    "en": "High Inner Tension",
+                    "ru": "Высокое внутреннее напряжение"
                 },
                 "description": {
-                    "en": "You often feel tense or on edge. This can manifest both physically and emotionally.",
-                    "ru": "Вы часто чувствуете напряжение или внутреннее напряжение. Это может проявляться физически и эмоционально."
+                    "en": "You tend to experience a heightened level of inner tension, both mentally and physically. Your body may often feel tight, restless, or on edge, even without a clear external reason.\n\nIn everyday life, this can show up as difficulty relaxing, ощущение «внутреннего сжатия», or a constant background sense of pressure. You may notice that your muscles stay tense, your breathing becomes shallow, or your body remains in a state of readiness.\n\nThis state is often connected to a nervous system that is highly responsive to stress and uncertainty. It can feel as if your system is preparing for action, even when there is no immediate threat.\n\nOver time, this level of tension can become exhausting, affecting both physical comfort and emotional well-being, and making it harder to fully rest and recover.",
+                    "ru": "Вы склонны испытывать повышенный уровень внутреннего напряжения — как на уровне мыслей, так и в теле. Тело может часто ощущаться зажатым, беспокойным или находящимся «на взводе», даже без явной внешней причины.\n\nВ повседневной жизни это может проявляться как трудности с расслаблением, ощущение внутреннего сжатия или постоянного фона давления. Вы можете замечать, что мышцы остаются напряжёнными, дыхание становится более поверхностным, а тело — как будто всё время готово к действию.\n\nТакое состояние часто связано с высокой чувствительностью нервной системы к стрессу и неопределённости. Возникает ощущение, что организм постоянно находится в режиме готовности, даже если объективной угрозы нет.\n\nСо временем это может приводить к усталости, снижению общего самочувствия и трудностям с полноценным отдыхом и восстановлением."
                 },
                 "strengths": {
-                    "en": ["High alertness", "Drive", "Responsibility"],
-                    "ru": ["Высокая бдительность", "Мотивация", "Ответственность"]
+                    "en": ["High responsiveness", "Readiness for action"],
+                    "ru": ["Высокая реактивность", "Готовность к действию"]
                 },
                 "challenges": {
-                    "en": ["Chronic tension", "Difficulty relaxing", "Fatigue"],
-                    "ru": ["Хроническое напряжение", "Трудности с расслаблением", "Усталость"]
+                    "en": ["Chronic tension", "Difficulty relaxing", "Physical fatigue"],
+                    "ru": ["Хроническое напряжение", "Трудности с расслаблением", "Физическая усталость"]
                 },
                 "advice": {
-                    "en": "Incorporate relaxation techniques like breathing exercises or physical activity into your routine.",
-                    "ru": "Добавьте техники расслабления, такие как дыхательные упражнения или физическую активность."
+                    "en": "Your system is highly activated, and learning to safely reduce this activation can be very helpful. Practices such as breathing exercises, body relaxation, or regular physical activity can support your nervous system in returning to a calmer state.",
+                    "ru": "Ваша нервная система находится в состоянии повышенной активации, и важно научиться безопасно её снижать. Практики дыхания, телесного расслабления и регулярная физическая активность могут помочь вернуть состояние покоя и снизить уровень напряжения."
                 }
             }
         },
         "physiological_symptoms": {
             "low": {
                 "title": {
-                    "en": "Physically Calm",
-                    "ru": "Физически спокойный"
+                    "en": "Low Physical Reactivity",
+                    "ru": "Низкая телесная реактивность"
                 },
                 "description": {
-                    "en": "You rarely experience physical symptoms related to stress or anxiety.",
-                    "ru": "Вы редко испытываете физические симптомы, связанные со стрессом или тревогой."
+                    "en": "You tend to experience relatively few physical symptoms in response to stress or anxiety. Your body remains fairly stable, even when facing challenging or uncertain situations.\n\nIn everyday life, this may show up as an absence of noticeable bodily reactions such as rapid heartbeat, muscle tension, or discomfort under pressure. Even when you feel stressed mentally, your body may not strongly reflect it.\n\nThis can be a significant advantage, as it allows you to stay physically comfortable and function effectively without being distracted by bodily sensations.\n\nAt the same time, there may be moments when your body signals are more subtle, making it harder to notice early signs of stress or fatigue before they accumulate.",
+                    "ru": "Вы склонны испытывать минимальные телесные реакции на стресс или тревогу. Даже в сложных или неопределённых ситуациях ваше тело остаётся относительно стабильным.\n\nВ повседневной жизни это может проявляться как отсутствие выраженных физических симптомов — учащённого сердцебиения, мышечного напряжения или дискомфорта под давлением. Даже если вы переживаете на уровне мыслей, тело может не отражать это так явно.\n\nЭто может быть значительным преимуществом, так как позволяет сохранять физический комфорт и не отвлекаться на телесные ощущения.\n\nВ то же время сигналы от тела могут быть менее заметными, из-за чего иногда сложнее вовремя распознать накопление стресса или усталости."
                 },
                 "strengths": {
-                    "en": ["Stable body responses", "Calm physiology"],
-                    "ru": ["Стабильные реакции тела", "Физическое спокойствие"]
+                    "en": ["Physical stability", "Low somatic stress response"],
+                    "ru": ["Физическая стабильность", "Низкая телесная реакция на стресс"]
                 },
                 "challenges": {
-                    "en": ["May overlook subtle stress signals"],
-                    "ru": ["Может игнорировать слабые сигналы стресса"]
+                    "en": ["May overlook early physical signs of stress"],
+                    "ru": ["Может не замечать ранние телесные сигналы стресса"]
                 },
                 "advice": {
-                    "en": "Stay mindful of your body and maintain healthy habits.",
-                    "ru": "Оставайтесь внимательны к телу и поддерживайте здоровые привычки."
+                    "en": "Your body’s stability is a strength. To complement it, it can be helpful to occasionally check in with your physical state — noticing even small changes can support long-term well-being.",
+                    "ru": "Стабильность вашего тела — это сильная сторона. Чтобы дополнить её, полезно иногда осознанно обращать внимание на физическое состояние — даже небольшие изменения могут быть важными сигналами."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Physical Response",
-                    "ru": "Умеренные физические реакции"
+                    "en": "Moderate Physical Awareness",
+                    "ru": "Умеренная телесная чувствительность"
                 },
                 "description": {
-                    "en": "You occasionally experience physical signs of stress, such as tension or fatigue.",
-                    "ru": "Вы иногда испытываете физические признаки стресса, такие как напряжение или усталость."
+                    "en": "You tend to experience physical symptoms of stress and anxiety in a moderate and situational way. Your body reacts when something is important or demanding, but usually returns to a more comfortable state afterward.\n\nIn everyday life, this may include sensations such as temporary muscle tension, changes in breathing, or a sense of physical unease during stressful moments. These reactions are generally manageable and do not persist constantly.\n\nThis level of bodily awareness can be useful, as it helps you recognize when something is affecting you and may require attention.\n\nHowever, during periods of prolonged stress, these physical responses can become more noticeable or frequent.",
+                    "ru": "Вы склонны испытывать телесные проявления стресса и тревоги в умеренной и ситуационной форме. Тело реагирует, когда ситуация значима или напряжённа, но затем обычно возвращается к более комфортному состоянию.\n\nВ повседневной жизни это может проявляться как временное мышечное напряжение, изменения дыхания или лёгкий физический дискомфорт в стрессовые моменты. Эти реакции, как правило, остаются управляемыми и не носят постоянный характер.\n\nТакая телесная чувствительность может быть полезной, так как помогает замечать, когда ситуация начинает вас перегружать.\n\nОднако при длительном стрессе эти реакции могут становиться более выраженными или частыми."
                 },
                 "strengths": {
-                    "en": ["Body awareness", "Responsive system"],
-                    "ru": ["Осознание тела", "Чувствительная система"]
+                    "en": ["Body awareness", "Signal recognition"],
+                    "ru": ["Осознанность тела", "Распознавание сигналов"]
                 },
                 "challenges": {
-                    "en": ["Periodic discomfort"],
-                    "ru": ["Периодический дискомфорт"]
+                    "en": ["Physical symptoms may increase under stress"],
+                    "ru": ["Симптомы могут усиливаться при стрессе"]
                 },
                 "advice": {
-                    "en": "Listen to your body and take breaks when needed.",
-                    "ru": "Слушайте своё тело и делайте перерывы при необходимости."
+                    "en": "Your awareness of bodily signals can be a helpful guide. Learning simple regulation techniques — such as breathing or relaxation — can help you respond early and prevent symptoms from intensifying.",
+                    "ru": "Осознание сигналов тела может быть полезным ориентиром. Освоение простых техник регуляции — например дыхания или расслабления — поможет вовремя реагировать и не допускать усиления симптомов."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Strong Physical Symptoms",
-                    "ru": "Выраженные физические симптомы"
+                    "en": "High Physical Sensitivity",
+                    "ru": "Высокая телесная чувствительность"
                 },
                 "description": {
-                    "en": "You frequently experience physical symptoms of stress, such as headaches, muscle tension, or rapid heartbeat.",
-                    "ru": "Вы часто испытываете физические симптомы стресса, такие как головные боли, мышечное напряжение или учащённое сердцебиение."
+                    "en": "You tend to experience stress and anxiety strongly on a physical level. Your body may react quickly and noticeably, even to relatively small triggers or internal concerns.\n\nIn everyday life, this can include sensations such as a racing heart, muscle tightness, shallow breathing, stomach discomfort, or a general feeling of physical unease. These reactions can sometimes appear suddenly and feel difficult to control.\n\nThis does not mean something is “wrong” with your body — rather, it reflects a nervous system that is highly responsive and sensitive to stress signals.\n\nHowever, when these reactions are frequent or intense, they can become distressing and may increase overall anxiety, especially if the sensations themselves start to feel alarming.",
+                    "ru": "Вы склонны ярко переживать стресс и тревогу на телесном уровне. Ваше тело может быстро и заметно реагировать даже на относительно небольшие триггеры или внутренние переживания.\n\nВ повседневной жизни это может проявляться как учащённое сердцебиение, напряжение в мышцах, поверхностное дыхание, дискомфорт в животе или общее ощущение физического неблагополучия. Иногда такие реакции возникают внезапно и могут казаться трудноконтролируемыми.\n\nЭто не означает, что с вашим телом «что-то не так» — скорее, это говорит о высокой чувствительности нервной системы к стрессу.\n\nОднако при частых или интенсивных проявлениях такие реакции могут становиться источником дополнительного беспокойства, особенно если сами телесные ощущения начинают восприниматься как пугающие."
                 },
                 "strengths": {
-                    "en": ["High sensitivity", "Early stress detection"],
-                    "ru": ["Высокая чувствительность", "Раннее обнаружение стресса"]
+                    "en": ["High body awareness", "Sensitivity to internal signals"],
+                    "ru": ["Высокая телесная осознанность", "Чувствительность к внутренним сигналам"]
                 },
                 "challenges": {
-                    "en": ["Physical discomfort", "Chronic stress symptoms"],
-                    "ru": ["Физический дискомфорт", "Хронические симптомы стресса"]
+                    "en": ["Strong physical reactions", "May amplify anxiety"],
+                    "ru": ["Сильные телесные реакции", "Может усиливать тревогу"]
                 },
                 "advice": {
-                    "en": "Consider stress-reduction strategies and consult a professional if symptoms persist.",
-                    "ru": "Рассмотрите методы снижения стресса и при необходимости обратитесь к специалисту."
+                    "en": "Your body is highly responsive, and learning to work with it can make a significant difference. Gentle practices such as breathing exercises, grounding, and body-based relaxation can help reduce intensity and create a greater sense of control and safety.",
+                    "ru": "Ваше тело обладает высокой чувствительностью, и умение взаимодействовать с ним может существенно улучшить самочувствие. Мягкие практики — дыхание, заземление, телесное расслабление — помогают снизить интенсивность реакций и вернуть ощущение контроля и безопасности."
                 }
             }
         },
         "stress_tolerance": {
             "low": {
                 "title": {
-                    "en": "Stress Sensitive",
-                    "ru": "Чувствительный к стрессу"
+                    "en": "Sensitive to Stress",
+                    "ru": "Чувствительность к стрессу"
                 },
                 "description": {
-                    "en": "You may feel overwhelmed by stress more easily. High-pressure situations can significantly affect your well-being.",
-                    "ru": "Вы можете легче чувствовать перегруженность от стресса. Ситуации высокого давления могут существенно влиять на благополучие."
+                    "en": "You tend to feel the impact of stress relatively quickly and intensely. Situations involving pressure, uncertainty, or high demands may lead to noticeable emotional and physical strain.\n\nIn everyday life, this can show up as a faster accumulation of fatigue, difficulty staying calm under pressure, or a feeling that stressful situations require significant effort to manage. You may find that your energy decreases when stress persists, and recovery may take longer.\n\nThis does not indicate weakness — rather, it reflects a nervous system that is more sensitive and responsive to external and internal demands.\n\nAt the same time, without sufficient recovery and support, prolonged stress can feel overwhelming and may affect both your well-being and your ability to function comfortably.",
+                    "ru": "Вы склонны достаточно быстро и интенсивно ощущать влияние стресса. Ситуации, связанные с давлением, неопределённостью или высокой нагрузкой, могут вызывать заметное эмоциональное и физическое напряжение.\n\nВ повседневной жизни это может проявляться как более быстрое накопление усталости, сложности с сохранением спокойствия под давлением или ощущение, что стрессовые ситуации требуют значительных усилий для их выдерживания. При длительной нагрузке энергия может снижаться, а восстановление занимать больше времени.\n\nЭто не является признаком слабости — скорее, это отражает более чувствительную и отзывчивую нервную систему.\n\nВ то же время при недостатке восстановления или поддержки длительный стресс может ощущаться как перегружающий и влиять на общее самочувствие и способность комфортно функционировать."
+                },
+                "strengths": {
+                    "en": ["Sensitivity to limits", "Awareness of overload"],
+                    "ru": ["Чувствительность к своим пределам", "Осознание перегрузки"]
+                },
+                "challenges": {
+                    "en": ["Lower stress endurance", "Faster fatigue under pressure"],
+                    "ru": ["Меньшая устойчивость к нагрузке", "Быстрое утомление при стрессе"]
                 },
                 "advice": {
-                    "en": "Develop stress management strategies and consider reducing unnecessary stressors in your life.",
-                    "ru": "Разработайте стратегии управления стрессом и рассмотрите сокращение ненужных стрессоров в жизни."
+                    "en": "Your sensitivity to stress can become a guide rather than a limitation. It may be helpful to build routines that include regular recovery, clear boundaries, and manageable workloads. Learning to notice early signs of overload can help you respond before stress becomes overwhelming.",
+                    "ru": "Ваша чувствительность к стрессу может стать ориентиром, а не ограничением. Полезно выстраивать режим с регулярным восстановлением, понятными границами и посильной нагрузкой. Умение замечать ранние признаки перегрузки поможет реагировать до того, как стресс станет чрезмерным."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Stress Tolerance",
+                    "en": "Moderate Stress Resilience",
                     "ru": "Умеренная стрессоустойчивость"
                 },
                 "description": {
-                    "en": "You handle moderate stress levels adequately. You have some coping mechanisms but may struggle with extreme pressure.",
-                    "ru": "Вы справляетесь с умеренными уровнями стресса адекватно. Есть некоторые механизмы совладания, но можете испытывать трудности при экстремальном давлении."
+                    "en": "You tend to handle stress in a generally balanced way. You are capable of coping with pressure and challenges, while still being affected by them to a certain degree.\n\nIn everyday life, this means you can stay functional and engaged in demanding situations, especially when they are meaningful or time-limited. At the same time, you may notice fatigue or tension building up if stress continues without breaks.\n\nYour response to stress is flexible: you can mobilize when needed, but also require periods of recovery to return to your baseline.\n\nThis balance allows you to adapt to different levels of demand, though it is important to maintain awareness of your limits to prevent gradual exhaustion.",
+                    "ru": "Вы склонны справляться со стрессом достаточно сбалансированно. Вы способны выдерживать нагрузку и справляться с трудностями, при этом всё же ощущая их влияние.\n\nВ повседневной жизни это означает, что вы можете оставаться включённым и эффективным в напряжённых ситуациях, особенно если они имеют смысл или ограничены по времени. При этом при длительном стрессе вы можете замечать накопление усталости или напряжения.\n\nВаша реакция на стресс гибкая: вы можете мобилизоваться, когда это нужно, но также нуждаетесь в восстановлении, чтобы вернуться в устойчивое состояние.\n\nТакой баланс помогает адаптироваться к разным условиям, однако важно сохранять чувствительность к своим пределам, чтобы не допускать постепенного истощения."
+                },
+                "strengths": {
+                    "en": ["Adaptability", "Balanced coping", "Functional under pressure"],
+                    "ru": ["Адаптивность", "Сбалансированное совладание", "Эффективность под давлением"]
+                },
+                "challenges": {
+                    "en": ["Stress can accumulate over time"],
+                    "ru": ["Стресс может накапливаться со временем"]
                 },
                 "advice": {
-                    "en": "Continue building your stress management toolkit for more challenging times.",
-                    "ru": "Продолжайте строить набор инструментов управления стрессом для более сложных времен."
+                    "en": "Your balanced response to stress is a strong foundation. To sustain it, it is helpful to intentionally alternate periods of effort and recovery, ensuring that stress does not gradually build up unnoticed.",
+                    "ru": "Ваш сбалансированный отклик на стресс — хорошая основа. Чтобы сохранять его, важно осознанно чередовать нагрузку и восстановление, не позволяя стрессу незаметно накапливаться."
                 }
             },
             "high": {
@@ -648,80 +663,113 @@
                     "ru": "Высокая стрессоустойчивость"
                 },
                 "description": {
-                    "en": "You handle stress exceptionally well. You remain calm and effective even under significant pressure.",
-                    "ru": "Вы справляетесь со стрессом исключительно хорошо. Сохраняете спокойствие и эффективность даже при значительном давлении."
+                    "en": "You tend to remain stable and effective even under significant pressure. Stressful situations are less likely to disrupt your functioning, and you are able to maintain focus and composure in demanding environments.\n\nIn everyday life, this may show up as the ability to handle high workloads, make decisions under pressure, and continue moving forward even when facing difficulties. You may recover relatively quickly and not feel easily overwhelmed.\n\nThis resilience can be a major strength, especially in challenging or dynamic contexts. Others may rely on you in situations that require steadiness and endurance.\n\nAt the same time, there can be a tendency to push yourself beyond healthy limits or underestimate the need for rest, as stress does not always feel immediately impactful.",
+                    "ru": "Вы склонны сохранять устойчивость и эффективность даже при значительной нагрузке. Стрессовые ситуации с меньшей вероятностью выбивают вас из рабочего состояния, и вы способны сохранять концентрацию и собранность в сложных условиях.\n\nВ повседневной жизни это может проявляться как способность справляться с большим объёмом задач, принимать решения под давлением и продолжать двигаться вперёд, несмотря на трудности. Вы относительно быстро восстанавливаетесь и не склонны легко перегружаться.\n\nТакая устойчивость является серьёзным преимуществом, особенно в динамичных и требовательных средах. Окружающие могут опираться на вас в ситуациях, где важны надёжность и выдержка.\n\nОднако иногда может возникать склонность перегружать себя или недооценивать потребность в отдыхе, так как стресс не всегда ощущается сразу."
+                },
+                "strengths": {
+                    "en": ["Endurance", "Stability under pressure", "Reliability"],
+                    "ru": ["Выносливость", "Устойчивость под давлением", "Надёжность"]
+                },
+                "challenges": {
+                    "en": ["May ignore need for recovery", "Risk of overloading"],
+                    "ru": ["Может игнорировать потребность в восстановлении", "Риск перегрузки"]
                 },
                 "advice": {
-                    "en": "Your stress resilience is a valuable asset. Help others develop similar skills through your example.",
-                    "ru": "Ваша стрессоустойчивость — ценный актив. Помогайте другим развивать похожие навыки своим примером."
+                    "en": "Your resilience is a powerful asset. To maintain it long-term, it is important to consciously include recovery and avoid relying solely on endurance. Sustainable performance comes from balancing effort with rest.",
+                    "ru": "Ваша устойчивость — сильный ресурс. Чтобы сохранить её в долгосрочной перспективе, важно осознанно включать восстановление и не опираться только на выносливость. Устойчивый результат достигается через баланс нагрузки и отдыха."
                 }
             }
         },
         "resilience": {
             "low": {
                 "title": {
-                    "en": "Building Resilience",
-                    "ru": "Развитие резильентности"
+                    "en": "Sensitive Recovery",
+                    "ru": "Чувствительное восстановление"
                 },
                 "description": {
-                    "en": "Setbacks may affect you more deeply and recovery may take longer.",
-                    "ru": "Неудачи могут влиять на вас глубже, и восстановление может занимать больше времени."
+                    "en": "You may find that it takes time to recover after stressful or emotionally demanding situations. Experiences can linger in your thoughts and feelings, making it harder to quickly return to a sense of balance.\n\nIn everyday life, this can show up as prolonged reflection after difficult events, a tendency to revisit what happened, or a feeling that emotional impact stays with you longer than you would like. Even after the situation has passed, your internal state may still be processing it.\n\nThis pattern often reflects a deeper level of emotional processing. You may engage with experiences more thoroughly, rather than quickly moving past them.\n\nAt the same time, without supportive ways of восстановление, this can lead to fatigue, накопление стресса и ощущение, что вам сложнее «перезагрузиться» после нагрузки.",
+                    "ru": "Вам может требоваться больше времени для восстановления после стрессовых или эмоционально нагруженных ситуаций. Переживания могут дольше сохраняться в мыслях и чувствах, из-за чего возвращение к равновесию происходит не сразу.\n\nВ повседневной жизни это может проявляться как длительное обдумывание произошедшего, возвращение к событиям или ощущение, что эмоциональный отклик остаётся с вами дольше, чем хотелось бы. Даже после завершения ситуации внутреннее состояние может продолжать её «перерабатывать».\n\nТакой паттерн часто связан с более глубоким проживанием опыта — вы не просто проходите через события, а действительно их осмысливаете.\n\nВ то же время при отсутствии поддерживающих способов восстановления это может приводить к накоплению усталости, стрессу и ощущению, что вам сложнее восстановить внутренний ресурс."
+                },
+                "strengths": {
+                    "en": ["Deep emotional processing", "Reflectiveness"],
+                    "ru": ["Глубокая переработка опыта", "Рефлексивность"]
+                },
+                "challenges": {
+                    "en": ["Slower recovery after stress", "Emotional carryover"],
+                    "ru": ["Медленное восстановление", "Длительное удержание переживаний"]
                 },
                 "advice": {
-                    "en": "Focus on developing a growth mindset. Each challenge is an opportunity to build resilience.",
-                    "ru": "Сосредоточьтесь на развитии мышления роста. Каждая проблема — возможность построить резильентность."
+                    "en": "Your depth of processing is valuable, but it is equally important to support your recovery. Practices that help you “close” experiences — such as reflection with structure, physical relaxation, or shifting attention — can make recovery more complete and less exhausting.",
+                    "ru": "Ваша глубина переживания — это ресурс, но важно поддерживать и восстановление. Практики, которые помогают «завершать» переживания — структурированная рефлексия, телесное расслабление или переключение внимания — могут сделать восстановление более полноценным и менее утомляющим."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Resilience",
-                    "ru": "Умеренная резильентность"
+                    "en": "Balanced Resilience",
+                    "ru": "Сбалансированная устойчивость"
                 },
                 "description": {
-                    "en": "You bounce back from setbacks at a typical pace. You have developed some resilience strategies.",
-                    "ru": "Вы восстанавливаетесь после неудач в типичном темпе. Вы развили некоторые стратегии резильентности."
+                    "en": "You tend to recover from stress in a relatively balanced way. Challenging experiences may affect you, but you are generally able to process them and gradually return to your baseline state.\n\nIn everyday life, this can show up as the ability to handle difficulties without being overwhelmed long-term. You may need some time to reset after stressful events, but recovery usually happens without significant disruption.\n\nThis balance allows you to stay connected to your experiences while also maintaining forward movement. You are able to learn from challenges without getting stuck in them.\n\nAt times, however, prolonged or repeated stress may still require more intentional recovery, as natural resilience has its limits.",
+                    "ru": "Вы склонны восстанавливаться после стресса достаточно сбалансированно. Сложные ситуации могут вас затрагивать, но вы, как правило, способны их переработать и постепенно вернуться в устойчивое состояние.\n\nВ повседневной жизни это проявляется как способность справляться с трудностями без длительного «застревания» в них. После стрессовых событий вам может требоваться время на восстановление, но оно обычно происходит без серьёзных сбоев.\n\nТакой баланс позволяет вам проживать опыт и при этом двигаться дальше. Вы способны извлекать из сложностей опыт, не теряя устойчивости.\n\nИногда, однако, при длительной или повторяющейся нагрузке может потребоваться более осознанное восстановление, так как естественная устойчивость имеет свои пределы."
+                },
+                "strengths": {
+                    "en": ["Adaptation", "Recovery ability", "Learning from experience"],
+                    "ru": ["Адаптация", "Способность к восстановлению", "Извлечение опыта"]
+                },
+                "challenges": {
+                    "en": ["Recovery may require time under prolonged stress"],
+                    "ru": ["При длительном стрессе требуется больше времени на восстановление"]
                 },
                 "advice": {
-                    "en": "Continue strengthening your resilience through positive self-talk and learning from challenges.",
-                    "ru": "Продолжайте укреплять резильентность через позитивный внутренний диалог и обучение на проблемах."
+                    "en": "Your resilience is well-balanced. To strengthen it further, it can be helpful to consciously include recovery practices during periods of increased stress, rather than relying only on natural adaptation.",
+                    "ru": "Ваша устойчивость находится в хорошем балансе. Чтобы усилить её, полезно в периоды повышенной нагрузки осознанно добавлять восстановление, а не полагаться только на естественную адаптацию."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Highly Resilient",
-                    "ru": "Высокая резильентность"
+                    "en": "Strong Resilience",
+                    "ru": "Высокая психологическая устойчивость"
                 },
                 "description": {
-                    "en": "You recover quickly from setbacks and view challenges as opportunities for growth.",
-                    "ru": "Вы быстро восстанавливаетесь после неудач и рассматриваете проблемы как возможности для роста."
+                    "en": "You tend to recover relatively quickly after stressful or challenging experiences. Even when situations are difficult, you are able to regain balance and continue functioning without prolonged disruption.\n\nIn everyday life, this may show up as the ability to “bounce back” after setbacks, maintain perspective, and not remain emotionally affected for long periods. You are likely able to adapt and move forward even after demanding situations.\n\nThis resilience can be a powerful strength, allowing you to stay effective and stable in a wide range of conditions.\n\nAt the same time, there may be a tendency to move on quickly without fully processing certain experiences, or to underestimate the need for reflection and emotional integration.",
+                    "ru": "Вы склонны достаточно быстро восстанавливаться после стрессовых или сложных ситуаций. Даже при наличии трудностей вы способны возвращаться в устойчивое состояние и продолжать функционировать без длительного сбоя.\n\nВ повседневной жизни это может проявляться как способность «отскакивать» после неудач, сохранять перспективу и не задерживаться надолго в эмоционально сложных состояниях. Вы умеете адаптироваться и двигаться дальше даже после напряжённых событий.\n\nТакая устойчивость является мощным ресурсом, позволяющим сохранять эффективность и стабильность в разных условиях.\n\nПри этом иногда может возникать склонность слишком быстро переключаться дальше, не полностью проживая или осмысляя полученный опыт, а также недооценивать важность пауз и внутренней переработки.",
+                    "ru": "Вы склонны достаточно быстро восстанавливаться после стрессовых или сложных ситуаций. Даже при наличии трудностей вы способны возвращаться в устойчивое состояние и продолжать функционировать без длительного сбоя.\n\nВ повседневной жизни это может проявляться как способность «отскакивать» после неудач, сохранять перспективу и не задерживаться надолго в эмоционально сложных состояниях. Вы умеете адаптироваться и двигаться дальше даже после напряжённых событий.\n\nТакая устойчивость является мощным ресурсом, позволяющим сохранять эффективность и стабильность в разных условиях.\n\nПри этом иногда может возникать склонность слишком быстро переключаться дальше, не полностью проживая или осмысляя полученный опыт, а также недооценивать важность пауз и внутренней переработки."
+                },
+                "strengths": {
+                    "en": ["Fast recovery", "Adaptability", "Emotional stability"],
+                    "ru": ["Быстрое восстановление", "Адаптивность", "Эмоциональная устойчивость"]
+                },
+                "challenges": {
+                    "en": ["May skip deeper processing", "Could underestimate need for reflection"],
+                    "ru": ["Может пропускать глубокую переработку", "Может недооценивать важность рефлексии"]
                 },
                 "advice": {
-                    "en": "Your resilience is exceptional. Share your strategies with others who may benefit.",
-                    "ru": "Ваша резильентность исключительна. Делитесь стратегиями с другими, кто может извлечь пользу."
+                    "en": "Your ability to recover is a strong asset. To make it even more sustainable, it can be helpful to occasionally slow down and reflect on your experiences, allowing not only recovery but also deeper integration.",
+                    "ru": "Ваша способность к восстановлению — сильный ресурс. Чтобы сделать её ещё более устойчивой, полезно иногда замедляться и осмыслять пережитый опыт, позволяя не только восстановиться, но и интегрировать его."
                 }
             }
         },
         "coping_strategies": {
             "low": {
                 "title": {
-                    "en": "Limited Coping Skills",
+                    "en": "Limited Coping Strategies",
                     "ru": "Ограниченные стратегии совладания"
                 },
                 "description": {
-                    "en": "You may struggle to effectively manage stress. In difficult situations, you might feel overwhelmed and unsure how to respond.",
-                    "ru": "Вы можете испытывать трудности с управлением стрессом. В сложных ситуациях вы можете чувствовать перегруженность и неуверенность в том, как действовать."
+                    "en": "You may have a relatively limited set of strategies for dealing with stress and difficult emotions. In challenging situations, it can feel unclear how to respond or how to effectively reduce the internal pressure.\n\nIn everyday life, this might show up as avoiding difficult situations, feeling stuck in stress without clear ways to manage it, or relying on short-term relief that does not fully resolve the underlying tension.\n\nThis does not mean you are unable to cope — rather, it suggests that your current set of strategies may not always match the level or type of stress you experience.\n\nThe important point is that coping is a skill that can be developed. With time and practice, it is possible to build a wider and more flexible set of responses to stress.",
+                    "ru": "У вас может быть относительно ограниченный набор способов справляться со стрессом и сложными эмоциями. В напряжённых ситуациях может возникать ощущение, что не совсем понятно, как реагировать или как эффективно снизить внутреннее напряжение.\n\nВ повседневной жизни это может проявляться как избегание сложных ситуаций, ощущение «застревания» в стрессе или использование краткосрочных способов облегчения, которые не решают ситуацию полностью.\n\nЭто не означает, что вы не умеете справляться — скорее, текущие стратегии не всегда соответствуют уровню или типу нагрузки.\n\nВажно, что навыки совладания можно развивать. Со временем можно выстроить более широкий и гибкий набор способов реагирования на стресс."
                 },
                 "strengths": {
-                    "en": ["Emotional honesty", "Sensitivity"],
-                    "ru": ["Эмоциональная честность", "Чувствительность"]
+                    "en": ["Potential for growth", "Openness to new strategies"],
+                    "ru": ["Потенциал для развития", "Готовность осваивать новые стратегии"]
                 },
                 "challenges": {
-                    "en": ["Lack of coping tools", "Easily overwhelmed", "Avoidance"],
-                    "ru": ["Недостаток стратегий совладания", "Легкая перегруженность", "Избегание"]
+                    "en": ["Limited coping tools", "Reliance on short-term relief"],
+                    "ru": ["Ограниченный набор стратегий", "Опора на краткосрочное облегчение"]
                 },
                 "advice": {
-                    "en": "Start building simple coping strategies such as breathing techniques, journaling, or talking to others.",
-                    "ru": "Начните развивать простые стратегии совладания, такие как дыхательные техники, ведение дневника или разговор с другими."
+                    "en": "Expanding your coping toolkit can make a meaningful difference. It may be helpful to gradually explore different approaches — such as problem-solving, emotional expression, or relaxation techniques — and notice what works best for you.",
+                    "ru": "Расширение набора стратегий может существенно повлиять на ваше состояние. Полезно постепенно пробовать разные подходы — решение задач, выражение эмоций, техники расслабления — и наблюдать, что подходит именно вам."
                 }
             },
             "medium": {
@@ -730,181 +778,182 @@
                     "ru": "Развивающиеся стратегии совладания"
                 },
                 "description": {
-                    "en": "You have some effective ways of dealing with stress, though they may not always work in more intense situations.",
-                    "ru": "У вас есть некоторые эффективные способы справляться со стрессом, хотя они не всегда работают в более интенсивных ситуациях."
+                    "en": "You tend to use a range of coping strategies that help you manage stress in many situations. You are able to adapt your responses depending on the context, although some situations may still feel more challenging than others.\n\nIn everyday life, this can show up as using different approaches — such as thinking through problems, seeking support, or taking time to recover — depending on what is needed.\n\nThis flexibility is an important strength, as it allows you to respond to stress in a more balanced and effective way.\n\nAt times, however, certain привычные стратегии могут срабатывать не так эффективно, особенно при сильной или длительной нагрузке.",
+                    "ru": "Вы склонны использовать достаточно разнообразные стратегии совладания, которые помогают справляться со стрессом в разных ситуациях. Вы способны адаптировать свои реакции в зависимости от контекста, хотя некоторые ситуации могут оставаться более сложными.\n\nВ повседневной жизни это может проявляться как использование разных подходов — анализ ситуации, поиск поддержки, восстановление — в зависимости от того, что требуется.\n\nТакая гибкость является важным ресурсом, так как позволяет реагировать на стресс более сбалансированно и эффективно.\n\nИногда, однако, привычные стратегии могут работать менее эффективно, особенно при сильной или длительной нагрузке."
                 },
                 "strengths": {
-                    "en": ["Adaptability", "Basic coping tools", "Learning ability"],
-                    "ru": ["Адаптивность", "Базовые стратегии", "Способность к обучению"]
+                    "en": ["Flexibility", "Adaptive coping", "Situational awareness"],
+                    "ru": ["Гибкость", "Адаптивные стратегии", "Чувствительность к ситуации"]
                 },
                 "challenges": {
-                    "en": ["Inconsistent coping", "May revert to less effective habits"],
-                    "ru": ["Непоследовательность стратегий", "Может возвращаться к менее эффективным привычкам"]
+                    "en": ["Some strategies may lose effectiveness under stress"],
+                    "ru": ["При сильном стрессе стратегии могут работать хуже"]
                 },
                 "advice": {
-                    "en": "Expand your coping toolkit and identify which strategies work best in different situations.",
-                    "ru": "Расширяйте набор стратегий и определяйте, какие из них лучше работают в разных ситуациях."
+                    "en": "Your ability to adapt is a strong foundation. To strengthen it further, you can consciously expand your strategies and reflect on which ones are most effective in different types of situations.",
+                    "ru": "Ваша способность адаптироваться — хорошая основа. Чтобы усилить её, можно осознанно расширять набор стратегий и отслеживать, какие из них лучше работают в разных ситуациях."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Effective Coping Mastery",
+                    "en": "Effective Coping Strategies",
                     "ru": "Эффективные стратегии совладания"
                 },
                 "description": {
-                    "en": "You have a strong set of coping strategies and can manage stress effectively across different situations.",
-                    "ru": "У вас есть сильный набор стратегий совладания, и вы эффективно управляете стрессом в разных ситуациях."
+                    "en": "You tend to have a well-developed and flexible set of strategies for dealing with stress and challenges. You are able to respond to difficulties in ways that help regulate your emotions and maintain your functioning.\n\nIn everyday life, this may show up as the ability to choose appropriate responses — whether it is actively solving a problem, seeking support, reframing a situation, or allowing yourself time to recover.\n\nThis level of coping flexibility is a strong resource, as it allows you to navigate a wide range of situations without becoming overwhelmed.\n\nAt the same time, there may be moments when you rely heavily on doing or managing, leaving less space for simply experiencing emotions without trying to immediately regulate them.",
+                    "ru": "У вас, как правило, сформирован достаточно развитый и гибкий набор стратегий совладания со стрессом и трудностями. Вы способны реагировать на сложные ситуации таким образом, чтобы регулировать своё состояние и сохранять функциональность.\n\nВ повседневной жизни это может проявляться как умение выбирать подходящую реакцию — решать проблему, обращаться за поддержкой, переосмысливать ситуацию или давать себе время на восстановление.\n\nТакая гибкость является сильным ресурсом, так как позволяет справляться с разными типами нагрузки без сильного перегруза.\n\nПри этом иногда может возникать склонность сразу «что-то делать» со своими переживаниями, оставляя меньше пространства для их простого проживания без попытки немедленно их изменить."
                 },
                 "strengths": {
-                    "en": ["Emotional regulation", "Problem-solving", "Resilience"],
-                    "ru": ["Эмоциональная регуляция", "Решение проблем", "Резильентность"]
+                    "en": ["Flexible coping", "Emotional regulation", "Problem-solving ability"],
+                    "ru": ["Гибкость в совладании", "Эмоциональная регуляция", "Навыки решения проблем"]
                 },
                 "challenges": {
-                    "en": ["May rely heavily on self-sufficiency"],
-                    "ru": ["Может чрезмерно полагаться только на себя"]
+                    "en": ["May over-focus on control", "Less space for emotional processing"],
+                    "ru": ["Склонность к избыточному контролю", "Меньше пространства для проживания эмоций"]
                 },
                 "advice": {
-                    "en": "Continue refining your strategies and share your experience with others who may benefit.",
-                    "ru": "Продолжайте развивать свои стратегии и делитесь опытом с другими."
+                    "en": "Your coping strategies are a strong asset. To make them even more balanced, it can be helpful to allow moments where you are not trying to change or manage your experience, but simply noticing and accepting it.",
+                    "ru": "Ваши стратегии совладания — это сильный ресурс. Чтобы сделать их ещё более сбалансированными, полезно иногда позволять себе не управлять переживаниями, а просто замечать и принимать их."
                 }
             }
         },
         "recovery": {
             "low": {
                 "title": {
-                    "en": "Slow Recovery",
-                    "ru": "Медленное восстановление"
+                    "en": "Limited Recovery",
+                    "ru": "Сложности с восстановлением"
                 },
                 "description": {
-                    "en": "It may take you longer to recover after stress or difficult experiences. Emotional or physical fatigue can linger.",
-                    "ru": "Вам может требоваться больше времени для восстановления после стресса или сложных ситуаций. Усталость может сохраняться дольше."
+                    "en": "You may find it difficult to fully recover after periods of stress, workload, or emotional strain. Even when the external pressure decreases, your internal state may remain activated for some time.\n\nIn everyday life, this can show up as a lingering sense of fatigue, difficulty расслабиться, or the feeling that rest does not fully restore your energy. You might switch from one activity to another without experiencing a true sense of recovery.\n\nThis pattern often leads to gradual accumulation of stress, where fatigue builds up over time rather than being fully released.\n\nIt is important to understand that this is not about a lack of effort, but about how your recovery processes are currently structured.",
+                    "ru": "Вам может быть сложно полноценно восстанавливаться после периодов стресса, нагрузки или эмоционального напряжения. Даже когда внешнее давление снижается, внутреннее состояние может оставаться активированным.\n\nВ повседневной жизни это может проявляться как ощущение сохраняющейся усталости, трудности с расслаблением или чувство, что отдых не даёт полного восстановления. Вы можете переключаться между делами, но не ощущать настоящего отдыха.\n\nТакой паттерн часто приводит к постепенному накоплению стресса, когда усталость не сбрасывается полностью, а накапливается со временем.\n\nВажно понимать, что это не связано с недостатком усилий — скорее, это особенность текущих способов восстановления."
                 },
                 "strengths": {
-                    "en": ["Depth of processing", "Emotional awareness"],
-                    "ru": ["Глубина переживания", "Эмоциональная осознанность"]
+                    "en": ["Awareness of fatigue", "Need for deeper rest"],
+                    "ru": ["Осознание усталости", "Потребность в глубоком восстановлении"]
                 },
                 "challenges": {
-                    "en": ["Prolonged fatigue", "Difficulty bouncing back"],
-                    "ru": ["Длительная усталость", "Трудности с восстановлением"]
+                    "en": ["Incomplete recovery", "Accumulation of fatigue"],
+                    "ru": ["Неполное восстановление", "Накопление усталости"]
                 },
                 "advice": {
-                    "en": "Prioritize rest and recovery routines. Small регулярные паузы могут значительно улучшить ваше состояние.",
-                    "ru": "Ставьте в приоритет отдых и восстановление. Небольшие регулярные паузы могут значительно улучшить состояние."
+                    "en": "Recovery is not only about stopping activity, but about changing your internal state. It may be helpful to explore forms of rest that actively support relaxation — such as body-based practices, reducing stimulation, or creating clear boundaries between work and recovery time.",
+                    "ru": "Восстановление — это не только прекращение активности, но и изменение внутреннего состояния. Полезно искать формы отдыха, которые действительно помогают расслаблению — телесные практики, снижение стимуляции, чёткое разделение работы и отдыха."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Recovery",
-                    "ru": "Умеренное восстановление"
+                    "en": "Balanced Recovery",
+                    "ru": "Сбалансированное восстановление"
                 },
                 "description": {
-                    "en": "You recover from stress at an average pace. Given time and rest, you return to baseline functioning.",
-                    "ru": "Вы восстанавливаетесь после стресса в среднем темпе. Со временем и отдыхом возвращаетесь к норме."
+                    "en": "You tend to recover from stress in a generally effective way, although this may depend on the intensity and duration of the load. After demanding periods, you are usually able to restore your energy, given enough time and space.\n\nIn everyday life, this may show up as the ability to relax after work, disengage from stressful situations, and gradually return to a more comfortable state. You are capable of восстановления, even if it is not always immediate.\n\nThis balance allows you to maintain your functioning over time without excessive exhaustion.\n\nHowever, during prolonged or intense stress, recovery may require more intentional effort rather than happening automatically.",
+                    "ru": "Вы склонны восстанавливаться после стресса в целом достаточно эффективно, хотя это может зависеть от интенсивности и длительности нагрузки. После напряжённых периодов вы обычно способны вернуть энергию, если есть достаточно времени и пространства.\n\nВ повседневной жизни это проявляется как способность расслабляться после работы, «отключаться» от стрессовых ситуаций и постепенно возвращаться в более комфортное состояние. Вы умеете восстанавливаться, даже если это происходит не сразу.\n\nТакой баланс помогает поддерживать стабильное состояние без сильного истощения.\n\nОднако при длительном или интенсивном стрессе восстановление может требовать более осознанных усилий, а не происходить само по себе."
                 },
                 "strengths": {
-                    "en": ["Balanced recovery", "Stability"],
-                    "ru": ["Сбалансированное восстановление", "Стабильность"]
+                    "en": ["Ability to restore energy", "Functional balance"],
+                    "ru": ["Способность восстанавливать энергию", "Сбалансированность"]
                 },
                 "challenges": {
-                    "en": ["May underestimate need for recovery"],
-                    "ru": ["Может недооценивать необходимость восстановления"]
+                    "en": ["Recovery may slow under prolonged stress"],
+                    "ru": ["При длительном стрессе восстановление замедляется"]
                 },
                 "advice": {
-                    "en": "Maintain consistent recovery habits, even when you feel fine.",
-                    "ru": "Поддерживайте регулярные привычки восстановления, даже когда чувствуете себя нормально."
+                    "en": "Your recovery works well under normal conditions. To support it during more demanding periods, it can be helpful to plan recovery intentionally, rather than relying only on natural processes.",
+                    "ru": "Ваше восстановление работает хорошо в обычных условиях. В периоды повышенной нагрузки полезно планировать восстановление осознанно, а не полагаться только на естественное восстановление."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Fast Recovery",
-                    "ru": "Быстрое восстановление"
+                    "en": "Effective Recovery",
+                    "ru": "Эффективное восстановление"
                 },
                 "description": {
-                    "en": "You recover quickly from stress and setbacks. You regain energy and emotional balance efficiently.",
-                    "ru": "Вы быстро восстанавливаетесь после стресса и неудач. Энергия и эмоциональный баланс возвращаются быстро."
+                    "en": "You tend to recover well after stress and demanding situations. You are able to restore your energy and return to a balanced state without prolonged fatigue.\n\nIn everyday life, this may show up as the ability to genuinely relax, переключаться между нагрузкой и отдыхом, and feel that rest actually replenishes your resources. You likely have ways of disengaging from stress that work for you.\n\nThis ability is an important resource, as it supports both well-being and long-term effectiveness.\n\nAt the same time, there may be a tendency to rely on this ability and take on more load than necessary, assuming that recovery will compensate for it.",
+                    "ru": "Вы склонны хорошо восстанавливаться после стресса и напряжённых ситуаций. Вам удаётся возвращать энергию и приходить в сбалансированное состояние без длительного ощущения усталости.\n\nВ повседневной жизни это проявляется как способность по-настоящему расслабляться, переключаться между нагрузкой и отдыхом и ощущать, что отдых действительно восполняет ресурсы. У вас, вероятно, уже есть работающие способы «отключаться» от стресса.\n\nЭта способность является важным ресурсом, поддерживающим как самочувствие, так и эффективность в долгосрочной перспективе.\n\nИногда, однако, может возникать склонность полагаться на это и брать на себя больше нагрузки, чем необходимо, рассчитывая, что восстановление всё компенсирует."
                 },
                 "strengths": {
-                    "en": ["Rapid восстановления", "Resilience", "Energy renewal"],
-                    "ru": ["Быстрое восстановление", "Резильентность", "Восстановление энергии"]
+                    "en": ["Fast and effective recovery", "Energy restoration"],
+                    "ru": ["Быстрое и эффективное восстановление", "Восполнение энергии"]
                 },
                 "challenges": {
-                    "en": ["May overlook deeper issues"],
-                    "ru": ["Может игнорировать более глубокие проблемы"]
+                    "en": ["May rely too much on recovery capacity"],
+                    "ru": ["Может чрезмерно полагаться на способность восстанавливаться"]
                 },
                 "advice": {
-                    "en": "Use your fast recovery as a strength, but take time to reflect on deeper experiences when needed.",
-                    "ru": "Используйте быстрое восстановление как силу, но находите время для осмысления глубоких переживаний."
+                    "en": "Your ability to recover is a strong foundation for long-term well-being. To make it sustainable, it is helpful to balance recovery with mindful load management, rather than relying on recovery alone.",
+                    "ru": "Ваша способность к восстановлению — сильная база для устойчивости. Чтобы сохранить её, важно сочетать восстановление с осознанным управлением нагрузкой, а не полагаться только на отдых."
                 }
             }
         },
         "self_awareness": {
             "low": {
                 "title": {
-                    "en": "Limited Self-Awareness",
-                    "ru": "Низкая самоосознанность"
+                    "en": "Emerging Self-Awareness",
+                    "ru": "Формирующаяся самоосознанность"
                 },
                 "description": {
-                    "en": "You may find it difficult to recognize and understand your own emotions and internal states.",
-                    "ru": "Вам может быть сложно распознавать и понимать свои эмоции и внутренние состояния."
+                    "en": "You may find it challenging to clearly identify and understand your internal experiences — such as emotions, thoughts, and behavioral patterns. At times, reactions can feel automatic, without a clear sense of what is driving them.\n\nIn everyday life, this might show up as difficulty recognizing why you feel a certain way, what exactly triggered a reaction, or what you truly need in a given situation. Emotions may feel somewhat diffuse or hard to label.\n\nThis does not mean that you lack depth — rather, your attention may be directed more outward than inward, focusing on situations rather than internal processes.\n\nThe important point is that self-awareness is a skill that develops over time. With gentle observation and reflection, it becomes easier to notice patterns and better understand your own responses.",
+                    "ru": "Вам может быть сложно чётко распознавать и понимать свои внутренние переживания — эмоции, мысли и поведенческие реакции. Иногда реакции могут ощущаться как автоматические, без ясного понимания, что именно их вызывает.\n\nВ повседневной жизни это может проявляться как трудность в понимании причин своих чувств, в определении того, что именно стало триггером реакции, или в осознании собственных потребностей в конкретной ситуации. Эмоции могут ощущаться размыто или трудно поддаваться описанию.\n\nЭто не означает отсутствия глубины — скорее, ваше внимание чаще направлено вовне, на происходящее, а не на внутренние процессы.\n\nВажно, что самоосознанность — это навык, который развивается. Через мягкое наблюдение и рефлексию постепенно становится легче замечать закономерности и лучше понимать себя."
                 },
                 "strengths": {
-                    "en": ["Spontaneity", "Less self-criticism"],
-                    "ru": ["Спонтанность", "Меньше самокритики"]
+                    "en": ["Focus on external reality", "Spontaneity"],
+                    "ru": ["Ориентация на внешнюю реальность", "Спонтанность"]
                 },
                 "challenges": {
-                    "en": ["Difficulty identifying emotions", "Limited insight into behavior"],
-                    "ru": ["Трудности в распознавании эмоций", "Ограниченное понимание своего поведения"]
+                    "en": ["Difficulty identifying emotions", "Limited insight into reactions"],
+                    "ru": ["Сложность распознавания эмоций", "Ограниченное понимание своих реакций"]
                 },
                 "advice": {
-                    "en": "Practice reflecting on your emotions. Journaling or mindfulness can help build awareness.",
-                    "ru": "Практикуйте осмысление своих эмоций. Дневник или осознанность помогут развить самоосознанность."
+                    "en": "Developing self-awareness can start with small steps — for example, pausing to ask yourself what you are feeling or what you need in a given moment. Over time, this builds a clearer connection with your internal experience.",
+                    "ru": "Развитие самоосознанности может начинаться с простых шагов — например, с паузы и вопроса к себе: «что я сейчас чувствую?» или «что мне сейчас нужно?». Со временем это помогает лучше установить контакт с собой."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Developing Self-Awareness",
-                    "ru": "Развивающаяся самоосознанность"
+                    "en": "Balanced Self-Awareness",
+                    "ru": "Сбалансированная самоосознанность"
                 },
                 "description": {
-                    "en": "You have a general understanding of your emotions, though some reactions may still surprise you.",
-                    "ru": "Вы в целом понимаете свои эмоции, хотя некоторые реакции всё ещё могут вас удивлять."
+                    "en": "You tend to have a fairly good understanding of your internal states. You are able to notice your emotions, thoughts, and reactions, especially in situations that are meaningful or intense.\n\nIn everyday life, this may show up as the ability to reflect on your experiences, recognize patterns in your behavior, and understand what influences your decisions. You are generally aware of what is happening within you, even if not always in detail.\n\nThis level of awareness allows you to make more conscious choices and respond to situations with a degree of clarity.\n\nAt times, however, this awareness may fluctuate — becoming less accessible during stress, fatigue, or emotionally complex situations.",
+                    "ru": "Вы склонны достаточно хорошо понимать свои внутренние состояния. Вы способны замечать свои эмоции, мысли и реакции, особенно в значимых или интенсивных ситуациях.\n\nВ повседневной жизни это может проявляться как способность анализировать свой опыт, замечать закономерности в поведении и понимать, что влияет на ваши решения. В целом вы осознаёте, что с вами происходит, даже если не всегда в деталях.\n\nТакой уровень осознанности помогает принимать более осознанные решения и реагировать на ситуации с большей ясностью.\n\nИногда, однако, эта осознанность может снижаться — например, в условиях стресса, усталости или эмоционально сложных ситуаций."
                 },
                 "strengths": {
-                    "en": ["Emotional insight", "Growing awareness"],
-                    "ru": ["Понимание эмоций", "Развивающаяся осознанность"]
+                    "en": ["Self-reflection", "Emotional awareness", "Insight"],
+                    "ru": ["Рефлексия", "Осознание эмоций", "Понимание себя"]
                 },
                 "challenges": {
-                    "en": ["Inconsistent self-reflection"],
-                    "ru": ["Непоследовательная рефлексия"]
+                    "en": ["Awareness may decrease under stress"],
+                    "ru": ["Осознанность может снижаться при стрессе"]
                 },
                 "advice": {
-                    "en": "Continue exploring your emotional patterns to deepen your self-understanding.",
-                    "ru": "Продолжайте исследовать свои эмоциональные паттерны, чтобы углубить понимание себя."
+                    "en": "Your level of awareness is a strong base. To deepen it, you may benefit from regularly reflecting on your experiences and noticing patterns over time, not only in intense moments but also in everyday situations.",
+                    "ru": "Ваш уровень осознанности — хорошая база. Чтобы углубить его, полезно регулярно возвращаться к анализу своего опыта и замечать повторяющиеся паттерны не только в сложных, но и в повседневных ситуациях."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Highly Self-Aware",
+                    "en": "High Self-Awareness",
                     "ru": "Высокая самоосознанность"
                 },
                 "description": {
-                    "en": "You have a strong understanding of your emotions, triggers, and internal processes.",
-                    "ru": "Вы хорошо понимаете свои эмоции, триггеры и внутренние процессы."
+                    "en": "You tend to have a well-developed awareness of your internal world. You are able to clearly recognize your emotions, thoughts, and behavioral patterns, and understand how they influence your actions.\n\nIn everyday life, this may show up as a strong ability to reflect, make conscious decisions, and notice subtle changes in your internal state. You likely have a clear sense of what you feel, why you feel it, and how it connects to your experiences.\n\nThis level of awareness is a powerful resource, as it supports intentional behavior and deeper understanding of yourself and others.\n\nAt the same time, there may be moments when you become overly focused on analyzing your internal state, which can lead to overthinking or reduced spontaneity.",
+                    "ru": "Вы склонны хорошо осознавать свой внутренний мир. Вы способны чётко распознавать свои эмоции, мысли и поведенческие паттерны, а также понимать, как они влияют на ваши действия.\n\nВ повседневной жизни это может проявляться как развитая рефлексия, способность принимать осознанные решения и замечать даже тонкие изменения своего состояния. У вас, вероятно, есть понимание того, что вы чувствуете, почему это происходит и как это связано с вашим опытом.\n\nТакой уровень осознанности является мощным ресурсом, который помогает действовать более осмысленно и лучше понимать себя и других.\n\nИногда, однако, может возникать склонность к избыточному анализу своих состояний, что может приводить к переосмыслению или снижению спонтанности."
                 },
                 "strengths": {
-                    "en": ["Deep insight", "Emotional clarity", "Self-reflection"],
-                    "ru": ["Глубокое понимание", "Эмоциональная ясность", "Рефлексия"]
+                    "en": ["Deep self-understanding", "Conscious decision-making", "Emotional clarity"],
+                    "ru": ["Глубокое понимание себя", "Осознанные решения", "Ясность эмоций"]
                 },
                 "challenges": {
-                    "en": ["May overanalyze emotions"],
-                    "ru": ["Может чрезмерно анализировать эмоции"]
+                    "en": ["Tendency to overanalyze", "Reduced spontaneity"],
+                    "ru": ["Склонность к переанализу", "Снижение спонтанности"]
                 },
                 "advice": {
-                    "en": "Use your awareness to guide decisions, but avoid getting stuck in overanalysis.",
-                    "ru": "Используйте осознанность для принятия решений, но избегайте чрезмерного анализа."
+                    "en": "Your self-awareness is a strong asset. To keep it balanced, it may be helpful to combine reflection with action — allowing yourself not only to understand your experience, but also to live it without constant analysis.",
+                    "ru": "Ваша самоосознанность — сильный ресурс. Чтобы сохранить баланс, полезно сочетать рефлексию с действием — позволяя себе не только анализировать переживания, но и просто проживать их без постоянного анализа."
                 }
             }
         },
+        
         "self_regulation": {
             "low": {
                 "title": {
