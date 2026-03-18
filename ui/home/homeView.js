@@ -39,6 +39,8 @@ export async function render() {
     const user = await storage.getUser();
     const progress = await progressTracker.getProgress();
 
+    console.log(progress.achievements)
+
     return `
         <div class="home-view">
             <canvas id="neural-canvas"></canvas>
@@ -100,7 +102,9 @@ export async function render() {
                 <h3 class="section-title">${i18n.t('profile.achievements')}</h3>
                 <div class="achievements-grid">
                     ${progress.achievements.slice(0, 4).map(a => `
-                        <div class="achievement-badge ${a.unlocked ? 'unlocked' : 'locked'}">
+                        <div class="achievement-badge ${a.unlocked ? 'unlocked' : 'locked'}"
+                            data-achievement-id="${a.id}"
+                            role="button" tabindex="0">
                             <span class="achievement-icon">${a.icon}</span>
                         </div>
                     `).join('')}
@@ -135,6 +139,80 @@ export async function afterRender() {
             }
         });
     });
+
+    const achievementsGrid = document.querySelector('.achievements-grid');
+    if (achievementsGrid) {
+        achievementsGrid.addEventListener('click', handleAchievementClick);
+        achievementsGrid.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                handleAchievementClick(e);
+            }
+        });
+    }
+}
+
+// Функция-обработчик (можно вынести в отдельный файл позже)
+function handleAchievementClick(e) {
+    const badge = e.target.closest('.achievement-badge');
+    if (!badge) return;
+
+    const achievementId = badge.dataset.achievementId;
+    if (!achievementId) return;
+    showAchievementModal(achievementId);
+}
+
+// Показ модального окна
+async function showAchievementModal(achievementId) {
+    const progress = await progressTracker.getProgress();
+    const achievement = progress.achievements.find(a => a.id === achievementId);
+    
+    if (!achievement) return;
+
+    const modalContent = `
+        <div class="modal-header">
+            <h2 class="modal-title">Достижение</h2>
+            <button class="modal-close" aria-label="Close">X</button>
+        </div>
+        <div class="modal-body">
+            <h2 class="card-title">${achievement.icon} ${achievement.title}</h2>
+            <p class="card-subtitle">${achievement.description}</p>
+        </div>
+    `;
+
+    // Используем уже существующий в проекте механизм модалок
+    // (предполагаем, что в index.html есть #modal-overlay и #modal-content)
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalContentEl = document.getElementById('modal-content');
+
+    if (modalOverlay && modalContentEl) {
+        modalContentEl.innerHTML = modalContent;
+        modalOverlay.classList.remove('hidden');
+
+        // Закрытие по крестику
+        modalContentEl.querySelector('.modal-close').addEventListener('click', () => {
+            modalOverlay.classList.add('hidden');
+        });
+
+        // Закрытие по клику вне контента
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) {
+                modalOverlay.classList.add('hidden');
+            }
+        });
+
+        // Закрытие по Esc
+        const escHandler = (e) => {
+            if (e.key === 'Escape') {
+                modalOverlay.classList.add('hidden');
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+    } else {
+        console.warn('Modal elements not found in DOM');
+        // fallback — можно использовать alert, но лучше починить модалку в index.html
+    }
 }
 
 // Load facts on module init
