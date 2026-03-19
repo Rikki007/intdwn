@@ -953,96 +953,95 @@
                 }
             }
         },
-        
         "self_regulation": {
             "low": {
                 "title": {
-                    "en": "Impulsive Reactor",
-                    "ru": "Импульсивная реактивность"
+                    "en": "Developing Self-Regulation",
+                    "ru": "Формирующаяся саморегуляция"
                 },
                 "description": {
-                    "en": "You may find it difficult to manage your emotional reactions, especially in stressful situations.",
-                    "ru": "Вам может быть сложно управлять своими эмоциональными реакциями, особенно в стрессовых ситуациях."
+                    "en": "You may sometimes find it difficult to manage your reactions, emotions, or impulses in the moment. Certain situations can feel overwhelming, leading to responses that happen quickly and are hard to control or adjust.\n\nIn everyday life, this might show up as acting on impulse, difficulty staying consistent with plans, or challenges in calming down once emotions become intense. You may notice that your reactions happen faster than your ability to reflect on them.\n\nThis does not mean a lack of discipline — rather, it reflects how your current regulation mechanisms are working under pressure.\n\nSelf-regulation is a skill that develops over time. With practice, it becomes easier to pause, choose responses more consciously, and influence your internal state rather than being fully driven by it.",
+                    "ru": "Иногда вам может быть сложно управлять своими реакциями, эмоциями или импульсами в моменте. В определённых ситуациях переживания могут становиться настолько интенсивными, что реакции возникают быстро и их трудно контролировать или скорректировать.\n\nВ повседневной жизни это может проявляться как импульсивные действия, трудности с соблюдением планов или сложности с тем, чтобы успокоиться после сильных эмоций. Может возникать ощущение, что реакция происходит быстрее, чем появляется возможность её осмыслить.\n\nЭто не связано с отсутствием силы воли — скорее, это отражает текущую работу механизмов саморегуляции.\n\nВажно, что саморегуляция — это навык, который развивается. Со временем становится легче делать паузу, осознанно выбирать реакции и влиять на своё состояние, а не полностью зависеть от него."
                 },
                 "strengths": {
-                    "en": ["Emotional expressiveness", "Authenticity"],
-                    "ru": ["Эмоциональная выразительность", "Искренность"]
+                    "en": ["Spontaneity", "Emotional expressiveness"],
+                    "ru": ["Спонтанность", "Эмоциональная выразительность"]
                 },
                 "challenges": {
-                    "en": ["Impulsivity", "Difficulty controlling reactions"],
-                    "ru": ["Импульсивность", "Сложности с контролем реакций"]
+                    "en": ["Impulsivity", "Difficulty managing emotions", "Inconsistency"],
+                    "ru": ["Импульсивность", "Сложности с управлением эмоциями", "Непоследовательность"]
                 },
                 "advice": {
-                    "en": "Practice pausing before reacting. Techniques like breathing can help regulate responses.",
-                    "ru": "Практикуйте паузу перед реакцией. Дыхательные техники помогут управлять эмоциями."
+                    "en": "Developing self-regulation often begins with small pauses. Practicing techniques like slowing down your response, noticing triggers, or using simple grounding strategies can gradually increase your sense of control and stability.",
+                    "ru": "Развитие саморегуляции часто начинается с маленьких пауз. Практики замедления реакции, отслеживания триггеров и простые техники заземления помогают постепенно усиливать ощущение контроля и устойчивости."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Moderate Self-Control",
-                    "ru": "Умеренный самоконтроль"
+                    "en": "Balanced Self-Regulation",
+                    "ru": "Сбалансированная саморегуляция"
                 },
                 "description": {
-                    "en": "You can manage your emotions in many situations, though strong stress may challenge your control.",
-                    "ru": "Вы можете управлять эмоциями во многих ситуациях, но сильный стресс может снижать контроль."
+                    "en": "You tend to manage your emotions, behavior, and impulses in a generally balanced way. In many situations, you are able to pause, reflect, and choose how to respond rather than reacting automatically.\n\nIn everyday life, this may show up as the ability to stay aligned with your goals, regulate emotional responses, and adjust your behavior depending on the situation. You can handle challenges without losing control, while still remaining flexible.\n\nThis balance allows you to function effectively without becoming overly rigid or overly reactive.\n\nAt times, however, in situations of high stress or emotional intensity, maintaining this balance may require additional effort.",
+                    "ru": "Вы склонны управлять своими эмоциями, поведением и импульсами достаточно сбалансированно. Во многих ситуациях вы способны сделать паузу, осмыслить происходящее и выбрать реакцию, а не действовать автоматически.\n\nВ повседневной жизни это может проявляться как способность придерживаться своих целей, регулировать эмоциональные реакции и адаптировать поведение в зависимости от ситуации. Вы можете справляться со сложностями, не теряя контроля, при этом оставаясь гибким.\n\nТакой баланс позволяет быть эффективным, не становясь при этом излишне жёстким или, наоборот, чрезмерно реактивным.\n\nИногда, однако, в условиях сильного стресса или интенсивных эмоций поддержание этого баланса может требовать дополнительных усилий."
                 },
                 "strengths": {
-                    "en": ["Emotional balance", "Situational control"],
-                    "ru": ["Эмоциональный баланс", "Контроль в большинстве ситуаций"]
+                    "en": ["Emotional control", "Behavioral flexibility", "Consistency"],
+                    "ru": ["Контроль эмоций", "Гибкость поведения", "Последовательность"]
                 },
                 "challenges": {
-                    "en": ["Occasional emotional реактивность"],
-                    "ru": ["Периодическая эмоциональная реактивность"]
+                    "en": ["Regulation may weaken under high stress"],
+                    "ru": ["При сильном стрессе саморегуляция может снижаться"]
                 },
                 "advice": {
-                    "en": "Strengthen your regulation skills by identifying triggers and preparing responses.",
-                    "ru": "Укрепляйте навыки регуляции, выявляя триггеры и заранее продумывая реакции."
+                    "en": "Your regulation skills are well-developed. To strengthen them further, it can be helpful to pay attention to early signs of emotional escalation and respond before reactions become too intense.",
+                    "ru": "Ваши навыки саморегуляции уже хорошо развиты. Чтобы усилить их, полезно обращать внимание на ранние признаки нарастания эмоций и реагировать до того, как они становятся слишком интенсивными."
                 }
             },
             "high": {
                 "title": {
                     "en": "Strong Self-Regulation",
-                    "ru": "Сильная саморегуляция"
+                    "ru": "Развитая саморегуляция"
                 },
                 "description": {
-                    "en": "You effectively manage your emotions and maintain control even in challenging situations.",
-                    "ru": "Вы эффективно управляете своими эмоциями и сохраняете контроль даже в сложных ситуациях."
+                    "en": "You tend to have a strong ability to manage your internal state, behavior, and impulses. You are able to stay composed, make deliberate decisions, and regulate your reactions even in challenging situations.\n\nIn everyday life, this may show up as consistency, goal-directed behavior, and the ability to remain stable even when facing stress or emotional pressure. You likely feel that you can influence how you respond, rather than being controlled by immediate reactions.\n\nThis level of self-regulation is a significant strength, supporting both personal effectiveness and emotional stability.\n\nAt the same time, there may be a tendency to rely heavily on control, which can sometimes limit spontaneity or reduce space for natural emotional expression.",
+                    "ru": "Вы склонны хорошо управлять своим внутренним состоянием, поведением и импульсами. Вы способны сохранять собранность, принимать осознанные решения и регулировать свои реакции даже в сложных ситуациях.\n\nВ повседневной жизни это может проявляться как последовательность, ориентированность на цели и способность сохранять стабильность под давлением или в условиях стресса. У вас, вероятно, есть ощущение, что вы влияете на свои реакции, а не полностью зависите от них.\n\nТакой уровень саморегуляции является серьёзным ресурсом, поддерживающим эффективность и эмоциональную устойчивость.\n\nИногда, однако, может возникать склонность к избыточному контролю, что может ограничивать спонтанность или уменьшать пространство для естественного выражения эмоций."
                 },
                 "strengths": {
-                    "en": ["Emotional control", "Composure", "Stability"],
-                    "ru": ["Контроль эмоций", "Самообладание", "Стабильность"]
+                    "en": ["Emotional stability", "Impulse control", "Goal orientation"],
+                    "ru": ["Эмоциональная устойчивость", "Контроль импульсов", "Ориентация на цели"]
                 },
                 "challenges": {
-                    "en": ["May suppress emotions"],
-                    "ru": ["Может подавлять эмоции"]
+                    "en": ["Overcontrol", "Reduced spontaneity"],
+                    "ru": ["Избыточный контроль", "Снижение спонтанности"]
                 },
                 "advice": {
-                    "en": "Balance control with healthy emotional expression.",
-                    "ru": "Сочетайте контроль с здоровым выражением эмоций."
+                    "en": "Your ability to regulate yourself is a powerful strength. To keep it balanced, it may be helpful to allow moments of flexibility and emotional expression, so that control and natural experience can coexist.",
+                    "ru": "Ваша способность к саморегуляции — сильный ресурс. Чтобы сохранить баланс, полезно иногда позволять себе больше гибкости и эмоционального выражения, чтобы контроль и естественные переживания могли сосуществовать."
                 }
             }
         },
         "motivation": {
             "low": {
                 "title": {
-                    "en": "Low Drive",
-                    "ru": "Низкая мотивация"
+                    "en": "Fluctuating Motivation",
+                    "ru": "Нестабильная мотивация"
                 },
                 "description": {
-                    "en": "You may struggle to maintain motivation and pursue long-term goals consistently.",
-                    "ru": "Вам может быть сложно поддерживать мотивацию и последовательно двигаться к целям."
+                    "en": "You may sometimes experience difficulty maintaining motivation, especially when tasks feel unclear, overwhelming, or emotionally unengaging. Starting or continuing activities can require significant effort.\n\nIn everyday life, this might show up as procrastination, loss of interest, or a tendency to delay tasks until there is external pressure. Motivation may come in waves — appearing in some moments but quickly fading in others.\n\nThis does not mean a lack of ability or potential. Often, it reflects a mismatch between your internal state and the demands you are facing, or a lack of meaningful connection to the task.\n\nMotivation is not constant by nature. It tends to depend on clarity, emotional engagement, and available energy.",
+                    "ru": "Иногда вам может быть сложно поддерживать мотивацию, особенно если задачи кажутся неясными, перегружающими или эмоционально не вовлекают. Начало или продолжение деятельности может требовать значительных усилий.\n\nВ повседневной жизни это может проявляться как прокрастинация, потеря интереса или склонность откладывать задачи до момента внешнего давления. Мотивация может приходить волнами — появляться в одни моменты и быстро снижаться в другие.\n\nЭто не означает отсутствия способностей или потенциала. Часто это связано с несоответствием между внутренним состоянием и требованиями ситуации или отсутствием смысла в задаче.\n\nВажно понимать, что мотивация по своей природе нестабильна и зависит от ясности целей, эмоциональной вовлечённости и уровня энергии."
                 },
                 "strengths": {
-                    "en": ["Laid-back attitude", "Low pressure"],
-                    "ru": ["Расслабленность", "Отсутствие избыточного давления"]
+                    "en": ["Sensitivity to meaning", "Energy awareness"],
+                    "ru": ["Чувствительность к смыслу", "Ощущение уровня энергии"]
                 },
                 "challenges": {
-                    "en": ["Lack of persistence", "Low goal orientation"],
-                    "ru": ["Недостаток настойчивости", "Слабая ориентированность на цели"]
+                    "en": ["Procrastination", "Difficulty sustaining effort", "Inconsistent drive"],
+                    "ru": ["Прокрастинация", "Сложности с поддержанием усилий", "Нестабильный драйв"]
                 },
                 "advice": {
-                    "en": "Set small, achievable goals to gradually build momentum.",
-                    "ru": "Ставьте небольшие достижимые цели, чтобы постепенно наращивать импульс."
+                    "en": "Instead of relying on motivation alone, it can be helpful to build structure — breaking tasks into smaller steps, creating routines, and connecting tasks to personal meaning. This makes action less dependent on momentary motivation.",
+                    "ru": "Полезно не полагаться только на мотивацию, а выстраивать структуру — делить задачи на шаги, создавать рутину и связывать задачи с личным смыслом. Это снижает зависимость от текущего уровня мотивации."
                 }
             },
             "medium": {
@@ -1051,66 +1050,66 @@
                     "ru": "Сбалансированная мотивация"
                 },
                 "description": {
-                    "en": "You are motivated in areas that matter to you, though consistency may vary.",
-                    "ru": "Вы мотивированы в важных для вас областях, хотя стабильность может варьироваться."
+                    "en": "You tend to have a generally stable level of motivation, especially when tasks are meaningful or clearly defined. You are able to initiate and sustain effort in many situations, although motivation may still vary depending on context.\n\nIn everyday life, this may show up as the ability to stay engaged with goals, complete tasks, and maintain progress over time. You are capable of working through challenges, particularly when you understand the purpose behind what you are doing.\n\nThis balance allows you to remain productive without relying entirely on bursts of motivation.\n\nAt times, however, motivation may decrease when tasks feel repetitive, unclear, or disconnected from your interests.",
+                    "ru": "Вы склонны иметь достаточно стабильный уровень мотивации, особенно когда задачи имеют смысл или чётко определены. Вы способны начинать и поддерживать усилия в разных ситуациях, хотя уровень мотивации может меняться в зависимости от контекста.\n\nВ повседневной жизни это проявляется как способность оставаться вовлечённым в цели, завершать задачи и двигаться вперёд. Вы можете справляться с трудностями, особенно когда понимаете, зачем делаете то или иное.\n\nТакой баланс позволяет быть продуктивным, не полагаясь исключительно на всплески мотивации.\n\nИногда, однако, мотивация может снижаться, если задачи становятся однообразными, неясными или теряют связь с вашими интересами."
                 },
                 "strengths": {
-                    "en": ["Goal focus", "Flexibility"],
-                    "ru": ["Ориентация на цели", "Гибкость"]
+                    "en": ["Consistency", "Goal orientation", "Sustained effort"],
+                    "ru": ["Последовательность", "Ориентация на цели", "Устойчивость усилий"]
                 },
                 "challenges": {
-                    "en": ["Fluctuating motivation"],
-                    "ru": ["Колебания мотивации"]
+                    "en": ["Motivation drops in low-meaning tasks"],
+                    "ru": ["Снижение мотивации при отсутствии смысла"]
                 },
                 "advice": {
-                    "en": "Clarify your priorities to maintain consistent motivation.",
-                    "ru": "Определите приоритеты, чтобы поддерживать стабильную мотивацию."
+                    "en": "Your motivation works well when it has direction. To strengthen it, you can regularly reconnect tasks with your personal goals and values, making your efforts feel more meaningful.",
+                    "ru": "Ваша мотивация хорошо работает, когда есть направление. Чтобы усилить её, полезно регулярно связывать задачи с личными целями и ценностями, чтобы усилия ощущались более осмысленными."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Highly Driven",
-                    "ru": "Высокая внутренняя мотивация"
+                    "en": "Strong Motivation",
+                    "ru": "Высокая мотивация"
                 },
                 "description": {
-                    "en": "You are strongly motivated and persistently pursue your goals.",
-                    "ru": "Вы обладаете сильной мотивацией и настойчиво движетесь к целям."
+                    "en": "You tend to have a strong drive to act, pursue goals, and maintain effort over time. You are able to initiate tasks and stay engaged even when challenges arise.\n\nIn everyday life, this may show up as high productivity, persistence, and a clear sense of direction. You are likely able to push through difficulties and continue working even when motivation is not purely emotional, but supported by discipline and purpose.\n\nThis level of motivation is a powerful resource that supports achievement and long-term progress.\n\nAt the same time, there may be a tendency to rely heavily on constant activity or achievement, sometimes overlooking the need for rest or balance.",
+                    "ru": "Вы склонны обладать выраженной мотивацией к действию, достижению целей и поддержанию усилий во времени. Вы способны начинать задачи и оставаться вовлечённым даже при возникновении трудностей.\n\nВ повседневной жизни это может проявляться как высокая продуктивность, настойчивость и ясное понимание направления. Вы умеете продолжать движение вперёд, даже когда мотивация не опирается только на эмоции, а поддерживается дисциплиной и смыслом.\n\nТакой уровень мотивации является мощным ресурсом, способствующим достижениям и долгосрочному прогрессу.\n\nИногда, однако, может возникать склонность опираться на постоянную активность или достижения, при этом недооценивая важность отдыха и баланса."
                 },
                 "strengths": {
-                    "en": ["Persistence", "Ambition", "Focus"],
-                    "ru": ["Настойчивость", "Амбициозность", "Фокус"]
+                    "en": ["Persistence", "Drive", "Goal focus"],
+                    "ru": ["Настойчивость", "Драйв", "Фокус на целях"]
                 },
                 "challenges": {
-                    "en": ["Risk of burnout"],
-                    "ru": ["Риск выгорания"]
+                    "en": ["Risk of overworking", "Difficulty slowing down"],
+                    "ru": ["Риск перегрузки", "Сложность замедления"]
                 },
                 "advice": {
-                    "en": "Balance ambition with rest to sustain long-term performance.",
-                    "ru": "Сочетайте амбиции с отдыхом для устойчивой эффективности."
+                    "en": "Your motivation is a strong asset. To sustain it long-term, it is important to balance effort with recovery, ensuring that your drive remains a source of growth rather than exhaustion.",
+                    "ru": "Ваша мотивация — сильный ресурс. Чтобы сохранить её в долгосрочной перспективе, важно сочетать усилия с восстановлением, чтобы энергия оставалась источником развития, а не приводила к истощению."
                 }
             }
         },
         "empathy": {
             "low": {
                 "title": {
-                    "en": "Detached Perspective",
-                    "ru": "Отстранённая позиция"
+                    "en": "Practical Orientation",
+                    "ru": "Практичная ориентация"
                 },
                 "description": {
-                    "en": "You may find it challenging to fully understand or share the emotions of others.",
-                    "ru": "Вам может быть сложно глубоко понимать или разделять эмоции других людей."
+                    "en": "You may be less focused on emotional nuances in others and more oriented toward facts, logic, or practical aspects of situations. Understanding other people's feelings may not always come automatically, especially if they are not expressed directly.\n\nIn everyday life, this can show up as a preference for problem-solving over emotional discussion, or difficulty recognizing subtle emotional cues. You may respond to situations by offering solutions rather than emotional support.\n\nThis does not mean you do not care about others — rather, your way of relating may be more cognitive than emotional.\n\nAt times, however, this can lead to misunderstandings, especially in situations where emotional validation is important.",
+                    "ru": "Вы можете быть менее сфокусированы на эмоциональных нюансах других людей и больше ориентированы на факты, логику или практическую сторону ситуаций. Понимание чувств других не всегда происходит автоматически, особенно если они не выражены явно.\n\nВ повседневной жизни это может проявляться как склонность к решению проблем вместо обсуждения эмоций или как трудности в распознавании тонких эмоциональных сигналов. Вы можете реагировать через предложения решений, а не через эмоциональную поддержку.\n\nЭто не означает, что вам безразличны другие — скорее, ваш способ взаимодействия более рациональный, чем эмоциональный.\n\nИногда, однако, это может приводить к недопониманию, особенно в ситуациях, где важна именно эмоциональная поддержка."
                 },
                 "strengths": {
-                    "en": ["Objectivity", "Rational thinking"],
-                    "ru": ["Объективность", "Рациональность"]
+                    "en": ["Objectivity", "Problem-solving focus", "Emotional boundaries"],
+                    "ru": ["Объективность", "Фокус на решении задач", "Эмоциональные границы"]
                 },
                 "challenges": {
-                    "en": ["Difficulty connecting emotionally"],
-                    "ru": ["Трудности в эмоциональной связи"]
+                    "en": ["Difficulty reading emotions", "Limited emotional attunement"],
+                    "ru": ["Сложности в распознавании эмоций", "Низкая эмоциональная чувствительность"]
                 },
                 "advice": {
-                    "en": "Practice active listening and try to see situations from others’ perspectives.",
-                    "ru": "Практикуйте активное слушание и старайтесь смотреть на ситуации с точки зрения других."
+                    "en": "You may benefit from occasionally shifting attention from solutions to emotional context. Simple questions like “How does this person feel?” can help strengthen your understanding of others.",
+                    "ru": "Полезно иногда смещать фокус с решения задач на эмоциональный контекст. Простые вопросы вроде «что сейчас чувствует человек?» помогают лучше понимать других."
                 }
             },
             "medium": {
@@ -1119,202 +1118,202 @@
                     "ru": "Сбалансированная эмпатия"
                 },
                 "description": {
-                    "en": "You can understand others’ emotions while maintaining your own boundaries.",
-                    "ru": "Вы способны понимать эмоции других, сохраняя собственные границы."
+                    "en": "You tend to have a balanced ability to understand and respond to other people's emotions. You are generally able to recognize how others feel and adjust your reactions accordingly.\n\nIn everyday life, this may show up as being supportive when needed, while also maintaining your own perspective and boundaries. You can engage emotionally without becoming overwhelmed.\n\nThis balance allows you to build stable and effective relationships, combining understanding with practicality.\n\nAt times, however, your level of empathy may depend on context — for example, being stronger with close people and less pronounced in more distant interactions.",
+                    "ru": "Вы склонны к сбалансированному уровню эмпатии. Вы в целом способны понимать чувства других людей и учитывать их в своём поведении.\n\nВ повседневной жизни это может проявляться как способность поддерживать, когда это необходимо, при этом сохраняя собственную позицию и границы. Вы можете включаться эмоционально, не перегружаясь.\n\nТакой баланс помогает выстраивать устойчивые и эффективные отношения, сочетая понимание и практичность.\n\nИногда, однако, уровень эмпатии может зависеть от контекста — например, быть более выраженным в близких отношениях и менее в формальных ситуациях."
                 },
                 "strengths": {
-                    "en": ["Understanding", "Emotional balance"],
-                    "ru": ["Понимание", "Эмоциональный баланс"]
+                    "en": ["Emotional understanding", "Balanced response", "Healthy boundaries"],
+                    "ru": ["Понимание эмоций", "Сбалансированная реакция", "Здоровые границы"]
                 },
                 "challenges": {
-                    "en": ["May occasionally misread emotions"],
-                    "ru": ["Иногда может неверно интерпретировать эмоции"]
+                    "en": ["Empathy varies by context"],
+                    "ru": ["Эмпатия зависит от контекста"]
                 },
                 "advice": {
-                    "en": "Continue refining your ability to read emotional cues.",
-                    "ru": "Продолжайте развивать способность распознавать эмоциональные сигналы."
+                    "en": "Your empathy is well-balanced. To deepen it, you can pay attention not only to what people say, but also to how they express themselves — tone, pauses, and nonverbal signals.",
+                    "ru": "Ваша эмпатия находится в хорошем балансе. Чтобы развивать её дальше, можно обращать внимание не только на слова, но и на то, как они произносятся — на интонацию, паузы и невербальные сигналы."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Highly Empathetic",
+                    "en": "High Empathy",
                     "ru": "Высокая эмпатия"
                 },
                 "description": {
-                    "en": "You deeply understand and resonate with the emotions of others.",
-                    "ru": "Вы глубоко понимаете и чувствуете эмоции других людей."
+                    "en": "You tend to be highly attuned to other people's emotions and internal states. You are able to sense subtle emotional cues and often understand how others feel, even without explicit communication.\n\nIn everyday life, this may show up as strong emotional responsiveness, deep involvement in relationships, and a natural inclination to support others. You may easily resonate with what others are experiencing.\n\nThis level of empathy is a powerful strength, helping you build meaningful and trusting connections.\n\nAt the same time, there may be a tendency to absorb others’ emotions or become emotionally overloaded, especially in intense or prolonged interactions.",
+                    "ru": "Вы склонны тонко чувствовать эмоциональные состояния других людей. Вы способны улавливать даже слабые эмоциональные сигналы и часто понимаете, что чувствует человек, даже без прямых слов.\n\nВ повседневной жизни это может проявляться как сильная эмоциональная вовлечённость, глубокие отношения и естественное стремление поддерживать других. Вы легко откликаетесь на переживания окружающих.\n\nТакой уровень эмпатии является мощным ресурсом, позволяющим выстраивать тёплые и доверительные связи.\n\nВ то же время может возникать склонность «перенимать» эмоции других или перегружаться ими, особенно в интенсивных или длительных взаимодействиях."
                 },
                 "strengths": {
-                    "en": ["Compassion", "Connection", "Supportiveness"],
-                    "ru": ["Сострадание", "Связь с людьми", "Поддержка"]
+                    "en": ["Emotional sensitivity", "Deep connection", "Supportiveness"],
+                    "ru": ["Эмоциональная чувствительность", "Глубина контакта", "Поддержка других"]
                 },
                 "challenges": {
-                    "en": ["Emotional overload"],
-                    "ru": ["Эмоциональная перегруженность"]
+                    "en": ["Emotional overload", "Difficulty separating own and others’ feelings"],
+                    "ru": ["Эмоциональная перегрузка", "Сложность отделять свои чувства от чужих"]
                 },
                 "advice": {
-                    "en": "Maintain boundaries to protect your own emotional well-being.",
-                    "ru": "Сохраняйте границы, чтобы защитить своё эмоциональное состояние."
+                    "en": "Your empathy is a valuable strength. To keep it sustainable, it is important to maintain boundaries — noticing where your emotions end and another person’s begin, and allowing yourself time to recover after emotionally intense interactions.",
+                    "ru": "Ваша эмпатия — ценный ресурс. Чтобы сохранить её, важно выстраивать границы — замечать, где заканчиваются ваши чувства и начинаются чужие, а также давать себе время на восстановление после эмоционально насыщенных взаимодействий."
                 }
             }
         },
         "social_skills": {
             "low": {
                 "title": {
-                    "en": "Limited Social Skills",
-                    "ru": "Ограниченные социальные навыки"
+                    "en": "Reserved Social Style",
+                    "ru": "Сдержанный стиль общения"
                 },
                 "description": {
-                    "en": "You may find social interactions challenging and feel less confident in communication.",
-                    "ru": "Социальные взаимодействия могут даваться вам сложно, и вы можете чувствовать неуверенность в общении."
+                    "en": "You may find social interactions requiring more effort, especially in unfamiliar or dynamic environments. Engaging in conversations, initiating contact, or navigating complex social situations may not always feel natural or comfortable.\n\nIn everyday life, this can show up as a preference for smaller groups, hesitation in starting conversations, or a tendency to observe rather than actively participate. You may need more time to adapt to new people or social settings.\n\nThis does not mean a lack of social ability — rather, your style may be more thoughtful and selective, focusing on depth rather than frequency of interaction.\n\nAt times, however, this can limit opportunities for connection or make certain situations feel more challenging than they need to be.",
+                    "ru": "Социальные взаимодействия могут требовать от вас больше усилий, особенно в новых или динамичных ситуациях. Вовлечение в разговор, инициирование общения или ориентация в сложных социальных контекстах не всегда ощущаются как естественные.\n\nВ повседневной жизни это может проявляться как предпочтение небольших компаний, сдержанность при начале общения или склонность больше наблюдать, чем активно участвовать. Вам может требоваться время, чтобы привыкнуть к новым людям или обстановке.\n\nЭто не означает отсутствия социальных навыков — скорее, ваш стиль общения более вдумчивый и избирательный, с акцентом на качество, а не количество взаимодействий.\n\nИногда, однако, это может ограничивать возможности для контакта или делать некоторые ситуации более сложными, чем они могли бы быть."
                 },
                 "strengths": {
-                    "en": ["Independence", "Self-reliance"],
-                    "ru": ["Независимость", "Самостоятельность"]
+                    "en": ["Thoughtful communication", "Preference for depth", "Observational skills"],
+                    "ru": ["Вдумчивое общение", "Ориентация на глубину", "Наблюдательность"]
                 },
                 "challenges": {
-                    "en": ["Communication difficulties", "Social anxiety"],
-                    "ru": ["Трудности в коммуникации", "Социальная тревожность"]
+                    "en": ["Difficulty initiating interaction", "Slower social adaptation"],
+                    "ru": ["Сложности с началом общения", "Медленная адаптация в социальных ситуациях"]
                 },
                 "advice": {
-                    "en": "Practice social interactions gradually and focus on building confidence.",
-                    "ru": "Постепенно практикуйте социальные взаимодействия и развивайте уверенность."
+                    "en": "It may be helpful to approach social interaction gradually — starting with familiar environments and small steps. Building comfort over time can make communication feel more natural and less demanding.",
+                    "ru": "Полезно подходить к развитию общения постепенно — начиная с комфортных ситуаций и небольших шагов. Со временем это помогает сделать взаимодействие более естественным и менее напряжённым."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Competent Communicator",
-                    "ru": "Уверенный коммуникатор"
+                    "en": "Balanced Social Skills",
+                    "ru": "Сбалансированные социальные навыки"
                 },
                 "description": {
-                    "en": "You handle most social situations well and communicate effectively in familiar contexts.",
-                    "ru": "Вы хорошо справляетесь с большинством социальных ситуаций и эффективно общаетесь в знакомых условиях."
+                    "en": "You tend to navigate social situations in a generally comfortable and effective way. You are able to engage in conversations, understand social context, and adjust your behavior depending on the situation.\n\nIn everyday life, this may show up as the ability to communicate clearly, maintain relationships, and participate in different types of interactions without significant difficulty. You can be both engaged and appropriately reserved when needed.\n\nThis balance allows you to adapt to a wide range of social environments while maintaining your own style.\n\nAt times, however, your level of engagement may depend on your energy, mood, or interest in the situation.",
+                    "ru": "Вы склонны достаточно уверенно и гибко ориентироваться в социальных ситуациях. Вы способны поддерживать разговор, понимать контекст и адаптировать своё поведение в зависимости от ситуации.\n\nВ повседневной жизни это проявляется как умение ясно выражать мысли, поддерживать отношения и участвовать в различных форматах общения без значительных трудностей. Вы можете быть как вовлечённым, так и сдержанным, когда это уместно.\n\nТакой баланс позволяет вам адаптироваться к разным социальным условиям, сохраняя свой стиль.\n\nИногда, однако, уровень вовлечённости может зависеть от энергии, настроения или интереса к ситуации."
                 },
                 "strengths": {
-                    "en": ["Communication", "Adaptability"],
-                    "ru": ["Коммуникация", "Адаптивность"]
+                    "en": ["Adaptability", "Clear communication", "Social awareness"],
+                    "ru": ["Адаптивность", "Ясная коммуникация", "Понимание контекста"]
                 },
                 "challenges": {
-                    "en": ["May struggle in unfamiliar settings"],
-                    "ru": ["Может испытывать трудности в новых ситуациях"]
+                    "en": ["Engagement varies with energy and interest"],
+                    "ru": ["Вовлечённость зависит от энергии и интереса"]
                 },
                 "advice": {
-                    "en": "Expand your comfort zone by engaging in new social environments.",
-                    "ru": "Расширяйте зону комфорта, вовлекаясь в новые социальные ситуации."
+                    "en": "Your social skills are well-balanced. To strengthen them, you can explore different types of interactions and environments, gradually expanding your comfort zone.",
+                    "ru": "Ваши социальные навыки находятся в хорошем балансе. Для их развития можно пробовать разные форматы общения и постепенно расширять зону комфорта."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Socially Skilled",
+                    "en": "Strong Social Skills",
                     "ru": "Развитые социальные навыки"
                 },
                 "description": {
-                    "en": "You communicate effectively, build relationships easily, and navigate social situations with confidence.",
-                    "ru": "Вы эффективно общаетесь, легко выстраиваете отношения и уверенно ведёте себя в социальных ситуациях."
+                    "en": "You tend to feel confident and effective in social interactions. You are able to initiate conversations, navigate different social contexts, and build connections with relative ease.\n\nIn everyday life, this may show up as ease in communication, the ability to engage different types of people, and confidence in both casual and structured interactions. You likely adapt quickly to new social environments.\n\nThis level of social skill is a strong asset, supporting networking, collaboration, and relationship-building.\n\nAt the same time, there may be a tendency to stay constantly engaged in social activity, which can sometimes reduce time for rest or deeper, more selective connections.",
+                    "ru": "Вы склонны чувствовать себя уверенно и эффективно в социальных взаимодействиях. Вам легко инициировать общение, ориентироваться в разных социальных контекстах и выстраивать контакт с людьми.\n\nВ повседневной жизни это проявляется как лёгкость в коммуникации, способность находить подход к разным людям и уверенность как в неформальном, так и в более структурированном общении. Вы, как правило, быстро адаптируетесь к новым социальным ситуациям.\n\nТакой уровень социальных навыков является сильным ресурсом, который помогает в построении связей, сотрудничестве и взаимодействии с окружающими.\n\nИногда, однако, может возникать склонность к постоянной вовлечённости в общение, что может уменьшать время на отдых или более глубокие, избирательные связи."
                 },
                 "strengths": {
-                    "en": ["Charisma", "Communication", "Relationship building"],
-                    "ru": ["Харизма", "Коммуникация", "Построение отношений"]
+                    "en": ["Confidence in interaction", "Ease of communication", "Social adaptability"],
+                    "ru": ["Уверенность в общении", "Лёгкость коммуникации", "Социальная адаптивность"]
                 },
                 "challenges": {
-                    "en": ["May overextend socially"],
-                    "ru": ["Может перегружать себя социальными контактами"]
+                    "en": ["Risk of over-engagement", "Less focus on depth"],
+                    "ru": ["Риск чрезмерной вовлечённости", "Меньше фокуса на глубине"]
                 },
                 "advice": {
-                    "en": "Use your social strengths wisely while maintaining personal boundaries.",
-                    "ru": "Используйте свои социальные навыки разумно, сохраняя личные границы."
+                    "en": "Your social abilities are a strong advantage. To keep them balanced, it can be helpful to combine active interaction with moments of pause, allowing space for more meaningful and selective connections.",
+                    "ru": "Ваши социальные навыки — это сильное преимущество. Чтобы сохранить баланс, полезно сочетать активное общение с паузами, оставляя пространство для более глубоких и избирательных контактов."
                 }
             }
         },
         "internal_locus": {
             "low": {
                 "title": {
-                    "en": "Low Internal Control",
-                    "ru": "Низкий внутренний локус контроля"
+                    "en": "External Orientation",
+                    "ru": "Ориентация на внешние обстоятельства"
                 },
                 "description": {
-                    "en": "You may feel that your life outcomes are not strongly influenced by your own actions.",
-                    "ru": "Вы можете ощущать, что результаты вашей жизни слабо зависят от ваших собственных действий."
+                    "en": "You may tend to perceive events in your life as influenced more by external circumstances than by your own actions. Outcomes can feel dependent on factors such as luck, other people, or the situation itself.\n\nIn everyday life, this might show up as a sense that not everything is fully under your control, especially in uncertain or complex situations. You may sometimes feel that your efforts do not always lead to predictable results.\n\nThis perspective can help you remain flexible and realistic in the face of factors you cannot change.\n\nAt the same time, it may reduce your sense of personal influence, making it harder to take initiative or feel confident in shaping outcomes.",
+                    "ru": "Вы можете воспринимать происходящее в жизни как в большей степени зависящее от внешних обстоятельств, чем от ваших собственных действий. Результаты могут ощущаться как зависящие от удачи, других людей или самой ситуации.\n\nВ повседневной жизни это может проявляться как ощущение, что не всё находится под вашим контролем, особенно в неопределённых или сложных условиях. Иногда может возникать чувство, что усилия не всегда приводят к предсказуемому результату.\n\nТакой взгляд помогает сохранять гибкость и учитывать факторы, которые действительно невозможно контролировать.\n\nВ то же время это может снижать ощущение личного влияния и затруднять проявление инициативы или уверенности в том, что вы можете влиять на результат."
                 },
                 "strengths": {
-                    "en": ["Acceptance", "Flexibility"],
-                    "ru": ["Принятие", "Гибкость"]
+                    "en": ["Realism", "Flexibility", "Acceptance of uncertainty"],
+                    "ru": ["Реалистичность", "Гибкость", "Принятие неопределённости"]
                 },
                 "challenges": {
-                    "en": ["Low sense of agency", "Passive approach"],
-                    "ru": ["Слабое чувство контроля", "Пассивная позиция"]
+                    "en": ["Reduced sense of control", "Lower initiative"],
+                    "ru": ["Снижение ощущения контроля", "Меньше инициативы"]
                 },
                 "advice": {
-                    "en": "Focus on small actions within your control to gradually build a stronger sense of agency.",
-                    "ru": "Сосредоточьтесь на небольших действиях, которые вы можете контролировать, чтобы развить чувство влияния."
+                    "en": "It may be helpful to focus on what is within your influence, even in complex situations. Identifying small areas where your actions make a difference can gradually strengthen your sense of control.",
+                    "ru": "Полезно фокусироваться на том, что находится в зоне вашего влияния, даже в сложных ситуациях. Замечая небольшие области, где ваши действия дают результат, можно постепенно усиливать ощущение контроля."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Balanced Internal Control",
-                    "ru": "Сбалансированный внутренний локус контроля"
+                    "en": "Balanced Locus of Control",
+                    "ru": "Сбалансированный локус контроля"
                 },
                 "description": {
-                    "en": "You recognize your influence over outcomes while understanding that not everything depends on you.",
-                    "ru": "Вы осознаёте своё влияние на события, понимая, что не всё зависит от вас."
+                    "en": "You tend to have a balanced view of control in your life. You recognize the role of your own actions, while also acknowledging the influence of external circumstances.\n\nIn everyday life, this may show up as the ability to take responsibility for what depends on you, while remaining realistic about factors that are outside your control. You can act where it matters, without overestimating or underestimating your influence.\n\nThis balance supports effective decision-making and reduces unnecessary stress from trying to control everything.\n\nAt times, however, your sense of control may shift depending on the situation, especially in highly uncertain environments.",
+                    "ru": "Вы склонны к сбалансированному восприятию контроля в своей жизни. Вы учитываете как собственное влияние, так и роль внешних обстоятельств.\n\nВ повседневной жизни это проявляется как способность брать ответственность за то, что зависит от вас, при этом реалистично оценивая факторы вне вашего контроля. Вы действуете там, где это имеет смысл, не переоценивая и не недооценивая своё влияние.\n\nТакой баланс помогает принимать более взвешенные решения и снижает лишнее напряжение от попыток контролировать всё.\n\nИногда, однако, ощущение контроля может меняться в зависимости от ситуации, особенно в условиях высокой неопределённости."
                 },
                 "strengths": {
-                    "en": ["Realistic control", "Responsibility"],
-                    "ru": ["Реалистичное восприятие контроля", "Ответственность"]
+                    "en": ["Realistic control perception", "Responsibility", "Adaptability"],
+                    "ru": ["Реалистичное восприятие контроля", "Ответственность", "Адаптивность"]
                 },
                 "challenges": {
-                    "en": ["May occasionally doubt your influence"],
-                    "ru": ["Иногда может сомневаться в своём влиянии"]
+                    "en": ["Control perception may fluctuate"],
+                    "ru": ["Ощущение контроля может меняться"]
                 },
                 "advice": {
-                    "en": "Continue taking responsibility where it matters while accepting external factors.",
-                    "ru": "Продолжайте брать ответственность там, где это важно, принимая внешние обстоятельства."
+                    "en": "Your balanced view is a strong foundation. To strengthen it, you can continue distinguishing between what you can influence and what you cannot, focusing your energy where it is most effective.",
+                    "ru": "Ваш сбалансированный взгляд — это сильная основа. Для его укрепления полезно и дальше различать, что находится в зоне вашего влияния, а что нет, направляя энергию туда, где она наиболее эффективна."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Strong Internal Control",
-                    "ru": "Сильный внутренний локус контроля"
+                    "en": "Internal Locus of Control",
+                    "ru": "Внутренний локус контроля"
                 },
                 "description": {
-                    "en": "You strongly believe that your actions shape your life outcomes and take responsibility for them.",
-                    "ru": "Вы уверены, что ваши действия определяют результаты жизни, и берёте за них ответственность."
+                    "en": "You tend to feel that your actions have a significant influence on the outcomes in your life. You are likely to see yourself as an active agent who can shape situations through decisions and effort.\n\nIn everyday life, this may show up as a strong sense of responsibility, initiative, and confidence in your ability to affect change. You are more likely to take action rather than wait for circumstances to shift.\n\nThis perspective is a powerful resource, supporting independence, persistence, and goal-directed behavior.\n\nAt the same time, there may be a tendency to take on too much responsibility, including for things that are not fully within your control.",
+                    "ru": "Вы склонны ощущать, что ваши действия существенно влияют на результаты в вашей жизни. Вы воспринимаете себя как активного участника, способного менять ситуацию через решения и усилия.\n\nВ повседневной жизни это проявляется как чувство ответственности, инициативность и уверенность в своей способности влиять на происходящее. Вы чаще действуете, чем ждёте изменения обстоятельств.\n\nТакой подход является мощным ресурсом, поддерживающим самостоятельность, настойчивость и движение к целям.\n\nИногда, однако, может возникать склонность брать на себя чрезмерную ответственность, включая ситуации, которые не полностью находятся под вашим контролем."
                 },
                 "strengths": {
-                    "en": ["Responsibility", "Proactivity", "Self-efficacy"],
-                    "ru": ["Ответственность", "Проактивность", "Уверенность в себе"]
+                    "en": ["Initiative", "Responsibility", "Sense of agency"],
+                    "ru": ["Инициативность", "Ответственность", "Ощущение влияния"]
                 },
                 "challenges": {
-                    "en": ["May over-blame yourself", "Difficulty accepting uncontrollable events"],
-                    "ru": ["Может чрезмерно винить себя", "Сложности с принятием неконтролируемого"]
+                    "en": ["Over-responsibility", "Difficulty accepting external limits"],
+                    "ru": ["Чрезмерная ответственность", "Сложность принятия ограничений"]
                 },
                 "advice": {
-                    "en": "Balance responsibility with acceptance. Not everything is within your control.",
-                    "ru": "Сочетайте ответственность с принятием. Не всё находится под вашим контролем."
+                    "en": "Your sense of control is a strong asset. To keep it balanced, it may be helpful to recognize where your influence ends, allowing yourself to release responsibility for factors beyond your control.",
+                    "ru": "Ваше ощущение контроля — сильный ресурс. Чтобы сохранить баланс, важно замечать границы своего влияния и позволять себе не брать ответственность за то, что от вас не зависит."
                 }
             }
         },
         "external_locus": {
             "low": {
                 "title": {
-                    "en": "Low External Influence",
-                    "ru": "Низкое влияние внешних факторов"
+                    "en": "Low External Influence Awareness",
+                    "ru": "Низкая ориентация на внешние факторы"
                 },
                 "description": {
-                    "en": "You rarely attribute outcomes to luck, fate, or external circumstances.",
-                    "ru": "Вы редко связываете результаты с удачей, судьбой или внешними обстоятельствами."
+                    "en": "You may place less emphasis on external circumstances when interpreting what happens in your life. Situations are more likely to be understood through your own actions and decisions rather than outside influences.\n\nIn everyday life, this can show up as a focus on personal responsibility and a tendency to act independently of changing conditions. You may rely more on your own judgment than on external signals or context.\n\nThis perspective can support autonomy and a strong sense of direction.\n\nAt the same time, there may be moments when external factors are underestimated, which can make certain situations feel more frustrating or difficult than expected.",
+                    "ru": "Вы можете в меньшей степени учитывать влияние внешних обстоятельств при интерпретации происходящего в жизни. События чаще воспринимаются через призму собственных действий и решений, а не внешних факторов.\n\nВ повседневной жизни это может проявляться как ориентация на личную ответственность и склонность действовать независимо от меняющихся условий. Вы больше опираетесь на собственные решения, чем на внешний контекст.\n\nТакой подход поддерживает самостоятельность и ощущение направления.\n\nВ то же время иногда внешние факторы могут недооцениваться, из-за чего некоторые ситуации могут казаться более сложными или фрустрирующими."
                 },
                 "strengths": {
-                    "en": ["Independence", "Self-reliance"],
-                    "ru": ["Независимость", "Самостоятельность"]
+                    "en": ["Independence", "Self-reliance", "Focus on personal action"],
+                    "ru": ["Самостоятельность", "Опора на себя", "Фокус на действиях"]
                 },
                 "challenges": {
-                    "en": ["May ignore real external constraints"],
-                    "ru": ["Может игнорировать реальные внешние ограничения"]
+                    "en": ["Underestimating context", "Reduced situational flexibility"],
+                    "ru": ["Недооценка контекста", "Снижение гибкости в ситуациях"]
                 },
                 "advice": {
-                    "en": "Stay aware of external factors that may influence outcomes beyond your control.",
-                    "ru": "Учитывайте внешние факторы, которые могут влиять на результаты вне вашего контроля."
+                    "en": "It may be helpful to occasionally step back and consider external conditions. Recognizing the role of context can make your actions more flexible and effective.",
+                    "ru": "Иногда полезно делать шаг назад и учитывать внешние условия. Понимание контекста может сделать ваши действия более гибкими и эффективными."
                 }
             },
             "medium": {
@@ -1323,42 +1322,42 @@
                     "ru": "Сбалансированное восприятие внешних факторов"
                 },
                 "description": {
-                    "en": "You recognize that external factors play a role, while still maintaining personal responsibility.",
-                    "ru": "Вы понимаете роль внешних факторов, сохраняя личную ответственность."
+                    "en": "You tend to have a balanced awareness of external influences. You recognize that outcomes are shaped both by your own actions and by situational factors.\n\nIn everyday life, this may show up as the ability to adapt to circumstances while still maintaining a sense of personal direction. You are able to take context into account without feeling controlled by it.\n\nThis balance allows you to respond realistically to changing situations while staying proactive.\n\nAt times, however, your perception of external influence may shift depending on uncertainty or pressure.",
+                    "ru": "Вы склонны к сбалансированному восприятию внешних факторов. Вы учитываете, что результаты зависят как от ваших действий, так и от обстоятельств.\n\nВ повседневной жизни это проявляется как способность адаптироваться к условиям, сохраняя при этом собственное направление. Вы можете учитывать контекст, не ощущая себя полностью зависимым от него.\n\nТакой баланс помогает реалистично реагировать на изменения, оставаясь активным участником происходящего.\n\nИногда, однако, восприятие влияния внешних факторов может меняться в условиях неопределённости или давления."
                 },
                 "strengths": {
-                    "en": ["Realism", "Context awareness"],
-                    "ru": ["Реализм", "Понимание контекста"]
+                    "en": ["Context awareness", "Adaptability", "Realistic thinking"],
+                    "ru": ["Понимание контекста", "Адаптивность", "Реалистичность"]
                 },
                 "challenges": {
-                    "en": ["May occasionally shift responsibility outward"],
-                    "ru": ["Иногда может перекладывать ответственность вовне"]
+                    "en": ["Perception may fluctuate under stress"],
+                    "ru": ["Восприятие может меняться при стрессе"]
                 },
                 "advice": {
-                    "en": "Maintain balance between acknowledging external factors and your own influence.",
-                    "ru": "Сохраняйте баланс между внешними факторами и личным влиянием."
+                    "en": "Your balanced awareness is a strength. To maintain it, continue distinguishing between what depends on you and what is shaped by external conditions.",
+                    "ru": "Ваш сбалансированный подход — это сильная сторона. Чтобы сохранить его, полезно продолжать различать, что зависит от вас, а что определяется внешними условиями."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Strong External Orientation",
-                    "ru": "Выраженный внешний локус контроля"
+                    "en": "High External Influence Awareness",
+                    "ru": "Высокая ориентация на внешние факторы"
                 },
                 "description": {
-                    "en": "You often believe that outcomes are determined by luck, fate, or external circumstances.",
-                    "ru": "Вы часто считаете, что результаты определяются удачей, судьбой или внешними обстоятельствами."
+                    "en": "You tend to strongly recognize the role of external circumstances in shaping outcomes. Situations may often be interpreted through context, environment, and the actions of others.\n\nIn everyday life, this can show up as heightened sensitivity to conditions, awareness of risks, and the ability to adjust based on what is happening around you. You may carefully consider timing, environment, and external constraints before acting.\n\nThis perspective supports realism and situational awareness.\n\nAt the same time, there may be a tendency to feel less personal control, especially in uncertain or complex situations, which can make decision-making more difficult or reduce initiative.",
+                    "ru": "Вы склонны в значительной степени учитывать влияние внешних обстоятельств на результаты. Ситуации часто воспринимаются через призму контекста, среды и действий других людей.\n\nВ повседневной жизни это может проявляться как чувствительность к условиям, внимание к рискам и способность адаптироваться к происходящему вокруг. Вы можете учитывать время, окружение и ограничения перед принятием решений.\n\nТакой подход поддерживает реалистичность и понимание ситуации.\n\nВ то же время может возникать ощущение меньшего личного контроля, особенно в условиях неопределённости или сложности, что иногда затрудняет принятие решений или снижает инициативу."
                 },
                 "strengths": {
-                    "en": ["Acceptance", "Adaptability"],
-                    "ru": ["Принятие", "Адаптивность"]
+                    "en": ["Situational awareness", "Realism", "Adaptation to context"],
+                    "ru": ["Чувствительность к ситуации", "Реалистичность", "Адаптация к условиям"]
                 },
                 "challenges": {
-                    "en": ["Reduced sense of control", "Passivity"],
-                    "ru": ["Сниженное чувство контроля", "Пассивность"]
+                    "en": ["Reduced sense of control", "Hesitation in decision-making"],
+                    "ru": ["Снижение ощущения контроля", "Неуверенность в решениях"]
                 },
                 "advice": {
-                    "en": "Focus on identifying areas where your actions can still make a difference.",
-                    "ru": "Сосредоточьтесь на областях, где ваши действия всё же могут повлиять на результат."
+                    "en": "Your awareness of external factors is valuable. To balance it, it may be helpful to also focus on areas where your actions can make a difference, strengthening your sense of personal influence.",
+                    "ru": "Ваша чувствительность к внешним факторам — ценный ресурс. Чтобы сбалансировать её, полезно также фокусироваться на зонах, где ваши действия действительно могут повлиять на результат."
                 }
             }
         },
@@ -1366,159 +1365,159 @@
             "low": {
                 "title": {
                     "en": "Action-Oriented",
-                    "ru": "Ориентирован на действия"
+                    "ru": "Ориентация на действие"
                 },
                 "description": {
-                    "en": "You tend to start and complete tasks without unnecessary delay. You prefer taking action over postponing.",
-                    "ru": "Вы склонны начинать и завершать задачи без лишних задержек. Предпочитаете действовать, а не откладывать."
+                    "en": "You tend to approach tasks in a direct and timely manner. When something needs to be done, you are generally able to initiate action without significant delay.\n\nIn everyday life, this may show up as starting tasks promptly, maintaining momentum, and following through on responsibilities without prolonged hesitation. You are less likely to postpone activities, even if they are challenging or not particularly engaging.\n\nThis pattern supports efficiency and consistent progress.\n\nAt the same time, there may be moments when you move into action quickly without fully considering your energy level or the need for rest, which can lead to overextension.",
+                    "ru": "Вы склонны достаточно прямо и своевременно подходить к задачам. Когда что-то нужно сделать, вы, как правило, можете начать действовать без значительного откладывания.\n\nВ повседневной жизни это проявляется как способность быстро включаться в задачи, поддерживать темп и доводить дела до конца без длительных задержек. Вы реже откладываете даже те задачи, которые сложны или не очень интересны.\n\nТакой подход способствует эффективности и стабильному продвижению.\n\nВ то же время иногда может возникать склонность сразу переходить к действию, не всегда учитывая уровень энергии или необходимость восстановления, что может приводить к перегрузке."
                 },
                 "strengths": {
-                    "en": ["Productivity", "Initiative", "Efficiency"],
-                    "ru": ["Продуктивность", "Инициативность", "Эффективность"]
+                    "en": ["Initiative", "Consistency", "Task completion"],
+                    "ru": ["Инициативность", "Последовательность", "Доведение дел до конца"]
                 },
                 "challenges": {
-                    "en": ["May rush decisions", "Risk of overworking"],
-                    "ru": ["Может спешить с решениями", "Риск перегрузки"]
+                    "en": ["Risk of overloading", "Less pause before action"],
+                    "ru": ["Риск перегрузки", "Недостаток паузы перед действием"]
                 },
                 "advice": {
-                    "en": "Maintain your momentum, but ensure you allow time for reflection when needed.",
-                    "ru": "Сохраняйте темп, но оставляйте время на обдумывание, когда это необходимо."
+                    "en": "Your ability to act is a strong asset. To keep it sustainable, it can be helpful to occasionally pause and assess priorities, energy, and timing before engaging in action.",
+                    "ru": "Ваша способность действовать — сильный ресурс. Чтобы сохранить её, полезно иногда делать паузу и оценивать приоритеты, уровень энергии и уместность нагрузки."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Occasional Procrastinator",
-                    "ru": "Иногда прокрастинирует"
+                    "en": "Situational Procrastination",
+                    "ru": "Ситуативная прокрастинация"
                 },
                 "description": {
-                    "en": "You sometimes delay tasks, especially when they are complex or uninteresting, but usually get them done.",
-                    "ru": "Вы иногда откладываете задачи, особенно если они сложные или неинтересные, но в итоге выполняете их."
+                    "en": "You may occasionally delay tasks, particularly when they feel complex, unclear, or emotionally demanding. At the same time, you are generally able to return to them and complete what needs to be done.\n\nIn everyday life, this can show up as periods of hesitation followed by action. You might postpone certain tasks at first, but later re-engage and move forward.\n\nThis pattern reflects a balance between action and avoidance, where procrastination is not constant but appears in specific situations.\n\nOften, delays are connected to the level of clarity, interest, or emotional load associated with the task.",
+                    "ru": "Вы можете иногда откладывать задачи, особенно если они кажутся сложными, неясными или эмоционально нагруженными. При этом в целом вы способны возвращаться к ним и доводить их до завершения.\n\nВ повседневной жизни это может проявляться как периоды откладывания, за которыми следует включение в работу. Вы можете сначала отложить задачу, но затем всё же вернуться к ней и продвинуться вперёд.\n\nТакой паттерн отражает баланс между действием и избеганием — прокрастинация не является постоянной, а возникает в определённых условиях.\n\nЧаще всего откладывание связано с уровнем ясности, интереса или эмоциональной нагрузки задачи."
                 },
                 "strengths": {
-                    "en": ["Flexibility", "Selective focus"],
-                    "ru": ["Гибкость", "Избирательный фокус"]
+                    "en": ["Eventual task completion", "Awareness of difficulty", "Flexibility"],
+                    "ru": ["Доведение задач до конца", "Понимание сложности", "Гибкость"]
                 },
                 "challenges": {
-                    "en": ["Inconsistent productivity"],
-                    "ru": ["Нестабильная продуктивность"]
+                    "en": ["Delays in complex or unclear tasks"],
+                    "ru": ["Задержки при сложных или неясных задачах"]
                 },
                 "advice": {
-                    "en": "Identify what triggers delays and create simple structures to stay consistent.",
-                    "ru": "Определите, что вызывает откладывание, и создайте простые структуры для стабильности."
+                    "en": "When you notice procrastination, it may help to ask what makes the task difficult — lack of clarity, emotional resistance, or size — and address that directly by breaking it down or redefining it.",
+                    "ru": "Когда вы замечаете прокрастинацию, полезно задать себе вопрос: что именно делает задачу сложной — неясность, сопротивление или объём — и работать именно с этим, разбивая задачу или переопределяя её."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Chronic Procrastinator",
-                    "ru": "Хроническая прокрастинация"
+                    "en": "High Procrastination Tendency",
+                    "ru": "Выраженная склонность к прокрастинации"
                 },
                 "description": {
-                    "en": "You frequently delay tasks, even when they are important, which may lead to stress or missed opportunities.",
-                    "ru": "Вы часто откладываете задачи, даже важные, что может приводить к стрессу и упущенным возможностям."
+                    "en": "You may often find yourself postponing tasks, even when you understand their importance. Starting or continuing activities can feel difficult, especially if they involve uncertainty, pressure, or emotional discomfort.\n\nIn everyday life, this can show up as frequent delays, avoidance of demanding tasks, or engaging in other activities instead of what was originally planned. There may be a sense of internal conflict — knowing what needs to be done, but finding it hard to act.\n\nThis pattern is often linked not to lack of ability, but to how you manage stress, expectations, or emotional load associated with tasks.\n\nProcrastination in this case can function as a way to temporarily reduce tension or avoid discomfort.",
+                    "ru": "Вы можете часто откладывать задачи, даже понимая их важность. Начало или продолжение деятельности может ощущаться сложным, особенно если задачи связаны с неопределённостью, давлением или эмоциональным дискомфортом.\n\nВ повседневной жизни это может проявляться как регулярные откладывания, избегание сложных задач или переключение на другие дела вместо запланированных. Может возникать внутренний конфликт — вы понимаете, что нужно сделать, но действовать сложно.\n\nТакой паттерн обычно связан не с отсутствием способностей, а с тем, как вы справляетесь со стрессом, ожиданиями или эмоциональной нагрузкой.\n\nВ этом случае прокрастинация может выступать как способ временно снизить напряжение или избежать дискомфорта."
                 },
                 "strengths": {
-                    "en": ["Creativity under pressure", "Flexible thinking"],
-                    "ru": ["Креативность под давлением", "Гибкость мышления"]
+                    "en": ["Sensitivity to overload", "Emotional awareness"],
+                    "ru": ["Чувствительность к перегрузке", "Осознание внутреннего напряжения"]
                 },
                 "challenges": {
-                    "en": ["Missed deadlines", "Increased stress", "Avoidance patterns"],
-                    "ru": ["Срывы сроков", "Повышенный стресс", "Паттерны избегания"]
+                    "en": ["Frequent delays", "Difficulty initiating tasks", "Avoidance patterns"],
+                    "ru": ["Частые откладывания", "Сложности с началом задач", "Избегающее поведение"]
                 },
                 "advice": {
-                    "en": "Break tasks into small steps and start with minimal effort to overcome inertia.",
-                    "ru": "Делите задачи на маленькие шаги и начинайте с минимального усилия, чтобы преодолеть инерцию."
+                    "en": "Instead of focusing on forcing action, it may be helpful to reduce the barrier to starting — for example, by making the first step very small, or by creating a safe and structured environment for beginning the task.",
+                    "ru": "Вместо попытки «заставить себя», полезно снижать порог входа в задачу — например, начинать с очень маленького шага или создавать безопасную и структурированную среду для старта."
                 }
             }
         },
         "decision_procrastination": {
             "low": {
                 "title": {
-                    "en": "Decisive Thinker",
-                    "ru": "Решительный"
+                    "en": "Decisive Approach",
+                    "ru": "Решительный стиль"
                 },
                 "description": {
-                    "en": "You make decisions relatively quickly and are comfortable committing to choices.",
-                    "ru": "Вы принимаете решения достаточно быстро и готовы брать на себя обязательства."
+                    "en": "You tend to make decisions relatively quickly and move forward without prolonged hesitation. When faced with choices, you are generally able to evaluate options and commit to a direction.\n\nIn everyday life, this may show up as a clear and action-oriented approach to decision-making. You are less likely to delay choices, even when situations are complex or uncertain.\n\nThis supports efficiency and momentum, allowing you to progress without getting stuck in indecision.\n\nAt the same time, there may be moments when decisions are made quickly, with less time spent exploring alternatives or reflecting on possible outcomes.",
+                    "ru": "Вы склонны принимать решения достаточно быстро и двигаться дальше без длительных колебаний. Столкнувшись с выбором, вы, как правило, способны оценить варианты и определить направление.\n\nВ повседневной жизни это проявляется как чёткий и ориентированный на действие стиль принятия решений. Вы реже откладываете выбор, даже в условиях неопределённости или сложности.\n\nЭто поддерживает эффективность и движение вперёд, не позволяя застревать в раздумьях.\n\nВ то же время иногда решения могут приниматься быстрее, чем происходит полноценное рассмотрение альтернатив или возможных последствий."
                 },
                 "strengths": {
-                    "en": ["Decisiveness", "Clarity", "Confidence"],
-                    "ru": ["Решительность", "Ясность", "Уверенность"]
+                    "en": ["Decisiveness", "Efficiency", "Forward momentum"],
+                    "ru": ["Решительность", "Эффективность", "Движение вперёд"]
                 },
                 "challenges": {
-                    "en": ["May overlook details"],
-                    "ru": ["Может упускать детали"]
+                    "en": ["Limited reflection time", "Risk of overlooking options"],
+                    "ru": ["Недостаток времени на анализ", "Риск упустить альтернативы"]
                 },
                 "advice": {
-                    "en": "Balance speed with careful evaluation in more complex situations.",
-                    "ru": "Сочетайте скорость с внимательным анализом в сложных ситуациях."
+                    "en": "Your decisiveness is a strength. In more complex situations, it may be helpful to briefly pause and consider key alternatives before making a final choice.",
+                    "ru": "Ваша решительность — сильная сторона. В более сложных ситуациях полезно делать небольшую паузу и рассматривать ключевые альтернативы перед принятием решения."
                 }
             },
             "medium": {
                 "title": {
-                    "en": "Thoughtful Decision-Maker",
-                    "ru": "Взвешенные решения"
+                    "en": "Balanced Decision-Making",
+                    "ru": "Сбалансированное принятие решений"
                 },
                 "description": {
-                    "en": "You take time to consider options, though sometimes this can lead to delays.",
-                    "ru": "Вы обдумываете варианты, но иногда это может приводить к задержкам."
+                    "en": "You tend to approach decisions with a balance between reflection and action. You are able to consider options, weigh pros and cons, and eventually make a choice without excessive delay.\n\nIn everyday life, this may show up as a thoughtful yet practical decision-making style. You give yourself time to think, but you are also able to move forward when needed.\n\nThis balance allows you to make informed decisions while maintaining progress.\n\nAt times, however, more complex or emotionally significant choices may take longer, as you invest more time in evaluating possibilities.",
+                    "ru": "Вы склонны подходить к принятию решений сбалансированно, сочетая размышление и действие. Вы можете рассматривать варианты, взвешивать «за» и «против» и в итоге принимать решение без чрезмерных задержек.\n\nВ повседневной жизни это проявляется как продуманный, но при этом практичный стиль выбора. Вы даёте себе время подумать, но способны двигаться дальше, когда это необходимо.\n\nТакой баланс позволяет принимать обоснованные решения, не теряя темпа.\n\nИногда, однако, более сложные или эмоционально значимые решения могут занимать больше времени из-за более глубокого анализа."
                 },
                 "strengths": {
-                    "en": ["Thoughtfulness", "Balanced judgment"],
-                    "ru": ["Взвешенность", "Сбалансированное суждение"]
+                    "en": ["Thoughtfulness", "Balanced judgment", "Effective choices"],
+                    "ru": ["Взвешенность", "Сбалансированность", "Эффективные решения"]
                 },
                 "challenges": {
-                    "en": ["Occasional indecision"],
-                    "ru": ["Периодическая нерешительность"]
+                    "en": ["Slower decisions in complex situations"],
+                    "ru": ["Замедление при сложных решениях"]
                 },
                 "advice": {
-                    "en": "Set time limits for decisions to avoid unnecessary delays.",
-                    "ru": "Устанавливайте временные рамки для решений, чтобы избежать затягивания."
+                    "en": "Your balanced approach works well. To support it, you can set gentle time boundaries for decisions, helping you avoid overthinking while preserving reflection.",
+                    "ru": "Ваш сбалансированный подход уже эффективен. Чтобы поддерживать его, можно устанавливать мягкие временные рамки для решений, чтобы не уходить в избыточные размышления."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Indecisive and Delaying",
-                    "ru": "Склонность откладывать решения"
+                    "en": "Decision Delay Tendency",
+                    "ru": "Склонность к откладыванию решений"
                 },
                 "description": {
-                    "en": "You often postpone decisions, especially when outcomes are uncertain or stressful.",
-                    "ru": "Вы часто откладываете решения, особенно когда исход неопределён или стрессовый."
+                    "en": "You may often find it difficult to make decisions, especially when choices feel important, uncertain, or carry potential consequences. The process of choosing can feel напряжённым, leading to delays or avoidance of the decision itself.\n\nIn everyday life, this can show up as prolonged thinking, revisiting the same options multiple times, or postponing decisions in the hope that more clarity will appear. There may be a desire to find the “right” or safest option before committing.\n\nThis pattern is often connected to a careful and responsible approach to choices, where you want to minimize mistakes or negative outcomes.\n\nAt the same time, it can create a sense of being stuck, where the effort to make the best decision makes it harder to make any decision at all.",
+                    "ru": "Вам может быть сложно принимать решения, особенно если выбор кажется важным, неопределённым или связан с последствиями. Сам процесс выбора может ощущаться напряжённым, из-за чего решение откладывается или избегается.\n\nВ повседневной жизни это может проявляться как длительные размышления, многократный пересмотр вариантов или откладывание решения в ожидании большей ясности. Может присутствовать стремление найти «правильный» или максимально безопасный вариант.\n\nТакой паттерн часто связан с внимательным и ответственным отношением к выбору, где важно минимизировать ошибки и негативные последствия.\n\nВ то же время это может приводить к ощущению застревания, когда стремление принять лучшее решение мешает принять какое-либо решение вообще."
                 },
                 "strengths": {
-                    "en": ["Caution", "Desire for accuracy"],
-                    "ru": ["Осторожность", "Стремление к точности"]
+                    "en": ["Careful thinking", "Responsibility", "Risk awareness"],
+                    "ru": ["Внимательность", "Ответственность", "Учет рисков"]
                 },
                 "challenges": {
-                    "en": ["Decision paralysis", "Missed opportunities"],
-                    "ru": ["Паралич решений", "Упущенные возможности"]
+                    "en": ["Overthinking", "Delayed decisions", "Difficulty committing"],
+                    "ru": ["Избыточные размышления", "Откладывание решений", "Сложность выбора"]
                 },
                 "advice": {
-                    "en": "Focus on making 'good enough' decisions rather than perfect ones.",
-                    "ru": "Старайтесь принимать «достаточно хорошие» решения вместо идеальных."
+                    "en": "It may be helpful to accept that not all decisions can be perfect. Setting clear criteria or limits for decision-making can reduce pressure and make it easier to move forward.",
+                    "ru": "Полезно принять, что не все решения могут быть идеальными. Установка чётких критериев или ограничений для выбора помогает снизить давление и облегчить процесс принятия решений."
                 }
             }
         },
         "task_avoidance": {
             "low": {
                 "title": {
-                    "en": "Task Engaged",
-                    "ru": "Вовлечён в задачи"
+                    "en": "Direct Engagement",
+                    "ru": "Прямое включение в задачи"
                 },
                 "description": {
-                    "en": "You generally face tasks directly, even when they are difficult or unpleasant.",
-                    "ru": "Вы обычно сталкиваетесь с задачами напрямую, даже если они сложные или неприятные."
+                    "en": "You tend to face tasks directly, even when they are difficult, unpleasant, or require sustained effort. Instead of avoiding challenges, you are generally able to engage with them and move forward.\n\nIn everyday life, this may show up as a willingness to deal with responsibilities, handle uncomfortable situations, and stay involved even when tasks are not particularly enjoyable. You are less likely to withdraw or replace tasks with more comfortable alternatives.\n\nThis approach supports productivity, resilience, and consistent progress.\n\nAt the same time, there may be moments when you continue engaging despite fatigue or stress, which can increase the risk of overload if not balanced with recovery.",
+                    "ru": "Вы склонны напрямую включаться в задачи, даже если они сложные, неприятные или требуют усилий. Вместо избегания вы, как правило, готовы взаимодействовать с ними и двигаться вперёд.\n\nВ повседневной жизни это проявляется как готовность брать на себя ответственность, справляться с дискомфортными ситуациями и оставаться вовлечённым, даже если задача не приносит удовольствия. Вы реже склонны уходить от задач или заменять их более комфортными.\n\nТакой подход поддерживает продуктивность, устойчивость и последовательное движение вперёд.\n\nВ то же время иногда вы можете продолжать действовать, несмотря на усталость или стресс, что повышает риск перегрузки без достаточного восстановления."
                 },
                 "strengths": {
-                    "en": ["Responsibility", "Persistence"],
-                    "ru": ["Ответственность", "Настойчивость"]
+                    "en": ["Persistence", "Responsibility", "Resilience"],
+                    "ru": ["Настойчивость", "Ответственность", "Устойчивость"]
                 },
                 "challenges": {
-                    "en": ["May take on too much"],
-                    "ru": ["Может брать на себя слишком много"]
+                    "en": ["Risk of overexertion", "Ignoring need for rest"],
+                    "ru": ["Риск перегрузки", "Игнорирование потребности в отдыхе"]
                 },
                 "advice": {
-                    "en": "Continue facing challenges, but remember to prioritize and delegate when possible.",
-                    "ru": "Продолжайте справляться с задачами, но не забывайте расставлять приоритеты и делегировать."
+                    "en": "Your ability to engage directly is a strength. To maintain it, it can be helpful to balance effort with recovery, ensuring that persistence does not turn into exhaustion.",
+                    "ru": "Ваша способность напрямую включаться в задачи — сильная сторона. Чтобы сохранить её, важно сочетать усилия с восстановлением, чтобы настойчивость не переходила в истощение."
                 }
             },
             "medium": {
@@ -1527,45 +1526,45 @@
                     "ru": "Избирательное избегание"
                 },
                 "description": {
-                    "en": "You may avoid certain tasks, especially those that are boring or stressful, but handle others well.",
-                    "ru": "Вы можете избегать некоторых задач, особенно скучных или стрессовых, но с другими справляетесь хорошо."
+                    "en": "You may sometimes avoid tasks, particularly when they feel overwhelming, unclear, or emotionally uncomfortable. At the same time, you are generally able to return to them and re-engage when needed.\n\nIn everyday life, this can show up as temporarily stepping away from certain responsibilities or shifting attention to more manageable activities, followed by eventual completion of the original task.\n\nThis pattern reflects a balance between engagement and self-protection. Avoidance is not constant, but appears in specific situations where the task feels too demanding.\n\nOften, this response is connected to how the task is perceived — its size, clarity, or emotional weight.",
+                    "ru": "Вы можете иногда избегать задач, особенно если они кажутся перегружающими, неясными или эмоционально неприятными. При этом в целом вы способны возвращаться к ним и снова включаться в работу.\n\nВ повседневной жизни это может проявляться как временное отстранение от задач или переключение на более простые дела с последующим возвращением к исходной задаче.\n\nТакой паттерн отражает баланс между включённостью и самозащитой. Избегание не является постоянным, а возникает в определённых ситуациях, когда задача воспринимается как слишком сложная.\n\nЧаще всего это связано с тем, как воспринимается задача — её объём, ясность или эмоциональная нагрузка."
                 },
                 "strengths": {
-                    "en": ["Energy management", "Selective focus"],
-                    "ru": ["Управление энергией", "Избирательный фокус"]
+                    "en": ["Self-protection", "Flexibility", "Eventual engagement"],
+                    "ru": ["Самозащита", "Гибкость", "Возврат к задачам"]
                 },
                 "challenges": {
-                    "en": ["Delays on difficult tasks"],
-                    "ru": ["Задержки в сложных задачах"]
+                    "en": ["Temporary disengagement", "Delays in demanding tasks"],
+                    "ru": ["Временное избегание", "Задержки в сложных задачах"]
                 },
                 "advice": {
-                    "en": "Tackle avoided tasks in small steps to reduce resistance.",
-                    "ru": "Подходите к избегаемым задачам через маленькие шаги, чтобы снизить сопротивление."
+                    "en": "When avoidance appears, it can be helpful to identify what makes the task difficult and reduce its intensity — for example, by breaking it into smaller parts or clarifying the first step.",
+                    "ru": "Когда возникает избегание, полезно понять, что именно делает задачу сложной, и снизить её интенсивность — например, разбить на части или прояснить первый шаг."
                 }
             },
             "high": {
                 "title": {
-                    "en": "Avoidance Pattern",
-                    "ru": "Паттерн избегания"
+                    "en": "Avoidance Tendency",
+                    "ru": "Склонность к избеганию задач"
                 },
                 "description": {
-                    "en": "You frequently avoid tasks that feel difficult, stressful, or uncomfortable.",
-                    "ru": "Вы часто избегаете задач, которые кажутся сложными, стрессовыми или неприятными."
+                    "en": "You may often find yourself avoiding tasks that feel difficult, stressful, or emotionally uncomfortable. Instead of engaging with them, there can be a tendency to delay, replace, or disengage from the task altogether.\n\nIn everyday life, this can show up as shifting focus to other activities, postponing responsibilities indefinitely, or experiencing resistance when trying to start. Tasks that carry pressure or uncertainty may feel particularly hard to approach.\n\nThis pattern is often not about unwillingness, but about managing internal discomfort. Avoidance can function as a way to reduce stress, anxiety, or overload in the short term.\n\nAt the same time, it can lead to accumulation of unfinished tasks and increased pressure over time.",
+                    "ru": "Вы можете часто избегать задач, которые кажутся сложными, стрессовыми или эмоционально неприятными. Вместо включения может возникать склонность откладывать, заменять или полностью уходить от задачи.\n\nВ повседневной жизни это может проявляться как переключение на другие дела, откладывание обязанностей на неопределённый срок или внутреннее сопротивление при попытке начать. Особенно сложными могут ощущаться задачи, связанные с давлением или неопределённостью.\n\nЭтот паттерн чаще связан не с нежеланием, а с попыткой справиться с внутренним дискомфортом. Избегание может выступать способом снизить напряжение, тревогу или перегрузку в краткосрочной перспективе.\n\nВ то же время это может приводить к накоплению незавершённых задач и усилению давления со временем."
                 },
                 "strengths": {
-                    "en": ["Sensitivity to overload", "Self-protection"],
-                    "ru": ["Чувствительность к перегрузке", "Самозащита"]
+                    "en": ["Sensitivity to stress", "Self-protective response"],
+                    "ru": ["Чувствительность к стрессу", "Самозащитная реакция"]
                 },
                 "challenges": {
-                    "en": ["Chronic delays", "Accumulating tasks", "Stress buildup"],
-                    "ru": ["Хронические задержки", "Накопление задач", "Рост стресса"]
+                    "en": ["Chronic avoidance", "Accumulation of tasks", "Difficulty engaging"],
+                    "ru": ["Системное избегание", "Накопление задач", "Сложности с включением"]
                 },
                 "advice": {
-                    "en": "Reduce task resistance by starting extremely small and creating low-pressure routines.",
-                    "ru": "Снижайте сопротивление задачам, начиная с минимальных действий и создавая простые ритуалы."
+                    "en": "Instead of forcing yourself into action, it may be more effective to reduce the emotional load of the task — creating a safe starting point, lowering expectations, and focusing only on the first small step.",
+                    "ru": "Вместо того чтобы заставлять себя, полезнее снижать эмоциональную нагрузку задачи — создавать безопасную точку входа, уменьшать ожидания и фокусироваться только на первом небольшом шаге."
                 }
             }
-        }  
+        } 
     },
     "summaryTemplates": {
         "en": {
