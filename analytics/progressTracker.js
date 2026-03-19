@@ -297,48 +297,174 @@ class ProgressTracker {
 
     getAchievementTitle(id, lang) {
         const map = {
-            first_test:                 { en: 'First Steps',                     ru: 'Первые шаги' },
-            five_tests:                 { en: 'Getting Serious',                ru: 'Серьёзный подход' },
-            ten_tests:                  { en: 'Dedicated Explorer',             ru: 'Преданный исследователь' },
-            explorer:                   { en: 'Explorer',                       ru: 'Исследователь' },
-            deep_diver:                 { en: 'Deep Diver',                     ru: 'Глубокий ныряльщик' },
-            self_reflection_marathon:   { en: 'Self-Reflection Marathon',      ru: 'Марафон самопознания' },
-            consistency_streak:         { en: 'Consistent Tracker',            ru: 'Последовательный аналитик' },
-            big_five_complete:          { en: 'Big Five Complete',              ru: 'Большая пятёрка пройдена' },
-            big_five_expert:            { en: 'Big Five Expert',               ru: 'Эксперт по Большой пятёрке' },
-            balanced_personality:       { en: 'Balanced Personality',          ru: 'Сбалансированная личность' },
-            zen_master:                 { en: 'Zen Master',                     ru: 'Мастер дзен' },
-            emotional_ninja:            { en: 'Emotional Ninja',                ru: 'Эмоциональный ниндзя' },
-            master_of_time:             { en: 'Master of Time',                 ru: 'Мастер времени' },
-            internal_locus_legend:      { en: 'Internal Locus Legend',         ru: 'Легенда внутреннего локуса' },
-            calm_under_pressure:        { en: 'Calm Under Pressure',           ru: 'Спокоен под давлением' },
-            low_neuroticism:            { en: 'Rock Solid',                     ru: 'Скала' },
-            high_openness:              { en: 'Visionary',                      ru: 'Визионер' },
-            six_months_journey:         { en: 'Six Months Journey',             ru: 'Путешествие длиной в полгода' },
-            change_seeker:              { en: 'Change Seeker',                  ru: 'Искатель перемен' },
-            all_tests_complete:         { en: 'Full Spectrum',                  ru: 'Полный спектр' }
+            first_test: {
+                en: 'First Steps',
+                ru: 'Первые шаги'
+            },
+            five_tests: {
+                en: 'Getting Serious',
+                ru: 'Серьёзный подход'
+            },
+            ten_tests: {
+                en: 'Dedicated Explorer',
+                ru: 'Преданный исследователь'
+            },
+            explorer: {
+                en: 'Explorer',
+                ru: 'Исследователь'
+            },
+            deep_diver: {
+                en: 'Deep Diver',
+                ru: 'Глубокий ныряльщик'
+            },
+            self_reflection_marathon: {
+                en: 'Self-Reflection Marathon',
+                ru: 'Марафон самопознания'
+            },
+            consistency_streak: {
+                en: 'Consistent Tracker',
+                ru: 'Последовательный аналитик'
+            },
+            big_five_complete: {
+                en: 'Big Five Complete',
+                ru: 'Большая пятёрка пройдена'
+            },
+            big_five_expert: {
+                en: 'Big Five Expert',
+                ru: 'Эксперт по Большой пятёрке'
+            },
+            balanced_personality: {
+                en: 'Balanced Personality',
+                ru: 'Сбалансированная личность'
+            },
+            zen_master: {
+                en: 'Zen Master',
+                ru: 'Мастер дзен'
+            },
+            emotional_ninja: {
+                en: 'Emotional Ninja',
+                ru: 'Эмоциональный ниндзя'
+            },
+            master_of_time: {
+                en: 'Master of Time',
+                ru: 'Мастер времени'
+            },
+            internal_locus_legend: {
+                en: 'Internal Locus Legend',
+                ru: 'Легенда внутреннего локуса'
+            },
+            calm_under_pressure: {
+                en: 'Calm Under Pressure',
+                ru: 'Спокоен под давлением'
+            },
+            low_neuroticism: {
+                en: 'Rock Solid',
+                ru: 'Скала'
+            },
+            high_openness: {
+                en: 'Visionary',
+                ru: 'Визионер'
+            },
+            six_months_journey: {
+                en: 'Six Months Journey',
+                ru: 'Путешествие длиной в полгода'
+            },
+            change_seeker: {
+                en: 'Change Seeker',
+                ru: 'Искатель перемен'
+            },
+            all_tests_complete: {
+                en: 'Full Spectrum',
+                ru: 'Полный спектр'
+            }
         };
         return map[id]?.[lang] || id;
     }
 
     getAchievementDescription(id, lang) {
         const map = {
-            first_test:                 { en: 'Complete your first psychological test', ru: 'Пройдите первый психологический тест' },
-            explorer:                   { en: 'Completed at least 3 different tests',   ru: 'Пройдено минимум 3 разных теста' },
-            deep_diver:                 { en: 'Repeated any test at least twice',       ru: 'Пройден один тест минимум 2 раза' },
-            self_reflection_marathon:   { en: 'Completed 20 or more tests total',       ru: 'Пройдено 20+ тестов всего' },
-            balanced_personality:       { en: 'All Big Five traits between 35–65%',     ru: 'Все шкалы Big Five в диапазоне 35–65%' },
-            zen_master:                 { en: 'High stress tolerance or resilience',    ru: 'Высокая стрессоустойчивость или резилиентность' },
-            emotional_ninja:            { en: 'Emotional Intelligence average ≥ 75%',   ru: 'Средний эмоциональный интеллект ≥ 75%' },
-            master_of_time:             { en: 'General procrastination ≤ 30%',          ru: 'Общая прокрастинация ≤ 30%' },
-            internal_locus_legend:      { en: 'Internal locus of control ≥ 80%',       ru: 'Внутренний локус контроля ≥ 80%' },
-            calm_under_pressure:        { en: 'Low anxiety + high stress tolerance',   ru: 'Низкая тревожность + высокая стрессоустойчивость' },
-            low_neuroticism:            { en: 'Neuroticism ≤ 25% in latest Big Five',   ru: 'Нейротизм ≤ 25% в последнем Big Five' },
-            high_openness:              { en: 'Openness ≥ 80% in latest Big Five',      ru: 'Открытость опыту ≥ 80% в последнем Big Five' },
-            six_months_journey:         { en: 'Testing journey spans 6+ months',        ru: 'Путешествие самопознания длится 6+ месяцев' },
-            change_seeker:              { en: 'At least one trait changed by ±15% or more', ru: 'Хотя бы одна шкала изменилась на ±15% и более' },
-            // остальные можно дополнить по желанию
+            first_test: {
+                en: 'Complete your first psychological test',
+                ru: 'Пройдите первый психологический тест'
+            },
+            five_tests: {
+                en: 'Complete 5 psychological tests',
+                ru: 'Пройдите 5 психологических тестов'
+            },
+            ten_tests: {
+                en: 'Complete 10 psychological tests',
+                ru: 'Пройдите 10 психологических тестов'
+            },
+            explorer: {
+                en: 'Completed at least 3 different tests',
+                ru: 'Пройдено минимум 3 разных теста'
+            },
+            deep_diver: {
+                en: 'Repeated any test at least twice',
+                ru: 'Пройден один тест минимум 2 раза'
+            },
+            self_reflection_marathon: {
+                en: 'Completed 20 or more tests total',
+                ru: 'Пройдено 20+ тестов всего'
+            },
+            consistency_streak: {
+                en: 'Maintain a consistent testing streak over time',
+                ru: 'Поддерживайте регулярность прохождения тестов'
+            },
+            big_five_complete: {
+                en: 'Complete all Big Five personality traits assessment',
+                ru: 'Пройдите полную оценку всех шкал Большой пятёрки'
+            },
+            big_five_expert: {
+                en: 'Demonstrate deep understanding of Big Five traits through repeated assessments',
+                ru: 'Покажите глубокое понимание черт Большой пятёрки через многократные тесты'
+            },
+            balanced_personality: {
+                en: 'All Big Five traits between 35–65%',
+                ru: 'Все шкалы Big Five в диапазоне 35–65%'
+            },
+            zen_master: {
+                en: 'High stress tolerance or resilience',
+                ru: 'Высокая стрессоустойчивость или резилиентность'
+            },
+            emotional_ninja: {
+                en: 'Emotional Intelligence average ≥ 75%',
+                ru: 'Средний эмоциональный интеллект ≥ 75%'
+            },
+            master_of_time: {
+                en: 'General procrastination ≤ 30%',
+                ru: 'Общая прокрастинация ≤ 30%'
+            },
+            internal_locus_legend: {
+                en: 'Internal locus of control ≥ 80%',
+                ru: 'Внутренний локус контроля ≥ 80%'
+            },
+            calm_under_pressure: {
+                en: 'Low anxiety + high stress tolerance',
+                ru: 'Низкая тревожность + высокая стрессоустойчивость'
+            },
+            low_neuroticism: {
+                en: 'Neuroticism ≤ 25% in latest Big Five',
+                ru: 'Нейротизм ≤ 25% в последнем Big Five'
+            },
+            high_openness: {
+                en: 'Openness ≥ 80% in latest Big Five',
+                ru: 'Открытость опыту ≥ 80% в последнем Big Five'
+            },
+            six_months_journey: {
+                en: 'Testing journey spans 6+ months',
+                ru: 'Путешествие самопознания длится 6+ месяцев'
+            },
+            change_seeker: {
+                en: 'At least one trait changed by ±15% or more',
+                ru: 'Хотя бы одна шкала изменилась на ±15% и более'
+            },
+            all_tests_complete: {
+                en: 'Complete all available tests in the system',
+                ru: 'Пройдите все доступные тесты в системе'
+            }
         };
+
         return map[id]?.[lang] || '';
     }
 }
