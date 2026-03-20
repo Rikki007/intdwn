@@ -1273,8 +1273,9 @@ body {
 
 /* Responsive */
 @media (min-width: 768px) {
+
     .view-container {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
     }
     

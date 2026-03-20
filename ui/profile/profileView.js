@@ -14,6 +14,7 @@ import { createTraitTimelineChart, prepareTimelineData } from '../components/tra
 import { VIEWS } from '../../core/constants.js';
 import { getScaleLabel, getAllScaleLabels, loadTests, availableTests } from '../tests/testsList.js';
 import { createAvatarUploader, initAvatarUploader } from '../components/avatarUploader.js';
+import { shuffleArray } from '../../core/utils.js';
 
 let profileChart = null;
 let timelineChart = null;
@@ -73,15 +74,17 @@ export async function render() {
             </div>
 
             <div class="profile-section card">
-                <h3 class="section-title">${i18n.t('profile.achievements')}</h3>
-                <div class="achievements-grid">
-                    ${progress.achievements.map(a => `
-                        <div class="achievement-item ${a.unlocked ? 'unlocked' : 'locked'}">
-                            <span class="achievement-icon">${a.icon}</span>
-                            <span class="achievement-name">${a.title}</span>
-                        </div>
-                    `).join('')}
+                <div class="section-header" id="achievements-toggle">
+                    <h3 class="section-title">${i18n.t('profile.achievements')}</h3>
+                    <span class="toggle-label" data-state="collapsed">
+                        Показать все
+                    </span>
                 </div>
+
+                <div class="achievements-grid" id="achievements-grid"></div>
+
+                <div class="achievements-full hidden" id="achievements-full"></div>
+
             </div>
 
             <div class="profile-section card">
@@ -247,6 +250,65 @@ export async function afterRender() {
             document.getElementById('close-edit-modal').onclick = closeModal;
             modalOverlay.onclick = (e) => { if (e.target === modalOverlay) closeModal(); };
         });
+
+        const toggleHeader = document.getElementById('achievements-toggle');
+        const gridPreview = document.getElementById('achievements-grid');
+        const gridFull = document.getElementById('achievements-full');
+        const toggleLabel = toggleHeader?.querySelector('.toggle-label');
+
+        if (!toggleHeader || !gridPreview || !gridFull) return;
+
+        // Генерируем обе версии один раз
+        const progress = await progressTracker.getProgress();
+
+        // 1. Превью — 4 случайные/приоритетные (как в home)
+        const previewAchievements = getPreviewAchievements(progress.achievements);
+        gridPreview.innerHTML = previewAchievements.map(a => renderAchievementItem(a)).join('');
+
+        // 2. Полный список
+        gridFull.innerHTML = progress.achievements.map(a => renderAchievementItem(a)).join('');
+
+        // 3. Обработчик переключения
+        toggleHeader.addEventListener('click', () => {
+            const isCollapsed = gridFull.classList.contains('hidden');
+
+            if (isCollapsed) {
+                // раскрываем
+                gridFull.classList.remove('hidden');
+                gridPreview.classList.add('hidden');
+                toggleLabel.dataset.state = 'expanded';
+                toggleLabel.innerHTML = `Свернуть`;
+            } else {
+                // сворачиваем
+                gridFull.classList.add('hidden');
+                gridPreview.classList.remove('hidden');
+                toggleLabel.dataset.state = 'collapsed';
+                toggleLabel.innerHTML = `Показать все`;
+            }
+        });
+
+        // Поддержка клавиатуры (опционально, но важно для доступности)
+        toggleHeader.setAttribute('role', 'button');
+        toggleHeader.setAttribute('tabindex', '0');
+        toggleHeader.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleHeader.click();
+            }
+        });
+
+        // ← Не забудь также прикрутить модалки на обе сетки!
+        [gridPreview, gridFull].forEach(grid => {
+            if (grid) {
+                grid.addEventListener('click', handleAchievementClick);
+                grid.addEventListener('keydown', e => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        handleAchievementClick(e);
+                    }
+                });
+            }
+        });
     }
 
     const language = i18n.getLanguage();
@@ -351,5 +413,101 @@ export async function afterRender() {
             }
         });
     }
+}
+
+// Можно вставить в конец profileView.js
+
+function handleAchievementClick(e) {
+    const item = e.target.closest('.achievement-item');
+    if (!item) return;
+
+    const achievementId = item.dataset.achievementId;
+    if (!achievementId) return;
+
+    showAchievementModal(achievementId);
+}
+
+async function showAchievementModal(achievementId) {
+    // Получаем актуальные данные (progress.achievements уже переведены)
+    const progress = await progressTracker.getProgress();
+    const achievement = progress.achievements.find(a => a.id === achievementId);
+    
+    if (!achievement) {
+        console.warn('Achievement not found:', achievementId);
+        return;
+    }
+
+    const modalContent = `
+        <div class="modal-header">
+            <h2 class="modal-title">Достижение</h2>
+            <button class="modal-close" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+            <h2 class="card-title">${achievement.icon} ${achievement.title}</h2>
+            <p class="card-subtitle">${achievement.description}</p>
+        </div>
+    `;
+
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalContentEl = document.getElementById('modal-content');
+
+    if (modalOverlay && modalContentEl) {
+        modalContentEl.innerHTML = modalContent;
+        modalOverlay.classList.remove('hidden');
+
+        // Закрытие
+        const closeModal = () => modalOverlay.classList.add('hidden');
+
+        modalContentEl.querySelector('.modal-close').addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', e => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        const escHandler = e => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+    } else {
+        console.warn('Модальное окно не найдено в DOM');
+        // fallback
+        alert(`${achievement.title}\n\n${achievement.description}`);
+    }
+
+}
+
+// Маленькая утилита для выбора 4 ачивок (та же логика, что в home)
+function getPreviewAchievements(allAchievements) {
+    const unlocked = allAchievements.filter(a => a.unlocked);
+    const locked = allAchievements.filter(a => !a.unlocked);
+
+    let selected = [];
+
+    if (unlocked.length >= 4) {
+        selected = shuffleArray([...unlocked]).slice(0, 4);
+    } else if (unlocked.length > 0) {
+        selected = [
+            ...unlocked,
+            ...shuffleArray([...locked]).slice(0, 4 - unlocked.length)
+        ];
+    } else {
+        selected = shuffleArray([...locked]).slice(0, 4);
+    }
+
+    return selected;
+}
+
+// Функция рендера одной карточки (чтобы не дублировать)
+function renderAchievementItem(a) {
+    return `
+        <div class="achievement-item ${a.unlocked ? 'unlocked' : 'locked'}"
+             data-achievement-id="${a.id}"
+             role="button" tabindex="0">
+            <span class="achievement-icon">${a.icon}</span>
+            <span class="achievement-name">${a.title}</span>
+        </div>
+    `;
 }
 export default { render, afterRender };
