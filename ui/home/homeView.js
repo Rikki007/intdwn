@@ -197,7 +197,7 @@ async function showAchievementModal(achievementId) {
 
     const modalContent = `
         <div class="modal-header">
-            <h2 class="modal-title">Достижение</h2>
+            <h2 class="modal-title">${i18n.t('home.achievement')}</h2>
             <button class="modal-close" aria-label="Close">✕</button>
         </div>
         <div class="modal-body">

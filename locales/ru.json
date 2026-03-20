@@ -17,7 +17,8 @@
         "telegram": "Телеграм",
         "instagram": "Инстаграм",
         "testsCompleted": "тестов пройдено",
-        "startJourney": "Начните исследование"
+        "startJourney": "Начните исследование",
+        "achievement": "Достижение"
     },
     "tests": {
         "title": "Психологические тесты",
@@ -77,6 +78,8 @@
         "traitsAnalyzed": "Черт изученно",
         "profileAge": "Возраст профиля",
         "achievements": "Достижения",
+        "showAll": "Показать все",
+        "collapse": "Свернуть",
         "timeline": "История",
         "noData": "Пока нет данных",
         "startTesting": "Пройдите тесты для создания профиля",

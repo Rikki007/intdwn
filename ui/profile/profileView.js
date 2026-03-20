@@ -77,7 +77,7 @@ export async function render() {
                 <div class="section-header" id="achievements-toggle">
                     <h3 class="section-title">${i18n.t('profile.achievements')}</h3>
                     <span class="toggle-label" data-state="collapsed">
-                        Показать все
+                        ${i18n.t('profile.showAll')}
                     </span>
                 </div>
 
@@ -145,13 +145,14 @@ function renderEmptyProfile(language) {
 }
 
 function renderTraitSummary(traits, language) {
+    console.log(traits)
     return traits.map(trait => `
         <div class="trait-summary-item">
             <div class="trait-info">
                 <span class="trait-name">
                     ${getScaleLabel(trait.scale, language, false)}
                 </span>
-                <span class="trait-level ${trait.level}">${trait.level}</span>
+                <span class="trait-level ${trait.level}">${i18n.t(`results.${trait.level}`)}</span>
             </div>
             <div class="trait-score">${trait.score}%</div>
         </div>
@@ -277,13 +278,13 @@ export async function afterRender() {
                 gridFull.classList.remove('hidden');
                 gridPreview.classList.add('hidden');
                 toggleLabel.dataset.state = 'expanded';
-                toggleLabel.innerHTML = `Свернуть`;
+                toggleLabel.innerHTML = `${i18n.t('profile.collapse')}`;
             } else {
                 // сворачиваем
                 gridFull.classList.add('hidden');
                 gridPreview.classList.remove('hidden');
                 toggleLabel.dataset.state = 'collapsed';
-                toggleLabel.innerHTML = `Показать все`;
+                toggleLabel.innerHTML = `${i18n.t('profile.showAll')}`;
             }
         });
 
@@ -439,7 +440,7 @@ async function showAchievementModal(achievementId) {
 
     const modalContent = `
         <div class="modal-header">
-            <h2 class="modal-title">Достижение</h2>
+            <h2 class="modal-title">${i18n.t('home.achievement')}</h2>
             <button class="modal-close" aria-label="Close">✕</button>
         </div>
         <div class="modal-body">

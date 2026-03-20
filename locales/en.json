@@ -17,7 +17,8 @@
         "telegram": "Telegram",
         "instagram": "Instagram",
         "testsCompleted": "tests completed",
-        "startJourney": "Start your journey"
+        "startJourney": "Start your journey",
+        "achievement": "Achievement"
     },
     "tests": {
         "title": "Psychological Tests",
@@ -77,6 +78,8 @@
         "traitsAnalyzed": "Traits Analyzed",
         "profileAge": "Profile Age",
         "achievements": "Achievements",
+        "showAll": "Show all",
+        "collapse": "Collapse",
         "timeline": "Timeline",
         "noData": "No test data yet",
         "startTesting": "Start testing to build your profile",
@@ -177,7 +180,7 @@
         "resilience": "Resilience",
         "recovery": "Recovery"
     },
-        "insights": {
+    "insights": {
         "title": "Insights",
         "awareness": "Awareness",
         "strength": "Strength",
