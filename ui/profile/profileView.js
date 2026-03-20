@@ -145,14 +145,18 @@ function renderEmptyProfile(language) {
 }
 
 function renderTraitSummary(traits, language) {
-    console.log(traits)
     return traits.map(trait => `
-        <div class="trait-summary-item">
+        <div class="trait-summary-item" 
+             data-trait-scale="${trait.scale}"
+             data-trait-level="${trait.level}"
+             role="button" tabindex="0">
             <div class="trait-info">
                 <span class="trait-name">
                     ${getScaleLabel(trait.scale, language, false)}
                 </span>
-                <span class="trait-level ${trait.level}">${i18n.t(`results.${trait.level}`)}</span>
+                <span class="trait-level ${trait.level}">
+                    ${i18n.t(`results.${trait.level}`)}
+                </span>
             </div>
             <div class="trait-score">${trait.score}%</div>
         </div>
@@ -308,6 +312,20 @@ export async function afterRender() {
                         handleAchievementClick(e);
                     }
                 });
+            }
+        });
+    }
+
+    // ← НОВОЕ: интерактивность для черт
+    const traitSummary = document.querySelector('.trait-summary');
+    if (traitSummary) {
+        traitSummary.addEventListener('click', handleTraitClick);
+        
+        // Поддержка клавиатуры (Enter / Space)
+        traitSummary.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                handleTraitClick(e);
             }
         });
     }
@@ -511,4 +529,116 @@ function renderAchievementItem(a) {
         </div>
     `;
 }
+
+// Загружаем интерпретации один раз (можно вынести в модуль позже)
+let interpretations = null;
+
+async function loadInterpretations() {
+    if (interpretations) return interpretations;
+    try {
+        const response = await fetch('./data/interpretations.json');
+        interpretations = await response.json();
+        return interpretations;
+    } catch (err) {
+        console.error('Failed to load interpretations:', err);
+        return { traits: {} };
+    }
+}
+
+async function handleTraitClick(e) {
+    const item = e.target.closest('.trait-summary-item');
+    if (!item) return;
+
+    const scale = item.dataset.traitScale;
+    const level = item.dataset.traitLevel;
+
+    if (!scale || !level) return;
+
+    const interp = await loadInterpretations();
+    const traitData = interp.traits?.[scale]?.[level];
+
+    if (!traitData) {
+        console.warn(`No interpretation for ${scale} / ${level}`);
+        return;
+    }
+
+    // Берём перевод на текущий язык
+    const lang = i18n.getLanguage();
+    const title = traitData.title?.[lang] || traitData.title?.en || scale;
+    const desc  = traitData.description?.[lang] || traitData.description?.en || 'Нет описания';
+    const strengths = traitData.strengths?.[lang] || traitData.strengths?.en || 'Нет описания';
+    const challenges = traitData.challenges?.[lang] || traitData.challenges?.en || 'Нет описания';
+    const advice = traitData.advice?.[lang] || traitData.advice?.en || 'Нет описания';
+
+    console.log(traitData.strengths?.[lang])
+
+
+    // Можно добавить ещё поля: strengths, challenges, advice и т.д.
+    // Например:
+    // const strengths = traitData.strengths?.[lang]?.join(', ') || '';
+
+    const modalContent = `
+        <div class="modal-header">
+            <h3>${getScaleLabel(scale, lang, false)}</h3>
+            <button class="modal-close" aria-label="Close">✕</button>
+        </div>
+
+        <div class="modal-body">
+
+            <div>
+                <h3>Status</h3>
+                <p>${title}</p>
+            </div>
+            
+            <div class="trait-level-badge ${level}">
+                <p>Level</p>
+                <p>${i18n.t(`results.${level}`)}</p>
+            </div>
+
+            <p>${desc}</p>
+
+            <div>
+                <h3>Strengths</h3>
+                ${strengths.map(item => {
+                    return `<span>${item}</span>`
+                }).join('')}
+            </div>
+            
+            <div>
+                <h3>challenges</h3>
+                ${challenges.map(item => {
+                    return`<span>${item}</span>`
+                }).join('')}
+            </div>
+
+            <p>${advice}</p>
+        </div>
+    `;
+
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalContentEl = document.getElementById('modal-content');
+
+    if (modalOverlay && modalContentEl) {
+        modalContentEl.innerHTML = modalContent;
+        modalOverlay.classList.remove('hidden');
+
+        const closeModal = () => modalOverlay.classList.add('hidden');
+
+        modalContentEl.querySelector('.modal-close')?.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', e => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        const escHandler = e => {
+            if (e.key === 'Escape') {
+                closeModal();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+    } else {
+        alert(`${title}\n\n${desc}`);
+    }
+}
+
 export default { render, afterRender };
