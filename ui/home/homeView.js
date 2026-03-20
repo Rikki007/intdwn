@@ -9,6 +9,7 @@ import { progressTracker } from '../../analytics/progressTracker.js';
 import { router } from '../../core/router.js';
 import { initNeuralBackground } from './backgroundCanvas.js';
 import { VIEWS } from '../../core/constants.js';
+import { shuffleArray } from '../../core/utils.js';
 
 let facts = [];
 let currentFact = null;
@@ -39,7 +40,32 @@ export async function render() {
     const user = await storage.getUser();
     const progress = await progressTracker.getProgress();
 
-    console.log(progress.achievements)
+    // ─── Новая логика выбора 4 ачивок ────────────────────────────────
+    const unlocked = progress.achievements.filter(a => a.unlocked);
+    const locked   = progress.achievements.filter(a => !a.unlocked);
+
+    let selectedAchievements = [];
+
+    if (unlocked.length >= 4) {
+        // 4 и более открытых → берём 4 случайные открытые
+        selectedAchievements = shuffleArray([...unlocked]).slice(0, 4);
+    } 
+    else if (unlocked.length > 0) {
+        // меньше 4 открытых → все открытые + добираем рандомными закрытыми
+        selectedAchievements = [
+            ...unlocked,
+            ...shuffleArray([...locked]).slice(0, 4 - unlocked.length)
+        ];
+    } 
+    else {
+        // вообще нет открытых → 4 случайные закрытые
+        selectedAchievements = shuffleArray([...locked]).slice(0, 4);
+    }
+
+    // Если ачивок вообще меньше 4 — просто покажем все, что есть
+    if (selectedAchievements.length < 4 && progress.achievements.length > 0) {
+        selectedAchievements = shuffleArray([...progress.achievements]).slice(0, 4);
+    }
 
     return `
         <div class="home-view">
@@ -101,7 +127,7 @@ export async function render() {
             <div class="achievements-preview">
                 <h3 class="section-title">${i18n.t('profile.achievements')}</h3>
                 <div class="achievements-grid">
-                    ${progress.achievements.slice(0, 4).map(a => `
+                    ${selectedAchievements.map(a => `
                         <div class="achievement-badge ${a.unlocked ? 'unlocked' : 'locked'}"
                             data-achievement-id="${a.id}"
                             role="button" tabindex="0">
@@ -172,7 +198,7 @@ async function showAchievementModal(achievementId) {
     const modalContent = `
         <div class="modal-header">
             <h2 class="modal-title">Достижение</h2>
-            <button class="modal-close" aria-label="Close">X</button>
+            <button class="modal-close" aria-label="Close">✕</button>
         </div>
         <div class="modal-body">
             <h2 class="card-title">${achievement.icon} ${achievement.title}</h2>
