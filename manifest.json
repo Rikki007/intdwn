@@ -1,7 +1,7 @@
 {
   "name": "INTDWN",
   "short_name": "INTDWN",
-  "description": "Offline Psychological Analytics Platform",
+  "description": "Psychological Analytics Platform",
   "start_url": "/intdwn/",
   "scope": "/intdwn/",
   "id": "/intdwn/",
@@ -23,7 +23,12 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["health", "lifestyle"],
+  "categories": [
+    "education",
+    "productivity",
+    "self-improvement",
+    "health"
+  ],
   "lang": "ru",
   "prefer_related_applications": false
 }
