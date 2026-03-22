@@ -85,13 +85,17 @@
         "startTesting": "Start testing to build your profile",
         "dominantTraits": "Dominant traits",
         "traitSummary": "Trait Summary",
-        "streak": "🔥 Streak"
+        "streak": "🔥 Streak",
+        "status": "Status",
+        "strengths": "Strengths",
+        "challenges": "Challenges",
+        "advice": "Advice"
     },
     "about": {
         "title": "About INTDWN",
         "subtitle": "Offline Psychological Analytics Platform",
         "version": "Version",
-        "description": "INTDWN is a privacy-focused psychological testing platform that works entirely offline. All your data stays on your device.",
+        "description": "INTDWN is a psychological self-discovery platform that helps you explore your personality, track changes over time, and gain deeper insights into how your mind works.",
         "features": "Features",
         "feature2": "Adaptive testing algorithms",
         "feature4": "Progress tracking over time",

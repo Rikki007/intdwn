@@ -197,6 +197,7 @@
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: var(--spacing-md);
+    color: var(--primary-cyan)
 }
 
 .traits-breakdown {
@@ -338,6 +339,7 @@
     align-items: center;
     padding: var(--spacing-sm) 0;
     border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
 }
 
 .trait-summary-item:last-child {
@@ -529,13 +531,36 @@
     -webkit-overflow-scrolling: touch;
     position: relative;
     bottom: 2rem;
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 20px 0;
+
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 212, 255, 0.3) transparent;
 }
 
+/* Chrome / Edge / Safari */
 .timeline-legend::-webkit-scrollbar {
     height: 4px;
+    width: 0;
+}
+
+.timeline-legend::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .timeline-legend::-webkit-scrollbar-thumb {
     background: rgba(0, 212, 255, 0.3);
     border-radius: 4px;
+}
+
+.timeline-legend::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 212, 255, 0.5);
 }

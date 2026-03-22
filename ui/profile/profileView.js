@@ -184,10 +184,14 @@ export async function afterRender() {
                     <button class="modal-close" id="close-edit-modal">✕</button>
                 </div>
                 <div style="padding: 24px 0;">
-                    <label class="form-label">${i18n.t('profile.editName')}</label>
-                    <input type="text" id="edit-name" class="form-input" 
+                    <label class="form-label" for="edit-name">${i18n.t('profile.editName')}</label>
+                    <input
+                        type="text"
+                        id="edit-name"
+                        class="form-input" 
                         value="${user?.name || ''}"
-                        placeholder="${i18n.t('profile.enterName')}">
+                        placeholder="${i18n.t('profile.enterName')}"
+                        autocomplete="off">
 
                     <div style="margin-top: 24px;">
                         <label class="form-label">
@@ -364,14 +368,6 @@ export async function afterRender() {
         if (timelineChart) {
             const legendContainer = document.createElement('div');
             legendContainer.className = 'timeline-legend';
-            legendContainer.style.cssText = `
-                display: flex; 
-                flex-wrap: nowrap; 
-                gap: 12px; 
-                overflow-x: auto; 
-                padding: 20px 0;
-                scrollbar-width: thin;
-            `;
 
             timelineChart.data.datasets.forEach((dataset, i) => {
                 const item = document.createElement('div');
@@ -447,7 +443,6 @@ function handleAchievementClick(e) {
 }
 
 async function showAchievementModal(achievementId) {
-    // Получаем актуальные данные (progress.achievements уже переведены)
     const progress = await progressTracker.getProgress();
     const achievement = progress.achievements.find(a => a.id === achievementId);
     
@@ -570,48 +565,44 @@ async function handleTraitClick(e) {
     const challenges = traitData.challenges?.[lang] || traitData.challenges?.en || 'Нет описания';
     const advice = traitData.advice?.[lang] || traitData.advice?.en || 'Нет описания';
 
-    console.log(traitData.strengths?.[lang])
-
-
     // Можно добавить ещё поля: strengths, challenges, advice и т.д.
     // Например:
     // const strengths = traitData.strengths?.[lang]?.join(', ') || '';
 
     const modalContent = `
         <div class="modal-header">
-            <h3>${getScaleLabel(scale, lang, false)}</h3>
+            <h3 class="card-title">${getScaleLabel(scale, lang, false)}</h3>
             <button class="modal-close" aria-label="Close">✕</button>
         </div>
 
         <div class="modal-body">
 
             <div>
-                <h3>Status</h3>
-                <p>${title}</p>
-            </div>
-            
-            <div class="trait-level-badge ${level}">
-                <p>Level</p>
-                <p>${i18n.t(`results.${level}`)}</p>
+                <h3 class="card-title">${i18n.t('profile.status')}</h3>
+                <p class="card-subtitle">${title}</p>
             </div>
 
-            <p>${desc}</p>
+            <p class="card-subtitle">${desc}</p>
 
             <div>
-                <h3>Strengths</h3>
+                <h3 class="card-title">${i18n.t('profile.strengths')}</h3>
                 ${strengths.map(item => {
-                    return `<span>${item}</span>`
+                    return `<p class="card-subtitle">${item}</p>`
                 }).join('')}
             </div>
             
             <div>
-                <h3>challenges</h3>
+                <h3 class="card-title">${i18n.t('profile.challenges')}</h3>
                 ${challenges.map(item => {
-                    return`<span>${item}</span>`
+                    return`<p class="card-subtitle">${item}</p>`
                 }).join('')}
             </div>
 
-            <p>${advice}</p>
+            <div>
+                <h3 class="card-title">${i18n.t('profile.advice')}</h3>
+                <p class="card-subtitle">${advice}</p>
+            </div>
+
         </div>
     `;
 
