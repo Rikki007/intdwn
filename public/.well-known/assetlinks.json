@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.intdwn_bwnj0j8pu_kirills_projects_1c7e7bbf.twa",
+      "sha256_cert_fingerprints": [
+        "03:56:FB:CB:5F:A4:0B:0C:0F:B1:99:33:3E:77:C0:40:3D:70:0D:86:5A:57:2F:74:1D:65:16:26:E9:97:07:F9"
+      ]
+    }
+  }
+]
